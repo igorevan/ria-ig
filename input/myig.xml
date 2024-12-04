@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="br.gov.saude.rnds.ria" />
+  <id value="br.gov.saude.ria.fhir" />
   <language value="pt-BR" />
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative" />
@@ -8,7 +8,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1" />
   </extension>
-  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.rnds.ria" />
+  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir" />
   <version value="0.1.0" />
   <name value="RIARNDSIG" />
   <title value="Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS" />
@@ -28,9 +28,14 @@
       <code value="BR" />
     </coding>
   </jurisdiction>
-  <packageId value="br.gov.saude.rnds.ria" />
+  <packageId value="br.gov.saude.ria.fhir" />
   <license value="CC0-1.0" />
   <fhirVersion value="4.0.1" />
+  <!-- <dependsOn>
+    <uri value="https://terminologia.saude.gov.br/fhir" />
+    <packageId value="br.gov.saude.terminologia.fhir" />
+    <version value="0.1.5" />
+  </dependsOn> -->
   <definition>
 
     <page>
@@ -89,7 +94,7 @@
     </parameter>
     <parameter>
       <code value="releaselabel" />
-      <value value="CI Build" />
+      <value value="STU1" />
     </parameter>
     <parameter>
       <code value="path-resource" />

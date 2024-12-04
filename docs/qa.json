@@ -1,0 +1,19 @@
+{
+  "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir",
+  "name" : "RIARNDSIG",
+  "title" : "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
+  "description" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
+  "status" : "active",
+  "package-id" : "br.gov.saude.ria.fhir",
+  "ig-ver" : "0.1.0",
+  "date" : "Mon, 02 Dec, 2024 17:33:14 -0300",
+  "dateISO8601" : "2024-12-02T17:33:14-03:00",
+  "errs" : 32,
+  "warnings" : 52,
+  "hints" : 3,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 8,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 977873736
+}

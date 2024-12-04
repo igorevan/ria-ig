@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "br.gov.saude.ria.fhir",
+    "type" : "ImplementationGuide",
+    "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir",
+    "version" : "0.1.0",
+    "name" : "RIARNDSIG"
+  },
+  {
+    "id" : "BRImunobiologicoAdministrado-3.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0",
+    "version" : "0.1.0",
+    "name" : "BRImunobiologicoAdministrado"
+  },
+  {
+    "id" : "BRImunobiologicoAdministradoCampanha-2.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0",
+    "version" : "0.1.0",
+    "name" : "BRImunobiologicoAdministradoCampanha"
+  },
+  {
+    "id" : "BRRegistroImunobiologicoAdministradoCampanha-2.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0",
+    "version" : "0.1.0",
+    "name" : "BRRegistroImunobiologicoAdministradoCampanha"
+  },
+  {
+    "id" : "BRRegistroImunobiologicoAdministradoRotina-2.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0",
+    "version" : "0.1.0",
+    "name" : "BRRegistroImunobiologicoAdministradoRotina"
+  }
+]

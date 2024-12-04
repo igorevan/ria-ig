@@ -1,0 +1,254 @@
+# ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource.                     │
+# │  For a list of supported properties, see:                                                      │
+# │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
+# │  SUSHI will use id as both id and packageId in the IG unless a                                 │
+# │  specific packageId is also provided in this file.                                             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+id: br.gov.saude.br-core.fhir
+canonical: https://br-core.saude.gov.br/fhir
+url: https://br-core.saude.gov.br/fhir/ImplementationGuide/br.gov.saude.br-core.fhir
+name: IPSBrasil
+title: "Guia de implementação do Core do Brasil: Release 1 - BR Realm | STU1"
+description: Guia de Implementação Core de Interoperabilidade em Saúde Digital do Brasil.
+status: active
+license: CC0-1.0
+date: 2023-05-08
+version: 0.1.1
+
+# Although fhirVersions is 0..* in the ImplementationGuide resource
+# it can be a single item OR and array here (but so far SUSHI only
+# supports 4.0.1 anyway).
+fhirVersion: 4.0.1
+
+# The following two lines correspond to items that used to be in
+# ig.ini but were moved to IG.definition.parameter. For
+# consistency within this file, the names are represented using
+# camelcase, but if authors use the formal parameter names, SUSHI
+# will recognize them as well. In either case, they'll be copied
+# to the IG JSON using the formal names.
+copyrightYear: 2023+
+releaseLabel: STU1
+
+# The publisher can be a single item or a list, each with a name and
+# optional url and/or email. The first publisher's name will be used
+# as IG.publisher.  The contact details and/or additional publishers
+# will be translated into IG.contact values.
+publisher:
+  name: Ministério do Saúde do Brasil 
+  url: https://gov.br/saude
+  email: contato@gointerop.com
+
+# ContactDetail is required by the template.
+contact:
+  - name: Italo Macedo
+    telecom:
+      - system: email
+        value: italo@gointerop.com
+        use: work
+
+# The jurisdiction can be a single item or a list. The FHIR Shorthand
+# code syntax can be used here.
+
+jurisdiction: urn:iso:std:iso:3166#BR "Brazil"
+
+# The dependencies property corresponds to IG.dependsOn. The key is the
+# package id and the value is the version (or dev/current). For advanced
+# use cases, the value can be an object with keys for `uri` and `version`.
+dependencies:
+  br.gov.saude.terminologia.fhir: 0.1.5
+  br.gov.saude.ips.fhir: 0.1.2
+
+# The global property corresponds to the IG.global property, but it
+# uses the type as the YAML key and the profile as its value. Since
+# FHIR does not explicitly disallow more than one profile per type,
+# neither do we; the value can be a single profile URL or an array
+# of profile URLs.
+#global:
+#  Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
+#  Encounter: http://example.org/fhir/StructureDefinition/my-encounter-profile
+
+# The resources property corresponds to IG.definition.resource.
+# SUSHI can auto-generate all of the resource entries based on
+# the FSH definitions and/or information in any user-provided
+# JSON or XML resource files. If the generated entries are not
+# sufficient or complete, however, the author can add entries
+# here. If the reference matches a generated entry, it will
+# replace the generated entry. If it doesn't match any generated
+# entries, it will be added to the generated entries. The format
+# follows IG.definition.resource with the following differences:
+#   * use IG.definition.resource.reference.reference as the YAML key
+#   * specify "omit" to omit a FSH-generated resource from the
+#     resource list.
+#   * groupingId can be used, but top-level groups syntax may be a
+#     better option (see below).
+# The following are simple examples to demonstrate what this might
+# look like:
+#resources:
+#  Patient/my-example-patient:
+#    name: My Example Patient
+#    description: An example Patient
+#    exampleBoolean: true
+#  Patient/bad-example: omit
+# resources:
+#   Bundle/234c1054-83a7-4adf-9387-b673b96664d5:
+#     name: Exemplo de IPS Brasileiro.
+#     description: Exemplo de IPS Brasileiro com REL, RIA, RAC e RPM.    
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/BundleBRIPS
+#   DiagnosticReport/f2ae8416-6ea8-4dbf-9147-86de7fa2490d:
+#     name: Exemplo de laudo de exame laboratorial.
+#     description: Exemplo de laudo de exame laboratorial de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/DiagnosticReportBRIPS
+#   ImagingStudy/4bc5313a-87b3-4b39-9b9c-180e534d622a:
+#     name: Exemplo de estudo de imagem.
+#     description: Exemplo de estudo de imagem de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/ImagingStudyBRIPS
+#   Media/3bf17660-573f-406a-9a27-0b1f3b40e1b6:
+#     name: Exemplo de mídia.
+#     description: Exemplo de mídia de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/MediaObservationBRIPS
+#   MedicationStatement/40386463-e1c7-46d4-92c7-b65ace40fa41:
+#     name: Exemplo de declaração de medicação.
+#     description: Exemplo de declaração de medicação de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/MedicationStatementBRIPS
+#   Observation/3ece2664-c963-4627-9592-16e524706929:
+#     name: Exemplo de observação.
+#     description: Exemplo de observação de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/ObservationResultsLaboratoryBRIPS
+#   Observation/5aaaf460-6fc0-4097-9e05-574367284450:
+#     name: Exemplo de observação.
+#     description: Exemplo de observação de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/ObservationResultsPathologyBRIPS
+#   Observation/12813e0a-e0f8-4318-9e2a-2eced2470876:
+#     name: Exemplo de observação.
+#     description: Exemplo de observação de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/ObservationResultsRadiologyBRIPS
+#   Observation/bebecb29-e907-4d6f-9690-c82ca7e1ae55:
+#     name: Exemplo de sinal vital.
+#     description: Exemplo de sinal vital de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/VitalSignsBRIPS
+#   Organization/31024c66-483a-4c80-b182-157ee133ca96:
+#     name: Exemplo de organização.
+#     description: Exemplo de organização de saúde fictícia.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/OrganizationBRIPS
+#   Practitioner/f66c9fd0-8b03-4953-a4b0-34d48744c386:
+#     name: Exemplo de profissional de saúde.
+#     description: Exemplo de profissional de saúde fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/PractitionerBRIPS
+#   PractitionerRole/b7700a03-922c-47f8-b1eb-bb4af5235397:
+#     name: Exemplo de papel de profissional de saúde.
+#     description: Exemplo de papel de profissional de saúde fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/PractitionerRoleBRIPS
+#   Specimen/01de1553-7b39-41a9-8039-3336a5a69eae:
+#     name: Exemplo de espécime.
+#     description: Exemplo de espécime de um paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/SpecimenBRIPS
+#   Medication/e8076935-bd85-4be3-a0a0-7349b972b130:
+#     name: Exemplo de medicamento.
+#     description: Exemplo de medicamento fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/MedicationBRIPS
+#   Patient/ebaf7611-0c1c-4d96-8a42-c7a49a1f3a41:
+#     name: Exemplo de paciente.
+#     description: Exemplo de paciente fictício.
+#     exampleCanonical: https://ips.saude.gov.br/StructureDefinition/PatientBRIPS
+
+
+# Groups can control certain aspects of the IG generation.  The IG
+# documentation recommends that authors use the default groups that
+# are provided by the templating framework, but if authors want to
+# use their own instead, they can use the mechanism below.  This will
+# create IG.definition.grouping entries and associate the individual
+# resource entries with the corresponding groupIds.
+#groups:
+#  GroupA:
+#    name: Group A
+#    description: The Alpha Group
+#    resources:
+#    - StructureDefinition/animal-patient
+#    - StructureDefinition/arm-procedure
+#  GroupB:
+#    name: Group B
+#    description: The Beta Group
+#    resources:
+#    - StructureDefinition/bark-control
+#    - StructureDefinition/bee-sting
+
+# The pages property corresponds to IG.definition.page. SUSHI can
+# auto-generate the page list, but if the author includes pages in
+# this file, it is assumed that the author will fully manage the
+# pages section and SUSHI will not generate any page entries.
+# The page file name is used as the key. If title is not provided,
+# then the title will be generated from the file name.  If a
+# generation value is not provided, it will be inferred from the
+# file name extension.  Any subproperties that are valid filenames
+# with supported extensions (e.g., .md/.xml) will be treated as
+# sub-pages.
+pages:
+  index.xml:
+    title: Início
+  changes.xml:
+    title: Histórico de mudanças
+  downloads.xml:
+    title: Baixar
+  premissas.xml:
+    title: Princípios, Premissas
+  design.xml:
+    title: Convenções de design
+  estrutura.xml:
+    title: Estrutura
+  modelos.xml:
+    title: Especificação    
+
+# The ImplementationGuide resource defines several other properties
+# not represented above. These properties can be used as-is and
+# should follow the format defined in ImplementationGuide:
+# * meta
+# * implicitRules
+# * language
+# * text
+# * contained
+# * extension
+# * modifierExtension
+# * experimental
+# * useContext
+# * copyright
+# * packageId
+
+# The menu property will be used to generate the input/menu.xml file.
+# The menu is represented as a simple structure where the YAML key
+# is the menu item name and the value is the URL. The IG publisher
+# currently only supports one level deep on sub-menus.
+# To provide a custom menu.xml file, do not include this property and
+# include a `menu.xml` file in input/includes.
+#menu:
+#  Home: index.html
+#  Artifacts:
+#    Profiles: artifacts.html#2
+#    Extensions: artifacts.html#3
+#    Value Sets: artifacts.html#4
+#  Downloads: downloads.html
+#  History: http://hl7.org/fhir/us/example/history.html
+
+# The parameters property represents IG.definition.parameter. Rather
+# than a list of code/value pairs (as in the ImplementationGuide
+# resource), the code is the YAML key. If a parameter allows repeating
+# values, the value in the YAML should be a sequence/array. For a
+# partial list of allowed parameters see:
+# https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+parameters:
+#  excludettl: true
+#  validation: [allow-any-extensions, no-broken-links]
+  produce-jekyll-data: true  
+  #i18n-default-lang: pt-BR
+  #translation-supplements: input/translations
+
+# The FSHOnly flag indicates if only FSH resources should be exported.
+# If set to true, no IG related content will be generated.
+# The default value for this property is false.
+FSHOnly: false
+
+# When set to true, the "short" and "definition" field on the root element of an Extension will
+# be set to the "Title" and "Description" of that Extension. Default is true.
+#applyExtensionMetadataToRoot: false
