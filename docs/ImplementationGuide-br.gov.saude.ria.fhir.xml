@@ -19,7 +19,7 @@
   <title value="Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-12-02T17:33:14-03:00"/>
+  <date value="2024-12-16T16:46:31-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -473,6 +473,66 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRCID10Avaliado-1.0"/>
+      </reference>
+      <name value="CID10 Avaliado"/>
+      <description value="Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRCondicaoMaternal"/>
+      </reference>
+      <name value="Condição Maternal"/>
+      <description value="Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRContatoHanseniase"/>
+      </reference>
+      <name value="Contato Hanseníase"/>
+      <description value="Extensão utilizada para identificar indivíduos com contato próximo de pacientes que vivem com Hanseníase."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BREstrategiaVacinacao-1.0"/>
+      </reference>
+      <name value="Estratégia de Vacinação"/>
+      <description value="Identifica a estratégia de vacinação adotada."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"/>
+      </reference>
+      <name value="Estratégia de Vacinação Pesquisa"/>
+      <description value="Extensão para as informações relacionadas aos dados da pesquisa clínica registrada na ANVISA."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRGrupoAtendimento"/>
+      </reference>
+      <name value="Grupo de Atendimento"/>
+      <description value="Identificação do grupo de atendimento para vacinação."/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>

@@ -26,10 +26,12 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Immunization.extension:grupoAtendimento","Immunization.extension","grupoAtendimento","","",1,1,"","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Grupo de Atendimento","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Immunization.extension:condicaoMaternal","Immunization.extension","condicaoMaternal","","",1,*,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Immunization.extension:condicaoMaternal","Immunization.extension","condicaoMaternal","","",1,1,"Y","","","Extension {[CanonicalType[http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal]]} {[]}
+","Condição maternal","Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Immunization.modifierExtension","Immunization.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}

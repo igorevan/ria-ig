@@ -26,7 +26,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-12-02T17:33:14-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-16T16:46:31-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -543,6 +543,72 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] ) ;
      fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRCID10Avaliado-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "CID10 Avaliado" ] ;
+       fhir:description [ fhir:v "Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRCondicaoMaternal" ]
+       ] ;
+       fhir:name [ fhir:v "Condição Maternal" ] ;
+       fhir:description [ fhir:v "Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRContatoHanseniase" ]
+       ] ;
+       fhir:name [ fhir:v "Contato Hanseníase" ] ;
+       fhir:description [ fhir:v "Extensão utilizada para identificar indivíduos com contato próximo de pacientes que vivem com Hanseníase." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BREstrategiaVacinacao-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estratégia de Vacinação" ] ;
+       fhir:description [ fhir:v "Identifica a estratégia de vacinação adotada." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0> ;
+         fhir:reference [ fhir:v "StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0" ]
+       ] ;
+       fhir:name [ fhir:v "Estratégia de Vacinação Pesquisa" ] ;
+       fhir:description [ fhir:v "Extensão para as informações relacionadas aos dados da pesquisa clínica registrada na ANVISA." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento> ;
+         fhir:reference [ fhir:v "StructureDefinition/BRGrupoAtendimento" ]
+       ] ;
+       fhir:name [ fhir:v "Grupo de Atendimento" ] ;
+       fhir:description [ fhir:v "Identificação do grupo de atendimento para vacinação." ]
+     ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]

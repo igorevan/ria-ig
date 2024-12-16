@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -154,7 +155,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">next&gt;</a>
+          | <a href="StructureDefinition-BRCID10Avaliado-1.0.html">next&gt;</a>
 
           </span>
 
@@ -190,6 +191,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>
          <a href="#1">Structures: Resource Profiles</a>
       </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
    </ul>
 </div>
 <div xmlns="http://www.w3.org/1999/xhtml"
@@ -202,6 +206,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <table class="grid">
       <col style="width:20%"/>
       <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BRCID10Avaliado-1.0.html"
+                  title="StructureDefinition/BRCID10Avaliado-1.0">CID10 Avaliado</a>
+            </td>
+            <td>
+<p>Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial.</p>
+</td>
+         </tr>
          <tr>
             <td style="column-width:30%">
                <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html"
@@ -240,6 +253,59 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BRCondicaoMaternal.html"
+                  title="StructureDefinition/BRCondicaoMaternal">Condição Maternal</a>
+            </td>
+            <td>
+<p>Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BRContatoHanseniase.html"
+                  title="StructureDefinition/BRContatoHanseniase">Contato Hanseníase</a>
+            </td>
+            <td>
+<p>Extensão utilizada para identificar indivíduos com contato próximo de pacientes que vivem com Hanseníase.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BREstrategiaVacinacao-1.0.html"
+                  title="StructureDefinition/BREstrategiaVacinacao-1.0">Estratégia de Vacinação</a>
+            </td>
+            <td>
+<p>Identifica a estratégia de vacinação adotada.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.html"
+                  title="StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0">Estratégia de Vacinação Pesquisa</a>
+            </td>
+            <td>
+<p>Extensão para as informações relacionadas aos dados da pesquisa clínica registrada na ANVISA.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-BRGrupoAtendimento.html"
+                  title="StructureDefinition/BRGrupoAtendimento">Grupo de Atendimento</a>
+            </td>
+            <td>
+<p>Identificação do grupo de atendimento para vacinação.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
 </div>
 
 </div>
@@ -270,7 +336,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">next&gt;</a>
+                <a href="StructureDefinition-BRCID10Avaliado-1.0.html">next&gt;</a>
 
               </td>
             </tr>
@@ -280,7 +346,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 2, 2024 17:33-0300">2024-12-02</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 16, 2024 16:46-0300">2024-12-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

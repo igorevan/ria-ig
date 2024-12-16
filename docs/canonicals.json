@@ -7,6 +7,48 @@
     "name" : "RIARNDSIG"
   },
   {
+    "id" : "BRCID10Avaliado-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCID10Avaliado"
+  },
+  {
+    "id" : "BRCondicaoMaternal",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal",
+    "version" : "0.1.0",
+    "name" : "BRCondicaoMaternal"
+  },
+  {
+    "id" : "BRContatoHanseniase",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase",
+    "version" : "0.1.0",
+    "name" : "BRContatoHanseniase"
+  },
+  {
+    "id" : "BREstrategiaVacinacao-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstrategiaVacinacao"
+  },
+  {
+    "id" : "BREstrategiaVacinacaoPesquisa-1.0",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstrategiaVacinacaoPesquisa"
+  },
+  {
+    "id" : "BRGrupoAtendimento",
+    "type" : "StructureDefinition",
+    "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento",
+    "version" : "0.1.0",
+    "name" : "BRGrupoAtendimento"
+  },
+  {
     "id" : "BRImunobiologicoAdministrado-3.0",
     "type" : "StructureDefinition",
     "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0",

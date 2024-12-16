@@ -1,7 +1,7 @@
 {
   "version" : "0.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20241202173300",
+  "date" : "20241216164615",
   "name" : "br.gov.saude.ria.fhir",
   "jurisdiction" : "urn:iso:std:iso:3166#BR"
 }

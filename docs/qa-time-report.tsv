@@ -1,6 +1,12 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/input/myig.xml	3667	-	0	0	0	0	0	0	2	420	0	0	0	0	0	0	0	1	0	0	46	59	0	0	0	2	0	1
-input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.json	27218	17	1	0	0	0	0	104	1	145	0	0	1	0	0	0	0	1	0	0	404	1805	0	5	0	18	0	7
-input/resources/StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.json	19394	20	0	0	0	0	0	81	0	58	0	0	0	0	0	0	0	1	0	0	336	763	0	1	0	13	0	1
-input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.json	11033	10	0	0	0	0	0	43	0	34	0	0	0	0	0	0	0	1	0	0	226	670	0	0	0	12	0	1
-input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.json	11736	9	1	0	0	0	0	47	0	41	0	0	0	0	0	0	0	1	0	0	225	496	0	1	0	9	1	1
+/input/myig.xml	3667	-	0	0	0	0	0	0	5	449	0	0	0	0	0	0	0	0	0	0	90	130	0	0	1	3	0	1
+input/resources/BRCID10Avaliado.xml	19167	62	1	0	1	11	0	131	0	160	0	0	1	0	0	0	0	3	0	0	289	3455	0	3	0	13	1	1
+input/resources/StructureDefinition-BRCondicaoMaternal.xml	3005	17	0	0	0	0	0	19	0	18	0	0	0	0	0	0	0	0	0	0	64	305	0	0	0	4	0	0
+input/resources/StructureDefinition-BRContatoHanseniase.xml	1577	16	0	0	0	0	0	18	0	12	0	0	0	0	0	0	0	0	0	0	37	150	0	0	0	1	0	1
+input/resources/StructureDefinition-BREstrategiaVacinacao-1.0.xml	2747	16	1	0	0	0	0	39	0	14	0	0	0	0	0	0	0	1	0	0	66	227	0	0	0	4	0	0
+input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.xml	4088	18	0	0	0	0	0	31	0	18	0	0	0	0	0	0	0	0	0	0	79	251	0	0	0	5	0	0
+input/resources/StructureDefinition-BRGrupoAtendimento.xml	2559	13	0	0	0	0	0	19	0	15	0	0	0	0	0	0	0	1	0	0	68	169	0	0	0	1	0	0
+input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.json	27213	13	0	0	0	0	0	136	0	77	0	0	1	0	0	0	0	3	0	0	723	1489	0	1	0	24	0	1
+input/resources/StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.json	19394	12	0	0	0	0	0	107	1	46	0	0	0	0	0	0	0	2	0	0	372	1080	0	0	0	16	0	1
+input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.json	11033	10	0	0	0	0	0	68	0	50	0	0	0	0	0	0	0	1	0	0	386	735	0	1	0	11	0	0
+input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.json	11736	10	0	0	0	0	0	55	0	34	0	0	0	0	0	0	0	2	0	0	384	550	0	1	0	20	0	1
