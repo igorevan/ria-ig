@@ -24,11 +24,7 @@
         "path": "Composition",
         "short": "Registro de Imunobiológico Administrado",
         "definition": "Documento que aprepresenta o registro da administração de imunobiológicos em campanha vacinal.",
-        "alias": [
-          "Campanha",
-          "Campanha vacinal",
-          "Imunobiológico"
-        ],
+        "alias": ["Campanha", "Campanha vacinal", "Imunobiológico"],
         "mustSupport": true
       },
       {
@@ -44,7 +40,7 @@
         "binding": {
           "strength": "required",
           "description": "Estado do documento",
-          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0"
+          "valueSet": "http://hl7.org/fhir/ValueSet/composition-status|4.0.1"
         }
       },
       {

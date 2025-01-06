@@ -1,0 +1,130 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/Bundle/example-RIA-C> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-RIA-C"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2024-04-01T14:59:51.283-03:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "012345678" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2024-04-01T14:59:51.283-03:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "urn:uuid:transient-0"^^xsd:anyURI ] ;
+     fhir:resource ( <urn:uuid:transient-0> )
+  ] [
+     fhir:fullUrl [ fhir:v "urn:uuid:transient-1"^^xsd:anyURI ] ;
+     fhir:resource ( <urn:uuid:transient-1> )
+  ] ) . # 
+
+<urn:uuid:transient-0> a fhir:Composition ;
+  fhir:id [ fhir:v "transient-0"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0"^^xsd:anyURI ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_transient-0\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition transient-0</b></p><a name=\"transient-0\"> </a><a name=\"hctransient-0\"> </a><a name=\"transient-0-und\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RIA}\">Registro de Imunobiológico Administrado</span></p><p><b>date</b>: 2024-04-01 08:18:30-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/0123456</p><p><b>title</b>: Registro de Imunobiologico Administrado na Campanha</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "RIA" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:identifier [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "01234567890" ]
+     ]
+  ] ; # 
+  fhir:date [ fhir:v "2024-04-01T08:18:30-03:00"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:identifier [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "0123456" ]
+     ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Registro de Imunobiologico Administrado na Campanha"] ; # 
+  fhir:section ( [
+     fhir:entry ( [
+       fhir:reference [ fhir:v "urn:uuid:transient-1" ]
+     ] )
+  ] ) . # 
+
+<urn:uuid:transient-1> a fhir:Immunization ;
+  fhir:id [ fhir:v "transient-1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0"^^xsd:anyURI ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_transient-1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization transient-1</b></p><a name=\"transient-1\"> </a><a name=\"hctransient-1\"> </a><a name=\"transient-1-und\"> </a><p><b>Grupo de Atendimento</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000703}\">Povos indígenas vivendo em terras indígenas</span></p><p><b>Condição Maternal</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal 1}\">Não se aplica</span></p><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 88}\">XM9QW8 COVID-19 vaccine, non-replicating viral vector</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/01234567890</p><p><b>occurrence</b>: 2024-04-01</p><p><b>manufacturer</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>/30587</p><p><b>lotNumber</b>: 220262</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner/012345678912345\">Practitioner/012345678912345</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "000703" ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:vaccineCode [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "88" ]
+     ] )
+  ] ; # 
+  fhir:patient [
+     fhir:identifier [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "01234567890" ]
+     ]
+  ] ; # 
+  fhir:occurrence [ fhir:v "2024-04-01"^^xsd:date] ; # 
+  fhir:manufacturer [
+     fhir:identifier [
+       fhir:system [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "30587" ]
+     ]
+  ] ; # 
+  fhir:lotNumber [ fhir:v "220262"] ; # 
+  fhir:performer ( [
+     fhir:actor [
+       fhir:link <http://www.saude.gov.br/fhir/r4/Practitioner/012345678912345> ;
+       fhir:reference [ fhir:v "Practitioner/012345678912345" ]
+     ]
+  ] ) ; # 
+  fhir:protocolApplied ( [
+     fhir:doseNumber [ fhir:v "1" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

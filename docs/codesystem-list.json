@@ -1,3 +1,108 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BRCID10",
+      "title" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+      "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCategoriaDiagnostico",
+      "title" : "Categoria do Diagnóstico",
+      "description" : "Códigos para representação do tipo de categoria do diagnóstico realizado."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCondicaoMaternal",
+      "title" : "Condição Maternal",
+      "description" : "Indicação da condição maternal da pessoa vacinada."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRDose",
+      "title" : "Dose de Vacina",
+      "description" : "Define a dose da administração de uma substância."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstrategiaVacinacao",
+      "title" : "Estratégia de Vacinação",
+      "description" : "Classifica a estratégia de vacinação adotada."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRFabricantePNI",
+      "title" : "Fabricante do Imunobiológico",
+      "description" : "Apresenta o fabricante do imunobiológico."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRGrupoAtendimento",
+      "title" : "Grupo de Atendimento",
+      "description" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRImunobiologico",
+      "title" : "Imunobiológico",
+      "description" : "Classifica os tipos de imunobiológicos."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRLocalAplicacao",
+      "title" : "Local de Aplicação",
+      "description" : "Define a localização anatômica de aplicação de uma substância"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRPais",
+      "title" : "País",
+      "description" : "Códigos para representação de países."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRRegistroOrigem",
+      "title" : "Registro de Origem",
+      "description" : "Códigos para representação da Origem do Registro de Imunobiológico."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoDocumento",
+      "title" : "Tipo de Documento",
+      "description" : "Classificação dos tipos de documentos compartilhados no Brasil."
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRViaAdministracao",
+      "title" : "Via de Administração",
+      "description" : "Classifica a via na qual foi administrada uma substância em um indivíduo."
+    }
+  ]
 }

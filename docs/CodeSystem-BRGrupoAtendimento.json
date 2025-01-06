@@ -1,0 +1,569 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRGrupoAtendimento",
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem BRGrupoAtendimento</b></p><a name=\"BRGrupoAtendimento\"> </a><a name=\"hcBRGrupoAtendimento\"> </a><a name=\"BRGrupoAtendimento-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: pt-BR</p></div><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Inactive</b></td></tr><tr><td style=\"white-space:nowrap\">00<a name=\"BRGrupoAtendimento-00\"> </a></td><td>Sem registro no modelo de informação de origem</td><td/></tr><tr><td style=\"white-space:nowrap\">000101<a name=\"BRGrupoAtendimento-000101\"> </a></td><td>Hemoglobinopatia grave</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000102<a name=\"BRGrupoAtendimento-000102\"> </a></td><td>Neoplasias</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000103<a name=\"BRGrupoAtendimento-000103\"> </a></td><td>Diabetes Mellitus</td><td/></tr><tr><td style=\"white-space:nowrap\">000104<a name=\"BRGrupoAtendimento-000104\"> </a></td><td>Pneumopatias Crônicas Graves</td><td/></tr><tr><td style=\"white-space:nowrap\">000105<a name=\"BRGrupoAtendimento-000105\"> </a></td><td>Doença Renal Crônica</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000106<a name=\"BRGrupoAtendimento-000106\"> </a></td><td>Doenças Cardiovasculares e Cerebrovasculares</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000107<a name=\"BRGrupoAtendimento-000107\"> </a></td><td>Hipertensão de difícil controle ou com complicações/lesão de órgão alvo</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000108<a name=\"BRGrupoAtendimento-000108\"> </a></td><td>Indivíduos Transplantados de Órgão Sólido</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000109<a name=\"BRGrupoAtendimento-000109\"> </a></td><td>Obesidade Grave (Imc≥40)</td><td/></tr><tr><td style=\"white-space:nowrap\">000110<a name=\"BRGrupoAtendimento-000110\"> </a></td><td>Síndrome de Down</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000111<a name=\"BRGrupoAtendimento-000111\"> </a></td><td>Outros Imunocomprometidos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000112<a name=\"BRGrupoAtendimento-000112\"> </a></td><td>Indivíduos Transplantados de Medula Óssea</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000114<a name=\"BRGrupoAtendimento-000114\"> </a></td><td>Cirrose hepática</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000115<a name=\"BRGrupoAtendimento-000115\"> </a></td><td>Doença neurológica crônica</td><td/></tr><tr><td style=\"white-space:nowrap\">000116<a name=\"BRGrupoAtendimento-000116\"> </a></td><td>Doença cardiovascular</td><td/></tr><tr><td style=\"white-space:nowrap\">000117<a name=\"BRGrupoAtendimento-000117\"> </a></td><td>Imunocomprometidos</td><td/></tr><tr><td style=\"white-space:nowrap\">000118<a name=\"BRGrupoAtendimento-000118\"> </a></td><td>Trissomias</td><td/></tr><tr><td style=\"white-space:nowrap\">000119<a name=\"BRGrupoAtendimento-000119\"> </a></td><td>Doença Hepática Crônica</td><td/></tr><tr><td style=\"white-space:nowrap\">000120<a name=\"BRGrupoAtendimento-000120\"> </a></td><td>Prematuridade</td><td/></tr><tr><td style=\"white-space:nowrap\">000121<a name=\"BRGrupoAtendimento-000121\"> </a></td><td>Anomalias de vias aéreas</td><td/></tr><tr><td style=\"white-space:nowrap\">000122<a name=\"BRGrupoAtendimento-000122\"> </a></td><td>Obesidade (score-Z acima de +2)</td><td/></tr><tr><td style=\"white-space:nowrap\">000123<a name=\"BRGrupoAtendimento-000123\"> </a></td><td>Erros Inatos da Imunidade (EII)</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000201<a name=\"BRGrupoAtendimento-000201\"> </a></td><td>Pessoas de 18 a 64 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000202<a name=\"BRGrupoAtendimento-000202\"> </a></td><td>Pessoas de 65 a 69 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000203<a name=\"BRGrupoAtendimento-000203\"> </a></td><td>Pessoas de 70 a 74 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000204<a name=\"BRGrupoAtendimento-000204\"> </a></td><td>Pessoas de 75 a 79 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000205<a name=\"BRGrupoAtendimento-000205\"> </a></td><td>Pessoas de 80 anos ou mais</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000206<a name=\"BRGrupoAtendimento-000206\"> </a></td><td>Pessoas de 12 a 17 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000207<a name=\"BRGrupoAtendimento-000207\"> </a></td><td>Pessoas de 5 a 11 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000208<a name=\"BRGrupoAtendimento-000208\"> </a></td><td>Pessoas de 3 a 4 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000209<a name=\"BRGrupoAtendimento-000209\"> </a></td><td>Pessoas de 6 meses a 2 anos</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000210<a name=\"BRGrupoAtendimento-000210\"> </a></td><td>Faixa Etária</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000301<a name=\"BRGrupoAtendimento-000301\"> </a></td><td>Pessoas de 60 nos ou mais Institucionalizadas</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000302<a name=\"BRGrupoAtendimento-000302\"> </a></td><td>Pessoas Institucionalizadas</td><td/></tr><tr><td style=\"white-space:nowrap\">000401<a name=\"BRGrupoAtendimento-000401\"> </a></td><td>Marinha do Brasil - MB</td><td/></tr><tr><td style=\"white-space:nowrap\">000402<a name=\"BRGrupoAtendimento-000402\"> </a></td><td>Exército Brasileiro - EB</td><td/></tr><tr><td style=\"white-space:nowrap\">000403<a name=\"BRGrupoAtendimento-000403\"> </a></td><td>Força Aérea Brasileira - FAB</td><td/></tr><tr><td style=\"white-space:nowrap\">000501<a name=\"BRGrupoAtendimento-000501\"> </a></td><td>Bombeiro Civil</td><td/></tr><tr><td style=\"white-space:nowrap\">000502<a name=\"BRGrupoAtendimento-000502\"> </a></td><td>Bombeiro Militar</td><td/></tr><tr><td style=\"white-space:nowrap\">000503<a name=\"BRGrupoAtendimento-000503\"> </a></td><td>Guarda Municipal</td><td/></tr><tr><td style=\"white-space:nowrap\">000504<a name=\"BRGrupoAtendimento-000504\"> </a></td><td>Policial Rodoviário Federal</td><td/></tr><tr><td style=\"white-space:nowrap\">000505<a name=\"BRGrupoAtendimento-000505\"> </a></td><td>Policial Civil</td><td/></tr><tr><td style=\"white-space:nowrap\">000506<a name=\"BRGrupoAtendimento-000506\"> </a></td><td>Policial Federal</td><td/></tr><tr><td style=\"white-space:nowrap\">000507<a name=\"BRGrupoAtendimento-000507\"> </a></td><td>Policial Militar</td><td/></tr><tr><td style=\"white-space:nowrap\">000601<a name=\"BRGrupoAtendimento-000601\"> </a></td><td>Quilombola</td><td/></tr><tr><td style=\"white-space:nowrap\">000602<a name=\"BRGrupoAtendimento-000602\"> </a></td><td>Ribeirinha</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000603<a name=\"BRGrupoAtendimento-000603\"> </a></td><td>Crianças Quilombolas</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000604<a name=\"BRGrupoAtendimento-000604\"> </a></td><td>Crianças Ribeirinhas</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000701<a name=\"BRGrupoAtendimento-000701\"> </a></td><td>Povos indígenas em terras indígenas</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000702<a name=\"BRGrupoAtendimento-000702\"> </a></td><td>Crianças Indígenas</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000703<a name=\"BRGrupoAtendimento-000703\"> </a></td><td>Povos indígenas vivendo em terras indígenas</td><td/></tr><tr><td style=\"white-space:nowrap\">000704<a name=\"BRGrupoAtendimento-000704\"> </a></td><td>Povos indígenas vivendo fora das terras indígenas</td><td/></tr><tr><td style=\"white-space:nowrap\">000801<a name=\"BRGrupoAtendimento-000801\"> </a></td><td>Ensino Básico</td><td/></tr><tr><td style=\"white-space:nowrap\">000802<a name=\"BRGrupoAtendimento-000802\"> </a></td><td>Ensino Superior</td><td/></tr><tr><td style=\"white-space:nowrap\">000901<a name=\"BRGrupoAtendimento-000901\"> </a></td><td>Auxiliar de Veterinário</td><td/></tr><tr><td style=\"white-space:nowrap\">000902<a name=\"BRGrupoAtendimento-000902\"> </a></td><td>Biólogo</td><td/></tr><tr><td style=\"white-space:nowrap\">000903<a name=\"BRGrupoAtendimento-000903\"> </a></td><td>Biomédico</td><td/></tr><tr><td style=\"white-space:nowrap\">000904<a name=\"BRGrupoAtendimento-000904\"> </a></td><td>Cozinheiro e Auxiliares</td><td/></tr><tr><td style=\"white-space:nowrap\">000905<a name=\"BRGrupoAtendimento-000905\"> </a></td><td>Cuidador de Idosos</td><td/></tr><tr><td style=\"white-space:nowrap\">000906<a name=\"BRGrupoAtendimento-000906\"> </a></td><td>Doula/Parteira</td><td/></tr><tr><td style=\"white-space:nowrap\">000907<a name=\"BRGrupoAtendimento-000907\"> </a></td><td>Enfermeiro(a)</td><td/></tr><tr><td style=\"white-space:nowrap\">000908<a name=\"BRGrupoAtendimento-000908\"> </a></td><td>Farmacêutico</td><td/></tr><tr><td style=\"white-space:nowrap\">000909<a name=\"BRGrupoAtendimento-000909\"> </a></td><td>Fisioterapeutas</td><td/></tr><tr><td style=\"white-space:nowrap\">000910<a name=\"BRGrupoAtendimento-000910\"> </a></td><td>Fonoaudiólogo</td><td/></tr><tr><td style=\"white-space:nowrap\">000911<a name=\"BRGrupoAtendimento-000911\"> </a></td><td>Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados</td><td/></tr><tr><td style=\"white-space:nowrap\">000912<a name=\"BRGrupoAtendimento-000912\"> </a></td><td>Médico</td><td/></tr><tr><td style=\"white-space:nowrap\">000913<a name=\"BRGrupoAtendimento-000913\"> </a></td><td>Médico Veterinário</td><td/></tr><tr><td style=\"white-space:nowrap\">000914<a name=\"BRGrupoAtendimento-000914\"> </a></td><td>Motorista de Ambulância</td><td/></tr><tr><td style=\"white-space:nowrap\">000915<a name=\"BRGrupoAtendimento-000915\"> </a></td><td>Nutricionista</td><td/></tr><tr><td style=\"white-space:nowrap\">000916<a name=\"BRGrupoAtendimento-000916\"> </a></td><td>Odontologista</td><td/></tr><tr><td style=\"white-space:nowrap\">000917<a name=\"BRGrupoAtendimento-000917\"> </a></td><td>Profissionais e Auxiliares de limpeza</td><td/></tr><tr><td style=\"white-space:nowrap\">000918<a name=\"BRGrupoAtendimento-000918\"> </a></td><td>Profissionais de Educação Física</td><td/></tr><tr><td style=\"white-space:nowrap\">000919<a name=\"BRGrupoAtendimento-000919\"> </a></td><td>Psicólogo</td><td/></tr><tr><td style=\"white-space:nowrap\">000920<a name=\"BRGrupoAtendimento-000920\"> </a></td><td>Recepcionista</td><td/></tr><tr><td style=\"white-space:nowrap\">000921<a name=\"BRGrupoAtendimento-000921\"> </a></td><td>Segurança</td><td/></tr><tr><td style=\"white-space:nowrap\">000922<a name=\"BRGrupoAtendimento-000922\"> </a></td><td>Assistente Social</td><td/></tr><tr><td style=\"white-space:nowrap\">000923<a name=\"BRGrupoAtendimento-000923\"> </a></td><td>Técnico de Enfermagem</td><td/></tr><tr><td style=\"white-space:nowrap\">000924<a name=\"BRGrupoAtendimento-000924\"> </a></td><td>Técnico de Veterinário</td><td/></tr><tr><td style=\"white-space:nowrap\">000925<a name=\"BRGrupoAtendimento-000925\"> </a></td><td>Terapeuta Ocupacional</td><td/></tr><tr><td style=\"white-space:nowrap\">000926<a name=\"BRGrupoAtendimento-000926\"> </a></td><td>Outros</td><td/></tr><tr><td style=\"white-space:nowrap\">000927<a name=\"BRGrupoAtendimento-000927\"> </a></td><td>Auxiliar de Enfermagem</td><td/></tr><tr><td style=\"white-space:nowrap\">000928<a name=\"BRGrupoAtendimento-000928\"> </a></td><td>Técnico de Odontologia</td><td/></tr><tr><td style=\"white-space:nowrap\">000929<a name=\"BRGrupoAtendimento-000929\"> </a></td><td>Acadêmicos/estudantes em estágio em estabelecimentos de saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000930<a name=\"BRGrupoAtendimento-000930\"> </a></td><td>Agente de Combate a Endemias - ACE</td><td/></tr><tr><td style=\"white-space:nowrap\">000931<a name=\"BRGrupoAtendimento-000931\"> </a></td><td>Agente Comunitário de Saúde - ACS</td><td/></tr><tr><td style=\"white-space:nowrap\">000932<a name=\"BRGrupoAtendimento-000932\"> </a></td><td>Auxiliar em Saúde Bucal - ASB</td><td/></tr><tr><td style=\"white-space:nowrap\">000933<a name=\"BRGrupoAtendimento-000933\"> </a></td><td>Técnico em Saúde Bucal - TSB</td><td/></tr><tr><td style=\"white-space:nowrap\">001001<a name=\"BRGrupoAtendimento-001001\"> </a></td><td>Aéreo</td><td/></tr><tr><td style=\"white-space:nowrap\">001002<a name=\"BRGrupoAtendimento-001002\"> </a></td><td>Caminhoneiro</td><td/></tr><tr><td style=\"white-space:nowrap\">001003<a name=\"BRGrupoAtendimento-001003\"> </a></td><td>Coletivo Rodoviário Passageiros Urbano e de Longo Curso</td><td/></tr><tr><td style=\"white-space:nowrap\">001004<a name=\"BRGrupoAtendimento-001004\"> </a></td><td>Ferroviário</td><td/></tr><tr><td style=\"white-space:nowrap\">001005<a name=\"BRGrupoAtendimento-001005\"> </a></td><td>Metroviário</td><td/></tr><tr><td style=\"white-space:nowrap\">001006<a name=\"BRGrupoAtendimento-001006\"> </a></td><td>Aquaviário</td><td/></tr><tr><td style=\"white-space:nowrap\">001101<a name=\"BRGrupoAtendimento-001101\"> </a></td><td>Pessoas com Deficiência Institucionalizadas</td><td/></tr><tr><td style=\"white-space:nowrap\">001102<a name=\"BRGrupoAtendimento-001102\"> </a></td><td>Pessoas com Deficiência Permanente</td><td/></tr><tr><td style=\"white-space:nowrap\">001201<a name=\"BRGrupoAtendimento-001201\"> </a></td><td>Pessoas em Situação de Rua</td><td/></tr><tr><td style=\"white-space:nowrap\">001301<a name=\"BRGrupoAtendimento-001301\"> </a></td><td>Trabalhadores Portuários</td><td/></tr><tr><td style=\"white-space:nowrap\">001401<a name=\"BRGrupoAtendimento-001401\"> </a></td><td>Funcionário do Sistema de Privação de Liberdade</td><td/></tr><tr><td style=\"white-space:nowrap\">001501<a name=\"BRGrupoAtendimento-001501\"> </a></td><td>População Privada de Liberdade</td><td/></tr><tr><td style=\"white-space:nowrap\">001502<a name=\"BRGrupoAtendimento-001502\"> </a></td><td>Adolescentes cumprindo medidas Socioeducativas</td><td/></tr><tr><td style=\"white-space:nowrap\">001601<a name=\"BRGrupoAtendimento-001601\"> </a></td><td>Trabalhadores Industriais</td><td/></tr><tr><td style=\"white-space:nowrap\">001701<a name=\"BRGrupoAtendimento-001701\"> </a></td><td>Trabalhadores de limpeza urbana e manejo de resíduos sólidos</td><td/></tr><tr><td style=\"white-space:nowrap\">001801<a name=\"BRGrupoAtendimento-001801\"> </a></td><td>Gestante</td><td/></tr><tr><td style=\"white-space:nowrap\">001901<a name=\"BRGrupoAtendimento-001901\"> </a></td><td>Puérpera</td><td/></tr><tr><td style=\"white-space:nowrap\">002001<a name=\"BRGrupoAtendimento-002001\"> </a></td><td>População Rural</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">999999<a name=\"BRGrupoAtendimento-999999\"> </a></td><td>Outros Grupos</td><td>true</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir"
+      }]
+    }
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+  "version" : "0.1.0",
+  "name" : "BRGrupoAtendimento",
+  "title" : "Grupo de Atendimento",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-08-20T14:59:27.326+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    }]
+  }],
+  "description" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "property" : [{
+    "code" : "inactive",
+    "uri" : "http://hl7.org/fhir/concept-properties#inactive",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "00",
+    "display" : "Sem registro no modelo de informação de origem"
+  },
+  {
+    "code" : "000101",
+    "display" : "Hemoglobinopatia grave"
+  },
+  {
+    "code" : "000102",
+    "display" : "Neoplasias",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000103",
+    "display" : "Diabetes Mellitus"
+  },
+  {
+    "code" : "000104",
+    "display" : "Pneumopatias Crônicas Graves"
+  },
+  {
+    "code" : "000105",
+    "display" : "Doença Renal Crônica"
+  },
+  {
+    "code" : "000106",
+    "display" : "Doenças Cardiovasculares e Cerebrovasculares",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000107",
+    "display" : "Hipertensão de difícil controle ou com complicações/lesão de órgão alvo"
+  },
+  {
+    "code" : "000108",
+    "display" : "Indivíduos Transplantados de Órgão Sólido",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000109",
+    "display" : "Obesidade Grave (Imc≥40)"
+  },
+  {
+    "code" : "000110",
+    "display" : "Síndrome de Down"
+  },
+  {
+    "code" : "000111",
+    "display" : "Outros Imunocomprometidos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000112",
+    "display" : "Indivíduos Transplantados de Medula Óssea",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000114",
+    "display" : "Cirrose hepática",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000115",
+    "display" : "Doença neurológica crônica"
+  },
+  {
+    "code" : "000116",
+    "display" : "Doença cardiovascular"
+  },
+  {
+    "code" : "000117",
+    "display" : "Imunocomprometidos"
+  },
+  {
+    "code" : "000118",
+    "display" : "Trissomias"
+  },
+  {
+    "code" : "000119",
+    "display" : "Doença Hepática Crônica"
+  },
+  {
+    "code" : "000120",
+    "display" : "Prematuridade"
+  },
+  {
+    "code" : "000121",
+    "display" : "Anomalias de vias aéreas"
+  },
+  {
+    "code" : "000122",
+    "display" : "Obesidade (score-Z acima de +2)"
+  },
+  {
+    "code" : "000123",
+    "display" : "Erros Inatos da Imunidade (EII)"
+  },
+  {
+    "code" : "000201",
+    "display" : "Pessoas de 18 a 64 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000202",
+    "display" : "Pessoas de 65 a 69 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000203",
+    "display" : "Pessoas de 70 a 74 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000204",
+    "display" : "Pessoas de 75 a 79 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000205",
+    "display" : "Pessoas de 80 anos ou mais",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000206",
+    "display" : "Pessoas de 12 a 17 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000207",
+    "display" : "Pessoas de 5 a 11 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000208",
+    "display" : "Pessoas de 3 a 4 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000209",
+    "display" : "Pessoas de 6 meses a 2 anos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000210",
+    "display" : "Faixa Etária"
+  },
+  {
+    "code" : "000301",
+    "display" : "Pessoas de 60 nos ou mais Institucionalizadas",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000302",
+    "display" : "Pessoas Institucionalizadas"
+  },
+  {
+    "code" : "000401",
+    "display" : "Marinha do Brasil - MB"
+  },
+  {
+    "code" : "000402",
+    "display" : "Exército Brasileiro - EB"
+  },
+  {
+    "code" : "000403",
+    "display" : "Força Aérea Brasileira - FAB"
+  },
+  {
+    "code" : "000501",
+    "display" : "Bombeiro Civil"
+  },
+  {
+    "code" : "000502",
+    "display" : "Bombeiro Militar"
+  },
+  {
+    "code" : "000503",
+    "display" : "Guarda Municipal"
+  },
+  {
+    "code" : "000504",
+    "display" : "Policial Rodoviário Federal"
+  },
+  {
+    "code" : "000505",
+    "display" : "Policial Civil"
+  },
+  {
+    "code" : "000506",
+    "display" : "Policial Federal"
+  },
+  {
+    "code" : "000507",
+    "display" : "Policial Militar"
+  },
+  {
+    "code" : "000601",
+    "display" : "Quilombola"
+  },
+  {
+    "code" : "000602",
+    "display" : "Ribeirinha"
+  },
+  {
+    "code" : "000603",
+    "display" : "Crianças Quilombolas",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000604",
+    "display" : "Crianças Ribeirinhas",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000701",
+    "display" : "Povos indígenas em terras indígenas",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000702",
+    "display" : "Crianças Indígenas",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "000703",
+    "display" : "Povos indígenas vivendo em terras indígenas"
+  },
+  {
+    "code" : "000704",
+    "display" : "Povos indígenas vivendo fora das terras indígenas"
+  },
+  {
+    "code" : "000801",
+    "display" : "Ensino Básico"
+  },
+  {
+    "code" : "000802",
+    "display" : "Ensino Superior"
+  },
+  {
+    "code" : "000901",
+    "display" : "Auxiliar de Veterinário"
+  },
+  {
+    "code" : "000902",
+    "display" : "Biólogo"
+  },
+  {
+    "code" : "000903",
+    "display" : "Biomédico"
+  },
+  {
+    "code" : "000904",
+    "display" : "Cozinheiro e Auxiliares"
+  },
+  {
+    "code" : "000905",
+    "display" : "Cuidador de Idosos"
+  },
+  {
+    "code" : "000906",
+    "display" : "Doula/Parteira"
+  },
+  {
+    "code" : "000907",
+    "display" : "Enfermeiro(a)"
+  },
+  {
+    "code" : "000908",
+    "display" : "Farmacêutico"
+  },
+  {
+    "code" : "000909",
+    "display" : "Fisioterapeutas"
+  },
+  {
+    "code" : "000910",
+    "display" : "Fonoaudiólogo"
+  },
+  {
+    "code" : "000911",
+    "display" : "Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados"
+  },
+  {
+    "code" : "000912",
+    "display" : "Médico"
+  },
+  {
+    "code" : "000913",
+    "display" : "Médico Veterinário"
+  },
+  {
+    "code" : "000914",
+    "display" : "Motorista de Ambulância"
+  },
+  {
+    "code" : "000915",
+    "display" : "Nutricionista"
+  },
+  {
+    "code" : "000916",
+    "display" : "Odontologista"
+  },
+  {
+    "code" : "000917",
+    "display" : "Profissionais e Auxiliares de limpeza"
+  },
+  {
+    "code" : "000918",
+    "display" : "Profissionais de Educação Física"
+  },
+  {
+    "code" : "000919",
+    "display" : "Psicólogo"
+  },
+  {
+    "code" : "000920",
+    "display" : "Recepcionista"
+  },
+  {
+    "code" : "000921",
+    "display" : "Segurança"
+  },
+  {
+    "code" : "000922",
+    "display" : "Assistente Social"
+  },
+  {
+    "code" : "000923",
+    "display" : "Técnico de Enfermagem"
+  },
+  {
+    "code" : "000924",
+    "display" : "Técnico de Veterinário"
+  },
+  {
+    "code" : "000925",
+    "display" : "Terapeuta Ocupacional"
+  },
+  {
+    "code" : "000926",
+    "display" : "Outros"
+  },
+  {
+    "code" : "000927",
+    "display" : "Auxiliar de Enfermagem"
+  },
+  {
+    "code" : "000928",
+    "display" : "Técnico de Odontologia"
+  },
+  {
+    "code" : "000929",
+    "display" : "Acadêmicos/estudantes em estágio em estabelecimentos de saúde"
+  },
+  {
+    "code" : "000930",
+    "display" : "Agente de Combate a Endemias - ACE"
+  },
+  {
+    "code" : "000931",
+    "display" : "Agente Comunitário de Saúde - ACS"
+  },
+  {
+    "code" : "000932",
+    "display" : "Auxiliar em Saúde Bucal - ASB"
+  },
+  {
+    "code" : "000933",
+    "display" : "Técnico em Saúde Bucal - TSB"
+  },
+  {
+    "code" : "001001",
+    "display" : "Aéreo"
+  },
+  {
+    "code" : "001002",
+    "display" : "Caminhoneiro"
+  },
+  {
+    "code" : "001003",
+    "display" : "Coletivo Rodoviário Passageiros Urbano e de Longo Curso"
+  },
+  {
+    "code" : "001004",
+    "display" : "Ferroviário"
+  },
+  {
+    "code" : "001005",
+    "display" : "Metroviário"
+  },
+  {
+    "code" : "001006",
+    "display" : "Aquaviário"
+  },
+  {
+    "code" : "001101",
+    "display" : "Pessoas com Deficiência Institucionalizadas"
+  },
+  {
+    "code" : "001102",
+    "display" : "Pessoas com Deficiência Permanente"
+  },
+  {
+    "code" : "001201",
+    "display" : "Pessoas em Situação de Rua"
+  },
+  {
+    "code" : "001301",
+    "display" : "Trabalhadores Portuários"
+  },
+  {
+    "code" : "001401",
+    "display" : "Funcionário do Sistema de Privação de Liberdade"
+  },
+  {
+    "code" : "001501",
+    "display" : "População Privada de Liberdade"
+  },
+  {
+    "code" : "001502",
+    "display" : "Adolescentes cumprindo medidas Socioeducativas"
+  },
+  {
+    "code" : "001601",
+    "display" : "Trabalhadores Industriais"
+  },
+  {
+    "code" : "001701",
+    "display" : "Trabalhadores de limpeza urbana e manejo de resíduos sólidos"
+  },
+  {
+    "code" : "001801",
+    "display" : "Gestante"
+  },
+  {
+    "code" : "001901",
+    "display" : "Puérpera"
+  },
+  {
+    "code" : "002001",
+    "display" : "População Rural"
+  },
+  {
+    "code" : "999999",
+    "display" : "Outros Grupos",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  }]
+}

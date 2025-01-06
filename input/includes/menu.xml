@@ -11,18 +11,26 @@
   <li>
     <a href="integracao.html">Integração</a>
   </li>
-
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> O RIA <b class="caret"></b>
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> RIA-C <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="mi.html">Modelo de Informação</a>
-        <a href="mc.html">Modelo Computacional</a>
+        <a href="miRiac.html">Modelo de Informação</a>
+        <a href="mcRiac.html">Modelo Computacional</a>
       </li>
     </ul>
   </li>
-
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> RIA-R <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="miRiar.html">Modelo de Informação</a>
+        <a href="mcRiar.html">Modelo Computacional</a>
+      </li>
+    </ul>
+  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>

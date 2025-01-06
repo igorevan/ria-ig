@@ -40,7 +40,7 @@
         "binding": {
           "strength": "required",
           "description": "Estado do documento",
-          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoDocumento-1.0"
+          "valueSet": "http://hl7.org/fhir/ValueSet/composition-status|4.0.1"
         }
       },
       {

@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+  "code" : "88"
+}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector",
+  "code" : "88",
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+  "version" : "0.1.0",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+  "code" : "55"
+}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "HepAinf",
+  "code" : "55",
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+  "version" : "0.1.0",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

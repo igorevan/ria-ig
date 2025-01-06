@@ -18,7 +18,6 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
-  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -39,10 +38,9 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10"}
-    h3,h4,h5,h6{--heading-prefix:"10.0"}</style>
+
+    <style type="text/css">h2{--heading-prefix:"12"}
+    h3,h4,h5,h6{--heading-prefix:"12.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -92,18 +90,26 @@
   <li>
     <a href="integracao.html">Integração</a>
   </li>
-
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> O RIA <b class="caret"></b>
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> RIA-C <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="mi.html">Modelo de Informação</a>
-        <a href="mc.html">Modelo Computacional</a>
+        <a href="miRiac.html">Modelo de Informação</a>
+        <a href="mcRiac.html">Modelo Computacional</a>
       </li>
     </ul>
   </li>
-
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> RIA-R <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="miRiar.html">Modelo de Informação</a>
+        <a href="mcRiar.html">Modelo Computacional</a>
+      </li>
+    </ul>
+  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>
@@ -193,6 +199,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </li>
       <li>
          <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -306,6 +321,291 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRCategoriaDiagnostico.html"
+                  title="ValueSet/BRCategoriaDiagnostico">Categoria do Diagnóstico</a>
+            </td>
+            <td>
+<p>ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRCID10-1.0.html" title="ValueSet/BRCID10-1.0">Classificação Internacional de Doenças - Décima Revisão (CID-10)</a>
+            </td>
+            <td>
+<p>Classificação Internacional de Doenças - Décima Revisão (CID-10)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRCondicaoMaternal-1.0.html"
+                  title="ValueSet/BRCondicaoMaternal-1.0">Condição Maternal</a>
+            </td>
+            <td>
+<p>ValueSet utilizado para Indicar a condição maternal da pessoa vacinada.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRDose-1.0.html" title="ValueSet/BRDose-1.0">Dose do Imunobiológico</a>
+            </td>
+            <td>
+<p>ValueSet utilizado para definir o tipo da dose administrada no indivíduo.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html"
+                  title="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0">Estado da Resolução de Diagnóstico ou Problema</a>
+            </td>
+            <td>
+<p>Estado da resolução de um diagnóstico ou problema.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BREstadoEvento-1.0.html"
+                  title="ValueSet/BREstadoEvento-1.0">Estado do Evento</a>
+            </td>
+            <td>
+<p>Identificação do estado de um evento.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BREstrategiaVacinacao-1.0.html"
+                  title="ValueSet/BREstrategiaVacinacao-1.0">Estratégia de Vacinação</a>
+            </td>
+            <td>
+<p>Identifica a estratégia de vacinação adotada.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRFabricanteImunobiologico-1.0.html"
+                  title="ValueSet/BRFabricanteImunobiologico-1.0">Fabricante do Imunobiológico</a>
+            </td>
+            <td>
+<p>Fabricante do imunobiológico administrado</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRImunobiologico-1.0.html"
+                  title="ValueSet/BRImunobiologico-1.0">Imunobiológico</a>
+            </td>
+            <td>
+<p>Tipos de imunobiológicos disponíveis no Brasil.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRLocalAplicacao-1.0.html"
+                  title="ValueSet/BRLocalAplicacao-1.0">Local de Aplicação</a>
+            </td>
+            <td>
+<p>Localização anatômica para aplicação de um injetável.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRPais-1.0.html" title="ValueSet/BRPais-1.0">País</a>
+            </td>
+            <td>
+<p>Códigos para representação de países.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRRegistroOrigem.html" title="ValueSet/BRRegistroOrigem">Registro de Origem</a>
+            </td>
+            <td>
+<p>Códigos para representação da Origem do Registro de Imunobiológico.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRTipoDocumento-1.0.html"
+                  title="ValueSet/BRTipoDocumento-1.0">Tipo de Documento</a>
+            </td>
+            <td>
+<p>Classifica o tipo de documento que está sendo trafegado.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRGrupoAtendimento-1.0.html"
+                  title="ValueSet/BRGrupoAtendimento-1.0">Tipo de grupo de atendimento</a>
+            </td>
+            <td>
+<p>Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-BRViaAdministracao-1.0.html"
+                  title="ValueSet/BRViaAdministracao-1.0">Via de Administração do Imunobiológico</a>
+            </td>
+            <td>
+<p>Via de administração de um imunobiológico.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRCategoriaDiagnostico.html"
+                  title="CodeSystem/BRCategoriaDiagnostico">Categoria do Diagnóstico</a>
+            </td>
+            <td>
+<p>Códigos para representação do tipo de categoria do diagnóstico realizado.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRCID10.html" title="CodeSystem/BRCID10">Classificação Internacional de Doenças - Décima Revisão (CID-10)</a>
+            </td>
+            <td>
+<p>Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRCondicaoMaternal.html"
+                  title="CodeSystem/BRCondicaoMaternal">Condição Maternal</a>
+            </td>
+            <td>
+<p>Indicação da condição maternal da pessoa vacinada.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRDose.html" title="CodeSystem/BRDose">Dose de Vacina</a>
+            </td>
+            <td>
+<p>Define a dose da administração de uma substância.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BREstrategiaVacinacao.html"
+                  title="CodeSystem/BREstrategiaVacinacao">Estratégia de Vacinação</a>
+            </td>
+            <td>
+<p>Classifica a estratégia de vacinação adotada.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRFabricantePNI.html"
+                  title="CodeSystem/BRFabricantePNI">Fabricante do Imunobiológico</a>
+            </td>
+            <td>
+<p>Apresenta o fabricante do imunobiológico.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRGrupoAtendimento.html"
+                  title="CodeSystem/BRGrupoAtendimento">Grupo de Atendimento</a>
+            </td>
+            <td>
+<p>Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRImunobiologico.html"
+                  title="CodeSystem/BRImunobiologico">Imunobiológico</a>
+            </td>
+            <td>
+<p>Classifica os tipos de imunobiológicos.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRLocalAplicacao.html"
+                  title="CodeSystem/BRLocalAplicacao">Local de Aplicação</a>
+            </td>
+            <td>
+<p>Define a localização anatômica de aplicação de uma substância</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRPais.html" title="CodeSystem/BRPais">País</a>
+            </td>
+            <td>
+<p>Códigos para representação de países.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRRegistroOrigem.html"
+                  title="CodeSystem/BRRegistroOrigem">Registro de Origem</a>
+            </td>
+            <td>
+<p>Códigos para representação da Origem do Registro de Imunobiológico.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRTipoDocumento.html"
+                  title="CodeSystem/BRTipoDocumento">Tipo de Documento</a>
+            </td>
+            <td>
+<p>Classificação dos tipos de documentos compartilhados no Brasil.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-BRViaAdministracao.html"
+                  title="CodeSystem/BRViaAdministracao">Via de Administração</a>
+            </td>
+            <td>
+<p>Classifica a via na qual foi administrada uma substância em um indivíduo.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Bundle-example-RIA-C.html" title="Bundle/example-RIA-C">Bundle de exemplo do RIA-C</a>
+            </td>
+            <td>
+<p>Bundle de exemplo do Registro de Imunobiológico Administrado em Campanha (RIA-C)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Bundle-example-RIA-R.html" title="Bundle/example-RIA-R">Bundle de exemplo do RIA-R</a>
+            </td>
+            <td>
+<p>Bundle de exemplo do Registro de Imunobiológico Administrado em Rotina (RIA-R)</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
 </div>
 
 </div>
@@ -346,7 +646,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 16, 2024 16:46-0300">2024-12-16</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 6, 2025 16:48-0300">2025-01-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -363,7 +663,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-
+  
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -374,6 +674,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  
   <!-- Analytics Below
   ================================================== -->
   </body>

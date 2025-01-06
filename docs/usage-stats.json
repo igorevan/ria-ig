@@ -173,20 +173,24 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "CodeSystem",
       "ImplementationGuide",
-      "StructureDefinition"
+      "StructureDefinition",
+      "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
       "StructureDefinition.differential.element",
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "CodeSystem",
       "ImplementationGuide",
       "ImplementationGuide.definition.page",
       "ImplementationGuide.definition.page.page",
       "StructureDefinition",
       "StructureDefinition.differential.element",
-      "StructureDefinition.snapshot.element"
+      "StructureDefinition.snapshot.element",
+      "ValueSet"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
@@ -205,18 +209,23 @@
       "ImplementationGuide.definition.resource"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal": [
+      "Bundle.entry.resource",
       "Immunization"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase": [
+      "Bundle.entry.resource",
       "Immunization"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0": [
+      "Bundle.entry.resource.protocolApplied",
       "Immunization.protocolApplied"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0": [
+      "Bundle.entry.resource.protocolApplied",
       "Immunization.protocolApplied"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento": [
+      "Bundle.entry.resource",
       "Immunization"
     ],
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [

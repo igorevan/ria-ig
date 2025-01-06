@@ -32,12 +32,36 @@
   <license value="CC0-1.0" />
   <fhirVersion value="4.0.1" />
   <!-- <dependsOn>
-    <uri value="https://terminologia.saude.gov.br/fhir" />
+    <uri value="http://terminologia.saude.gov.br/fhir" />
     <packageId value="br.gov.saude.terminologia.fhir" />
-    <version value="0.1.5" />
+    <version value="1.0.0" />
+  </dependsOn> -->
+  <!-- <dependsOn>
+    <uri value="http://www.saude.gov.br/fhir/r4" />
+    <packageId value="br.ufg.cgis.rnds-lite" />
+    <version value="1.0.0" />
   </dependsOn> -->
   <definition>
-
+    <resource>
+      <reference>
+        <reference value="Bundle/example-RIA-C" />
+      </reference>
+      <name value="Bundle de exemplo do RIA-C" />
+      <description
+        value="Bundle de exemplo do Registro de Imunobiológico Administrado em Campanha (RIA-C)" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/example-RIA-R" />
+      </reference>
+      <name value="Bundle de exemplo do RIA-R" />
+      <description
+        value="Bundle de exemplo do Registro de Imunobiológico Administrado em Rotina (RIA-R)" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0" />
+    </resource>
     <page>
       <nameUrl value="toc.html" />
       <title value="Índice" />
@@ -63,12 +87,22 @@
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="mc.html" />
-        <title value="O RIA" />
+        <nameUrl value="mcRiac.html" />
+        <title value="Modelo Computacional" />
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="mi.html" />
+        <nameUrl value="mcRiar.html" />
+        <title value="Modelo Computacional" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="miRiac.html" />
+        <title value="Modelo de Informação" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="miRiar.html" />
         <title value="Modelo de Informação" />
         <generation value="html" />
       </page>

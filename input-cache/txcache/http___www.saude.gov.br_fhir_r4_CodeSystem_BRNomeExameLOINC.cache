@@ -1,0 +1,154 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC",
+  "version" : "*",
+  "code" : "94764-8"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]",
+  "class" : "CODESYSTEM_UNSUPPORTED",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC",
+  "version" : "*",
+  "code" : "94507-1"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]",
+  "class" : "CODESYSTEM_UNSUPPORTED",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC",
+      "version" : "*",
+      "concept" : [{
+        "code" : "94764-8",
+        "display" : "SARS Coronavírus 2 [sequência de bases] genôma inteiro em isolado por sequenciamento"
+      },
+      {
+        "code" : "94822-4",
+        "display" : "SARS Coronavírus 2 [Presença de] RNA em Saliva (fluido oral) por sequenciamento"
+      },
+      {
+        "code" : "95424-8",
+        "display" : "SARS Coronavírus 2 [Presença de] RNA em Amostra respiratória por sequenciamento"
+      },
+      {
+        "code" : "95609-4",
+        "display" : "SARS Coronavírus 2 [Presença de] gene S em amostra respiratória por sequenciação"
+      },
+      {
+        "code" : "95970-0",
+        "display" : "SARS Coronavírus 2 rearranjos específicos de genes de células T de receptor beta [Presença de] em sangue por sequenciamento"
+      },
+      {
+        "code" : "96741-4",
+        "display" : "SARS Coronavírus 2 variante [Tipo] em espécie por sequenciação"
+      },
+      {
+        "code" : "98062-3",
+        "display" : "Identificador de estudo de sequenciamento"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC",
+      "version" : "*",
+      "concept" : [{
+        "code" : "94507-1",
+        "display" : "SARS Coronavírus 2, [presença de] anticorpos IgG em soro ou plasma por imunoensaio"
+      },
+      {
+        "code" : "94508-9",
+        "display" : "SARS Coronavírus 2, [presença de] anticorpos IgM em soro ou plasma por imunoensaio"
+      },
+      {
+        "code" : "94558-4",
+        "display" : "SARS Coronavírus 2, [presença de] antígenos Ag em amostra respiratória por imunoensaio rápido"
+      },
+      {
+        "code" : "94768-9",
+        "display" : "SARS Coronavírus 2 [Presença de] anticorpos IgA em Soro Plasma ou Sangue por Imunoensaio rápido"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC",
+      "version" : "*",
+      "concept" : [{
+        "code" : "94507-1",
+        "display" : "SARS Coronavírus 2, [presença de] anticorpos IgG em soro ou plasma por imunoensaio"
+      },
+      {
+        "code" : "94508-9",
+        "display" : "SARS Coronavírus 2, [presença de] anticorpos IgM em soro ou plasma por imunoensaio"
+      },
+      {
+        "code" : "94558-4",
+        "display" : "SARS Coronavírus 2, [presença de] antígenos Ag em amostra respiratória por imunoensaio rápido"
+      },
+      {
+        "code" : "94768-9",
+        "display" : "SARS Coronavírus 2 [Presença de] anticorpos IgA em Soro Plasma ou Sangue por Imunoensaio rápido"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRNomeExameTRCOVID19LOINC-1.0", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC version *"
+}
+-------------------------------------------------------------------------------------

@@ -1,3 +1,155 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCID10",
+      "title" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+      "description" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCategoriaDiagnostico",
+      "title" : "Categoria do Diagnóstico",
+      "description" : "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCondicaoMaternal",
+      "title" : "Condição Maternal",
+      "description" : "ValueSet utilizado para Indicar a condição maternal da pessoa vacinada.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRDose",
+      "title" : "Dose do Imunobiológico",
+      "description" : "ValueSet utilizado para definir o tipo da dose administrada no indivíduo.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BREstadoEvento",
+      "title" : "Estado do Evento",
+      "description" : "Identificação do estado de um evento.",
+      "systems" : ["http://hl7.org/fhir/event-status"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BREstadoResolucaoDiagnosticoProblema",
+      "title" : "Estado da Resolução de Diagnóstico ou Problema",
+      "description" : "Estado da resolução de um diagnóstico ou problema.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BREstrategiaVacinacao",
+      "title" : "Estratégia de Vacinação",
+      "description" : "Identifica a estratégia de vacinação adotada.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRFabricanteImunobiologico",
+      "title" : "Fabricante do Imunobiológico",
+      "description" : "Fabricante do imunobiológico administrado",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRGrupoAtendimento",
+      "title" : "Tipo de grupo de atendimento",
+      "description" : "Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRImunobiologico",
+      "title" : "Imunobiológico",
+      "description" : "Tipos de imunobiológicos disponíveis no Brasil.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRLocalAplicacao",
+      "title" : "Local de Aplicação",
+      "description" : "Localização anatômica para aplicação de um injetável.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRPais",
+      "title" : "País",
+      "description" : "Códigos para representação de países.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRRegistroOrigem",
+      "title" : "Registro de Origem",
+      "description" : "Códigos para representação da Origem do Registro de Imunobiológico.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem"
+      ]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRTipoDocumento",
+      "title" : "Tipo de Documento",
+      "description" : "Classifica o tipo de documento que está sendo trafegado.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"]
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRViaAdministracao",
+      "title" : "Via de Administração do Imunobiológico",
+      "description" : "Via de administração de um imunobiológico.",
+      "systems" : [
+        "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"
+      ]
+    }
+  ]
 }

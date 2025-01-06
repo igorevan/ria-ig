@@ -8,6 +8,8 @@ The Implementation Guide contains no examples for this profile
 
 The Implementation Guide contains no examples for this extension
 
+The Implementation Guide contains no explicitly linked examples for this profile
+
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 
 An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
@@ -15,3 +17,12 @@ An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analy
 An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 
 The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+
+# Errors related to the Patient, Practitioner and Organization Resources
+%StructureDefinition/BRIndividuo-1.0%
+%StructureDefinition/BRProfissional-1.0%
+%StructureDefinition/BREstabelecimentoSaude-1.0%
+%Practitioner/012345678912345%
+%StructureDefinition/BRIndividuoNaoIdentificado-1.0%

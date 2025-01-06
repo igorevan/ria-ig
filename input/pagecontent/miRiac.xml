@@ -1,0 +1,257 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+
+  <a name="objetivo"> </a>
+  <h3>Objetivo</h3>
+
+  <p>O documento clínico do <b>RIA-C</b> (Registro de Imunobiológico Administrado em Campanha), está relacionado ao
+    Registro, na base nacional de imunizações da RNDS, das doses de vacinas aplicadas em Campanha (COVID-19,
+    Monkeypox/Mpox e Influenza).
+  </p>
+
+  <a name="marcos"> </a>
+  <h3>Marcos Legais</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.in.gov.br/web/dou/-/portaria-conjunta-saes/svsa/seidigi-n-25-de-27-de-novembro-de-2023-527017519">PORTARIA
+        CONJUNTA SAES/SVSA/SEIDIGI Nº 25, DE 27 DE NOVEMBRO DE 2023</a>
+    </li>
+  </ul>
+
+  <a name="ria"> </a>
+  <h3>Modelo de Informação</h3>
+  <p>
+    O modelo de informação é uma representação conceitual e canônica, onde os elementos referentes a
+    um documento específico são modelados em seções e blocos de dados, com seus respectivos tipos
+    de dados a serem informados. Também são apresentadas as referências para o uso de recursos
+    terminológicos, da seguinte maneira:
+  </p>
+  <ul>
+    <li>
+      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+    </li>
+    <li>
+      <p><b>Coluna 2</b> - Cardinalidade: descreve o número de vezes que o elemento deve/pode
+        aparecer:</p>
+
+      <pre><code>
+          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez
+          [1..1] - O elemento é obrigatório e deve estar presente uma única vez
+          [0..N] - O elemento é opcional e pode ocorrer várias vezes
+          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes</code>
+        </pre>
+
+    </li>
+    <li>
+      <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada;
+    </li>
+    <li>
+      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+    </li>
+    <li>
+      <b>Coluna 5</b> - Conceitos/Observações (Regra de negócio): apresenta o conceito e/ou a regra
+      referente ao elemento;
+    </li>
+    <li>
+      <b>Coluna 6</b> - Recurso FHIR: relaciona os atributos do modelo informacional com os
+      atributos dos artefatos computacionais
+    </li>
+  </ul>
+
+  <a name="blocos"> </a>
+  <h3>Blocos do Modelo de Informação</h3>
+
+  <p>
+    Segue abaixo o modelo de informação para o Registro de Imunobiológico Administrado em Campanha (RIA-C):
+  </p>
+
+  <a name="identificacao"> </a>
+  <h4>Identificação do Indivíduo</h4>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de dados</th>
+        <th>Conceito</th>
+        <th>Definição de uso do elemento</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>1..1</td>
+        <td>Identificação do Paciente</td>
+        <td>Seção</td>
+        <td>Bloco de informações do cidadão imunizado.</td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Identificador Nacional do Indivíduo</td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação unívoca dos usuários das ações e serviços de saúde, mediante número único válido em todo o
+          território nacional.</td>
+        <td>Poderão ser utilizados para essa identificação o Cartão Nacional de Saúde (CNS) válido ou Cadastro de Pessoa
+          Física (CPF).</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Condição Maternal</td>
+        <td>Texto codificado</td>
+        <td>Identifica a condição maternal do indivíduo no ato da imunização.</td>
+        <td>Para registro da condição maternal, deverão ser utilizados os códigos disponibilizados no CodeSystem
+          “BRCondicaoMaternal” da RNDS.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a name="atendimento"> </a>
+  <h4>Informações do Contato Assistencial</h4>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de dados</th>
+        <th>Conceito</th>
+        <th>Definição de uso do elemento</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>1..1</td>
+        <td>Informações do Contato Assistencial</td>
+        <td>Seção</td>
+        <td>Bloco de informações do contato assistencial.</td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Estabelecimento de Saúde</td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação única do estabelecimento de saúde, por meio do Cadastro Nacional de Estabelecimentos de
+          Saúde
+          (CNES).</td>
+        <td>Código CNES do Estabelecimento de Saúde.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Identificador do profissional</td>
+        <td>Caracteres numéricos</td>
+        <td>Identifica o número do Cadastro Nacional de Saúde (CNS) do profissional de saúde que realizou o
+          atendimento
+          ou transcrição.</td>
+        <td>Deverá ser utilizado para a identificação, o Cartão Nacional de Saúde (CNS) do profissional.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a name="imunizacao"> </a>
+  <h4>Registro da Imunização</h4>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de dados</th>
+        <th>Conceito</th>
+        <th>Definição de uso do elemento</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>1..1</td>
+        <td>Registro da Imunização</td>
+        <td>Seção</td>
+        <td>Bloco de informações do registro de imunização.</td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Grupo de Atendimento</td>
+        <td>Texto codificado</td>
+        <td>Identifica a classificação do grupo de atendimento dos indivíduos para a vacinação.</td>
+        <td>Para registro do grupo de atendimento, deverão ser utilizados os códigos disponibilizados no CodeSystem
+          “BRGrupoAtendimento” da RNDS.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Data da administração do imunobiológico</td>
+        <td>Data</td>
+        <td>Data em que o imunobiológico foi administrado. O padrão da data deve seguir a ISO8601. <br />Regra
+          negocial: A data não pode ser maior que o dia vigente.</td>
+        <td>Data em que o imunobiológico foi administrado.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Data e hora do registro no sistema de origem</td>
+        <td>Data</td>
+        <td>Data e hora em que o registro da vacinação foi registrado no sistema de origem. O padrão da data deve
+          seguir
+          a ISO8601.</td>
+        <td>Data e hora em que o registro do imunobiológico administrado foi administrado no sistema de origem.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Imunobiológico</td>
+        <td>Texto codificado</td>
+        <td>Identifica o nome do imunobiológico administrado no indivíduo.</td>
+        <td>Para registro do imunobiológico administrado, deverão ser utilizados os códigos disponibilizados no
+          CodeSystem “BRImunobiologico” da RNDS.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Fabricante</td>
+        <td>Texto codificado</td>
+        <td>Identifica o laboratório fabricante do imunobiológico administrado no individuo</td>
+        <td>Para registro do fabricante, deverão ser utilizados os códigos disponibilizados no CodeSystem
+          “BRFabricantePNI” da RNDS.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Lote</td>
+        <td>Texto Livre</td>
+        <td>Identifica o lote do imunobiológico de acordo com o fabricante.</td>
+        <td>O lote é fundamental para identificação de características do imunobiológico. É uma informação presente na
+          embalagem do produto ou, algumas vezes, na caderneta de vacinação.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>(1..1)</td>
+        <td>Dose</td>
+        <td>Texto codificado</td>
+        <td>Identifica o registro da dose da vacina administrada no indivíduo.</td>
+        <td>Para registro da dose da vacina administrada, deverão ser utilizados os códigos disponibilizados no
+          CodeSystem “BRDose” da RNDS.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

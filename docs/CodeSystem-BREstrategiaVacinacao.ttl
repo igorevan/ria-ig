@@ -1,0 +1,200 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BREstrategiaVacinacao"] ; # 
+  fhir:language [ fhir:v "pt-BR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem BREstrategiaVacinacao</b></p><a name=\"BREstrategiaVacinacao\"> </a><a name=\"hcBREstrategiaVacinacao\"> </a><a name=\"BREstrategiaVacinacao-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BREstrategiaVacinacao-1\"> </a></td><td>Rotina</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BREstrategiaVacinacao-2\"> </a></td><td>Especial</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BREstrategiaVacinacao-3\"> </a></td><td>Bloqueio</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BREstrategiaVacinacao-4\"> </a></td><td>Intensificação</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BREstrategiaVacinacao-5\"> </a></td><td>Campanha indiscriminada</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BREstrategiaVacinacao-6\"> </a></td><td>Campanha seletiva</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BREstrategiaVacinacao-7\"> </a></td><td>Soroterapia</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BREstrategiaVacinacao-8\"> </a></td><td>Serviço Privado</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BREstrategiaVacinacao-9\"> </a></td><td>Monitoramento rápido de cobertura vacinal</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BREstrategiaVacinacao-10\"> </a></td><td>Pesquisa</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BREstrategiaVacinacao-11\"> </a></td><td>Pré-exposição</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BREstrategiaVacinacao-12\"> </a></td><td>Pós-exposição</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BREstrategiaVacinacao-13\"> </a></td><td>Reexposição</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BREstrategiaVacinacao-14\"> </a></td><td>Vacinação Escolar</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>1</td><td>Routine immunization</td><td>Rutina</td></tr><tr><td>2</td><td>Special</td><td>Especial</td></tr><tr><td>3</td><td>Blocking vaccination</td><td>Vacunación de bloqueo</td></tr><tr><td>4</td><td>Intensification</td><td>Intensificación</td></tr><tr><td>5</td><td>Indiscriminate campaign</td><td>Campaña indiscriminada</td></tr><tr><td>6</td><td>Selective campaign</td><td>Campaña selectiva</td></tr><tr><td>7</td><td>Serum therapy</td><td>Sueroterapia</td></tr><tr><td>8</td><td>Private Sector</td><td>Servicio privado</td></tr><tr><td>9</td><td>Rapid monitoring of vaccination coverage</td><td>Seguimiento rápido de la cobertura de vacunación</td></tr><tr><td>10</td><td>Trials</td><td>Ensayos clínicos</td></tr><tr><td>11</td><td>Pre-exposure</td><td>Preexposición</td></tr><tr><td>12</td><td>Post-exposure</td><td>Post-exposición</td></tr><tr><td>13</td><td>Re-exposure</td><td>Reexposición</td></tr><tr><td>14</td><td></td><td></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:link <http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BREstrategiaVacinacao"] ; # 
+  fhir:title [ fhir:v "Estratégia de Vacinação"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-03-11T18:12:20.2627546+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Classifica a estratégia de vacinação adotada."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Rotina" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Routine immunization" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Rutina" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Especial" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Special" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Especial" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Bloqueio" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Blocking vaccination" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Vacunación de bloqueo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Intensificação" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Intensification" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Intensificación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Campanha indiscriminada" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Indiscriminate campaign" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Campaña indiscriminada" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Campanha seletiva" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Selective campaign" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Campaña selectiva" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Soroterapia" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Serum therapy" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Sueroterapia" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Serviço Privado" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Private Sector" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Servicio privado" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Monitoramento rápido de cobertura vacinal" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Rapid monitoring of vaccination coverage" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Seguimiento rápido de la cobertura de vacunación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Pesquisa" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Trials" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Ensayos clínicos" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Pré-exposição" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Pre-exposure" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Preexposición" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Pós-exposição" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Post-exposure" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Post-exposición" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Reexposição" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Re-exposure" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Reexposición" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Vacinação Escolar" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

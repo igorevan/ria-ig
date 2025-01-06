@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
+  "code" : "01"
+}, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRFinanciamento-1.0", "version": "0.1.0", "langs":"pt-BR", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Federal SUS",
+  "code" : "01",
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]",
+  "class" : "CODESYSTEM_UNSUPPORTED",
+  "server" : "http://tx.fhir.org/r4",
+  "unknown-systems" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento|*",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "http://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "not-found",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-found"
+      }],
+      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]"
+    },
+    "location" : ["Coding.system"],
+    "expression" : ["Coding.system"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
+      "version" : "*"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRFinanciamento-1.0", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento version *"
+}
+-------------------------------------------------------------------------------------

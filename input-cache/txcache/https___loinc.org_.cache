@@ -1,0 +1,295 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "https://loinc.org/",
+      "version" : "*",
+      "concept" : [{
+        "code" : "3138-5",
+        "display" : "Relatado"
+      },
+      {
+        "code" : "3137-7",
+        "display" : "Medido"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "https://loinc.org/",
+      "version" : "*",
+      "concept" : [{
+        "code" : "LA11868-9",
+        "display" : "Sentado"
+      },
+      {
+        "code" : "LA11869-7",
+        "display" : "Deitado"
+      },
+      {
+        "code" : "LA11870-5",
+        "display" : "De pé"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "https://loinc.org/",
+      "version" : "*",
+      "concept" : [{
+        "code" : "LA11871-3",
+        "display" : "Roupa íntima ou menos"
+      },
+      {
+        "code" : "LA11872-1",
+        "display" : "Roupas de rua, sem sapatos"
+      },
+      {
+        "code" : "LA11873-9",
+        "display" : "Roupas e sapatos de rua"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "https://loinc.org/",
+  "version" : "*",
+  "code" : "3138-5"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'https://loinc.org/' version '*' could not be found, so the code cannot be validated. Valid versions: []",
+  "class" : "CODESYSTEM_UNSUPPORTED",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "https://loinc.org/",
+  "version" : "*",
+  "code" : "LA11868-9"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'https://loinc.org/' version '*' could not be found, so the code cannot be validated. Valid versions: []",
+  "class" : "CODESYSTEM_UNSUPPORTED",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "https://loinc.org/",
+  "version" : "*",
+  "code" : "LA11871-3"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'https://loinc.org/' version '*' could not be found, so the code cannot be validated. Valid versions: []",
+  "class" : "CODESYSTEM_UNSUPPORTED",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://loinc.org/",
+      "version" : "*",
+      "concept" : [{
+        "code" : "3138-5",
+        "display" : "Relatado"
+      },
+      {
+        "code" : "3137-7",
+        "display" : "Medido"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BROrigemMedida", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://loinc.org/",
+      "version" : "*",
+      "concept" : [{
+        "code" : "LA11871-3",
+        "display" : "Roupa íntima ou menos"
+      },
+      {
+        "code" : "LA11872-1",
+        "display" : "Roupas de rua, sem sapatos"
+      },
+      {
+        "code" : "LA11873-9",
+        "display" : "Roupas e sapatos de rua"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "https://loinc.org/",
+      "version" : "*",
+      "concept" : [{
+        "code" : "8665-2",
+        "display" : "Data da Última Menstruação"
+      },
+      {
+        "code" : "56832-9",
+        "display" : "Exposição à Substâncias"
+      },
+      {
+        "code" : "11996-6",
+        "display" : "Quantidade de Gestações"
+      },
+      {
+        "code" : "63895-7",
+        "display" : "Tipo de Aleitamento Materno"
+      },
+      {
+        "code" : "29463-7",
+        "display" : "Peso Corporal"
+      },
+      {
+        "code" : "8480-6",
+        "display" : "Pressão Arterial Sistólica"
+      },
+      {
+        "code" : "8462-4",
+        "display" : "Pressão Arterial Diastólica"
+      },
+      {
+        "code" : "8280-0",
+        "display" : "Circuferência Abdominal"
+      },
+      {
+        "code" : "9843-4",
+        "display" : "Perímetro Cefálico"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Altura"
+      },
+      {
+        "code" : "11885-1",
+        "display" : "Idade Gestacional"
+      },
+      {
+        "code" : "11612-9",
+        "display" : "Quantidade de Abortos"
+      },
+      {
+        "code" : "48767-8",
+        "display" : "Anotação de Comentário para Narrativa [Interpretação]"
+      },
+      {
+        "code" : "18842-5",
+        "display" : "Resumo de Alta"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system https://loinc.org/ version *"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "https://loinc.org/",
+  "version" : "*",
+  "code" : "8665-2"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "A definition for CodeSystem 'https://loinc.org/' version '*' could not be found, so the code cannot be validated. Valid versions: []",
+  "class" : "CODESYSTEM_UNSUPPORTED",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

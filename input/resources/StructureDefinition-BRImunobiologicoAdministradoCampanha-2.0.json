@@ -24,11 +24,7 @@
         "path": "Immunization",
         "short": "Imunobiológico administrado em campanha",
         "definition": "Representa um imunobiológico administrado em campanha vacinal.",
-        "alias": [
-          "Campanha vacinal",
-          "Vacinação campanha",
-          "Imunizaçao"
-        ],
+        "alias": ["Campanha vacinal", "Vacinação campanha", "Imunizaçao"],
         "mustSupport": true
       },
       {
@@ -81,7 +77,7 @@
         "binding": {
           "strength": "required",
           "description": "Estado do evento",
-          "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"
+          "valueSet": "http://hl7.org/fhir/ValueSet/immunization-status"
         }
       },
       {

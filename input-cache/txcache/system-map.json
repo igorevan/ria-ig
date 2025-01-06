@@ -1,0 +1,849 @@
+{
+  "systems" : [
+    {
+      "system" : "http://hl7.org/fhir/administrative-gender",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/administrative-gender|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/allergy-intolerance-category",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/allergy-intolerance-category|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/allergy-intolerance-criticality|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/appointmentstatus",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/appointmentstatus|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/care-plan-activity-status",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/care-plan-activity-status|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/composition-status",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/composition-status|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/encounter-status",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/encounter-status|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/event-status",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/event-status|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/fhir-types",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://hl7.org/fhir/observation-status",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/observation-status|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/participationstatus",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/participationstatus|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/request-intent",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/request-intent|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/request-priority",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/request-priority|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/request-status",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/request-status|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://loinc.org",
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4", "https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://loinc.org|*",
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4", "https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/diagnosis-role|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0203|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0487|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|*",
+      "authoritative" : ["http://tx.fhir.org/r4"],
+      "candidates" : ["https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4", "https://tx.ontoserver.csiro.au/fhir"]
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAbrangencia|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRAlergenosCBARA|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBHPMTUSS|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCIAP2|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10|20080101",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRClassificacaoLista|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRComponenteAssistenciaFarmaceutica|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDadoAusenteOuDesconhecido|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDivisaoGeograficaBrasil|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstadoMedicamentoLista|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREtniaIndigena",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFrequenciaUsoSubstancia|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAfericao|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAtendimento|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeFinanceira|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeCampanhaVacinacao|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameGAL|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNomeExameLOINC|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmAMPP|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmVMP|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BROrgaoExpedidor|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPapelProblemaDiagnostico|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRParentesco|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPosicaoIndividuo|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProgramaSaude|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRacaCor",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResultadoQualitativoExame|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRServicoEspecializado|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRSituacaoCondicaoIndividuo|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRStatusAgendamentoRegulacaoAssistencial|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRStatusRegulacaoAssistencial",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRStatusRegulacaoAssistencial|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRSubgrupoTabelaSUS|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRSubgrupoTabelaSUS|1.1.0",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTerminologiaPatogeno|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAleitamentoMaterno|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoAmostraGAL|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoCampanha|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoLogradouro|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoParticipante",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoParticipante|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoAVIDEZ|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoDTNT|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoHISPT|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoPRAU|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoPSNG|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRGNR|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRSBAC|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRSCUL|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoSubstanciaUso|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeFarmaceutica|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/COVID19VaccineProphylaxis|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/DiseaseAgentTargeted|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/VaccineMedicinalProduct|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "https://loinc.org/",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "https://loinc.org/|*",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "https://www.hl7.org/fhir/valueset-ucum-common.html",
+      "authoritative" : [],
+      "candidates" : []
+    },
+    {
+      "system" : "urn:ietf:bcp:47",
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
+    },
+    {
+      "system" : "urn:iso:std:iso:3166:-2",
+      "authoritative" : [],
+      "candidates" : ["http://tx.fhir.org/r4"]
+    }
+  ]
+}

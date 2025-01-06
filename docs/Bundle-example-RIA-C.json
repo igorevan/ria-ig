@@ -1,0 +1,114 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "example-RIA-C",
+  "meta" : {
+    "lastUpdated" : "2024-04-01T14:59:51.283-03:00"
+  },
+  "identifier" : {
+    "system" : "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1",
+    "value" : "012345678"
+  },
+  "type" : "document",
+  "timestamp" : "2024-04-01T14:59:51.283-03:00",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:transient-0",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "transient-0",
+      "meta" : {
+        "profile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_transient-0\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition transient-0</b></p><a name=\"transient-0\"> </a><a name=\"hctransient-0\"> </a><a name=\"transient-0-und\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RIA}\">Registro de Imunobiológico Administrado</span></p><p><b>date</b>: 2024-04-01 08:18:30-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/0123456</p><p><b>title</b>: Registro de Imunobiologico Administrado na Campanha</p></div>"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+          "code" : "RIA"
+        }]
+      },
+      "subject" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+          "value" : "01234567890"
+        }
+      },
+      "date" : "2024-04-01T08:18:30-03:00",
+      "author" : [{
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0",
+          "value" : "0123456"
+        }
+      }],
+      "title" : "Registro de Imunobiologico Administrado na Campanha",
+      "section" : [{
+        "entry" : [{
+          "reference" : "urn:uuid:transient-1"
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:transient-1",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "transient-1",
+      "meta" : {
+        "profile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0"]
+      },
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_transient-1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization transient-1</b></p><a name=\"transient-1\"> </a><a name=\"hctransient-1\"> </a><a name=\"transient-1-und\"> </a><p><b>Grupo de Atendimento</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000703}\">Povos indígenas vivendo em terras indígenas</span></p><p><b>Condição Maternal</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal 1}\">Não se aplica</span></p><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 88}\">XM9QW8 COVID-19 vaccine, non-replicating viral vector</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/01234567890</p><p><b>occurrence</b>: 2024-04-01</p><p><b>manufacturer</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>/30587</p><p><b>lotNumber</b>: 220262</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Practitioner/012345678912345\">Practitioner/012345678912345</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+            "code" : "000703"
+          }]
+        }
+      },
+      {
+        "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+            "code" : "1"
+          }]
+        }
+      }],
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+          "code" : "88"
+        }]
+      },
+      "patient" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+          "value" : "01234567890"
+        }
+      },
+      "occurrenceDateTime" : "2024-04-01",
+      "manufacturer" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+          "value" : "30587"
+        }
+      },
+      "lotNumber" : "220262",
+      "performer" : [{
+        "actor" : {
+          "reference" : "Practitioner/012345678912345"
+        }
+      }],
+      "protocolApplied" : [{
+        "doseNumberString" : "1"
+      }]
+    }
+  }]
+}

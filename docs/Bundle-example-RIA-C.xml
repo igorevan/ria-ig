@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="example-RIA-C"/>
+  <meta>
+    <lastUpdated value="2024-04-01T14:59:51.283-03:00"/>
+  </meta>
+  <identifier>
+    <system value="http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1"/>
+    <value value="012345678"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2024-04-01T14:59:51.283-03:00"/>
+  <entry>
+    <fullUrl value="urn:uuid:transient-0"/>
+    <resource>
+      <Composition>
+        <id value="transient-0"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Composition_transient-0"> </a><p class="res-header-id"><b>Generated Narrative: Composition transient-0</b></p><a name="transient-0"> </a><a name="hctransient-0"> </a><a name="transient-0-und"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RIA}">Registro de Imunobiológico Administrado</span></p><p><b>date</b>: 2024-04-01 08:18:30-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/0123456</p><p><b>title</b>: Registro de Imunobiologico Administrado na Campanha</p></div>
+        </text>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"/>
+            <code value="RIA"/>
+          </coding>
+        </type>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="01234567890"/>
+          </identifier>
+        </subject>
+        <date value="2024-04-01T08:18:30-03:00"/>
+        <author>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"/>
+            <value value="0123456"/>
+          </identifier>
+        </author>
+        <title value="Registro de Imunobiologico Administrado na Campanha"/>
+        <section>
+          <entry>
+            <reference value="urn:uuid:transient-1"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:transient-1"/>
+    <resource>
+      <Immunization>
+        <id value="transient-1"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Immunization_transient-1"> </a><p class="res-header-id"><b>Generated Narrative: Immunization transient-1</b></p><a name="transient-1"> </a><a name="hctransient-1"> </a><a name="transient-1-und"> </a><p><b>Grupo de Atendimento</b>: <span title="Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000703}">Povos indígenas vivendo em terras indígenas</span></p><p><b>Condição Maternal</b>: <span title="Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal 1}">Não se aplica</span></p><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 88}">XM9QW8 COVID-19 vaccine, non-replicating viral vector</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/01234567890</p><p><b>occurrence</b>: 2024-04-01</p><p><b>manufacturer</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>/30587</p><p><b>lotNumber</b>: 220262</p><h3>Performers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><a href="Practitioner/012345678912345">Practitioner/012345678912345</a></td></tr></table><h3>ProtocolApplieds</h3><table class="grid"><tr><td style="display: none">-</td><td><b>DoseNumber[x]</b></td></tr><tr><td style="display: none">*</td><td>1</td></tr></table></div>
+        </text>
+        <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"/>
+              <code value="000703"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"/>
+              <code value="1"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="completed"/>
+        <vaccineCode>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"/>
+            <code value="88"/>
+          </coding>
+        </vaccineCode>
+        <patient>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="01234567890"/>
+          </identifier>
+        </patient>
+        <occurrenceDateTime value="2024-04-01"/>
+        <manufacturer>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
+            <value value="30587"/>
+          </identifier>
+        </manufacturer>
+        <lotNumber value="220262"/>
+        <performer>
+          <actor>
+            <reference value="Practitioner/012345678912345"/>
+          </actor>
+        </performer>
+        <protocolApplied>
+          <doseNumberString value="1"/>
+        </protocolApplied>
+      </Immunization>
+    </resource>
+  </entry>
+</Bundle>

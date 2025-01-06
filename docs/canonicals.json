@@ -1,5 +1,96 @@
 [
   {
+    "id" : "BRCID10",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+    "version" : "0.1.0",
+    "name" : "BRCID10"
+  },
+  {
+    "id" : "BRCategoriaDiagnostico",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRCategoriaDiagnostico"
+  },
+  {
+    "id" : "BRCondicaoMaternal",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+    "version" : "0.1.0",
+    "name" : "BRCondicaoMaternal"
+  },
+  {
+    "id" : "BRDose",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose",
+    "version" : "0.1.0",
+    "name" : "BRDose"
+  },
+  {
+    "id" : "BREstrategiaVacinacao",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+    "version" : "0.1.0",
+    "name" : "BREstrategiaVacinacao"
+  },
+  {
+    "id" : "BRFabricantePNI",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+    "version" : "0.1.0",
+    "name" : "BRFabricantePNI"
+  },
+  {
+    "id" : "BRGrupoAtendimento",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+    "version" : "0.1.0",
+    "name" : "BRGrupoAtendimento"
+  },
+  {
+    "id" : "BRImunobiologico",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+    "version" : "0.1.0",
+    "name" : "BRImunobiologico"
+  },
+  {
+    "id" : "BRLocalAplicacao",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao",
+    "version" : "0.1.0",
+    "name" : "BRLocalAplicacao"
+  },
+  {
+    "id" : "BRPais",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+    "version" : "0.1.0",
+    "name" : "BRPais"
+  },
+  {
+    "id" : "BRRegistroOrigem",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+    "version" : "0.1.0",
+    "name" : "BRRegistroOrigem"
+  },
+  {
+    "id" : "BRTipoDocumento",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+    "version" : "0.1.0",
+    "name" : "BRTipoDocumento"
+  },
+  {
+    "id" : "BRViaAdministracao",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+    "version" : "0.1.0",
+    "name" : "BRViaAdministracao"
+  },
+  {
     "id" : "br.gov.saude.ria.fhir",
     "type" : "ImplementationGuide",
     "url" : "http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir",
@@ -75,5 +166,110 @@
     "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0",
     "version" : "0.1.0",
     "name" : "BRRegistroImunobiologicoAdministradoRotina"
+  },
+  {
+    "id" : "BRCID10-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCID10"
+  },
+  {
+    "id" : "BRCategoriaDiagnostico",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
+    "version" : "0.1.0",
+    "name" : "BRCategoriaDiagnostico"
+  },
+  {
+    "id" : "BRCondicaoMaternal-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0",
+    "version" : "0.1.0",
+    "name" : "BRCondicaoMaternal"
+  },
+  {
+    "id" : "BRDose-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0",
+    "version" : "0.1.0",
+    "name" : "BRDose"
+  },
+  {
+    "id" : "BREstadoEvento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoEvento"
+  },
+  {
+    "id" : "BREstadoResolucaoDiagnosticoProblema-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstadoResolucaoDiagnosticoProblema"
+  },
+  {
+    "id" : "BREstrategiaVacinacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BREstrategiaVacinacao"
+  },
+  {
+    "id" : "BRFabricanteImunobiologico-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0",
+    "version" : "0.1.0",
+    "name" : "BRFabricanteImunobiologico"
+  },
+  {
+    "id" : "BRGrupoAtendimento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRGrupoAtendimento"
+  },
+  {
+    "id" : "BRImunobiologico-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0",
+    "version" : "0.1.0",
+    "name" : "BRImunobiologico"
+  },
+  {
+    "id" : "BRLocalAplicacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BRLocalAplicacao"
+  },
+  {
+    "id" : "BRPais-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
+    "version" : "0.1.0",
+    "name" : "BRPais"
+  },
+  {
+    "id" : "BRRegistroOrigem",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem",
+    "version" : "0.1.0",
+    "name" : "BRRegistroOrigem"
+  },
+  {
+    "id" : "BRTipoDocumento-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
+    "version" : "0.1.0",
+    "name" : "BRTipoDocumento"
+  },
+  {
+    "id" : "BRViaAdministracao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+    "version" : "0.1.0",
+    "name" : "BRViaAdministracao"
   }
 ]

@@ -20,7 +20,7 @@
   "title" : "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-16T16:46:31-03:00",
+  "date" : "2025-01-06T16:48:30-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "telecom" : [{
@@ -638,6 +638,173 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/example-RIA-C"
+      },
+      "name" : "Bundle de exemplo do RIA-C",
+      "description" : "Bundle de exemplo do Registro de Imunobiológico Administrado em Campanha (RIA-C)",
+      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/example-RIA-R"
+      },
+      "name" : "Bundle de exemplo do RIA-R",
+      "description" : "Bundle de exemplo do Registro de Imunobiológico Administrado em Rotina (RIA-R)",
+      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRCID10"
+      },
+      "name" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+      "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRCategoriaDiagnostico"
+      },
+      "name" : "Categoria do Diagnóstico",
+      "description" : "Códigos para representação do tipo de categoria do diagnóstico realizado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRCondicaoMaternal"
+      },
+      "name" : "Condição Maternal",
+      "description" : "Indicação da condição maternal da pessoa vacinada."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRDose"
+      },
+      "name" : "Dose de Vacina",
+      "description" : "Define a dose da administração de uma substância."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BREstrategiaVacinacao"
+      },
+      "name" : "Estratégia de Vacinação",
+      "description" : "Classifica a estratégia de vacinação adotada."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRFabricantePNI"
+      },
+      "name" : "Fabricante do Imunobiológico",
+      "description" : "Apresenta o fabricante do imunobiológico."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRGrupoAtendimento"
+      },
+      "name" : "Grupo de Atendimento",
+      "description" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRImunobiologico"
+      },
+      "name" : "Imunobiológico",
+      "description" : "Classifica os tipos de imunobiológicos."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRLocalAplicacao"
+      },
+      "name" : "Local de Aplicação",
+      "description" : "Define a localização anatômica de aplicação de uma substância"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRPais"
+      },
+      "name" : "País",
+      "description" : "Códigos para representação de países."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRRegistroOrigem"
+      },
+      "name" : "Registro de Origem",
+      "description" : "Códigos para representação da Origem do Registro de Imunobiológico."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRTipoDocumento"
+      },
+      "name" : "Tipo de Documento",
+      "description" : "Classificação dos tipos de documentos compartilhados no Brasil."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRViaAdministracao"
+      },
+      "name" : "Via de Administração",
+      "description" : "Classifica a via na qual foi administrada uma substância em um indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -744,6 +911,171 @@
       },
       "name" : "Registro de Imunobiológico Administrado na Rotina",
       "description" : "Documento que aprepresenta o registro da administração de imunobiológicos na rotina de imunização (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023)."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRCID10-1.0"
+      },
+      "name" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+      "description" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRCategoriaDiagnostico"
+      },
+      "name" : "Categoria do Diagnóstico",
+      "description" : "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRCondicaoMaternal-1.0"
+      },
+      "name" : "Condição Maternal",
+      "description" : "ValueSet utilizado para Indicar a condição maternal da pessoa vacinada."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRDose-1.0"
+      },
+      "name" : "Dose do Imunobiológico",
+      "description" : "ValueSet utilizado para definir o tipo da dose administrada no indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstadoEvento-1.0"
+      },
+      "name" : "Estado do Evento",
+      "description" : "Identificação do estado de um evento."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"
+      },
+      "name" : "Estado da Resolução de Diagnóstico ou Problema",
+      "description" : "Estado da resolução de um diagnóstico ou problema."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstrategiaVacinacao-1.0"
+      },
+      "name" : "Estratégia de Vacinação",
+      "description" : "Identifica a estratégia de vacinação adotada."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRFabricanteImunobiologico-1.0"
+      },
+      "name" : "Fabricante do Imunobiológico",
+      "description" : "Fabricante do imunobiológico administrado"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRGrupoAtendimento-1.0"
+      },
+      "name" : "Tipo de grupo de atendimento",
+      "description" : "Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRImunobiologico-1.0"
+      },
+      "name" : "Imunobiológico",
+      "description" : "Tipos de imunobiológicos disponíveis no Brasil."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRLocalAplicacao-1.0"
+      },
+      "name" : "Local de Aplicação",
+      "description" : "Localização anatômica para aplicação de um injetável."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRPais-1.0"
+      },
+      "name" : "País",
+      "description" : "Códigos para representação de países."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRRegistroOrigem"
+      },
+      "name" : "Registro de Origem",
+      "description" : "Códigos para representação da Origem do Registro de Imunobiológico."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRTipoDocumento-1.0"
+      },
+      "name" : "Tipo de Documento",
+      "description" : "Classifica o tipo de documento que está sendo trafegado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRViaAdministracao-1.0"
+      },
+      "name" : "Via de Administração do Imunobiológico",
+      "description" : "Via de administração de um imunobiológico."
     }],
     "page" : {
       "extension" : [{
@@ -816,10 +1148,10 @@
         },
         {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "mc.html"
+          "valueUrl" : "mcRiac.html"
         }],
-        "nameUrl" : "mc.html",
-        "title" : "O RIA",
+        "nameUrl" : "mcRiac.html",
+        "title" : "Modelo Computacional",
         "generation" : "html"
       },
       {
@@ -829,9 +1161,35 @@
         },
         {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "mi.html"
+          "valueUrl" : "mcRiar.html"
         }],
-        "nameUrl" : "mi.html",
+        "nameUrl" : "mcRiar.html",
+        "title" : "Modelo Computacional",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "miRiac.html"
+        }],
+        "nameUrl" : "miRiac.html",
+        "title" : "Modelo de Informação",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "miRiar.html"
+        }],
+        "nameUrl" : "miRiar.html",
         "title" : "Modelo de Informação",
         "generation" : "html"
       },

@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Dose de Vacina - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"12.29"}
+    h3,h4,h5,h6{--heading-prefix:"12.29"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - STU1
+
+
+
+  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Principal</a>
+  </li>
+  <li>
+    <a href="credenciamento.html">Credenciamento</a>
+  </li>
+  <li>
+    <a href="seguranca.html">Segurança</a>
+  </li>
+  <li>
+    <a href="integracao.html">Integração</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> RIA-C <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="miRiac.html">Modelo de Informação</a>
+        <a href="mcRiac.html">Modelo Computacional</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> RIA-R <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="miRiar.html">Modelo de Informação</a>
+        <a href="mcRiar.html">Modelo Computacional</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Especificação <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artefatos</a>
+        <a href="exemplos.html">Exemplos</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle"> Ajuda <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="toc.html">Índice</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> FHIR Spec <img
+            src="external.png"
+            style="text-align: baseline" />
+        </a>
+      </li>
+      <li>
+        <a href="changes.html">Histórico de mudanças</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Índice</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Dose de Vacina</b></li>
+
+          <span style="float:right;">
+
+            <a href="CodeSystem-BRCondicaoMaternal.ttl.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="CodeSystem-BRDose-testing.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://www.saude.gov.br/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-BRDose.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-BRDose.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-BRDose.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: Dose de Vacina
+
+  </h2>
+
+  <table class="colstu">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="3">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Informative</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 1
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">BRDose</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Define a dose da administração de uma substância.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-BRDose-1.0.html">BRDose</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p class="res-header-id"><b>Generated Narrative: CodeSystem BRDose</b></p><a name="BRDose"> </a><a name="hcBRDose"> </a><a name="BRDose-und"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: pt-BR</p></div><p>This case-sensitive code system <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">1<a name="BRDose-1"> </a></td>
+<td>1ª Dose</td></tr>
+<tr><td style="white-space:nowrap">2<a name="BRDose-2"> </a></td>
+<td>2ª Dose</td></tr>
+<tr><td style="white-space:nowrap">3<a name="BRDose-3"> </a></td>
+<td>3ª Dose</td></tr>
+<tr><td style="white-space:nowrap">4<a name="BRDose-4"> </a></td>
+<td>4ª Dose</td></tr>
+<tr><td style="white-space:nowrap">5<a name="BRDose-5"> </a></td>
+<td>5ª Dose</td></tr>
+<tr><td style="white-space:nowrap">6<a name="BRDose-6"> </a></td>
+<td>1º Reforço</td></tr>
+<tr><td style="white-space:nowrap">7<a name="BRDose-7"> </a></td>
+<td>2º Reforço</td></tr>
+<tr><td style="white-space:nowrap">8<a name="BRDose-8"> </a></td>
+<td>Dose</td></tr>
+<tr><td style="white-space:nowrap">9<a name="BRDose-9"> </a></td>
+<td>Única</td></tr>
+<tr><td style="white-space:nowrap">10<a name="BRDose-10"> </a></td>
+<td>Revacinação</td></tr>
+<tr><td style="white-space:nowrap">11<a name="BRDose-11"> </a></td>
+<td>Tratamento com uma dose</td></tr>
+<tr><td style="white-space:nowrap">12<a name="BRDose-12"> </a></td>
+<td>Tratamento com duas doses</td></tr>
+<tr><td style="white-space:nowrap">13<a name="BRDose-13"> </a></td>
+<td>Tratamento com três doses</td></tr>
+<tr><td style="white-space:nowrap">14<a name="BRDose-14"> </a></td>
+<td>Tratamento com quatro doses</td></tr>
+<tr><td style="white-space:nowrap">15<a name="BRDose-15"> </a></td>
+<td>Tratamento com cinco doses</td></tr>
+<tr><td style="white-space:nowrap">16<a name="BRDose-16"> </a></td>
+<td>Tratamento com seis doses</td></tr>
+<tr><td style="white-space:nowrap">17<a name="BRDose-17"> </a></td>
+<td>Tratamento com sete doses</td></tr>
+<tr><td style="white-space:nowrap">18<a name="BRDose-18"> </a></td>
+<td>Tratamento com oito doses</td></tr>
+<tr><td style="white-space:nowrap">19<a name="BRDose-19"> </a></td>
+<td>Tratamento com nove doses</td></tr>
+<tr><td style="white-space:nowrap">20<a name="BRDose-20"> </a></td>
+<td>Tratamento com dez doses</td></tr>
+<tr><td style="white-space:nowrap">21<a name="BRDose-21"> </a></td>
+<td>Tratamento com onze doses</td></tr>
+<tr><td style="white-space:nowrap">22<a name="BRDose-22"> </a></td>
+<td>Tratamento com doze doses</td></tr>
+<tr><td style="white-space:nowrap">23<a name="BRDose-23"> </a></td>
+<td>Tratamento com treze doses</td></tr>
+<tr><td style="white-space:nowrap">24<a name="BRDose-24"> </a></td>
+<td>Tratamento com quartorze doses</td></tr>
+<tr><td style="white-space:nowrap">25<a name="BRDose-25"> </a></td>
+<td>Tratamento com quinze doses</td></tr>
+<tr><td style="white-space:nowrap">26<a name="BRDose-26"> </a></td>
+<td>Tratamento com dezesseis doses</td></tr>
+<tr><td style="white-space:nowrap">27<a name="BRDose-27"> </a></td>
+<td>Tratamento com dezessete doses</td></tr>
+<tr><td style="white-space:nowrap">28<a name="BRDose-28"> </a></td>
+<td>Tratamento com dezoito doses</td></tr>
+<tr><td style="white-space:nowrap">29<a name="BRDose-29"> </a></td>
+<td>Tratamento com dezenove doses</td></tr>
+<tr><td style="white-space:nowrap">30<a name="BRDose-30"> </a></td>
+<td>Tratamento com vinte doses</td></tr>
+<tr><td style="white-space:nowrap">31<a name="BRDose-31"> </a></td>
+<td>Tratamento com vinte e quatro doses</td></tr>
+<tr><td style="white-space:nowrap">32<a name="BRDose-32"> </a></td>
+<td>1ª Dose Revacinação</td></tr>
+<tr><td style="white-space:nowrap">33<a name="BRDose-33"> </a></td>
+<td>2ª Dose Revacinação</td></tr>
+<tr><td style="white-space:nowrap">34<a name="BRDose-34"> </a></td>
+<td>3ª Dose Revacinação</td></tr>
+<tr><td style="white-space:nowrap">35<a name="BRDose-35"> </a></td>
+<td>4ª Dose Revacinação</td></tr>
+<tr><td style="white-space:nowrap">36<a name="BRDose-36"> </a></td>
+<td>Dose Inicial</td></tr>
+<tr><td style="white-space:nowrap">37<a name="BRDose-37"> </a></td>
+<td>Dose Adicional</td></tr>
+<tr><td style="white-space:nowrap">38<a name="BRDose-38"> </a></td>
+<td>Reforço</td></tr>
+<tr><td style="white-space:nowrap">39<a name="BRDose-39"> </a></td>
+<td>3º Reforço</td></tr>
+<tr><td style="white-space:nowrap">40<a name="BRDose-40"> </a></td>
+<td>4º Reforço</td></tr>
+<tr><td style="white-space:nowrap">41<a name="BRDose-41"> </a></td>
+<td>5º Reforço</td></tr>
+<tr><td style="white-space:nowrap">42<a name="BRDose-42"> </a></td>
+<td>6º Reforço</td></tr>
+<tr><td style="white-space:nowrap">43<a name="BRDose-43"> </a></td>
+<td>5ª Dose Revacinação</td></tr>
+<tr><td style="white-space:nowrap">44<a name="BRDose-44"> </a></td>
+<td>1ª Dose Fracionada</td></tr>
+<tr><td style="white-space:nowrap">45<a name="BRDose-45"> </a></td>
+<td>2ª Dose Fracionada</td></tr>
+<tr><td style="white-space:nowrap">46<a name="BRDose-46"> </a></td>
+<td>3ª Dose Fracionada</td></tr>
+<tr><td style="white-space:nowrap">47<a name="BRDose-47"> </a></td>
+<td>4ª Dose Fracionada</td></tr>
+<tr><td style="white-space:nowrap">48<a name="BRDose-48"> </a></td>
+<td>5ª Dose Fracionada</td></tr>
+<tr><td style="white-space:nowrap">49<a name="BRDose-49"> </a></td>
+<td>1ª Dose Dobrada</td></tr>
+<tr><td style="white-space:nowrap">50<a name="BRDose-50"> </a></td>
+<td>2ª Dose Dobrada</td></tr>
+<tr><td style="white-space:nowrap">51<a name="BRDose-51"> </a></td>
+<td>3ª Dose Dobrada</td></tr>
+<tr><td style="white-space:nowrap">52<a name="BRDose-52"> </a></td>
+<td>4ª Dose Dobrada</td></tr>
+<tr><td style="white-space:nowrap">53<a name="BRDose-53"> </a></td>
+<td>1ª Dose Revacinação Dobrada</td></tr>
+<tr><td style="white-space:nowrap">54<a name="BRDose-54"> </a></td>
+<td>2ª Dose Revacinação Dobrada</td></tr>
+<tr><td style="white-space:nowrap">55<a name="BRDose-55"> </a></td>
+<td>3ª Dose Revacinação Dobrada</td></tr>
+<tr><td style="white-space:nowrap">56<a name="BRDose-56"> </a></td>
+<td>4ª Dose Revacinação Dobrada</td></tr>
+<tr><td style="white-space:nowrap">57<a name="BRDose-57"> </a></td>
+<td>Dose Zero</td></tr>
+<tr><td style="white-space:nowrap">58<a name="BRDose-58"> </a></td>
+<td>Reforço Zero</td></tr>
+<tr><td style="white-space:nowrap">59<a name="BRDose-59"> </a></td>
+<td>Profilaxia com 1 frasco-ampola/ampola</td></tr>
+<tr><td style="white-space:nowrap">60<a name="BRDose-60"> </a></td>
+<td>Profilaxia com 2 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">61<a name="BRDose-61"> </a></td>
+<td>Profilaxia com 3 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">62<a name="BRDose-62"> </a></td>
+<td>Profilaxia com 4 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">63<a name="BRDose-63"> </a></td>
+<td>Profilaxia com 5 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">64<a name="BRDose-64"> </a></td>
+<td>Profilaxia com 6 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">65<a name="BRDose-65"> </a></td>
+<td>Profilaxia com 7 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">66<a name="BRDose-66"> </a></td>
+<td>Profilaxia com 8 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">67<a name="BRDose-67"> </a></td>
+<td>Profilaxia com 9 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">68<a name="BRDose-68"> </a></td>
+<td>Profilaxia com 10 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">69<a name="BRDose-69"> </a></td>
+<td>Profilaxia com 11 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">70<a name="BRDose-70"> </a></td>
+<td>Profilaxia com 12 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">71<a name="BRDose-71"> </a></td>
+<td>Profilaxia com 13 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">72<a name="BRDose-72"> </a></td>
+<td>Profilaxia com 14 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">73<a name="BRDose-73"> </a></td>
+<td>Profilaxia com 15 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">74<a name="BRDose-74"> </a></td>
+<td>Profilaxia com 16 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">75<a name="BRDose-75"> </a></td>
+<td>Profilaxia com 17 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">76<a name="BRDose-76"> </a></td>
+<td>Profilaxia com 18 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">77<a name="BRDose-77"> </a></td>
+<td>Profilaxia com 19 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">78<a name="BRDose-78"> </a></td>
+<td>Profilaxia com 20 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">79<a name="BRDose-79"> </a></td>
+<td>Profilaxia com 21 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">80<a name="BRDose-80"> </a></td>
+<td>Profilaxia com 22 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">81<a name="BRDose-81"> </a></td>
+<td>Profilaxia com 23 frascos-ampolas/ampolas</td></tr>
+<tr><td style="white-space:nowrap">82<a name="BRDose-82"> </a></td>
+<td>Profilaxia com 24 frascos-ampolas/ampolas</td></tr></table><p><b>Additional Language Displays</b></p>
+<table class="codes"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr>
+<tr><td>1</td>
+<td>First dose</td>
+<td>Primera dosis</td></tr>
+<tr><td>2</td>
+<td>Second dose</td>
+<td>Segunda dosis</td></tr>
+<tr><td>3</td>
+<td>Third dose</td>
+<td>Tercera dosis</td></tr>
+<tr><td>4</td>
+<td>Fourth dose</td>
+<td>Cuarta dosis</td></tr>
+<tr><td>5</td>
+<td>Fifth dose</td>
+<td>Quinta dosis</td></tr>
+<tr><td>6</td>
+<td>First booster dose</td>
+<td>Primer refuerzo</td></tr>
+<tr><td>7</td>
+<td>Second booster dose</td>
+<td>Segundo refuerzo</td></tr>
+<tr><td>8</td>
+<td>Dose</td>
+<td>Dosis</td></tr>
+<tr><td>9</td>
+<td>Single dose</td>
+<td>Dosis única</td></tr>
+<tr><td>10</td>
+<td>Revaccination</td>
+<td>Revacunación</td></tr>
+<tr><td>11</td>
+<td>1 dose treatment</td>
+<td>Tratamiento de 1 dosis</td></tr>
+<tr><td>12</td>
+<td>2 dose treatment</td>
+<td>Tratamiento de 2 dosis</td></tr>
+<tr><td>13</td>
+<td>3 dose treatment</td>
+<td>Tratamiento de 3 dosis</td></tr>
+<tr><td>14</td>
+<td>4 dose treatment</td>
+<td>Tratamiento de 4 dosis</td></tr>
+<tr><td>15</td>
+<td>5 dose treatment</td>
+<td>Tratamiento de 5 dosis</td></tr>
+<tr><td>16</td>
+<td>6 dose treatment</td>
+<td>Tratamiento de 6 dosis</td></tr>
+<tr><td>17</td>
+<td>7 dose treatment</td>
+<td>Tratamiento de 7 dosis</td></tr>
+<tr><td>18</td>
+<td>8 dose treatment</td>
+<td>Tratamiento de 8 dosis</td></tr>
+<tr><td>19</td>
+<td>9 dose treatment</td>
+<td>Tratamiento de 9 dosis</td></tr>
+<tr><td>20</td>
+<td>10 dose treatment</td>
+<td>Tratamiento de 10 dosis</td></tr>
+<tr><td>21</td>
+<td>11 dose treatment</td>
+<td>Tratamiento de 11 dosis</td></tr>
+<tr><td>22</td>
+<td>12 dose treatment</td>
+<td>Tratamiento de 12 dosis</td></tr>
+<tr><td>23</td>
+<td>13 dose treatment</td>
+<td>Tratamiento de 13 dosis</td></tr>
+<tr><td>24</td>
+<td>14 dose treatment</td>
+<td>Tratamiento de 14 dosis</td></tr>
+<tr><td>25</td>
+<td>15 dose treatment</td>
+<td>Tratamiento de 15 dosis</td></tr>
+<tr><td>26</td>
+<td>16 dose treatment</td>
+<td>Tratamiento de 16 dosis</td></tr>
+<tr><td>27</td>
+<td>17 dose treatment</td>
+<td>Tratamiento de 17 dosis</td></tr>
+<tr><td>28</td>
+<td>18 dose treatment</td>
+<td>Tratamiento de 18 dosis</td></tr>
+<tr><td>29</td>
+<td>19 dose treatment</td>
+<td>Tratamiento de 19 dosis</td></tr>
+<tr><td>30</td>
+<td>20 dose treatment</td>
+<td>Tratamiento de 20 dosis</td></tr>
+<tr><td>31</td>
+<td>24 dose treatment</td>
+<td>Tratamiento de 24 dosis</td></tr>
+<tr><td>32</td>
+<td>First dose revaccinacion</td>
+<td>Primera dosis revacunación</td></tr>
+<tr><td>33</td>
+<td>Second dose revaccinacion</td>
+<td>Segunda dosis revacunación</td></tr>
+<tr><td>34</td>
+<td>Third dose revaccinacion</td>
+<td>Tecera dosis revacunación</td></tr>
+<tr><td>35</td>
+<td>Fourth dose revaccinacion</td>
+<td>Cuarta dosis revacunación</td></tr>
+<tr><td>36</td>
+<td>Initial dose</td>
+<td>Dosis inicial</td></tr>
+<tr><td>37</td>
+<td>Additional dose</td>
+<td>Dosis adicional</td></tr>
+<tr><td>38</td>
+<td>Booster</td>
+<td>Refuerzo</td></tr>
+<tr><td>39</td>
+<td>Third booster dose</td>
+<td>Tercer refuerzo</td></tr>
+<tr><td>40</td>
+<td>Fourth booster dose</td>
+<td>Cuarto refuerzo</td></tr>
+<tr><td>41</td>
+<td>Fifth booster dose</td>
+<td>Quinto refuerzo</td></tr>
+<tr><td>42</td>
+<td>Sixth booster dose</td>
+<td>Sexto refuerzo</td></tr>
+<tr><td>43</td>
+<td>Fifth dose revaccinacion</td>
+<td>Quinta dosis revacunación</td></tr>
+<tr><td>44</td>
+<td>First fractional dose</td>
+<td>Primera dosis fraccionada</td></tr>
+<tr><td>45</td>
+<td>Second fractional dose</td>
+<td>Secunda dosis fraccionada</td></tr>
+<tr><td>46</td>
+<td>Third fractional dose</td>
+<td>Tercera dosis fraccionada</td></tr>
+<tr><td>47</td>
+<td>Fourth fractional dose</td>
+<td>Cuarta dosis fraccionada</td></tr>
+<tr><td>48</td>
+<td>Fifth fractional dose</td>
+<td>Quinta dosis fraccionada</td></tr>
+<tr><td>49</td>
+<td>1st double dose</td>
+<td>1ra dosis doble</td></tr>
+<tr><td>50</td>
+<td>2nd double dose</td>
+<td>2da dosis doble</td></tr>
+<tr><td>51</td>
+<td>3rd double dose</td>
+<td>3ra dosis doble</td></tr>
+<tr><td>52</td>
+<td>4th double dose</td>
+<td>4ta dosis doble</td></tr>
+<tr><td>53</td>
+<td></td>
+<td></td></tr>
+<tr><td>54</td>
+<td></td>
+<td></td></tr>
+<tr><td>55</td>
+<td></td>
+<td></td></tr>
+<tr><td>56</td>
+<td></td>
+<td></td></tr>
+<tr><td>57</td>
+<td>Zero-dose</td>
+<td>Dosis cero</td></tr>
+<tr><td>58</td>
+<td></td>
+<td></td></tr>
+<tr><td>59</td>
+<td>Prophylaxis with 1 vial/ampoule</td>
+<td>Profilaxis con 1 vial/ampolla</td></tr>
+<tr><td>60</td>
+<td>Prophylaxis with 2 vials/ampoules</td>
+<td>Profilaxis con 2 viales/ampollas</td></tr>
+<tr><td>61</td>
+<td>Prophylaxis with 3 vials/ampoules</td>
+<td>Profilaxis con 3 viales/ampollas</td></tr>
+<tr><td>62</td>
+<td>Prophylaxis with 4 vials/ampoules</td>
+<td>Profilaxis con 4 viales/ampollas</td></tr>
+<tr><td>63</td>
+<td>Prophylaxis with 5 vials/ampoules</td>
+<td>Profilaxis con 5 viales/ampollas</td></tr>
+<tr><td>64</td>
+<td>Prophylaxis with 6 vials/ampoules</td>
+<td>Profilaxis con 6 viales/ampollas</td></tr>
+<tr><td>65</td>
+<td>Prophylaxis with 7 vials/ampoules</td>
+<td>Profilaxis con 7 viales/ampollas</td></tr>
+<tr><td>66</td>
+<td>Prophylaxis with 8 vials/ampoules</td>
+<td>Profilaxis con 8 viales/ampollas</td></tr>
+<tr><td>67</td>
+<td>Prophylaxis with 9 vials/ampoules</td>
+<td>Profilaxis con 9 viales/ampollas</td></tr>
+<tr><td>68</td>
+<td>Prophylaxis with 10 vials/ampoules</td>
+<td>Profilaxis con 10 viales/ampollas</td></tr>
+<tr><td>69</td>
+<td>Prophylaxis with 11 vials/ampoules</td>
+<td>Profilaxis con 11 viales/ampollas</td></tr>
+<tr><td>70</td>
+<td>Prophylaxis with 12 vials/ampoules</td>
+<td>Profilaxis con 12 viales/ampollas</td></tr>
+<tr><td>71</td>
+<td>Prophylaxis with 13 vials/ampoules</td>
+<td>Profilaxis con 13 viales/ampollas</td></tr>
+<tr><td>72</td>
+<td>Prophylaxis with 14 vials/ampoules</td>
+<td>Profilaxis con 14 viales/ampollas</td></tr>
+<tr><td>73</td>
+<td>Prophylaxis with 15 vials/ampoules</td>
+<td>Profilaxis con 15 viales/ampollas</td></tr>
+<tr><td>74</td>
+<td>Prophylaxis with 16 vials/ampoules</td>
+<td>Profilaxis con 16 viales/ampollas</td></tr>
+<tr><td>75</td>
+<td>Prophylaxis with 17 vials/ampoules</td>
+<td>Profilaxis con 17 viales/ampollas</td></tr>
+<tr><td>76</td>
+<td>Prophylaxis with 18 vials/ampoules</td>
+<td>Profilaxis con 18 viales/ampollas</td></tr>
+<tr><td>77</td>
+<td>Prophylaxis with 19 vials/ampoules</td>
+<td>Profilaxis con 19 viales/ampollas</td></tr>
+<tr><td>78</td>
+<td>Prophylaxis with 20 vials/ampoules</td>
+<td>Profilaxis con 20 viales/ampollas</td></tr>
+<tr><td>79</td>
+<td>Prophylaxis with 21 vials/ampoules</td>
+<td>Profilaxis con 21 viales/ampollas</td></tr>
+<tr><td>80</td>
+<td>Prophylaxis with 22 vials/ampoules</td>
+<td>Profilaxis con 22 viales/ampollas</td></tr>
+<tr><td>81</td>
+<td>Prophylaxis with 23 vials/ampoules</td>
+<td>Profilaxis con 23 viales/ampollas</td></tr>
+<tr><td>82</td>
+<td>Prophylaxis with 24 vials/ampoules</td>
+<td>Profilaxis con 24 viales/ampollas</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&#xA0;
+
+                <a href="CodeSystem-BRCondicaoMaternal.ttl.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&#xA0;
+
+                <a href="CodeSystem-BRDose-testing.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 6, 2025 16:48-0300">2025-01-06</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
