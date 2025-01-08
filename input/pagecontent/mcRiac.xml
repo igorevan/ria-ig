@@ -16,9 +16,9 @@
 
   <a name="bundleria"> </a>
   <h3>Bundles de Envios dos RIAs</h3>
-  <p> Os diagramas abaixo apresentam os pacotes <i>Bundle</i> no qual são depositados os Registros
-    de Imunobiológico Administrado completos (RIA-C e RIA-R), referenciando todos os dados clínicos
-    relevantes para caracterizar uma imunização. </p>
+  <p> O diagrama abaixo apresenta o pacote <i>Bundle</i> no qual é condensado o Registro de
+    Imunobiológico Administrado em Campanha (RIA-C), referenciando todos os dados relevantes para
+    caracterizar uma imunização. </p>
   <p>
     <center>
       <b>Figura 1 - Diagrama do <i>Bundle</i> do RIA-C</b>
@@ -31,24 +31,11 @@
 
     </div>
   </center>
-  <p>
-    <center>
-      <b>Figura 2 - Diagrama do <i>Bundle</i> do RIA-R</b>
-    </center>
-  </p>
-  <center>
-    <div>
-
-      <img height="400" src="riarMC.png" alt="Diagrama do Bundle do RIA-R" />
-
-    </div>
-  </center>
 
   <a name="recursos"> </a>
   <h3>Recursos FHIR</h3>
-  <p> Os modelos computacionais do RIA são definidos pelos perfis Registro Imunobiológico
-    Administrado na Campanha (RIA-C) [<code>Composition</code>] e Registro Imunobiológico Administrado na
-    Rotina (RIA-R) [<code>Composition</code>].</p>
+  <p> O modelo computacional do RIA é definido pelo perfil Registro Imunobiológico
+    Administrado na Campanha (RIA-C) [<code>Composition</code>].</p>
 
   <p>Extensões utilizadas:</p>
 

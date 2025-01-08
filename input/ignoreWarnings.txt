@@ -26,3 +26,4 @@ An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xh
 %StructureDefinition/BREstabelecimentoSaude-1.0%
 %Practitioner/012345678912345%
 %StructureDefinition/BRIndividuoNaoIdentificado-1.0%
+%http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0%
