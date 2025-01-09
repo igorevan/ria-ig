@@ -206,10 +206,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <a name="objetivo">  </a>
   <h3>Objetivo</h3>
 
-  <p>O documento clínico do <b>RIA-C</b> (Registro de Imunobiológico Administrado em Campanha), está relacionado ao
-    Registro, na base nacional de imunizações da RNDS, das doses de vacinas aplicadas em Campanha (COVID-19,
-    Monkeypox/Mpox e Influenza).
-  </p>
+  <p>O documento clínico do <b>RIA-C</b> (Registro de Imunobiológico Administrado em Campanha), está
+    relacionado ao registro, na base nacional de imunizações da RNDS, das doses de vacinas aplicadas
+    em Campanha (<i>COVID-19, Monkeypox/Mpox e Influenza</i>). </p>
 
   <a name="marcos">  </a>
   <h3>Marcos Legais</h3>
@@ -233,7 +232,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
     </li>
     <li>
-      <p><b>Coluna 2</b> - Cardinalidade: descreve o número de vezes que o elemento deve/pode
+      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento deve/pode
         aparecer:</p>
 
       <pre><code>
@@ -245,18 +244,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
     </li>
     <li>
-      <b>Coluna 3</b> - Seção/item: nome do bloco ou da informação a ser enviada;
+      <b>Coluna 3</b> - Seção/Item: nome do bloco ou da informação a ser enviada;
     </li>
     <li>
       <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
     </li>
     <li>
-      <b>Coluna 5</b> - Conceitos/Observações (Regra de negócio): apresenta o conceito e/ou a regra
-      referente ao elemento;
+      <b>Coluna 5</b> - Conceito: apresenta as definições do elemento;
     </li>
     <li>
-      <b>Coluna 6</b> - Recurso FHIR: relaciona os atributos do modelo informacional com os
-      atributos dos artefatos computacionais
+      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas ao elemento;
+    </li>
+    <li>
+      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>) a ser utilizado
+      para preenchimento do elemento;
+    </li>
+    <li>
+      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do Modelo Computacional
+      em FHIR.
     </li>
   </ul>
 
@@ -264,7 +269,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <h3>Blocos do Modelo de Informação</h3>
 
   <p>
-    Segue abaixo o modelo de informação para o Registro de Imunobiológico Administrado em Campanha (RIA-C):
+    Segue abaixo o modelo de informação para o Registro de Imunobiológico Administrado em Campanha
+    (RIA-C):
   </p>
 
   <a name="identificacao">  </a>
@@ -276,9 +282,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <th>Nível</th>
         <th>Ocorrência</th>
         <th>Seção/Item</th>
-        <th>Tipo de dados</th>
+        <th>Tipo de dado</th>
         <th>Conceito</th>
         <th>Definição de uso do elemento</th>
+        <th>Conteúdo (ValueSet/CodeSystem)</th>
+        <th>Recurso FHIR</th>
       </tr>
     </thead>
     <thead>
@@ -289,6 +297,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Seção</td>
         <td>Bloco de informações do cidadão imunizado.</td>
         <td/>
+        <td/>
+        <td/>
       </tr>
     </thead>
     <tbody>
@@ -297,10 +307,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>1..1</td>
         <td>Identificador Nacional do Indivíduo</td>
         <td>Caracteres numéricos</td>
-        <td>Identificação unívoca dos usuários das ações e serviços de saúde, mediante número único válido em todo o
+        <td>Identificação unívoca dos usuários das ações e serviços de saúde, mediante número único
+          válido em todo o
           território nacional.</td>
-        <td>Poderão ser utilizados para essa identificação o Cartão Nacional de Saúde (CNS) válido ou Cadastro de Pessoa
+        <td>Poderão ser utilizados para essa identificação o Cartão Nacional de Saúde (CNS) válido
+          ou Cadastro de Pessoa
           Física (CPF).</td>
+        <td/>
+        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro de
+            Imunobiológico Administrado em Campanha</a> <i>(Composition)</i> e <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>2</td>
@@ -308,8 +324,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Condição Maternal</td>
         <td>Texto codificado</td>
         <td>Identifica a condição maternal do indivíduo no ato da imunização.</td>
-        <td>Para registro da condição maternal, deverão ser utilizados os códigos disponibilizados no CodeSystem
+        <td>Para registro da condição maternal, deverão ser utilizados os códigos disponibilizados
+          no CodeSystem
           “BRCondicaoMaternal” da RNDS.</td>
+        <td><a href="ValueSet-BRCondicaoMaternal-1.0.html">Condição Maternal</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
     </tbody>
   </table>
@@ -323,9 +343,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <th>Nível</th>
         <th>Ocorrência</th>
         <th>Seção/Item</th>
-        <th>Tipo de dados</th>
+        <th>Tipo de dado</th>
         <th>Conceito</th>
         <th>Definição de uso do elemento</th>
+        <th>Conteúdo (ValueSet/CodeSystem)</th>
+        <th>Recurso FHIR</th>
       </tr>
     </thead>
     <thead>
@@ -336,6 +358,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Seção</td>
         <td>Bloco de informações do contato assistencial.</td>
         <td/>
+        <td/>
+        <td/>
       </tr>
     </thead>
     <tbody>
@@ -344,20 +368,29 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>1..1</td>
         <td>Estabelecimento de Saúde</td>
         <td>Caracteres numéricos</td>
-        <td>Identificação única do estabelecimento de saúde, por meio do Cadastro Nacional de Estabelecimentos de
+        <td>Identificação única do estabelecimento de saúde, por meio do Cadastro Nacional de
+          Estabelecimentos de
           Saúde
           (CNES).</td>
         <td>Código CNES do Estabelecimento de Saúde.</td>
+        <td/>
+        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro de
+            Imunobiológico Administrado em Campanha</a> <i>(Composition)</i></td>
       </tr>
       <tr>
         <td>2</td>
         <td>1..1</td>
         <td>Identificador do profissional</td>
         <td>Caracteres numéricos</td>
-        <td>Identifica o número do Cadastro Nacional de Saúde (CNS) do profissional de saúde que realizou o
+        <td>Identifica o número do Cadastro Nacional de Saúde (CNS) do profissional de saúde que
+          realizou o
           atendimento
           ou transcrição.</td>
-        <td>Deverá ser utilizado para a identificação, o Cartão Nacional de Saúde (CNS) do profissional.</td>
+        <td>Deverá ser utilizado para a identificação, o Cartão Nacional de Saúde (CNS) do
+          profissional.</td>
+        <td/>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
     </tbody>
   </table>
@@ -371,9 +404,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <th>Nível</th>
         <th>Ocorrência</th>
         <th>Seção/Item</th>
-        <th>Tipo de dados</th>
+        <th>Tipo de dado</th>
         <th>Conceito</th>
         <th>Definição de uso do elemento</th>
+        <th>Conteúdo (ValueSet/CodeSystem)</th>
+        <th>Recurso FHIR</th>
       </tr>
     </thead>
     <thead>
@@ -384,6 +419,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Seção</td>
         <td>Bloco de informações do registro de imunização.</td>
         <td/>
+        <td/>
+        <td/>
       </tr>
     </thead>
     <tbody>
@@ -393,8 +430,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Grupo de Atendimento</td>
         <td>Texto codificado</td>
         <td>Identifica a classificação do grupo de atendimento dos indivíduos para a vacinação.</td>
-        <td>Para registro do grupo de atendimento, deverão ser utilizados os códigos disponibilizados no CodeSystem
+        <td>Para registro do grupo de atendimento, deverão ser utilizados os códigos
+          disponibilizados no CodeSystem
           “BRGrupoAtendimento” da RNDS.</td>
+        <td><a href="ValueSet-BRGrupoAtendimento-1.0.html">Grupo de Atendimento</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>2</td>
@@ -404,16 +445,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Data em que o imunobiológico foi administrado. O padrão da data deve seguir a ISO8601. <br/>Regra
           negocial: A data não pode ser maior que o dia vigente.</td>
         <td>Data em que o imunobiológico foi administrado.</td>
+        <td/>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>2</td>
         <td>1..1</td>
         <td>Data e hora do registro no sistema de origem</td>
         <td>Data</td>
-        <td>Data e hora em que o registro da vacinação foi registrado no sistema de origem. O padrão da data deve
+        <td>Data e hora em que o registro da vacinação foi registrado no sistema de origem. O padrão
+          da data deve
           seguir
           a ISO8601.</td>
-        <td>Data e hora em que o registro do imunobiológico administrado foi administrado no sistema de origem.</td>
+        <td>Data e hora em que o registro do imunobiológico administrado foi administrado no sistema
+          de origem.</td>
+        <td/>
+        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro de
+            Imunobiológico Administrado em Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>2</td>
@@ -421,8 +470,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Imunobiológico</td>
         <td>Texto codificado</td>
         <td>Identifica o nome do imunobiológico administrado no indivíduo.</td>
-        <td>Para registro do imunobiológico administrado, deverão ser utilizados os códigos disponibilizados no
+        <td>Para registro do imunobiológico administrado, deverão ser utilizados os códigos
+          disponibilizados no
           CodeSystem “BRImunobiologico” da RNDS.</td>
+        <td><a href="ValueSet-BRImunobiologico-1.0.html">Imunobiológico</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>2</td>
@@ -430,8 +483,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Fabricante</td>
         <td>Texto codificado</td>
         <td>Identifica o laboratório fabricante do imunobiológico administrado no individuo</td>
-        <td>Para registro do fabricante, deverão ser utilizados os códigos disponibilizados no CodeSystem
+        <td>Para registro do fabricante, deverão ser utilizados os códigos disponibilizados no
+          CodeSystem
           “BRFabricantePNI” da RNDS.</td>
+        <td><a href="ValueSet-BRFabricanteImunobiologico-1.0.html">Fabricante do Imunobiológico</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>2</td>
@@ -439,8 +496,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Lote</td>
         <td>Texto Livre</td>
         <td>Identifica o lote do imunobiológico de acordo com o fabricante.</td>
-        <td>O lote é fundamental para identificação de características do imunobiológico. É uma informação presente na
+        <td>O lote é fundamental para identificação de características do imunobiológico. É uma
+          informação presente na
           embalagem do produto ou, algumas vezes, na caderneta de vacinação.</td>
+        <td/>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>2</td>
@@ -448,8 +509,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>Dose</td>
         <td>Texto codificado</td>
         <td>Identifica o registro da dose da vacina administrada no indivíduo.</td>
-        <td>Para registro da dose da vacina administrada, deverão ser utilizados os códigos disponibilizados no
+        <td>Para registro da dose da vacina administrada, deverão ser utilizados os códigos
+          disponibilizados no
           CodeSystem “BRDose” da RNDS.</td>
+        <td><a href="ValueSet-BRDose-1.0.html">Dose do Imunobiológico</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            Campanha</a> <i>(Immunization)</i></td>
       </tr>
     </tbody>
   </table>
@@ -493,7 +558,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 6, 2025 16:48-0300">2025-01-06</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 9, 2025 16:32-0300">2025-01-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

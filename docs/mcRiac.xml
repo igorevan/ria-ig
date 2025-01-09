@@ -14,11 +14,11 @@
     para a publicação e distribuição dos perfis relacionados aos documentos computacionais em
     produção na rede.</p>
 
-  <a name="bundleria"> </a>
-  <h3>Bundles de Envios dos RIAs</h3>
-  <p> Os diagramas abaixo apresentam os pacotes <i>Bundle</i> no qual são depositados os Registros
-    de Imunobiológico Administrado completos (RIA-C e RIA-R), referenciando todos os dados clínicos
-    relevantes para caracterizar uma imunização. </p>
+  <a name="bundle-riac"> </a>
+  <h3>Bundle de Envio do RIA-C</h3>
+  <p> O diagrama abaixo apresenta o pacote <i>Bundle</i> no qual é condensado o Registro de
+    Imunobiológico Administrado em Campanha (RIA-C), referenciando todos os dados relevantes para
+    caracterizar uma imunização. </p>
   <p>
     <center>
       <b>Figura 1 - Diagrama do <i>Bundle</i> do RIA-C</b>
@@ -31,40 +31,148 @@
 
     </div>
   </center>
-  <p>
-    <center>
-      <b>Figura 2 - Diagrama do <i>Bundle</i> do RIA-R</b>
-    </center>
-  </p>
-  <center>
-    <div>
-
-      <img height="400" src="riarMC.png" alt="Diagrama do Bundle do RIA-R" />
-
-    </div>
-  </center>
 
   <a name="recursos"> </a>
   <h3>Recursos FHIR</h3>
-  <p> Os modelos computacionais do RIA são definidos pelos perfis Registro Imunobiológico
-    Administrado na Campanha (RIA-C) [<code>Composition</code>] e Registro Imunobiológico Administrado na
-    Rotina (RIA-R) [<code>Composition</code>].</p>
+  <p> O modelo computacional do RIA-C é definido pelo perfil Registro Imunobiológico Administrado em
+    Campanha (RIA-C) [<code>Composition</code>].</p>
+
+  <table class="grid">
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Profile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><i>Composition</i></td>
+        <td>
+          <code>
+              <a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">BRRegistroImunobiologicoAdministradoCampanha-2.0</a>
+            </code>
+        </td>
+      </tr>
+      <tr>
+        <td><i>Immunization</i></td>
+        <td>
+          <code>
+              <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">BRImunobiologicoAdministradoCampanha-2.0</a>
+            </code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <p>Extensões utilizadas:</p>
 
+  <table class="grid">
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Profile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><i>StructureDefinition</i></td>
+        <td>
+          <code>
+              <a href="StructureDefinition-BRGrupoAtendimento.html">Grupo de Atendimento</a>
+            </code>
+        </td>
+      </tr>
+      <tr>
+        <td><i>StructureDefinition</i></td>
+        <td>
+          <code>
+              <a href="StructureDefinition-BRCondicaoMaternal.html">Condição Maternal</a>
+            </code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
   <p>Perfis dos tipos <i>ValueSet</i> e <i>CodeSystem</i> estão associados a recursos
-    terminológicos. No contexto de imunizações e os domínios utilizados, foram criados <i>
-      CodeSystems</i> específicos definidos pelo <a
+    terminológicos. No contexto de imunizações e os domínios utilizados, foram criados <i>CodeSystems</i> específicos
+    definidos pelo <a
       href="https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd">Comitê
       Gestor de Saúde Digital (CGSD)</a>.</p>
-
 
   <p>Vale destacar que os perfis terminológicos podem passar por atualizações e versionamentos com
     periodicidade específica de cada domínio, por isso é importante acompanhar a disponibilização
     dessas atualizações no projeto <a href="https://simplifier.net/redenacionaldedadosemsaude">RNDS
       no Simplifier</a>. </p>
+
   <p>Note que na estrutura dos perfis há elementos com bindings para <i>ValueSets</i> que apontam
     para <i>CodeSystems</i>. Já no JSON (<code>Bundle</code>), o elemento “<i>system</i>” sempre
     indicará os <i>CodeSystems</i> relacionados aos códigos (“<i>value</i>”) indicados pelo
     integrador (autor do registro). </p>
+
+  <table class="grid">
+    <thead>
+      <tr>
+        <th>ValueSet</th>
+        <th>CodeSystem</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <code><a href="ValueSet-BRTipoDocumento-1.0.html">BRTipoDocumento-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="CodeSystem-BRTipoDocumento.html">BRTipoDocumento</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code><a href="ValueSet-BRGrupoAtendimento-1.0.html">BRGrupoAtendimento-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="CodeSystem-BRGrupoAtendimento.html">BRGrupoAtendimento</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code><a href="ValueSet-BRCondicaoMaternal-1.0.html">BRCondicaoMaternal-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="CodeSystem-BRCondicaoMaternal.html">BRCondicaoMaternal</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code><a href="ValueSet-BREstadoEvento-1.0.html">BREstadoEvento-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="http://hl7.org/fhir/event-status">event-status</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code><a href="ValueSet-BRImunobiologico-1.0.html">BRImunobiologico-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="CodeSystem-BRImunobiologico.html">BRImunobiologico</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code><a href="ValueSet-BRFabricanteImunobiologico-1.0.html">BRFabricanteImunobiologico-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="CodeSystem-BRFabricantePNI.html">BRFabricantePNI</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code><a href="ValueSet-BRDose-1.0.html">BRDose-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="CodeSystem-BRDose.html">BRDose</a></code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>

@@ -10,4 +10,4 @@ RIARNDSIG
 /home/igor/ria-ig/input/resources/ValueSet-BRCID10-1.0.xml: line 0, col 0, Info - The value set expansion is too large, and only a subset has been displayed (INFORMATIONAL)
 
 err = 4, warn = 0, info = 3
-IG Publisher Version: 1.8.6
+IG Publisher Version: 1.8.7
