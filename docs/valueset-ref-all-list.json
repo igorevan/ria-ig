@@ -157,10 +157,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
     },
     {
@@ -175,10 +175,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
     },
     {
@@ -366,10 +366,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
     },
     {
@@ -443,10 +443,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
       "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
     },
     {
