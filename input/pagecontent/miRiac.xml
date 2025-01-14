@@ -32,8 +32,8 @@
       <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
     </li>
     <li>
-      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento deve/pode
-        aparecer:</p>
+      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento
+        deve/pode aparecer:</p>
 
       <pre><code>
           [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez
@@ -53,15 +53,16 @@
       <b>Coluna 5</b> - Conceito: apresenta as definições do elemento;
     </li>
     <li>
-      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas ao elemento;
+      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas
+      ao elemento;
     </li>
     <li>
-      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>) a ser utilizado
-      para preenchimento do elemento;
+      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
+      a ser utilizado para preenchimento do elemento;
     </li>
     <li>
-      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do Modelo Computacional
-      em FHIR.
+      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do
+      Modelo Computacional em FHIR.
     </li>
   </ul>
 
@@ -114,9 +115,11 @@
           ou Cadastro de Pessoa
           Física (CPF).</td>
         <td></td>
-        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro de
+        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro
+            de
             Imunobiológico Administrado em Campanha</a> <i>(Composition)</i> e <a
-            href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
+            href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
             Campanha</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
@@ -128,9 +131,15 @@
         <td>Para registro da condição maternal, deverão ser utilizados os códigos disponibilizados
           no CodeSystem
           “BRCondicaoMaternal” da RNDS.</td>
-        <td><a href="ValueSet-BRCondicaoMaternal-1.0.html">Condição Maternal</a></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="ValueSet-BRCondicaoMaternal-1.0.html">Condição Maternal</a>
+        </td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -175,8 +184,12 @@
           (CNES).</td>
         <td>Código CNES do Estabelecimento de Saúde.</td>
         <td></td>
-        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro de
-            Imunobiológico Administrado em Campanha</a> <i>(Composition)</i></td>
+        <td>
+          <a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro
+            de
+            Imunobiológico Administrado em Campanha</a>
+          <i>(Composition)</i>
+        </td>
       </tr>
       <tr>
         <td>2</td>
@@ -190,8 +203,12 @@
         <td>Deverá ser utilizado para a identificação, o Cartão Nacional de Saúde (CNS) do
           profissional.</td>
         <td></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -234,9 +251,15 @@
         <td>Para registro do grupo de atendimento, deverão ser utilizados os códigos
           disponibilizados no CodeSystem
           “BRGrupoAtendimento” da RNDS.</td>
-        <td><a href="ValueSet-BRGrupoAtendimento-1.0.html">Grupo de Atendimento</a></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="ValueSet-BRGrupoAtendimento-1.0.html">Grupo de Atendimento</a>
+        </td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
       <tr>
         <td>2</td>
@@ -247,8 +270,12 @@
           negocial: A data não pode ser maior que o dia vigente.</td>
         <td>Data em que o imunobiológico foi administrado.</td>
         <td></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
       <tr>
         <td>2</td>
@@ -262,8 +289,12 @@
         <td>Data e hora em que o registro do imunobiológico administrado foi administrado no sistema
           de origem.</td>
         <td></td>
-        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro de
-            Imunobiológico Administrado em Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html">Registro
+            de
+            Imunobiológico Administrado em Campanha</a>
+          <i>(Composition)</i>
+        </td>
       </tr>
       <tr>
         <td>2</td>
@@ -274,9 +305,15 @@
         <td>Para registro do imunobiológico administrado, deverão ser utilizados os códigos
           disponibilizados no
           CodeSystem “BRImunobiologico” da RNDS.</td>
-        <td><a href="ValueSet-BRImunobiologico-1.0.html">Imunobiológico</a></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="ValueSet-BRImunobiologico-1.0.html">Imunobiológico</a>
+        </td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
       <tr>
         <td>2</td>
@@ -287,9 +324,15 @@
         <td>Para registro do fabricante, deverão ser utilizados os códigos disponibilizados no
           CodeSystem
           “BRFabricantePNI” da RNDS.</td>
-        <td><a href="ValueSet-BRFabricanteImunobiologico-1.0.html">Fabricante do Imunobiológico</a></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="ValueSet-BRFabricanteImunobiologico-1.0.html">Fabricante do Imunobiológico</a>
+        </td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
       <tr>
         <td>2</td>
@@ -301,8 +344,12 @@
           informação presente na
           embalagem do produto ou, algumas vezes, na caderneta de vacinação.</td>
         <td></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
       <tr>
         <td>2</td>
@@ -313,9 +360,15 @@
         <td>Para registro da dose da vacina administrada, deverão ser utilizados os códigos
           disponibilizados no
           CodeSystem “BRDose” da RNDS.</td>
-        <td><a href="ValueSet-BRDose-1.0.html">Dose do Imunobiológico</a></td>
-        <td><a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico Administrado em
-            Campanha</a> <i>(Immunization)</i></td>
+        <td>
+          <a href="ValueSet-BRDose-1.0.html">Dose do Imunobiológico</a>
+        </td>
+        <td>
+          <a href="StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html">Imunobiológico
+            Administrado em
+            Campanha</a>
+          <i>(Immunization)</i>
+        </td>
       </tr>
     </tbody>
   </table>
