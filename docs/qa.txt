@@ -3,7 +3,7 @@ RIARNDSIG : Validation Results
 
 err = 4, warn = 0, info = 3
 IG Publisher Version: 1.8.7
-Generated Tue Jan 14 15:34:11 BRT 2025. FHIR version 4.0.1 for br.gov.saude.ria.fhir#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+Generated Tue Jan 14 15:45:30 BRT 2025. FHIR version 4.0.1 for br.gov.saude.ria.fhir#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
  Build Errors : 0 / 0 / 0
  /home/igor/ria-ig/input/examples/example-RIA-C : 1 / 0 / 2
  /home/igor/ria-ig/input/examples/example-RIA-R : 1 / 0 / 2
