@@ -26,7 +26,7 @@
   fhir:title [ fhir:v "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-01-14T09:02:45-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-14T15:32:16-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

@@ -22,8 +22,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.110"],
       "uses" : {
       },
-      "ValueSet-BREstadoEvento-1.0.html" : "Estado do Evento",
-      "http://hl7.org/fhir/R4/valueset-immunization-status.html" : "Immunization Status Codes"
+      "http://hl7.org/fhir/R4/valueset-immunization-status.html" : "Immunization Status Codes",
+      "ValueSet-BREstadoEvento-1.0.html" : "Estado do Evento"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
