@@ -1,13 +1,13 @@
 RIARNDSIG
 =========================================
 
-/home/igor/ria-ig/input/examples/example-RIA-C.json: line 52, col 16, Error - Unable to find a match for profile urn:uuid:transient-1 among choices: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0 (STRUCTURE)
-/home/igor/ria-ig/input/examples/example-RIA-C.json: line 52, col 16, Info - Details for urn:uuid:transient-1 matching against profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0|0.1.0 (STRUCTURE)
-/home/igor/ria-ig/input/examples/example-RIA-R.json: line 52, col 16, Error - Unable to find a match for profile urn:uuid:transient-1 among choices: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0 (STRUCTURE)
-/home/igor/ria-ig/input/examples/example-RIA-R.json: line 52, col 16, Info - Details for urn:uuid:transient-1 matching against profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|0.1.0 (STRUCTURE)
+/home/igor/ria-ig/input/examples/example-RIA-C.json: line 52, col 16, Error - Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0 (STRUCTURE)
+/home/igor/ria-ig/input/examples/example-RIA-C.json: line 52, col 16, Info - Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0|0.1.0 (STRUCTURE)
+/home/igor/ria-ig/input/examples/example-RIA-R.json: line 52, col 16, Error - Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0 (STRUCTURE)
+/home/igor/ria-ig/input/examples/example-RIA-R.json: line 52, col 16, Info - Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|0.1.0 (STRUCTURE)
 /home/igor/ria-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0.xml: line 0, col 0, Error - Unable to find Extension 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0' referenced at http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0 differential Condition.subject.extension (unidentifiedPatient) (BUSINESSRULE)
 /home/igor/ria-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0.xml: line 0, col 0, Error - Unable to find Extension 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0' referenced at http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0 snapshot Condition.subject.extension (unidentifiedPatient) (BUSINESSRULE)
-/home/igor/ria-ig/input/resources/ValueSet-BRCID10-1.0.xml: line 0, col 0, Info - The value set expansion is too large, and only a subset has been displayed (INFORMATIONAL)
+/home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset (BUSINESSRULE)
 
-err = 4, warn = 0, info = 3
-IG Publisher Version: 1.8.7
+err = 5, warn = 0, info = 2
+IG Publisher Version: 2.0.6

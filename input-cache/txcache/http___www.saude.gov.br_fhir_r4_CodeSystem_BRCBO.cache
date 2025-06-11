@@ -1,126 +1,28 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
-  "code" : "223505"
-}, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0", "version": "0.1.0", "langs":"pt-BR", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "ENFERMEIRO",
-  "code" : "223505",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]",
-  "class" : "CODESYSTEM_UNSUPPORTED",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|*",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "http://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]"
-    },
-    "location" : ["Coding.system"],
-    "expression" : ["Coding.system"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
-  "code" : "223605"
+  "code" : "225103"
 }, "valueSet" :null, "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "displayLanguage",
+    "valueCode" : "pt-BR"
   }]
 }}####
 v: {
-  "display" : "FISIOTERAPEUTA GERAL",
-  "code" : "223605",
+  "display" : "MEDICO INFECTOLOGISTA",
+  "code" : "225103",
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
   "version" : "0.1.0",
-  "server" : "http://tx.fhir.org/r4",
+  "server" : "https://tx.fhir.org/r4",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
-  "code" : "223605"
-}, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0", "version": "0.1.0", "langs":"pt-BR", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "FISIOTERAPEUTA GERAL",
-  "code" : "223605",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]",
-  "class" : "CODESYSTEM_UNSUPPORTED",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|*",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "http://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]"
-    },
-    "location" : ["Coding.system"],
-    "expression" : ["Coding.system"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
-      "version" : "*"
-    }]
-  }
-}}####
-e: {
-  "from-server" : true,
-  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO version *"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO version *"
 }
 -------------------------------------------------------------------------------------

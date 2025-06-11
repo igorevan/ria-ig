@@ -1,13 +1,14 @@
 RIARNDSIG : Validation Results
 =========================================
 
-err = 4, warn = 0, info = 3
-IG Publisher Version: 1.8.7
-Generated Tue Jan 14 15:45:30 BRT 2025. FHIR version 4.0.1 for br.gov.saude.ria.fhir#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+err = 5, warn = 0, info = 2
+IG Publisher Version: 2.0.6
+Generated Wed Jun 11 14:26:05 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saude.ria.fhir#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
  Build Errors : 0 / 0 / 0
- /home/igor/ria-ig/input/examples/example-RIA-C : 1 / 0 / 2
- /home/igor/ria-ig/input/examples/example-RIA-R : 1 / 0 / 2
+ /home/igor/ria-ig/input/examples/example-RIA-C : 1 / 2 / 2
+ /home/igor/ria-ig/input/examples/example-RIA-R : 1 / 2 / 2
  /home/igor/ria-ig/input/myig : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRCBO : 0 / 0 / 3
  /home/igor/ria-ig/input/resources/CodeSystem-BRCID10 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRCategoriaDiagnostico : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRCondicaoMaternal : 0 / 0 / 1
@@ -21,16 +22,16 @@ Generated Tue Jan 14 15:45:30 BRT 2025. FHIR version 4.0.1 for br.gov.saude.ria.
  /home/igor/ria-ig/input/resources/CodeSystem-BRRegistroOrigem : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRTipoDocumento : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRViaAdministracao : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 2 / 6 / 2
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 2 / 10 / 3
  /home/igor/ria-ig/input/resources/StructureDefinition-BRCondicaoMaternal : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BRContatoHanseniase : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BREstrategiaVacinacao-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BRGrupoAtendimento : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0 : 0 / 6 / 2
- /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0 : 0 / 6 / 2
- /home/igor/ria-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0 : 0 / 6 / 1
- /home/igor/ria-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0 : 0 / 6 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0 : 1 / 10 / 2
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0 : 0 / 10 / 2
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0 : 0 / 10 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0 : 0 / 10 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRCID10-1.0 : 0 / 0 / 2
  /home/igor/ria-ig/input/resources/ValueSet-BRCategoriaDiagnostico : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRCondicaoMaternal-1.0 : 0 / 0 / 1
@@ -42,6 +43,7 @@ Generated Tue Jan 14 15:45:30 BRT 2025. FHIR version 4.0.1 for br.gov.saude.ria.
  /home/igor/ria-ig/input/resources/ValueSet-BRGrupoAtendimento-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRImunobiologico-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRLocalAplicacao-1.0 : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BROcupacao-1.0 : 0 / 0 / 2
  /home/igor/ria-ig/input/resources/ValueSet-BRPais-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRRegistroOrigem : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 0 / 1
@@ -49,12 +51,13 @@ Generated Tue Jan 14 15:45:30 BRT 2025. FHIR version 4.0.1 for br.gov.saude.ria.
 </table>
 == n/a ==
 == input/examples/example-RIA-C.json ==
-ERROR: Bundle/example-RIA-C: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile urn:uuid:transient-1 among choices: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0
-INFORMATION: Bundle/example-RIA-C: Bundle.entry[0].resource.section[0].entry[0]: Details for urn:uuid:transient-1 matching against profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0|0.1.0
+ERROR: Bundle/example-RIA-C: Bundle.entry[0].resource.section[0].entry[0]: Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0
+INFORMATION: Bundle/example-RIA-C: Bundle.entry[0].resource.section[0].entry[0]: Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0|0.1.0
 == input/examples/example-RIA-R.json ==
-ERROR: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile urn:uuid:transient-1 among choices: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0
-INFORMATION: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Details for urn:uuid:transient-1 matching against profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|0.1.0
+ERROR: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0
+INFORMATION: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|0.1.0
 == input/myig.xml ==
+== input/resources/CodeSystem-BRCBO.xml ==
 == input/resources/CodeSystem-BRCID10.xml ==
 == input/resources/CodeSystem-BRCategoriaDiagnostico.xml ==
 == input/resources/CodeSystem-BRCondicaoMaternal.xml ==
@@ -76,12 +79,12 @@ ERROR: BRCID10Avaliado-1.0: Unable to find Extension 'http://www.saude.gov.br/fh
 == input/resources/StructureDefinition-BREstrategiaVacinacao-1.0.xml ==
 == input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.xml ==
 == input/resources/StructureDefinition-BRGrupoAtendimento.xml ==
-== input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.json ==
+== input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml ==
+ERROR: Imunobiológico Administrado em Rotina.Immunization.status: Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset
 == input/resources/StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.json ==
 == input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.json ==
 == input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.json ==
 == input/resources/ValueSet-BRCID10-1.0.xml ==
-INFORMATION: ValueSet.where(id = 'BRCID10-1.0'): The value set expansion is too large, and only a subset has been displayed
 == input/resources/ValueSet-BRCategoriaDiagnostico.xml ==
 == input/resources/ValueSet-BRCondicaoMaternal-1.0.xml ==
 == input/resources/ValueSet-BRDose-1.0.xml ==
@@ -92,6 +95,7 @@ INFORMATION: ValueSet.where(id = 'BRCID10-1.0'): The value set expansion is too 
 == input/resources/ValueSet-BRGrupoAtendimento-1.0.xml ==
 == input/resources/ValueSet-BRImunobiologico-1.0.xml ==
 == input/resources/ValueSet-BRLocalAplicacao-1.0.xml ==
+== input/resources/ValueSet-BROcupacao-1.0.xml ==
 == input/resources/ValueSet-BRPais-1.0.xml ==
 == input/resources/ValueSet-BRRegistroOrigem.xml ==
 == input/resources/ValueSet-BRTipoDocumento-1.0.xml ==

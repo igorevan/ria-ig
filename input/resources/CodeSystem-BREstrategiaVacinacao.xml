@@ -12,6 +12,19 @@
   <description value="Classifica a estratégia de vacinação adotada." />
   <caseSensitive value="true" />
   <content value="complete" />
+  <property>
+    <code value="inactive" />
+    <uri value="http://hl7.org/fhir/concept-properties#inactive" />
+    <type value="boolean" />
+  </property>
+  <concept>
+    <code value="0" />
+    <display value="Sem registro no sistema de informação de origem" />
+    <property>
+      <code value="inactive" />
+      <valueBoolean value="true" />
+    </property>
+  </concept>
   <concept>
     <code value="1" />
     <display value="Rotina" />
@@ -110,15 +123,7 @@
   </concept>
   <concept>
     <code value="9" />
-    <display value="Monitoramento rápido de cobertura vacinal" />
-    <designation>
-      <language value="en" />
-      <value value="Rapid monitoring of vaccination coverage" />
-    </designation>
-    <designation>
-      <language value="es" />
-      <value value="Seguimiento rápido de la cobertura de vacunación" />
-    </designation>
+    <display value="Monitoramento das Estratégias de Vacinação" />
   </concept>
   <concept>
     <code value="10" />
@@ -171,5 +176,9 @@
   <concept>
     <code value="14" />
     <display value="Vacinação Escolar" />
+  </concept>
+  <concept>
+    <code value="15" />
+    <display value="Operação Gota" />
   </concept>
 </CodeSystem>

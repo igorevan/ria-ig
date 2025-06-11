@@ -199,12 +199,6 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:Immunization/f:performer</sch:title>
-    <sch:rule context="f:Immunization/f:performer">
-      <sch:assert test="count(f:function) &lt;= 0">function: maximum cardinality of 'function' is 0</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>f:Immunization/f:performer/f:function</sch:title>
     <sch:rule context="f:Immunization/f:performer/f:function">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>

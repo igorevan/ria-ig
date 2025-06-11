@@ -10,6 +10,7 @@ http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0,0.1.0,ac
 http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0,0.1.0,active,,BRGrupoAtendimento,Tipo de grupo de atendimento,"Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",,"Internal"
 http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0,0.1.0,active,,BRImunobiologico,Imunobiológico,"Tipos de imunobiológicos disponíveis no Brasil.",,"Internal"
 http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0,0.1.0,active,,BRLocalAplicacao,Local de Aplicação,"Localização anatômica para aplicação de um injetável.",,"Internal"
+http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0,0.1.0,active,,BROcupacao,Classificação Brasileira de Ocupações (CBO),"Classifica as profissões do mercado de trabalho brasileiro.",,"Internal"
 http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0,0.1.0,active,,BRPais,País,"Códigos para representação de países.",,"Internal"
 http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem,0.1.0,active,,BRRegistroOrigem,Registro de Origem,"Códigos para representação da Origem do Registro de Imunobiológico.",,"Internal"
 http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0,0.1.0,active,,BRTipoDocumento,Tipo de Documento,"Classifica o tipo de documento que está sendo trafegado.",,"Internal"

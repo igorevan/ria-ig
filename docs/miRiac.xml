@@ -266,8 +266,9 @@
         <td>1..1</td>
         <td>Data da administração do imunobiológico</td>
         <td>Data</td>
-        <td>Data em que o imunobiológico foi administrado. O padrão da data deve seguir a ISO8601. <br />Regra
-          negocial: A data não pode ser maior que o dia vigente.</td>
+        <td>Data em que o imunobiológico foi administrado. O padrão da data deve seguir a ISO8601. <br />
+          <p style="color: red;"><b>Regra negocial</b>: A data não pode ser maior que o dia vigente.</p>
+        </td>
         <td>Data em que o imunobiológico foi administrado.</td>
         <td></td>
         <td>

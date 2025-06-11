@@ -1,4 +1,5 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
+http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO,0.1.0,active,,BRCBO,Classificação Brasileira de Ocupações (CBO),"Classifica as profissões do mercado de trabalho brasileiro.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10,0.1.0,draft,,BRCID10,Classificação Internacional de Doenças - Décima Revisão (CID-10),"Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico,0.1.0,active,,BRCategoriaDiagnostico,Categoria do Diagnóstico,"Códigos para representação do tipo de categoria do diagnóstico realizado.",
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal,0.1.0,active,,BRCondicaoMaternal,Condição Maternal,"Indicação da condição maternal da pessoa vacinada.",

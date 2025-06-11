@@ -112,6 +112,15 @@
       ]
     },
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BROcupacao",
+      "title" : "Classificação Brasileira de Ocupações (CBO)",
+      "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"]
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
       "version" : "0.1.0",
       "status" : "active",

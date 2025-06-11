@@ -257,14 +257,19 @@
         <td>Especialidade do profissional prescritor</td>
         <td>Texto codificado</td>
         <td>Identifica a especialidade do profissional que prescreveu a administração do
-          imunobiológico por meio do Código Brasileiro de Ocupações (CBO)<br />Regra negocial:
-          Quando a estratégia de vacinação for "Especial", o campo deve ser obrigatório.</td>
+          imunobiológico por meio do Código Brasileiro de Ocupações (CBO)
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>:
+            Quando a estratégia de vacinação for "Especial", o campo deve ser obrigatório.</p>
+        </td>
         <td>Para registro da especialidade do profissional prescritor, deverão ser utilizados os
           códigos da
           Classificação Brasileira de Ocupações (CBO) disponibilizados no CodeSystem "BRCBO" da
-          RNDS.</td>
-        <td></td>
-        <td></td>
+          RNDS.
+        </td>
+        <td><a href="ValueSet-BROcupacao-1.0.html">Classificação Brasileira de Ocupações (CBO)</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>3</td>
@@ -272,8 +277,11 @@
         <td>Motivo de Indicação</td>
         <td>Texto codificado</td>
         <td>Identifica o código da Classificação Internacional de Doenças (CID) do motivo da
-          indicação para administração do imunobiológico.<br />Regra negocial: Quando a estratégia
-          de vacinação for "Especial", o campo deve ser obrigatório.</td>
+          indicação para administração do imunobiológico.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>: Quando a estratégia
+            de vacinação for "Especial", o campo deve ser obrigatório.</p>
+        </td>
         <td>Para registro do motivo da indicação para a administração do imunobiológico, deverão ser
           utilizados os
           códigos da Classificação Internacional de Doenças (CID) disponibilizados no CodeSystem
@@ -287,9 +295,12 @@
         <td>0..1</td>
         <td>Contato Hanseníase</td>
         <td>Booleano</td>
-        <td>Identifica indivíduos com contato próximo de pacientes que vivem com Hanseníase.<br />Regra
-          negocial: O campo deve ser obrigatório quando o imunobiológico for vacina Bacilo Calmette
-          - Guérim (BCG). Code 15</td>
+        <td>Identifica indivíduos com contato próximo de pacientes que vivem com Hanseníase.
+          <br />
+          <p style="color: red;"><b>Regra
+              negocial</b>: O campo deve ser obrigatório quando o imunobiológico for vacina Bacilo Calmette
+            - Guérim (BCG). Code 15</p>
+        </td>
         <td>Para registro do campo Contato Hanseníase, deverão ser utilizados as opções true ou
           false (Verdadeiro ou
           Falso).</td>
@@ -305,7 +316,8 @@
         <td>Dados do Estudo Clínico para o desenvolvimento do imunobiológico administrado</td>
         <td></td>
         <td></td>
-        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
       </tr>
       <tr>
         <td>4</td>
@@ -352,8 +364,10 @@
         <td>1..1</td>
         <td>Data da administração do imunobiológico</td>
         <td>Data</td>
-        <td>Data em que o imunobiológico foi administrado. O padrão da data deve seguir a ISO8601.<br />Regra
-          negocial: A data não pode ser maior que o dia vigente.</td>
+        <td>Data em que o imunobiológico foi administrado. O padrão da data deve seguir a ISO8601.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>: A data não pode ser maior que o dia vigente.</p>
+        </td>
         <td>Data em que o imunobiológico foi administrado.</td>
         <td></td>
         <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
@@ -388,8 +402,11 @@
         <td>1..1</td>
         <td>Fabricante</td>
         <td>Texto codificado</td>
-        <td>Identifica o laboratório fabricante do imunobiológico administrado no indivíduo.<br />Regra negocial: Para
-          registro de transcrição de caderneta de vacinação, este campo é opcional.</td>
+        <td>Identifica o laboratório fabricante do imunobiológico administrado no indivíduo.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>: Para
+            registro de transcrição de caderneta de vacinação, este campo é opcional.</p>
+        </td>
         <td>Para registro do fabricante, deverão ser utilizados os códigos disponibilizados no
           CodeSystem
           “BRFabricantePNI” da RNDS. </td>
@@ -402,8 +419,11 @@
         <td>1..1</td>
         <td>Lote</td>
         <td>Texto livre</td>
-        <td>Identifica o lote do imunobiológico de acordo com o fabricante.<br />Regra negocial:
-          Para registro de transcrição de caderneta de vacinação, este campo é opcional.</td>
+        <td>Identifica o lote do imunobiológico de acordo com o fabricante.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>:
+            Para registro de transcrição de caderneta de vacinação, este campo é opcional.</p>
+        </td>
         <td>O lote é fundamental para identificação de características do imunobiológico. É uma
           informação presente na
           embalagem do produto ou, algumas vezes, na caderneta de vacinação.</td>

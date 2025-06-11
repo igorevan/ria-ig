@@ -27,7 +27,6 @@
       "sources" : ["2.16.840.1.113883.4.642.3.295"],
       "uses" : {
       },
-      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
       "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha"
     },
     {
@@ -90,7 +89,10 @@
       "name" : "BREstadoEvento",
       "title" : "Estado do Evento",
       "description" : "Identificação do estado de um evento.",
-      "systems" : ["http://hl7.org/fhir/event-status"]
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -170,6 +172,18 @@
       "systems" : [
         "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"
       ],
+      "uses" : {
+      },
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BROcupacao",
+      "title" : "Classificação Brasileira de Ocupações (CBO)",
+      "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
       "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"

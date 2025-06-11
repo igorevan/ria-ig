@@ -1,6 +1,14 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BRCBO",
+      "title" : "Classificação Brasileira de Ocupações (CBO)",
+      "description" : "Classifica as profissões do mercado de trabalho brasileiro."
+    },
+    {
       "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
       "version" : "0.1.0",
       "status" : "draft",

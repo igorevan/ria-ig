@@ -157,11 +157,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
       "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -175,11 +175,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
       "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-function",
@@ -193,7 +193,6 @@
       "sources" : ["2.16.840.1.113883.4.642.3.995"],
       "uses" : {
       },
-      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
       "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha"
     },
     {
@@ -301,7 +300,6 @@
       "sources" : ["2.16.840.1.113883.4.642.3.295"],
       "uses" : {
       },
-      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
       "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha"
     },
     {
@@ -366,11 +364,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
       "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -443,11 +441,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
       "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
-      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha",
       "StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html" : "Registro de Imunobiológico Administrado na Campanha",
-      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
+      "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+      "StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html" : "Imunobiológico Administrado em Campanha"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
@@ -537,7 +535,10 @@
       "name" : "BREstadoEvento",
       "title" : "Estado do Evento",
       "description" : "Identificação do estado de um evento.",
-      "systems" : ["http://hl7.org/fhir/event-status"]
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "uses" : {
+      },
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
     },
     {
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
@@ -617,6 +618,18 @@
       "systems" : [
         "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"
       ],
+      "uses" : {
+      },
+      "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+    },
+    {
+      "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "BROcupacao",
+      "title" : "Classificação Brasileira de Ocupações (CBO)",
+      "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+      "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
       "uses" : {
       },
       "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"

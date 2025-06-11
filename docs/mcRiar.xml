@@ -152,6 +152,14 @@
       </tr>
       <tr>
         <td>
+          <code><a href="ValueSet-BROcupacao-1.0.html">BROcupacao-1.0</a></code>
+        </td>
+        <td>
+          <code><a href="CodeSystem-BRCBO.html">BRCBO</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <code><a href="ValueSet-BRGrupoAtendimento-1.0.html">BRGrupoAtendimento-1.0</a></code>
         </td>
         <td>

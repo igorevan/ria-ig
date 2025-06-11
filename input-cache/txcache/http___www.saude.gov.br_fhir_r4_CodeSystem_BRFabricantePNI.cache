@@ -11,6 +11,6 @@
 }}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI version *"
+  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI version *"
 }
 -------------------------------------------------------------------------------------

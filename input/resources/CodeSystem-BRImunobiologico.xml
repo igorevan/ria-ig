@@ -622,8 +622,8 @@
   </concept>
   <concept>
     <code value="100" />
-    <display value="VVBN" />
-    <definition value="Vacina Varíola Bavarian Nordic" />
+    <display value="VVS" />
+    <definition value="Vacina Varíola Símia (Atenuada)" />
   </concept>
   <concept>
     <code value="101" />
@@ -704,5 +704,15 @@
     <code value="112" />
     <display value="COVID-19 SERUM/ZALIKA" />
     <definition value="Vacina Covid-19-recombinante, Serum/Zalika" />
+  </concept>
+  <concept>
+    <code value="113" />
+    <display value="CHIKUNGUNYA" />
+    <definition value="Vacina Chikungunya (recombinante e atenuada)" />
+  </concept>
+  <concept>
+    <code value="114" />
+    <display value="COVID-19 SINOPHARM" />
+    <definition value="Vacina Covid-19-inativada, Sinopharm" />
   </concept>
 </CodeSystem>

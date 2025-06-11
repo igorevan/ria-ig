@@ -67,6 +67,7 @@
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRTerminologiaSuspeitaDiagnostica" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoAfastamentoAtestado" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRProgramaSaude-1.0" : null,
+  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|*" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeConsumo" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacao-1.0" : null,

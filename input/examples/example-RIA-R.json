@@ -152,6 +152,14 @@
         },
         "performer": [
           {
+            "function": {
+              "coding": [
+                {
+                  "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+                  "code": "225103"
+                }
+              ]
+            },
             "actor": {
               "reference": "Practitioner/012345678912345"
             }

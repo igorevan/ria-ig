@@ -1,5 +1,12 @@
 [
   {
+    "id" : "BRCBO",
+    "type" : "CodeSystem",
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+    "version" : "0.1.0",
+    "name" : "BRCBO"
+  },
+  {
     "id" : "BRCID10",
     "type" : "CodeSystem",
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
@@ -243,6 +250,13 @@
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0",
     "version" : "0.1.0",
     "name" : "BRLocalAplicacao"
+  },
+  {
+    "id" : "BROcupacao-1.0",
+    "type" : "ValueSet",
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+    "version" : "0.1.0",
+    "name" : "BROcupacao"
   },
   {
     "id" : "BRPais-1.0",
