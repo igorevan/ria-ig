@@ -10,4 +10,4 @@ RIARNDSIG
 /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset (BUSINESSRULE)
 
 err = 5, warn = 0, info = 2
-IG Publisher Version: 2.0.6
+IG Publisher Version: 2.0.11
