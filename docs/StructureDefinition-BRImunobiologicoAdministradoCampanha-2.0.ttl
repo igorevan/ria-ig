@@ -325,8 +325,8 @@
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/languages"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/languages>
+           fhir:v "http://hl7.org/fhir/ValueSet/languages|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/languages|4.0.1>
          ]
        ]
      ] [
@@ -702,8 +702,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The reason why a vaccine was not administered." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-status-reason"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-status-reason>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-status-reason|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-status-reason|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -1423,8 +1423,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "Aa resource (or, for logical models, the URI of the logical model)." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/resource-types"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/resource-types>
+           fhir:v "http://hl7.org/fhir/ValueSet/resource-types|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/resource-types|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -1639,8 +1639,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/identifier-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/identifier-type>
+           fhir:v "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/identifier-type|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -1797,8 +1797,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -1879,8 +1879,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Encounter"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Encounter>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -2069,8 +2069,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The source of the data for a record which is not from a primary source." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-origin"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-origin>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-origin|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-origin|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -2098,8 +2098,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Location"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Location>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Location|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Location|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -2143,8 +2143,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -2326,8 +2326,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "Aa resource (or, for logical models, the URI of the logical model)." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/resource-types"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/resource-types>
+           fhir:v "http://hl7.org/fhir/ValueSet/resource-types|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/resource-types|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -2544,8 +2544,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/identifier-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/identifier-type>
+           fhir:v "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/identifier-type|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -3169,8 +3169,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -3350,8 +3350,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The site at which the vaccine was administered." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-site"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-site>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-site|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-site|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -3857,8 +3857,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The route by which the vaccine was administered." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-route"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-route>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-route|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-route|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -4339,8 +4339,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Quantity"^^xsd:anyURI ] ;
          fhir:profile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/SimpleQuantity"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -4561,8 +4561,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "The role a practitioner or organization plays in the immunization event." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-function"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-function>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-function|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-function|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -5224,8 +5224,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "Aa resource (or, for logical models, the URI of the logical model)." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/resource-types"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/resource-types>
+           fhir:v "http://hl7.org/fhir/ValueSet/resource-types|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/resource-types|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -5382,8 +5382,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The reason why a vaccine was administered." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-reason"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-reason>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-reason|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-reason|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -5408,14 +5408,14 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Condition"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Condition>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Condition|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Condition|4.0.1>
          ] [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Observation"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Observation>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Observation|4.0.1>
          ] [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/DiagnosticReport>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/DiagnosticReport|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -5515,8 +5515,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The reason why a dose is considered to be subpotent." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-subpotent-reason>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-subpotent-reason|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -5860,8 +5860,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The patient's eligibility for a vaccation program." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-program-eligibility"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-program-eligibility>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-program-eligibility|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-program-eligibility|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -5910,8 +5910,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The source of funding used to purchase the vaccine administered." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-funding-source"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-funding-source>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-funding-source|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-funding-source|4.0.1>
          ]
        ] ;
        fhir:mapping ( [
@@ -6123,8 +6123,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Observation"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Observation>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Observation|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -6381,8 +6381,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization|4.0.1>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -6441,8 +6441,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "The vaccine preventable disease the dose is being administered for." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/immunization-target-disease"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/immunization-target-disease>
+           fhir:v "http://hl7.org/fhir/ValueSet/immunization-target-disease|4.0.1"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/ValueSet/immunization-target-disease|4.0.1>
          ]
        ] ;
        fhir:mapping ( [

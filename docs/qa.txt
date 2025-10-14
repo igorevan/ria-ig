@@ -1,9 +1,9 @@
 RIARNDSIG : Validation Results
 =========================================
 
-err = 5, warn = 0, info = 2
-IG Publisher Version: 2.0.11
-Generated Thu Jul 24 10:33:53 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saude.ria.fhir#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
+err = 2, warn = 0, info = 2
+IG Publisher Version: 2.0.21
+Generated Tue Oct 14 10:49:04 BRT 2025. FHIR version 4.0.1 for br.gov.saude.ria.fhir#0.1.0 (canonical = http://www.saude.gov.br/fhir/r4)
  Build Errors : 0 / 0 / 0
  /home/igor/ria-ig/input/examples/example-RIA-C : 1 / 2 / 2
  /home/igor/ria-ig/input/examples/example-RIA-R : 1 / 2 / 2
@@ -16,38 +16,38 @@ Generated Thu Jul 24 10:33:53 GMT-03:00 2025. FHIR version 4.0.1 for br.gov.saud
  /home/igor/ria-ig/input/resources/CodeSystem-BREstrategiaVacinacao : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRFabricantePNI : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRGrupoAtendimento : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/CodeSystem-BRImunobiologico : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRImunobiologico : 0 / 0 / 3
  /home/igor/ria-ig/input/resources/CodeSystem-BRLocalAplicacao : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRPais : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRRegistroOrigem : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRTipoDocumento : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRViaAdministracao : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 2 / 10 / 3
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 0 / 6 / 3
  /home/igor/ria-ig/input/resources/StructureDefinition-BRCondicaoMaternal : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BRContatoHanseniase : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BREstrategiaVacinacao-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BRGrupoAtendimento : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0 : 1 / 10 / 2
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0 : 0 / 11 / 2
  /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0 : 0 / 10 / 2
  /home/igor/ria-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0 : 0 / 10 / 1
  /home/igor/ria-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0 : 0 / 10 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRCID10-1.0 : 0 / 0 / 2
- /home/igor/ria-ig/input/resources/ValueSet-BRCategoriaDiagnostico : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRCondicaoMaternal-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRDose-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BREstadoEvento-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BREstrategiaVacinacao-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRFabricanteImunobiologico-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRGrupoAtendimento-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRImunobiologico-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRLocalAplicacao-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BROcupacao-1.0 : 0 / 0 / 2
+ /home/igor/ria-ig/input/resources/ValueSet-BRCID10-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRCategoriaDiagnostico : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRCondicaoMaternal-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRDose-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BREstadoEvento-1.0 : 0 / 1 / 2
+ /home/igor/ria-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 1 / 2
+ /home/igor/ria-ig/input/resources/ValueSet-BREstrategiaVacinacao-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRFabricanteImunobiologico-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRGrupoAtendimento-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRImunobiologico-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRLocalAplicacao-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BROcupacao-1.0 : 0 / 1 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRPais-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRRegistroOrigem : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/ValueSet-BRViaAdministracao-1.0 : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRRegistroOrigem : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 1 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRViaAdministracao-1.0 : 0 / 1 / 1
 </table>
 == n/a ==
 == input/examples/example-RIA-C.json ==
@@ -72,15 +72,12 @@ INFORMATION: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]:
 == input/resources/CodeSystem-BRTipoDocumento.xml ==
 == input/resources/CodeSystem-BRViaAdministracao.xml ==
 == input/resources/StructureDefinition-BRCID10Avaliado-1.0.xml ==
-ERROR: BRCID10Avaliado-1.0: Unable to find Extension 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0' referenced at http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0 differential Condition.subject.extension (unidentifiedPatient)
-ERROR: BRCID10Avaliado-1.0: Unable to find Extension 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0' referenced at http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0 snapshot Condition.subject.extension (unidentifiedPatient)
 == input/resources/StructureDefinition-BRCondicaoMaternal.xml ==
 == input/resources/StructureDefinition-BRContatoHanseniase.xml ==
 == input/resources/StructureDefinition-BREstrategiaVacinacao-1.0.xml ==
 == input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.xml ==
 == input/resources/StructureDefinition-BRGrupoAtendimento.xml ==
 == input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml ==
-ERROR: Imunobiológico Administrado em Rotina.Immunization.status: Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset
 == input/resources/StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.json ==
 == input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.json ==
 == input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.json ==

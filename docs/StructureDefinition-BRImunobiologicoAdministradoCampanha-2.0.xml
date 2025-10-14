@@ -333,7 +333,7 @@
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/languages|4.0.1"/>
       </binding>
     </element>
     <element id="Immunization.text">
@@ -670,7 +670,7 @@
         </extension>
         <strength value="example"/>
         <description value="The reason why a vaccine was not administered."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-status-reason"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-status-reason|4.0.1"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1336,7 +1336,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="Aa resource (or, for logical models, the URI of the logical model)."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/resource-types"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/resource-types|4.0.1"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1522,7 +1522,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -1669,7 +1669,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1740,7 +1740,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1918,7 +1918,7 @@
         </extension>
         <strength value="example"/>
         <description value="The source of the data for a record which is not from a primary source."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-origin"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-origin|4.0.1"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -1946,7 +1946,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1988,7 +1988,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2149,7 +2149,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="Aa resource (or, for logical models, the URI of the logical model)."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/resource-types"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/resource-types|4.0.1"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -2337,7 +2337,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2914,7 +2914,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3074,7 +3074,7 @@
         </extension>
         <strength value="example"/>
         <description value="The site at which the vaccine was administered."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-site"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-site|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -3542,7 +3542,7 @@
         </extension>
         <strength value="example"/>
         <description value="The route by which the vaccine was administered."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-route"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-route|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -3992,7 +3992,7 @@
       </base>
       <type>
         <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4190,7 +4190,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="The role a practitioner or organization plays in the immunization event."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-function"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-function|4.0.1"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -4798,7 +4798,7 @@
         </extension>
         <strength value="extensible"/>
         <description value="Aa resource (or, for logical models, the URI of the logical model)."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/resource-types"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/resource-types|4.0.1"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -4935,7 +4935,7 @@
         </extension>
         <strength value="example"/>
         <description value="The reason why a vaccine was administered."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-reason"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-reason|4.0.1"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -4959,9 +4959,9 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5048,7 +5048,7 @@
         </extension>
         <strength value="example"/>
         <description value="The reason why a dose is considered to be subpotent."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-subpotent-reason"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-subpotent-reason|4.0.1"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -5358,7 +5358,7 @@
         </extension>
         <strength value="example"/>
         <description value="The patient's eligibility for a vaccation program."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-program-eligibility"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-program-eligibility|4.0.1"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -5399,7 +5399,7 @@
         </extension>
         <strength value="example"/>
         <description value="The source of funding used to purchase the vaccine administered."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-funding-source"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-funding-source|4.0.1"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -5594,7 +5594,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5828,7 +5828,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5875,7 +5875,7 @@
         </extension>
         <strength value="example"/>
         <description value="The vaccine preventable disease the dose is being administered for."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-target-disease"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/immunization-target-disease|4.0.1"/>
       </binding>
       <mapping>
         <identity value="rim"/>

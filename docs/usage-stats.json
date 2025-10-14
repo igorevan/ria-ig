@@ -230,9 +230,6 @@
     "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento": [
       "Bundle.entry.resource",
       "Immunization"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [
-      "Condition.subject"
     ]
   }
 }

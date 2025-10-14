@@ -21,24 +21,20 @@
   </p>
   <p>
     <b>Nota</b>: <i>Vale contextualizar que o parceiro tecnológico pode acionar a equipe técnica do
-    DATASUS por meio do <a href="https://webatendimento.saude.gov.br/faq/rnds">link de suporte</a>
-    se houver dúvidas nos testes ou algum problema no processo de integração.</i>
+      DATASUS por meio do <a href="https://webatendimento.saude.gov.br/faq/rnds">link de suporte</a>
+      se houver dúvidas nos testes ou algum problema no processo de integração.</i>
   </p>
   <p>
     A Figura 3 apresenta uma imagem do portal de serviços do DATASUS.
   </p>
   <p>
-    <center>
-      <b>Figura 3 - Portal de Serviços do DATASUS</b>
-    </center>
+    <b>Figura 3 - Portal de Serviços do DATASUS</b>
   </p>
-  <center>
-    <div>
+  <div>
 
-      <img height="400" src="portalServicos.png" alt="Portal de Serviços do Datasus" />
+    <img height="400" src="portalServicos.png" alt="Portal de Serviços do Datasus" />
 
-    </div>
-  </center>
+  </div>
   <p>
     Inicialmente é apresentado ao usuário a tela inicial que contempla todos os serviços
     disponibilizados,
@@ -60,17 +56,13 @@
     plataforma gov.br, a qual exige uma conta que qualquer cidadão pode criar pelo portal <a
       href="https://acesso.gov.br">https://acesso.gov.br</a>. </p>
   <p>
-    <center>
-      <b>Figura 4 - Página de autenticação da plataforma GOV.BR</b>
-    </center>
+    <b>Figura 4 - Página de autenticação da plataforma GOV.BR</b>
   </p>
-  <center>
-    <div>
+  <div>
 
-      <img height="350" src="acessoGov.png" alt="Página de autenticação da plataforma GOV.BR" />
+    <img height="350" src="acessoGov.png" alt="Página de autenticação da plataforma GOV.BR" />
 
-    </div>
-  </center>
+  </div>
 
   <p>
     O gestor do estabelecimento de saúde deverá criar uma conta gov.br, e caso não possua uma,
@@ -98,7 +90,7 @@
     lados)
     garantindo assim uma comunicação segura.</p>
   <p><b>Nota</b>: <i>O certificado ficará associado ao estabelecimento de saúde (ou lista de
-    estabelecimentos de
+      estabelecimentos de
       saúde) informado na solicitação de acesso.</i></p>
 
   <a name="estabelecimentos"> </a>
@@ -106,18 +98,13 @@
   <p>Caso a solicitação envolva uma lista de estabelecimentos de saúde, todos deverão ser listados e
     obrigatoriamente devem ser do mesmo estado (UF).</p>
   <p>
-    <center>
-      <b>Figura 5 - Identificação de estabelecimentos Filhos</b>
-    </center>
+    <b>Figura 5 - Identificação de estabelecimentos Filhos</b>
   </p>
-  <center>
-    <div>
+  <div>
 
-      <img height="350" src="estabelecimentosFilhos.png"
-        alt="Identificação de estabelecimentos Filhos" />
+    <img height="350" src="estabelecimentosFilhos.png" alt="Identificação de estabelecimentos Filhos" />
 
-    </div>
-  </center>
+  </div>
 
   <a name="solicitante"> </a>
   <h3>Identificador Solicitante / <i>NamingSystem</i></h3>
@@ -127,17 +114,13 @@
     encontrado no menu “Gerenciar Credenciais” conforme a imagem abaixo.
   </p>
   <p>
-    <center>
-      <b>Figura 6 - Gerenciador de Credenciais</b>
-    </center>
+    <b>Figura 6 - Gerenciador de Credenciais</b>
   </p>
-  <center>
-    <div>
+  <div>
 
-      <img height="250" src="gerenciadorCredenciais.png" alt="Gerenciador de Credenciais" />
+    <img height="250" src="gerenciadorCredenciais.png" alt="Gerenciador de Credenciais" />
 
-    </div>
-  </center>
+  </div>
 
   <p>
     Este número deve ser sempre empregado na construção da identificação de uma requisição submetida

@@ -33,3 +33,6 @@ An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xh
 %O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 está obsoleto%
 %Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset%
 %The value set expansion is too large, and only a subset has been displayed%
+%could not be expanded%
+%Unable to provide support for code system%
+The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it

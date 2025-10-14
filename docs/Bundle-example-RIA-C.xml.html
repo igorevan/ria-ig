@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
@@ -31,20 +32,22 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"12.41"}
     h3,h4,h5,h6{--heading-prefix:"12.41"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
 
@@ -55,7 +58,7 @@
 
 
 
-  <span title="">BR</span>
+  <img alt="Brazil flag" src="assets/images/bra.svg" height="16" title="Brazil"/>
 
 
             </span>
@@ -178,7 +181,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">!!Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS - Compilação de desenvolvimento local (v0.1.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='http://www.saude.gov.br/fhir/r4/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS - Compilação de desenvolvimento local (v0.1.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='http://www.saude.gov.br/fhir/r4/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
 
 
 
@@ -234,16 +237,16 @@
 
 
 
-  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;example-RIA-C&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">meta</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2024-04-01T14:59:51.283-03:00&quot;/&gt;
-  &lt;/meta&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">meta</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-1&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;012345678&quot;/&gt;
-  &lt;/identifier&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.identifier">identifier</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2024-04-01T14:59:51.283-03:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
@@ -254,43 +257,43 @@
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.meta">meta</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
                    <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0&quot;/&gt;
-        &lt;/meta&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.meta">meta</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
           &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Composition_transient-0&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Narrativa gerada: Composition transient-0&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;transient-0&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hctransient-0&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Perfil: &lt;a href=&quot;StructureDefinition-BRRegistroImunobiologicoAdministradoCampanha-2.0.html&quot;&gt;Registro de Imunobiológico Administrado na Campanha&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RIA}&quot;&gt;Registro de Imunobiológico Administrado&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2024-04-01 08:18:30-0300&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: Identifier: &lt;code&gt;http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0&lt;/code&gt;/0123456&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Registro de Imunobiologico Administrado na Campanha&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-        &lt;/text&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.text">text</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;final&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.type">type</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento&quot;/&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;RIA&quot;/&gt;
-          &lt;/coding&gt;
-        &lt;/type&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.type">type</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.subject">subject</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0&quot;/&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;01234567890&quot;/&gt;
-          &lt;/identifier&gt;
-        &lt;/subject&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.subject">subject</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2024-04-01T08:18:30-03:00&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.author">author</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0&quot;/&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0123456&quot;/&gt;
-          &lt;/identifier&gt;
-        &lt;/author&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.author">author</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Registro de Imunobiologico Administrado na Campanha&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;urn:uuid:transient-1&quot;/&gt;
-          &lt;/entry&gt;
-        &lt;/section&gt;
-      &lt;/Composition&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition">Composition</a>&gt;
     &lt;/resource&gt;
-  &lt;/entry&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:uuid:transient-1&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">resource</a>&gt;
@@ -299,11 +302,11 @@
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.meta">meta</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
                    <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0&quot;/&gt;
-        &lt;/meta&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.meta">meta</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
           &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Immunization_transient-1&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Narrativa gerada: Immunization transient-1&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;transient-1&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hctransient-1&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Perfil: &lt;a href=&quot;StructureDefinition-BRImunobiologicoAdministradoCampanha-2.0.html&quot;&gt;Imunobiológico Administrado em Campanha&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Grupo de Atendimento&lt;/b&gt;: &lt;span title=&quot;Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000703}&quot;&gt;Povos indígenas vivendo em terras indígenas&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Condição Maternal&lt;/b&gt;: &lt;span title=&quot;Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal 1}&quot;&gt;Não se aplica&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title=&quot;Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 88}&quot;&gt;COVID-19 JANSSEN - Ad26.COV2.S&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: Identifier: &lt;code&gt;http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0&lt;/code&gt;/01234567890&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2024-04-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturer&lt;/b&gt;: Identifier: &lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&lt;/code&gt;/30587&lt;/p&gt;&lt;p&gt;&lt;b&gt;lotNumber&lt;/b&gt;: 220262&lt;/p&gt;&lt;h3&gt;Performers&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Practitioner/012345678912345&quot;&gt;Practitioner/012345678912345&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;ProtocolApplieds&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;DoseNumber[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-        &lt;/text&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">text</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.extension">extension</a>
                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento&quot;&gt;
           &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
@@ -311,9 +314,9 @@
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
                       <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento&quot;/&gt;
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;000703&quot;/&gt;
-            &lt;/coding&gt;
-          &lt;/valueCodeableConcept&gt;
-        &lt;/extension&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.extension">extension</a>
                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal&quot;&gt;
           &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
@@ -321,45 +324,45 @@
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
                       <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal&quot;/&gt;
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;1&quot;/&gt;
-            &lt;/coding&gt;
-          &lt;/valueCodeableConcept&gt;
-        &lt;/extension&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;completed&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico&quot;/&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;88&quot;/&gt;
-          &lt;/coding&gt;
-        &lt;/vaccineCode&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">patient</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0&quot;/&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;01234567890&quot;/&gt;
-          &lt;/identifier&gt;
-        &lt;/patient&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">patient</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.occurrence[x]">occurrenceDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2024-04-01&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.manufacturer">manufacturer</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;/&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;30587&quot;/&gt;
-          &lt;/identifier&gt;
-        &lt;/manufacturer&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.manufacturer">manufacturer</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.lotNumber">lotNumber</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;220262&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">performer</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">actor</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/012345678912345&quot;/&gt;
-          &lt;/actor&gt;
-        &lt;/performer&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">actor</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">performer</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">protocolApplied</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.doseNumber[x]">doseNumberString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
-        &lt;/protocolApplied&gt;
-      &lt;/Immunization&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">protocolApplied</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">Immunization</a>&gt;
     &lt;/resource&gt;
-  &lt;/entry&gt;
-&lt;/Bundle&gt;</code></pre>
+  &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle">Bundle</a>&gt;</code></pre>
 
 
   <!-- insert notes if present -->
@@ -405,7 +408,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 24, 2025 10:30-0300">2025-07-24</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  Package br.gov.saude.ria.fhir#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 14, 2025 10:45-0300">2025-10-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -422,7 +425,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -433,7 +436,6 @@
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
   <!-- Analytics Below
   ================================================== -->
   </body>

@@ -19,7 +19,7 @@
   <title value="Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-07-24T10:30:16-03:00"/>
+  <date value="2025-10-14T10:45:15-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <telecom>
@@ -263,7 +263,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.7.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">

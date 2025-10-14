@@ -21,17 +21,13 @@
     caracterizar uma imunização.</p>
 
   <p>
-    <center>
-      <b>Figura 1 - Diagrama do <i>Bundle</i> do RIA-R</b>
-    </center>
+    <b>Figura 1 - Diagrama do <i>Bundle</i> do RIA-R</b>
   </p>
-  <center>
-    <div>
+  <div>
 
-      <img height="400" src="riarMC.png" alt="Diagrama do Bundle do RIA-R" />
+    <img height="400" src="riarMC.png" alt="Diagrama do Bundle do RIA-R" />
 
-    </div>
-  </center>
+  </div>
 
   <a name="recursos"> </a>
   <h3>Recursos FHIR</h3>

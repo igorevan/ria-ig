@@ -278,7 +278,7 @@
         }],
         "strength" : "preferred",
         "description" : "A human language.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/languages"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/languages|4.0.1"
       }
     },
     {
@@ -662,7 +662,7 @@
         }],
         "strength" : "example",
         "description" : "The reason why a vaccine was not administered.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-status-reason"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-status-reason|4.0.1"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1351,7 +1351,7 @@
         }],
         "strength" : "extensible",
         "description" : "Aa resource (or, for logical models, the URI of the logical model).",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -1545,7 +1545,7 @@
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -1696,7 +1696,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1770,7 +1770,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Encounter"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1978,7 +1978,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Location"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Location|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -2148,7 +2148,7 @@
         }],
         "strength" : "extensible",
         "description" : "Aa resource (or, for logical models, the URI of the logical model).",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -2342,7 +2342,7 @@
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -2499,7 +2499,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -2573,7 +2573,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -2740,7 +2740,7 @@
         }],
         "strength" : "extensible",
         "description" : "Aa resource (or, for logical models, the URI of the logical model).",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -2936,7 +2936,7 @@
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/identifier-type|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -3532,7 +3532,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -4641,7 +4641,7 @@
       },
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -5470,7 +5470,7 @@
         }],
         "strength" : "extensible",
         "description" : "Aa resource (or, for logical models, the URI of the logical model).",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -5613,7 +5613,7 @@
         }],
         "strength" : "example",
         "description" : "The reason why a vaccine was administered.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-reason"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-reason|4.0.1"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -5728,7 +5728,7 @@
         }],
         "strength" : "example",
         "description" : "The reason why a dose is considered to be subpotent.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -6049,7 +6049,7 @@
         }],
         "strength" : "example",
         "description" : "The patient's eligibility for a vaccation program.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility|4.0.1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -6092,7 +6092,7 @@
         }],
         "strength" : "example",
         "description" : "The source of funding used to purchase the vaccine administered.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-funding-source"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-funding-source|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -6294,7 +6294,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Observation|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -7402,7 +7402,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization|4.0.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -7451,7 +7451,7 @@
         }],
         "strength" : "example",
         "description" : "The vaccine preventable disease the dose is being administered for.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-target-disease"
+        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-target-disease|4.0.1"
       },
       "mapping" : [{
         "identity" : "rim",
