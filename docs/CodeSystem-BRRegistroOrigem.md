@@ -20,7 +20,7 @@ Códigos para representação da Origem do Registro de Imunobiológico.
 
 Língua: pt-BR
 
-Este sistema de código define o seguinte código:
+Este case-sensitive sistema de código `http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem` define o seguinte códigos:
 
 
 

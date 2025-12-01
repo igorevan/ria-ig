@@ -10,7 +10,7 @@
 
 Última atualização: 2024-04-01 14:59:51-0300
 
- Documento em por para 
+Final Documento em 2024-04-01 08:18:30-0300 por Identifier: `http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0`/0123456 para Identifier: `http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0`/01234567890 
 
 -------
 

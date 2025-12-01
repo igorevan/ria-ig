@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
-      "version" : "*"
-    }]
-  }
-}}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI version *"
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -25,13 +10,488 @@ e: {
   }
 }}####
 e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI version *"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "language": "pt", "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI version *"
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a6eef9ad-e186-4b34-8e2a-24c831901464",
+    "timestamp" : "2025-12-01T17:48:23.271Z",
+    "total" : 91,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "141",
+      "display" : "IVB"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "142",
+      "display" : "PFIZER"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "149",
+      "display" : "FIOCRUZ"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "150",
+      "display" : "FUNED"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "151",
+      "display" : "F.A.P."
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "152",
+      "display" : "BUTANTAN"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "153",
+      "display" : "TECPAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "156",
+      "display" : "DADO B."
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "159",
+      "display" : "SMITHKLINE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "160",
+      "display" : "GREENCROSS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "161",
+      "display" : "AVENTIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "162",
+      "display" : "CHIRON SPA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "163",
+      "display" : "SERUM-INDIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "164",
+      "display" : "LGCHEMICAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "165",
+      "display" : "MERCK"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "166",
+      "display" : "BIKEN"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "167",
+      "display" : "SEVAC"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "168",
+      "display" : "BERNE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "235",
+      "display" : "INCQS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "239",
+      "display" : "BAYER"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "608",
+      "display" : "BAXTER"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "1659",
+      "display" : "CYANAMID"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "1913",
+      "display" : "CPPI"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2250",
+      "display" : "IIMUNO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2260",
+      "display" : "CSL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2263",
+      "display" : "WYETH-LTDA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2355",
+      "display" : "NOVARTIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2560",
+      "display" : "HEBER"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2769",
+      "display" : "BERNA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2862",
+      "display" : "SANPASTEUR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "2901",
+      "display" : "MERIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "3521",
+      "display" : "BIOVET"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "10534",
+      "display" : "CRUCELL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "11347",
+      "display" : "VIRBAC"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "12551",
+      "display" : "GRIFOLS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "12572",
+      "display" : "KEDRION"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "13219",
+      "display" : "BIOGENESIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "13688",
+      "display" : "SHANTHA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "16763",
+      "display" : "BIOFARMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "17934",
+      "display" : "BIOLOGICAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "18189",
+      "display" : "INTERVAX"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "18190",
+      "display" : "BB-NCIPD"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "22942",
+      "display" : "LGLIFE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "26313",
+      "display" : "MERCK-GO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "27816",
+      "display" : "EUBIOLOGI"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "27880",
+      "display" : "GSK-BRASIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28211",
+      "display" : "KAMADA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28251",
+      "display" : "SANMEDLEY"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28283",
+      "display" : "VINS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28290",
+      "display" : "PFIZER-BELGICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28303",
+      "display" : "PANACEA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28425",
+      "display" : "BIOGENESIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28738",
+      "display" : "BOEHRINGER"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "29501",
+      "display" : "SINOVAC"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "29909",
+      "display" : "ASTRAZENECA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "30357",
+      "display" : "EQUIPLEX"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "30587",
+      "display" : "JANSSEN"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "33502",
+      "display" : "BAV-NORDIC"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "33713",
+      "display" : "AMYIN"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "35977",
+      "display" : "GAMALEYA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "35978",
+      "display" : "MODERNA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "35979",
+      "display" : "BHARAT"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "169",
+      "display" : "FINLAY"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "712",
+      "display" : "BIOMERIEUX"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "36271",
+      "display" : "ABBOTT-HOLAN"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "28289",
+      "display" : "GLAXO-BIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "9406",
+      "display" : "HALEXISTAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "37646",
+      "display" : "EMERGENT"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "26513",
+      "display" : "BEHRING"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "39263",
+      "display" : "TAKEDA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "39262",
+      "display" : "IDT BIOLOGIKA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42490",
+      "display" : "SINOVAC"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42430",
+      "display" : "MODERNA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42488",
+      "display" : "ROVI-PHARMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42489",
+      "display" : "CATALENT"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42507",
+      "display" : "ADIUM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42655",
+      "display" : "SK-BIOSCEN"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "25538",
+      "display" : "MERCK-CAMPI"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "27883",
+      "display" : "MERCK-RJ"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42932",
+      "display" : "MSD-LLC"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "42931",
+      "display" : "MERCK-SP"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "43175",
+      "display" : "GSK-SRL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "43202",
+      "display" : "GSK-FRANCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "43499",
+      "display" : "GC-BIOPHARMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "31101",
+      "display" : "FARMACE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "43897",
+      "display" : "KI BIOPHARMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "44618",
+      "display" : "BIONTECH"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "44779",
+      "display" : "MIBE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "44805",
+      "display" : "BEIJING"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "44781",
+      "display" : "JUBILANT"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+      "code" : "45086",
+      "display" : "PFIZER-IRLANDA"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

@@ -17,35 +17,12 @@ v: {
   "display" : "MEDICO INFECTOLOGISTA",
   "code" : "225103",
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
-  "version" : "*",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0",
-  "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
+  "version" : "0.1.0",
   "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n797 797 : 0ms  : Analysing http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0--0|0.1.0 for validation purposes\r\n797 0   : 0ms  : Parameters: disp-lang=pt-BR, default-to-latest\r\n797 0   : 0ms  : Prepare include: \"(http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO)\"\r\n890 93  : 93ms : CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|0.1.0\"\r\n890 0   : 93ms : Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO#225103 (\"\")]\"\r\n890 0   : 93ms : Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO#225103\"\r\n890 0   : 93ms : CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|*\r\n890 0   : 93ms : check code in (http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO) at Coding\r\n890 0   : 93ms : Code \"225103\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|0.1.0\r\n",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODESYSTEM_VERSION"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0"
-    },
-    "location" : ["Coding.system"],
-    "expression" : ["Coding.system"]
-  }]
+  "resourceType" : "OperationOutcome"
 }
 
 }
@@ -61,13 +38,5033 @@ v: {
   }
 }}####
 e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO version *"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "language": "pt", "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO version *"
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4db65c42-311b-422a-9f20-deb55cb2dfb0",
+    "timestamp" : "2025-12-01T17:48:29.818Z",
+    "total" : 2714,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010105",
+      "display" : "OFICIAL GENERAL DA AERONAUTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010110",
+      "display" : "OFICIAL GENERAL DO EXERCITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010115",
+      "display" : "OFICIAL GENERAL DA MARINHA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010205",
+      "display" : "OFICIAL DA AERONAUTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010210",
+      "display" : "OFICIAL DO EXERCITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010215",
+      "display" : "OFICIAL DA MARINHA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010305",
+      "display" : "PRACA DA AERONAUTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010310",
+      "display" : "PRACA DO EXERCITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "010315",
+      "display" : "PRACA DA MARINHA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "020105",
+      "display" : "CORONEL DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "020110",
+      "display" : "TENENTECORONEL DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "020115",
+      "display" : "MAJOR DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "020205",
+      "display" : "CAPITAO DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "020305",
+      "display" : "PRIMEIRO TENENTE DE POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "020310",
+      "display" : "SEGUNDO TENENTE DE POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "021105",
+      "display" : "SUBTENENTE DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "021110",
+      "display" : "SARGENTO DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "021205",
+      "display" : "CABO DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "021210",
+      "display" : "SOLDADO DA POLICIA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "030105",
+      "display" : "CORONEL BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "030110",
+      "display" : "MAJOR BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "030115",
+      "display" : "TENENTECORONEL BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "030205",
+      "display" : "CAPITAO BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "030305",
+      "display" : "TENENTE DO CORPO DE BOMBEIROS MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "031105",
+      "display" : "SUBTENENTE BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "031110",
+      "display" : "SARGENTO BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "031205",
+      "display" : "CABO BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "031210",
+      "display" : "SOLDADO BOMBEIRO MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111105",
+      "display" : "SENADOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111110",
+      "display" : "DEPUTADO FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111115",
+      "display" : "DEPUTADO ESTADUAL E DISTRITAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111120",
+      "display" : "VEREADOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111205",
+      "display" : "PRESIDENTE DA REPUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111210",
+      "display" : "VICEPRESIDENTE DA REPUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111215",
+      "display" : "MINISTRO DE ESTADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111220",
+      "display" : "SECRETARIOEXECUTIVO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111225",
+      "display" : "MEMBRO SUPERIOR DO PODER EXECUTIVO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111230",
+      "display" : "GOVERNADOR DE ESTADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111235",
+      "display" : "GOVERNADOR DO DISTRITO FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111240",
+      "display" : "VICEGOVERNADOR DE ESTADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111245",
+      "display" : "VICEGOVERNADOR DO DISTRITO FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111250",
+      "display" : "PREFEITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111255",
+      "display" : "VICEPREFEITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111305",
+      "display" : "MINISTRO DO SUPREMO TRIBUNAL FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111310",
+      "display" : "MINISTRO DO SUPERIOR TRIBUNAL DE JUSTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111315",
+      "display" : "MINISTRO DO SUPERIOR TRIBUNAL MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111320",
+      "display" : "MINISTRO DO SUPERIOR TRIBUNAL DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111325",
+      "display" : "JUIZ DE DIREITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111330",
+      "display" : "JUIZ FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111335",
+      "display" : "JUIZ AUDITOR FEDERAL  JUSTICA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111340",
+      "display" : "JUIZ AUDITOR ESTADUAL  JUSTICA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111345",
+      "display" : "JUIZ DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111405",
+      "display" : "DIRIGENTE DO SERVICO PUBLICO FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111410",
+      "display" : "DIRIGENTE DO SERVICO PUBLICO ESTADUAL E DISTRITAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111415",
+      "display" : "DIRIGENTE DO SERVICO PUBLICO MUNICIPAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111505",
+      "display" : "ESPECIALISTA DE POLITICAS PUBLICAS E GESTAO GOVERNAMENTAL  EPPGG"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "111510",
+      "display" : "ANALISTA DE PLANEJAMENTO E ORCAMENTO  APO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "113005",
+      "display" : "CACIQUE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "113010",
+      "display" : "LIDER DE COMUNIDADE CAICARA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "113015",
+      "display" : "MEMBRO DE LIDERANCA QUILOMBOLA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "114105",
+      "display" : "DIRIGENTE DE PARTIDO POLITICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "114205",
+      "display" : "DIRIGENTES DE ENTIDADES DE TRABALHADORES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "114210",
+      "display" : "DIRIGENTES DE ENTIDADES PATRONAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "114305",
+      "display" : "DIRIGENTE E ADMINISTRADOR DE ORGANIZACAO RELIGIOSA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "114405",
+      "display" : "DIRIGENTE E ADMINISTRADOR DE ORGANIZACAO DA SOCIEDADE CIVIL SEM FINS LUCRATIVOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "121005",
+      "display" : "DIRETOR DE PLANEJAMENTO ESTRATEGICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "121010",
+      "display" : "DIRETOR GERAL DE EMPRESA E ORGANIZACOES (EXCETO DE INTERESSE PUBLICO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122105",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES EM EMPRESA AGROPECUARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122110",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES EM EMPRESA AQICOLA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122115",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES EM EMPRESA FLORESTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122120",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES EM EMPRESA PESQUEIRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122205",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES DA INDUSTRIA DE TRANSFORMACAO, EXTRACAO MINERAL E UTILIDADES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122305",
+      "display" : "DIRETOR DE OPERACOES DE OBRAS PUBLICA E CIVIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122405",
+      "display" : "DIRETOR DE OPERACOES COMERCIAIS (COMERCIO ATACADISTA E VAREJISTA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122505",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES DE ALIMENTACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122510",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES DE HOTEL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122515",
+      "display" : "DIRETOR DE PRODUCAO E OPERACOES DE TURISMO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122520",
+      "display" : "TURISMOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122605",
+      "display" : "DIRETOR DE OPERACOES DE CORREIOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122610",
+      "display" : "DIRETOR DE OPERACOES DE SERVICOS DE ARMAZENAMENTO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122615",
+      "display" : "DIRETOR DE OPERACOES DE SERVICOS DE TELECOMUNICACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122620",
+      "display" : "DIRETOR DE OPERACOES DE SERVICOS DE TRANSPORTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122705",
+      "display" : "DIRETOR COMERCIAL EM OPERACOES DE INTERMEDIACAO FINANCEIRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122710",
+      "display" : "DIRETOR DE PRODUTOS BANCARIOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122715",
+      "display" : "DIRETOR DE CREDITO RURAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122720",
+      "display" : "DIRETOR DE CAMBIO E COMERCIO EXTERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122725",
+      "display" : "DIRETOR DE COMPLIANCE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122730",
+      "display" : "DIRETOR DE CREDITO (EXCETO CREDITO IMOBILIARIO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122735",
+      "display" : "DIRETOR DE CREDITO IMOBILIARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122740",
+      "display" : "DIRETOR DE LEASING"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122745",
+      "display" : "DIRETOR DE MERCADO DE CAPITAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122750",
+      "display" : "DIRETOR DE RECUPERACAO DE CREDITOS EM OPERACOES DE INTERMEDIACAO FINANCEIRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "122755",
+      "display" : "DIRETOR DE RISCOS DE MERCADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123105",
+      "display" : "DIRETOR ADMINISTRATIVO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123110",
+      "display" : "DIRETOR ADMINISTRATIVO E FINANCEIRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123115",
+      "display" : "DIRETOR FINANCEIRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123205",
+      "display" : "DIRETOR DE RECURSOS HUMANOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123210",
+      "display" : "DIRETOR DE RELACOES DE TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123305",
+      "display" : "DIRETOR COMERCIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123310",
+      "display" : "DIRETOR DE MARKETING"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123405",
+      "display" : "DIRETOR DE SUPRIMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123410",
+      "display" : "DIRETOR DE SUPRIMENTOS NO SERVICO PUBLICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123605",
+      "display" : "DIRETOR DE SERVICOS DE INFORMATICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123705",
+      "display" : "DIRETOR DE PESQUISA E DESENVOLVIMENTO (PD)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "123805",
+      "display" : "DIRETOR DE MANUTENCAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131105",
+      "display" : "DIRETOR DE SERVICOS CULTURAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131110",
+      "display" : "DIRETOR DE SERVICOS SOCIAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131115",
+      "display" : "GERENTE DE SERVICOS CULTURAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131120",
+      "display" : "GERENTE DE SERVICOS SOCIAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131205",
+      "display" : "DIRETOR DE SERVICOS DE SAUDE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131210",
+      "display" : "GERENTE DE SERVICOS DE SAUDE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131215",
+      "display" : "TECNOLOGO EM GESTAO HOSPITALAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131220",
+      "display" : "GERONTOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131225",
+      "display" : "SANITARISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131305",
+      "display" : "DIRETOR DE INSTITUICAO EDUCACIONAL DA AREA PRIVADA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131310",
+      "display" : "DIRETOR DE INSTITUICAO EDUCACIONAL PUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131315",
+      "display" : "GERENTE DE INSTITUICAO EDUCACIONAL DA AREA PRIVADA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "131320",
+      "display" : "GERENTE DE SERVICOS EDUCACIONAIS DA AREA PUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141105",
+      "display" : "GERENTE DE PRODUCAO E OPERACOES AQUICOLAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141110",
+      "display" : "GERENTE DE PRODUCAO E OPERACOES FLORESTAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141115",
+      "display" : "GERENTE DE PRODUCAO E OPERACOES AGROPECUARIAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141120",
+      "display" : "GERENTE DE PRODUCAO E OPERACOES PESQUEIRAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141205",
+      "display" : "GERENTE DE PRODUCAO E OPERACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141305",
+      "display" : "GERENTE DE PRODUCAO E OPERACOES DA CONSTRUCAO CIVIL E OBRAS PUBLICAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141405",
+      "display" : "COMERCIANTE ATACADISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141410",
+      "display" : "COMERCIANTE VAREJISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141415",
+      "display" : "GERENTE DE LOJA E SUPERMERCADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141420",
+      "display" : "GERENTE DE OPERACOES DE SERVICOS DE ASSISTENCIA TECNICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141505",
+      "display" : "GERENTE DE HOTEL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141510",
+      "display" : "GERENTE DE RESTAURANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141515",
+      "display" : "GERENTE DE BAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141520",
+      "display" : "GERENTE DE PENSAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141525",
+      "display" : "GERENTE DE TURISMO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141605",
+      "display" : "GERENTE DE OPERACOES DE TRANSPORTES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141610",
+      "display" : "GERENTE DE OPERACOES DE CORREIOS E TELECOMUNICACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141615",
+      "display" : "GERENTE DE LOGISTICA (ARMAZENAGEM E DISTRIBUICAO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141705",
+      "display" : "GERENTE DE PRODUTOS BANCARIOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141710",
+      "display" : "GERENTE DE AGENCIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141715",
+      "display" : "GERENTE DE CAMBIO E COMERCIO EXTERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141720",
+      "display" : "GERENTE DE CREDITO E COBRANCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141725",
+      "display" : "GERENTE DE CREDITO IMOBILIARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141730",
+      "display" : "GERENTE DE CREDITO RURAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "141735",
+      "display" : "GERENTE DE RECUPERACAO DE CREDITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142105",
+      "display" : "GERENTE ADMINISTRATIVO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142110",
+      "display" : "GERENTE DE RISCOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142115",
+      "display" : "GERENTE FINANCEIRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142120",
+      "display" : "TECNOLOGO EM GESTAO ADMINISTRATIVO FINANCEIRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142205",
+      "display" : "GERENTE DE RECURSOS HUMANOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142210",
+      "display" : "GERENTE DE DEPARTAMENTO PESSOAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142305",
+      "display" : "GERENTE COMERCIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142310",
+      "display" : "GERENTE DE COMUNICACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142315",
+      "display" : "GERENTE DE MARKETING"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142320",
+      "display" : "GERENTE DE VENDAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142325",
+      "display" : "RELACOES PUBLICAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142330",
+      "display" : "ANALISTA DE NEGOCIOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142335",
+      "display" : "ANALISTA DE PESQUISA DE MERCADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142340",
+      "display" : "OUVIDOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142405",
+      "display" : "GERENTE DE COMPRAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142410",
+      "display" : "GERENTE DE SUPRIMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142415",
+      "display" : "GERENTE DE ALMOXARIFADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142505",
+      "display" : "GERENTE DE REDE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142510",
+      "display" : "GERENTE DE DESENVOLVIMENTO DE SISTEMAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142515",
+      "display" : "GERENTE DE PRODUCAO DE TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142520",
+      "display" : "GERENTE DE PROJETOS DE TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142525",
+      "display" : "GERENTE DE SEGURANCA DE TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142530",
+      "display" : "GERENTE DE SUPORTE TECNICO DE TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142535",
+      "display" : "TECNOLOGO EM GESTAO DA TECNOLOGIA DA INFORMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142605",
+      "display" : "GERENTE DE PESQUISA E DESENVOLVIMENTO (PD)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142610",
+      "display" : "ESPECIALISTA EM DESENVOLVIMENTO DE CIGARROS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142705",
+      "display" : "GERENTE DE PROJETOS E SERVICOS DE MANUTENCAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "142710",
+      "display" : "TECNOLOGO EM SISTEMAS BIOMEDICOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "1999A1",
+      "display" : "CBO NIVEL MEDIO NAO TEM CORRESPONDENCIA CBO 2002"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "1999A2",
+      "display" : "CBO NIVEL SUPERIOR NAO TEM CORRESPONDENCIA CBO 2002"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201105",
+      "display" : "BIOENGENHEIRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201110",
+      "display" : "BIOTECNOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201115",
+      "display" : "GENETICISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201205",
+      "display" : "PESQUISADOR EM METROLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201210",
+      "display" : "ESPECIALISTA EM CALIBRACOES METROLOGICAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201215",
+      "display" : "ESPECIALISTA EM ENSAIOS METROLOGICOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201220",
+      "display" : "ESPECIALISTA EM INSTRUMENTACAO METROLOGICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "201225",
+      "display" : "ESPECIALISTA EM MATERIAIS DE REFERENCIA METROLOGICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "202105",
+      "display" : "ENGENHEIRO MECATRONICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "202110",
+      "display" : "ENGENHEIRO DE CONTROLE E AUTOMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "202115",
+      "display" : "TECNOLOGO EM MECATRONICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "202120",
+      "display" : "TECNOLOGO EM AUTOMACAO INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203005",
+      "display" : "PESQUISADOR EM BIOLOGIA AMBIENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203010",
+      "display" : "PESQUISADOR EM BIOLOGIA ANIMAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203015",
+      "display" : "PESQUISADOR EM BIOLOGIA DE MICROORGANISMOS E PARASITAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203020",
+      "display" : "PESQUISADOR EM BIOLOGIA HUMANA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203025",
+      "display" : "PESQUISADOR EM BIOLOGIA VEGETAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203105",
+      "display" : "PESQUISADOR EM CIENCIAS DA COMPUTACAO E INFORMATICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203110",
+      "display" : "PESQUISADOR EM CIENCIAS DA TERRA E MEIO AMBIENTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203115",
+      "display" : "PESQUISADOR EM FISICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203120",
+      "display" : "PESQUISADOR EM MATEMATICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203125",
+      "display" : "PESQUISADOR EM QUIMICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203205",
+      "display" : "PESQUISADOR DE ENGENHARIA CIVIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203210",
+      "display" : "PESQUISADOR DE ENGENHARIA E TECNOLOGIA (OUTRAS AREAS DA ENGENHARIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203215",
+      "display" : "PESQUISADOR DE ENGENHARIA ELETRICA E ELETRONICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203220",
+      "display" : "PESQUISADOR DE ENGENHARIA MECANICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203225",
+      "display" : "PESQUISADOR DE ENGENHARIA METALURGICA, DE MINAS E DE MATERIAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203230",
+      "display" : "PESQUISADOR DE ENGENHARIA QUIMICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203305",
+      "display" : "PESQUISADOR DE CLINICA MEDICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203310",
+      "display" : "PESQUISADOR DE MEDICINA BASICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203315",
+      "display" : "PESQUISADOR EM MEDICINA VETERINARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203320",
+      "display" : "PESQUISADOR EM SAUDE COLETIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203405",
+      "display" : "PESQUISADOR EM CIENCIAS AGRONOMICAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203410",
+      "display" : "PESQUISADOR EM CIENCIAS DA PESCA E AQICULTURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203415",
+      "display" : "PESQUISADOR EM CIENCIAS DA ZOOTECNIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203420",
+      "display" : "PESQUISADOR EM CIENCIAS FLORESTAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203505",
+      "display" : "PESQUISADOR EM CIENCIAS SOCIAIS E HUMANAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203510",
+      "display" : "PESQUISADOR EM ECONOMIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203515",
+      "display" : "PESQUISADOR EM CIENCIAS DA EDUCACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203520",
+      "display" : "PESQUISADOR EM HISTORIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "203525",
+      "display" : "PESQUISADOR EM PSICOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "204105",
+      "display" : "PERITO CRIMINAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "211105",
+      "display" : "ATUARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "211110",
+      "display" : "ESPECIALISTA EM PESQUISA OPERACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "211115",
+      "display" : "MATEMATICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "211120",
+      "display" : "MATEMATICO APLICADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "211205",
+      "display" : "ESTATISTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "211210",
+      "display" : "ESTATISTICO (ESTATISTICA APLICADA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "211215",
+      "display" : "ESTATISTICO TEORICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212205",
+      "display" : "ENGENHEIRO DE APLICATIVOS EM COMPUTACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212210",
+      "display" : "ENGENHEIRO DE EQUIPAMENTOS EM COMPUTACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212215",
+      "display" : "ENGENHEIROS DE SISTEMAS OPERACIONAIS EM COMPUTACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212305",
+      "display" : "ADMINISTRADOR DE BANCO DE DADOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212310",
+      "display" : "ADMINISTRADOR DE REDES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212315",
+      "display" : "ADMINISTRADOR DE SISTEMAS OPERACIONAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212320",
+      "display" : "ADMINISTRADOR EM SEGURANCA DA INFORMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212405",
+      "display" : "ANALISTA DE DESENVOLVIMENTO DE SISTEMAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212410",
+      "display" : "ANALISTA DE REDES E DE COMUNICACAO DE DADOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212415",
+      "display" : "ANALISTA DE SISTEMAS DE AUTOMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "212420",
+      "display" : "ANALISTA DE SUPORTE COMPUTACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213105",
+      "display" : "FISICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213110",
+      "display" : "FISICO (ACUSTICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213115",
+      "display" : "FISICO (ATOMICA E MOLECULAR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213120",
+      "display" : "FISICO (COSMOLOGIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213125",
+      "display" : "FISICO (ESTATISTICA E MATEMATICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213130",
+      "display" : "FISICO (FLUIDOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213135",
+      "display" : "FISICO (INSTRUMENTACAO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213140",
+      "display" : "FISICO (MATERIA CONDENSADA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213145",
+      "display" : "FISICO (MATERIAIS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213150",
+      "display" : "FISICO (MEDICINA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213155",
+      "display" : "FISICO (NUCLEAR E REATORES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213160",
+      "display" : "FISICO (OPTICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213165",
+      "display" : "FISICO (PARTICULAS E CAMPOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213170",
+      "display" : "FISICO (PLASMA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213175",
+      "display" : "FISICO (TERMICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213205",
+      "display" : "QUIMICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213210",
+      "display" : "QUIMICO INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213215",
+      "display" : "TECNOLOGO EM PROCESSOS QUIMICOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213305",
+      "display" : "ASTRONOMO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213310",
+      "display" : "GEOFISICO ESPACIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213315",
+      "display" : "METEOROLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213405",
+      "display" : "GEOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213410",
+      "display" : "GEOLOGO DE ENGENHARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213415",
+      "display" : "GEOFISICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213420",
+      "display" : "GEOQUIMICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213425",
+      "display" : "HIDROGEOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213430",
+      "display" : "PALEONTOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213435",
+      "display" : "PETROGRAFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "213440",
+      "display" : "OCEANOGRAFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214005",
+      "display" : "ENGENHEIRO AMBIENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214010",
+      "display" : "TECNOLOGO EM MEIO AMBIENTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214105",
+      "display" : "ARQUITETO DE EDIFICACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214110",
+      "display" : "ARQUITETO DE INTERIORES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214115",
+      "display" : "ARQUITETO DE PATRIMONIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214120",
+      "display" : "ARQUITETO PAISAGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214125",
+      "display" : "ARQUITETO URBANISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214130",
+      "display" : "URBANISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214205",
+      "display" : "ENGENHEIRO CIVIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214210",
+      "display" : "ENGENHEIRO CIVIL (AEROPORTOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214215",
+      "display" : "ENGENHEIRO CIVIL (EDIFICACOES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214220",
+      "display" : "ENGENHEIRO CIVIL (ESTRUTURAS METALICAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214225",
+      "display" : "ENGENHEIRO CIVIL (FERROVIAS E METROVIAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214230",
+      "display" : "ENGENHEIRO CIVIL (GEOTECNIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214235",
+      "display" : "ENGENHEIRO CIVIL (HIDROLOGIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214240",
+      "display" : "ENGENHEIRO CIVIL (HIDRAULICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214245",
+      "display" : "ENGENHEIRO CIVIL (PONTES E VIADUTOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214250",
+      "display" : "ENGENHEIRO CIVIL (PORTOS E VIAS NAVEGAVEIS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214255",
+      "display" : "ENGENHEIRO CIVIL (RODOVIAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214260",
+      "display" : "ENGENHEIRO CIVIL (SANEAMENTO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214265",
+      "display" : "ENGENHEIRO CIVIL (TUNEIS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214270",
+      "display" : "ENGENHEIRO CIVIL (TRANSPORTES E TRANSITO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214280",
+      "display" : "TECNOLOGO EM CONSTRUCAO CIVIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214305",
+      "display" : "ENGENHEIRO ELETRICISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214310",
+      "display" : "ENGENHEIRO ELETRONICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214315",
+      "display" : "ENGENHEIRO ELETRICISTA DE MANUTENCAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214320",
+      "display" : "ENGENHEIRO ELETRICISTA DE PROJETOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214325",
+      "display" : "ENGENHEIRO ELETRONICO DE MANUTENCAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214330",
+      "display" : "ENGENHEIRO ELETRONICO DE PROJETOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214335",
+      "display" : "ENGENHEIRO DE MANUTENCAO DE TELECOMUNICACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214340",
+      "display" : "ENGENHEIRO DE TELECOMUNICACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214345",
+      "display" : "ENGENHEIRO PROJETISTA DE TELECOMUNICACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214350",
+      "display" : "ENGENHEIRO DE REDES DE COMUNICACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214360",
+      "display" : "TECNOLOGO EM ELETRICIDADE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214365",
+      "display" : "TECNOLOGO EM ELETRONICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214370",
+      "display" : "TECNOLOGO EM TELECOMUNICACOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214405",
+      "display" : "ENGENHEIRO MECANICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214410",
+      "display" : "ENGENHEIRO MECANICO AUTOMOTIVO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214415",
+      "display" : "ENGENHEIRO MECANICO (ENERGIA NUCLEAR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214420",
+      "display" : "ENGENHEIRO MECANICO INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214425",
+      "display" : "ENGENHEIRO AERONAUTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214430",
+      "display" : "ENGENHEIRO NAVAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214435",
+      "display" : "TECNOLOGO EM FABRICACAO MECANICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214505",
+      "display" : "ENGENHEIRO QUIMICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214510",
+      "display" : "ENGENHEIRO QUIMICO (INDUSTRIA QUIMICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214515",
+      "display" : "ENGENHEIRO QUIMICO (MINERACAO, METALURGIA, SIDERURGIA, CIMENTEIRA E CERAMICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214520",
+      "display" : "ENGENHEIRO QUIMICO (PAPEL E CELULOSE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214525",
+      "display" : "ENGENHEIRO QUIMICO (PETROLEO E BORRACHA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214530",
+      "display" : "ENGENHEIRO QUIMICO (UTILIDADES E MEIO AMBIENTE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214535",
+      "display" : "TECNOLOGO EM PRODUCAO SULCROALCOOLEIRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214605",
+      "display" : "ENGENHEIRO DE MATERIAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214610",
+      "display" : "ENGENHEIRO METALURGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214615",
+      "display" : "TECNOLOGO EM METALURGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214705",
+      "display" : "ENGENHEIRO DE MINAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214710",
+      "display" : "ENGENHEIRO DE MINAS (BENEFICIAMENTO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214715",
+      "display" : "ENGENHEIRO DE MINAS (LAVRA A CEU ABERTO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214720",
+      "display" : "ENGENHEIRO DE MINAS (LAVRA SUBTERRANEA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214725",
+      "display" : "ENGENHEIRO DE MINAS (PESQUISA MINERAL)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214730",
+      "display" : "ENGENHEIRO DE MINAS (PLANEJAMENTO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214735",
+      "display" : "ENGENHEIRO DE MINAS (PROCESSO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214740",
+      "display" : "ENGENHEIRO DE MINAS (PROJETO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214745",
+      "display" : "TECNOLOGO EM PETROLEO E GAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214750",
+      "display" : "TECNOLOGO EM ROCHAS ORNAMENTAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214805",
+      "display" : "ENGENHEIRO AGRIMENSOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214810",
+      "display" : "ENGENHEIRO CARTOGRAFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214905",
+      "display" : "ENGENHEIRO DE PRODUCAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214910",
+      "display" : "ENGENHEIRO DE CONTROLE DE QUALIDADE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214915",
+      "display" : "ENGENHEIRO DE SEGURANCA DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214920",
+      "display" : "ENGENHEIRO DE RISCOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214925",
+      "display" : "ENGENHEIRO DE TEMPOS E MOVIMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214930",
+      "display" : "TECNOLOGO EM PRODUCAO INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214935",
+      "display" : "TECNOLOGO EM SEGURANCA DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "214940",
+      "display" : "HIGIENISTA OCUPACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215105",
+      "display" : "AGENTE DE MANOBRA E DOCAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215110",
+      "display" : "CAPITAO DE MANOBRA DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215115",
+      "display" : "COMANDANTE DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215120",
+      "display" : "COORDENADOR DE OPERACOES DE COMBATE A POLUICAO NO MEIO AQUAVIARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215125",
+      "display" : "IMEDIATO DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215130",
+      "display" : "INSPETOR DE TERMINAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215135",
+      "display" : "INSPETOR NAVAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215140",
+      "display" : "OFICIAL DE QUARTO DE NAVEGACAO DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215145",
+      "display" : "PRATICO DE PORTOS DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215150",
+      "display" : "VISTORIADOR NAVAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215205",
+      "display" : "OFICIAL SUPERIOR DE MAQUINAS DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215210",
+      "display" : "PRIMEIRO OFICIAL DE MAQUINAS DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215215",
+      "display" : "SEGUNDO OFICIAL DE MAQUINAS DA MARINHA MERCANTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215220",
+      "display" : "SUPERINTENDENTE TECNICO NO TRANSPORTE AQUAVIARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215305",
+      "display" : "PILOTO DE AERONAVES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215310",
+      "display" : "PILOTO DE ENSAIOS EM VOO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "215315",
+      "display" : "INSTRUTOR DE VOO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "221105",
+      "display" : "BIOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "221205",
+      "display" : "BIOMEDICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "222105",
+      "display" : "ENGENHEIRO AGRICOLA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "222110",
+      "display" : "ENGENHEIRO AGRONOMO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "222115",
+      "display" : "ENGENHEIRO DE PESCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "222120",
+      "display" : "ENGENHEIRO FLORESTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "222205",
+      "display" : "ENGENHEIRO DE ALIMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "222215",
+      "display" : "TECNOLOGO EM ALIMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223119",
+      "display" : "MEDICO EM ELETROENCEFALOGRAFIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223150",
+      "display" : "MEDICO PERITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2231A1",
+      "display" : "MEDICO BRONCOESOFALOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2231A2",
+      "display" : "MEDICO HANSENOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2231F8",
+      "display" : "MEDICO EM MEDICINA PREVENTIVA E SOCIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2231F9",
+      "display" : "MEDICO RESIDENTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2231G1",
+      "display" : "MEDICO CARDIOLOGISTA INTERVENCIONISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223204",
+      "display" : "CIRURGIAO DENTISTA  AUDITOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223208",
+      "display" : "CIRURGIAO DENTISTA  CLINICO GERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223212",
+      "display" : "CIRURGIAO DENTISTA  ENDODONTISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223216",
+      "display" : "CIRURGIAO DENTISTA  EPIDEMIOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223220",
+      "display" : "CIRURGIAO DENTISTA  ESTOMATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223224",
+      "display" : "CIRURGIAO DENTISTA  IMPLANTODONTISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223228",
+      "display" : "CIRURGIAO DENTISTA  ODONTOGERIATRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223232",
+      "display" : "CIRURGIAO DENTISTA  ODONTOLOGISTA LEGAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223236",
+      "display" : "CIRURGIAO DENTISTA  ODONTOPEDIATRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223240",
+      "display" : "CIRURGIAO DENTISTA  ORTOPEDISTA E ORTODONTISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223244",
+      "display" : "CIRURGIAO DENTISTA  PATOLOGISTA BUCAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223248",
+      "display" : "CIRURGIAO DENTISTA  PERIODONTISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223252",
+      "display" : "CIRURGIAO DENTISTA  PROTESIOLOGO BUCOMAXILOFACIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223256",
+      "display" : "CIRURGIAO DENTISTA  PROTESISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223260",
+      "display" : "CIRURGIAO DENTISTA  RADIOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223264",
+      "display" : "CIRURGIAO DENTISTA  REABILITADOR ORAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223268",
+      "display" : "CIRURGIAO DENTISTA  TRAUMATOLOGISTA BUCOMAXILOFACIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223272",
+      "display" : "CIRURGIAO DENTISTA DE SAUDE COLETIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223276",
+      "display" : "CIRURGIAO DENTISTA  ODONTOLOGIA DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223280",
+      "display" : "CIRURGIAO DENTISTA  DENTISTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223284",
+      "display" : "CIRURGIAO DENTISTA  DISFUNCAO TEMPOROMANDIBULAR E DOR OROFACIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223288",
+      "display" : "CIRURGIAO DENTISTA  ODONTOLOGIA PARA PACIENTES COM NECESSIDADES ESPECIAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223293",
+      "display" : "CIRURGIAO DENTISTA DA ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223305",
+      "display" : "MEDICO VETERINARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223310",
+      "display" : "ZOOTECNISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223405",
+      "display" : "FARMACEUTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223415",
+      "display" : "FARMACEUTICO ANALISTA CLINICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223420",
+      "display" : "FARMACEUTICO DE ALIMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223425",
+      "display" : "FARMACEUTICO PRATICAS INTEGRATIVAS E COMPLEMENTARES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223430",
+      "display" : "FARMACEUTICO EM SAUDE PUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223435",
+      "display" : "FARMACEUTICO INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223440",
+      "display" : "FARMACEUTICO TOXICOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223445",
+      "display" : "FARMACEUTICO HOSPITALAR E CLINICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223505",
+      "display" : "ENFERMEIRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223510",
+      "display" : "ENFERMEIRO AUDITOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223515",
+      "display" : "ENFERMEIRO DE BORDO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223520",
+      "display" : "ENFERMEIRO DE CENTRO CIRURGICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223525",
+      "display" : "ENFERMEIRO DE TERAPIA INTENSIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223530",
+      "display" : "ENFERMEIRO DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223535",
+      "display" : "ENFERMEIRO NEFROLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223540",
+      "display" : "ENFERMEIRO NEONATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223545",
+      "display" : "ENFERMEIRO OBSTETRICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223550",
+      "display" : "ENFERMEIRO PSIQUIATRICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223555",
+      "display" : "ENFERMEIRO PUERICULTOR E PEDIATRICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223560",
+      "display" : "ENFERMEIRO SANITARISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223565",
+      "display" : "ENFERMEIRO DA ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223570",
+      "display" : "PERFUSIONISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2235C3",
+      "display" : "ENFERMEIRO ESTOMATERAPEUTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223605",
+      "display" : "FISIOTERAPEUTA GERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223625",
+      "display" : "FISIOTERAPEUTA RESPIRATORIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223630",
+      "display" : "FISIOTERAPEUTA NEUROFUNCIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223635",
+      "display" : "FISIOTERAPEUTA TRAUMATOORTOPEDICA FUNCIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223640",
+      "display" : "FISIOTERAPEUTA OSTEOPATA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223645",
+      "display" : "FISIOTERAPEUTA QUIROPRAXISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223650",
+      "display" : "FISIOTERAPEUTA ACUPUNTURISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223655",
+      "display" : "FISIOTERAPEUTA ESPORTIVO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223660",
+      "display" : "FISIOTERAPEUTA DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2236I1",
+      "display" : "TECNICO EM ORIENTACAO E MOBILIDADE DE CEGOS E DEFICIENTES VISUAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223705",
+      "display" : "DIETISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223710",
+      "display" : "NUTRICIONISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223810",
+      "display" : "FONOAUDIOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223815",
+      "display" : "FONOAUDIOLOGO EDUCACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223820",
+      "display" : "FONOAUDIOLOGO EM AUDIOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223825",
+      "display" : "FONOAUDIOLOGO EM DISFAGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223830",
+      "display" : "FONOAUDIOLOGO EM LINGUAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223835",
+      "display" : "FONOAUDIOLOGO EM MOTRICIDADE OROFACIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223840",
+      "display" : "FONOAUDIOLOGO EM SAUDE COLETIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223845",
+      "display" : "FONOAUDIOLOGO EM VOZ"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223905",
+      "display" : "TERAPEUTA OCUPACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "223910",
+      "display" : "ORTOPTISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "224105",
+      "display" : "AVALIADOR FISICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "224110",
+      "display" : "LUDOMOTRICISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "224115",
+      "display" : "PREPARADOR DE ATLETA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "224120",
+      "display" : "PREPARADOR FISICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "224125",
+      "display" : "TECNICO DE DESPORTO INDIVIDUAL E COLETIVO (EXCETO FUTEBOL)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "224130",
+      "display" : "TECNICO DE LABORATORIO E FISCALIZACAO DESPORTIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "224135",
+      "display" : "TREINADOR PROFISSIONAL DE FUTEBOL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "2241E1",
+      "display" : "PROFISSIONAL DE EDUCACAO FISICA NA SAUDE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225103",
+      "display" : "MEDICO INFECTOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225105",
+      "display" : "MEDICO ACUPUNTURISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225106",
+      "display" : "MEDICO LEGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225109",
+      "display" : "MEDICO NEFROLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225110",
+      "display" : "MEDICO ALERGISTA E IMUNOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225112",
+      "display" : "MEDICO NEUROLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225115",
+      "display" : "MEDICO ANGIOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225118",
+      "display" : "MEDICO NUTROLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225120",
+      "display" : "MEDICO CARDIOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225121",
+      "display" : "MEDICO ONCOLOGISTA CLINICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225122",
+      "display" : "MEDICO CANCEROLOGISTA PEDIATRICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225124",
+      "display" : "MEDICO PEDIATRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225125",
+      "display" : "MEDICO CLINICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225127",
+      "display" : "MEDICO PNEUMOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225130",
+      "display" : "MEDICO DE FAMILIA E COMUNIDADE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225133",
+      "display" : "MEDICO PSIQUIATRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225135",
+      "display" : "MEDICO DERMATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225136",
+      "display" : "MEDICO REUMATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225139",
+      "display" : "MEDICO SANITARISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225140",
+      "display" : "MEDICO DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225142",
+      "display" : "MEDICO DA ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225145",
+      "display" : "MEDICO EM MEDICINA DE TRAFEGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225148",
+      "display" : "MEDICO ANATOMOPATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225150",
+      "display" : "MEDICO EM MEDICINA INTENSIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225151",
+      "display" : "MEDICO ANESTESIOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225154",
+      "display" : "MEDICO ANTROPOSOFICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225155",
+      "display" : "MEDICO ENDOCRINOLOGISTA E METABOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225160",
+      "display" : "MEDICO FISIATRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225165",
+      "display" : "MEDICO GASTROENTEROLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225170",
+      "display" : "MEDICO GENERALISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225175",
+      "display" : "MEDICO GENETICISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225180",
+      "display" : "MEDICO GERIATRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225185",
+      "display" : "MEDICO HEMATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225195",
+      "display" : "MEDICO HOMEOPATA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225203",
+      "display" : "MEDICO EM CIRURGIA VASCULAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225210",
+      "display" : "MEDICO CIRURGIAO CARDIOVASCULAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225215",
+      "display" : "MEDICO CIRURGIAO DE CABECA E PESCOCO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225220",
+      "display" : "MEDICO CIRURGIAO DO APARELHO DIGESTIVO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225225",
+      "display" : "MEDICO CIRURGIAO GERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225230",
+      "display" : "MEDICO CIRURGIAO PEDIATRICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225235",
+      "display" : "MEDICO CIRURGIAO PLASTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225240",
+      "display" : "MEDICO CIRURGIAO TORACICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225245",
+      "display" : "MEDICO FONIATRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225250",
+      "display" : "MEDICO GINECOLOGISTA E OBSTETRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225255",
+      "display" : "MEDICO MASTOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225260",
+      "display" : "MEDICO NEUROCIRURGIAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225265",
+      "display" : "MEDICO OFTALMOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225270",
+      "display" : "MEDICO ORTOPEDISTA E TRAUMATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225275",
+      "display" : "MEDICO OTORRINOLARINGOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225280",
+      "display" : "MEDICO COLOPROCTOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225285",
+      "display" : "MEDICO UROLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225290",
+      "display" : "MEDICO CANCEROLOGISTA CIRURGICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225295",
+      "display" : "MEDICO CIRURGIAO DA MAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225305",
+      "display" : "MEDICO CITOPATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225310",
+      "display" : "MEDICO EM ENDOSCOPIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225315",
+      "display" : "MEDICO EM MEDICINA NUCLEAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225320",
+      "display" : "MEDICO EM RADIOLOGIA E DIAGNOSTICO POR IMAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225325",
+      "display" : "MEDICO PATOLOGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225330",
+      "display" : "MEDICO RADIOTERAPEUTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225335",
+      "display" : "MEDICO PATOLOGISTA CLINICO  MEDICINA LABORATORIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225340",
+      "display" : "MEDICO HEMOTERAPEUTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225345",
+      "display" : "MEDICO HIPERBARISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "225350",
+      "display" : "MEDICO NEUROFISIOLOGISTA CLINICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "226105",
+      "display" : "QUIROPRAXISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "226110",
+      "display" : "OSTEOPATA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "226305",
+      "display" : "MUSICOTERAPEUTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "226310",
+      "display" : "ARTETERAPEUTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "226315",
+      "display" : "EQUOTERAPEUTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "226320",
+      "display" : "NATUROLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231105",
+      "display" : "PROFESSOR DE NIVEL SUPERIOR NA EDUCACAO INFANTIL (QUATRO A SEIS ANOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231110",
+      "display" : "PROFESSOR DE NIVEL SUPERIOR NA EDUCACAO INFANTIL (ZERO A TRES ANOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231205",
+      "display" : "PROFESSOR DA EDUCACAO DE JOVENS E ADULTOS DO ENSINO FUNDAMENTAL (PRIMEIRA A QUARTA SERIE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231210",
+      "display" : "PROFESSOR DE NIVEL SUPERIOR DO ENSINO FUNDAMENTAL (PRIMEIRA A QUARTA SERIE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231305",
+      "display" : "PROFESSOR DE CIENCIAS EXATAS E NATURAIS DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231310",
+      "display" : "PROFESSOR DE EDUCACAO ARTISTICA DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231315",
+      "display" : "PROFESSOR DE EDUCACAO FISICA DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231320",
+      "display" : "PROFESSOR DE GEOGRAFIA DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231325",
+      "display" : "PROFESSOR DE HISTORIA DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231330",
+      "display" : "PROFESSOR DE LINGUA ESTRANGEIRA MODERNA DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231335",
+      "display" : "PROFESSOR DE LINGUA PORTUGUESA DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "231340",
+      "display" : "PROFESSOR DE MATEMATICA DO ENSINO FUNDAMENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232105",
+      "display" : "PROFESSOR DE ARTES NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232110",
+      "display" : "PROFESSOR DE BIOLOGIA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232115",
+      "display" : "PROFESSOR DE DISCIPLINAS PEDAGOGICAS NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232120",
+      "display" : "PROFESSOR DE EDUCACAO FISICA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232125",
+      "display" : "PROFESSOR DE FILOSOFIA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232130",
+      "display" : "PROFESSOR DE FISICA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232135",
+      "display" : "PROFESSOR DE GEOGRAFIA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232140",
+      "display" : "PROFESSOR DE HISTORIA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232145",
+      "display" : "PROFESSOR DE LINGUA E LITERATURA BRASILEIRA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232150",
+      "display" : "PROFESSOR DE LINGUA ESTRANGEIRA MODERNA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232155",
+      "display" : "PROFESSOR DE MATEMATICA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232160",
+      "display" : "PROFESSOR DE PSICOLOGIA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232165",
+      "display" : "PROFESSOR DE QUIMICA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "232170",
+      "display" : "PROFESSOR DE SOCIOLOGIA NO ENSINO MEDIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233105",
+      "display" : "PROFESSOR DA AREA DE MEIO AMBIENTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233110",
+      "display" : "PROFESSOR DE DESENHO TECNICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233115",
+      "display" : "PROFESSOR DE TECNICAS AGRICOLAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233120",
+      "display" : "PROFESSOR DE TECNICAS COMERCIAIS E SECRETARIAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233125",
+      "display" : "PROFESSOR DE TECNICAS DE ENFERMAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233130",
+      "display" : "PROFESSOR DE TECNICAS INDUSTRIAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233135",
+      "display" : "PROFESSOR DE TECNOLOGIA E CALCULO TECNICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233205",
+      "display" : "INSTRUTOR DE APRENDIZAGEM E TREINAMENTO AGROPECUARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233210",
+      "display" : "INSTRUTOR DE APRENDIZAGEM E TREINAMENTO INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233215",
+      "display" : "PROFESSOR DE APRENDIZAGEM E TREINAMENTO COMERCIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233220",
+      "display" : "PROFESSOR INSTRUTOR DE ENSINO E APRENDIZAGEM AGROFLORESTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "233225",
+      "display" : "PROFESSOR INSTRUTOR DE ENSINO E APRENDIZAGEM EM SERVICOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234105",
+      "display" : "PROFESSOR DE MATEMATICA APLICADA (NO ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234110",
+      "display" : "PROFESSOR DE MATEMATICA PURA (NO ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234115",
+      "display" : "PROFESSOR DE ESTATISTICA (NO ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234120",
+      "display" : "PROFESSOR DE COMPUTACAO (NO ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234125",
+      "display" : "PROFESSOR DE PESQUISA OPERACIONAL (NO ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234205",
+      "display" : "PROFESSOR DE FISICA (ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234210",
+      "display" : "PROFESSOR DE QUIMICA (ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234215",
+      "display" : "PROFESSOR DE ASTRONOMIA (ENSINO SUPERIOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234305",
+      "display" : "PROFESSOR DE ARQUITETURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234310",
+      "display" : "PROFESSOR DE ENGENHARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234315",
+      "display" : "PROFESSOR DE GEOFISICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234320",
+      "display" : "PROFESSOR DE GEOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234405",
+      "display" : "PROFESSOR DE CIENCIAS BIOLOGICAS DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234410",
+      "display" : "PROFESSOR DE EDUCACAO FISICA NO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234415",
+      "display" : "PROFESSOR DE ENFERMAGEM DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234420",
+      "display" : "PROFESSOR DE FARMACIA E BIOQUIMICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234425",
+      "display" : "PROFESSOR DE FISIOTERAPIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234430",
+      "display" : "PROFESSOR DE FONOAUDIOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234435",
+      "display" : "PROFESSOR DE MEDICINA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234440",
+      "display" : "PROFESSOR DE MEDICINA VETERINARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234445",
+      "display" : "PROFESSOR DE NUTRICAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234450",
+      "display" : "PROFESSOR DE ODONTOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234455",
+      "display" : "PROFESSOR DE TERAPIA OCUPACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234460",
+      "display" : "PROFESSOR DE ZOOTECNIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234505",
+      "display" : "PROFESSOR DE ENSINO SUPERIOR NA AREA DE DIDATICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234510",
+      "display" : "PROFESSOR DE ENSINO SUPERIOR NA AREA DE ORIENTACAO EDUCACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234515",
+      "display" : "PROFESSOR DE ENSINO SUPERIOR NA AREA DE PESQUISA EDUCACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234520",
+      "display" : "PROFESSOR DE ENSINO SUPERIOR NA AREA DE PRATICA DE ENSINO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234604",
+      "display" : "PROFESSOR DE LINGUA ALEMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234608",
+      "display" : "PROFESSOR DE LINGUA ITALIANA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234612",
+      "display" : "PROFESSOR DE LINGUA FRANCESA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234616",
+      "display" : "PROFESSOR DE LINGUA INGLESA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234620",
+      "display" : "PROFESSOR DE LINGUA ESPANHOLA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234624",
+      "display" : "PROFESSOR DE LINGUA PORTUGUESA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234628",
+      "display" : "PROFESSOR DE LITERATURA BRASILEIRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234632",
+      "display" : "PROFESSOR DE LITERATURA PORTUGUESA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234636",
+      "display" : "PROFESSOR DE LITERATURA ALEMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234640",
+      "display" : "PROFESSOR DE LITERATURA COMPARADA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234644",
+      "display" : "PROFESSOR DE LITERATURA ESPANHOLA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234648",
+      "display" : "PROFESSOR DE LITERATURA FRANCESA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234652",
+      "display" : "PROFESSOR DE LITERATURA INGLESA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234656",
+      "display" : "PROFESSOR DE LITERATURA ITALIANA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234660",
+      "display" : "PROFESSOR DE LITERATURA DE LINGUAS ESTRANGEIRAS MODERNAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234664",
+      "display" : "PROFESSOR DE OUTRAS LINGUAS E LITERATURAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234668",
+      "display" : "PROFESSOR DE LINGUAS ESTRANGEIRAS MODERNAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234672",
+      "display" : "PROFESSOR DE LINGISTICA E LINGISTICA APLICADA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234676",
+      "display" : "PROFESSOR DE FILOLOGIA E CRITICA TEXTUAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234680",
+      "display" : "PROFESSOR DE SEMIOTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234684",
+      "display" : "PROFESSOR DE TEORIA DA LITERATURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234705",
+      "display" : "PROFESSOR DE ANTROPOLOGIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234710",
+      "display" : "PROFESSOR DE ARQUIVOLOGIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234715",
+      "display" : "PROFESSOR DE BIBLIOTECONOMIA DO ENSIO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234720",
+      "display" : "PROFESSOR DE CIENCIA POLITICA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234725",
+      "display" : "PROFESSOR DE COMUNICACAO SOCIAL DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234730",
+      "display" : "PROFESSOR DE DIREITO DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234735",
+      "display" : "PROFESSOR DE FILOSOFIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234740",
+      "display" : "PROFESSOR DE GEOGRAFIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234745",
+      "display" : "PROFESSOR DE HISTORIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234750",
+      "display" : "PROFESSOR DE JORNALISMO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234755",
+      "display" : "PROFESSOR DE MUSEOLOGIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234760",
+      "display" : "PROFESSOR DE PSICOLOGIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234765",
+      "display" : "PROFESSOR DE SERVICO SOCIAL DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234770",
+      "display" : "PROFESSOR DE SOCIOLOGIA DO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234805",
+      "display" : "PROFESSOR DE ECONOMIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234810",
+      "display" : "PROFESSOR DE ADMINISTRACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234815",
+      "display" : "PROFESSOR DE CONTABILIDADE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234905",
+      "display" : "PROFESSOR DE ARTES DO ESPETACULO NO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234910",
+      "display" : "PROFESSOR DE ARTES VISUAIS NO ENSINO SUPERIOR (ARTES PLASTICAS E MULTIMIDIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "234915",
+      "display" : "PROFESSOR DE MUSICA NO ENSINO SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239205",
+      "display" : "PROFESSOR DE ALUNOS COM DEFICIENCIA AUDITIVA E SURDOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239210",
+      "display" : "PROFESSOR DE ALUNOS COM DEFICIENCIA FISICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239215",
+      "display" : "PROFESSOR DE ALUNOS COM DEFICIENCIA MENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239220",
+      "display" : "PROFESSOR DE ALUNOS COM DEFICIENCIA MULTIPLA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239225",
+      "display" : "PROFESSOR DE ALUNOS COM DEFICIENCIA VISUAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239405",
+      "display" : "COORDENADOR PEDAGOGICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239410",
+      "display" : "ORIENTADOR EDUCACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239415",
+      "display" : "PEDAGOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239420",
+      "display" : "PROFESSOR DE TECNICAS E RECURSOS AUDIOVISUAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239425",
+      "display" : "PSICOPEDAGOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239430",
+      "display" : "SUPERVISOR DE ENSINO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "239435",
+      "display" : "DESIGNER EDUCACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241005",
+      "display" : "ADVOGADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241010",
+      "display" : "ADVOGADO DE EMPRESA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241015",
+      "display" : "ADVOGADO (DIREITO CIVIL)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241020",
+      "display" : "ADVOGADO (DIREITO PUBLICO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241025",
+      "display" : "ADVOGADO (DIREITO PENAL)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241030",
+      "display" : "ADVOGADO (AREAS ESPECIAIS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241035",
+      "display" : "ADVOGADO (DIREITO DO TRABALHO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241040",
+      "display" : "CONSULTOR JURIDICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241205",
+      "display" : "ADVOGADO DA UNIAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241210",
+      "display" : "PROCURADOR AUTARQUICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241215",
+      "display" : "PROCURADOR DA FAZENDA NACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241220",
+      "display" : "PROCURADOR DO ESTADO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241225",
+      "display" : "PROCURADOR DO MUNICIPIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241230",
+      "display" : "PROCURADOR FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241235",
+      "display" : "PROCURADOR FUNDACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241305",
+      "display" : "OFICIAL DE REGISTRO DE CONTRATOS MARITIMOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241310",
+      "display" : "OFICIAL DO REGISTRO CIVIL DE PESSOAS JURIDICAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241315",
+      "display" : "OFICIAL DO REGISTRO CIVIL DE PESSOAS NATURAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241320",
+      "display" : "OFICIAL DO REGISTRO DE DISTRIBUICOES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241325",
+      "display" : "OFICIAL DO REGISTRO DE IMOVEIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241330",
+      "display" : "OFICIAL DO REGISTRO DE TITULOS E DOCUMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241335",
+      "display" : "TABELIAO DE NOTAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "241340",
+      "display" : "TABELIAO DE PROTESTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242205",
+      "display" : "PROCURADOR DA REPUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242210",
+      "display" : "PROCURADOR DE JUSTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242215",
+      "display" : "PROCURADOR DE JUSTICA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242220",
+      "display" : "PROCURADOR DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242225",
+      "display" : "PROCURADOR REGIONAL DA REPUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242230",
+      "display" : "PROCURADOR REGIONAL DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242235",
+      "display" : "PROMOTOR DE JUSTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242240",
+      "display" : "SUBPROCURADOR DE JUSTICA MILITAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242245",
+      "display" : "SUBPROCURADORGERAL DA REPUBLICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242250",
+      "display" : "SUBPROCURADORGERAL DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242305",
+      "display" : "DELEGADO DE POLICIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242405",
+      "display" : "DEFENSOR PUBLICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242410",
+      "display" : "PROCURADOR DA ASSISTENCIA JUDICIARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242905",
+      "display" : "OFICIAL DE INTELIGENCIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "242910",
+      "display" : "OFICIAL TECNICO DE INTELIGENCIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251105",
+      "display" : "ANTROPOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251110",
+      "display" : "ARQUEOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251115",
+      "display" : "CIENTISTA POLITICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251120",
+      "display" : "SOCIOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251205",
+      "display" : "ECONOMISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251210",
+      "display" : "ECONOMISTA AGROINDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251215",
+      "display" : "ECONOMISTA FINANCEIRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251220",
+      "display" : "ECONOMISTA INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251225",
+      "display" : "ECONOMISTA DO SETOR PUBLICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251230",
+      "display" : "ECONOMISTA AMBIENTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251235",
+      "display" : "ECONOMISTA REGIONAL E URBANO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251305",
+      "display" : "GEOGRAFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251405",
+      "display" : "FILOSOFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251505",
+      "display" : "PSICOLOGO EDUCACIONAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251510",
+      "display" : "PSICOLOGO CLINICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251515",
+      "display" : "PSICOLOGO DO ESPORTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251520",
+      "display" : "PSICOLOGO HOSPITALAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251525",
+      "display" : "PSICOLOGO JURIDICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251530",
+      "display" : "PSICOLOGO SOCIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251535",
+      "display" : "PSICOLOGO DO TRANSITO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251540",
+      "display" : "PSICOLOGO DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251545",
+      "display" : "NEUROPSICOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251550",
+      "display" : "PSICANALISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251555",
+      "display" : "PSICOLOGO ACUPUNTURISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251605",
+      "display" : "ASSISTENTE SOCIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "251610",
+      "display" : "ECONOMISTA DOMESTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252105",
+      "display" : "ADMINISTRADOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252205",
+      "display" : "AUDITOR (CONTADORES E AFINS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252210",
+      "display" : "CONTADOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252215",
+      "display" : "PERITO CONTABIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252305",
+      "display" : "SECRETARIA EXECUTIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252310",
+      "display" : "SECRETARIO BILINGE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252315",
+      "display" : "SECRETARIA TRILINGE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252320",
+      "display" : "TECNOLOGO EM SECRETARIADO ESCOLAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252405",
+      "display" : "ANALISTA DE RECURSOS HUMANOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252505",
+      "display" : "ADMINISTRADOR DE FUNDOS E CARTEIRAS DE INVESTIMENTO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252510",
+      "display" : "ANALISTA DE CAMBIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252515",
+      "display" : "ANALISTA DE COBRANCA (INSTITUICOES FINANCEIRAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252525",
+      "display" : "ANALISTA DE CREDITO (INSTITUICOES FINANCEIRAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252530",
+      "display" : "ANALISTA DE CREDITO RURAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252535",
+      "display" : "ANALISTA DE LEASING"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252540",
+      "display" : "ANALISTA DE PRODUTOS BANCARIOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252545",
+      "display" : "ANALISTA FINANCEIRO (INSTITUICOES FINANCEIRAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252550",
+      "display" : "PROFISSIONAL DE RELACOES COM INVESTIDORES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "252605",
+      "display" : "GESTOR EM SEGURANCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253110",
+      "display" : "REDATOR DE PUBLICIDADE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253115",
+      "display" : "AGENTE PUBLICITARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253130",
+      "display" : "DIRETOR DE CRIACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253135",
+      "display" : "DIRETOR DE CONTAS (PUBLICIDADE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253140",
+      "display" : "AGENCIADOR DE PROPAGANDA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253205",
+      "display" : "GERENTE DE CAPTACAO (FUNDOS E INVESTIMENTOS INSTITUCIONAIS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253210",
+      "display" : "GERENTE DE CLIENTES ESPECIAIS (PRIVATE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253215",
+      "display" : "GERENTE DE CONTAS  PESSOA FISICA E JURIDICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253220",
+      "display" : "GERENTE DE GRANDES CONTAS (CORPORATE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253225",
+      "display" : "OPERADOR DE NEGOCIOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "253305",
+      "display" : "CORRETOR DE VALORES, ATIVOS FINANCEIROS, MERCADORIAS E DERIVATIVOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254105",
+      "display" : "AUDITORFISCAL DA RECEITA FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254110",
+      "display" : "TECNICO DA RECEITA FEDERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254205",
+      "display" : "AUDITORFISCAL DA PREVIDENCIA SOCIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254305",
+      "display" : "AUDITORFISCAL DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254310",
+      "display" : "AGENTE DE HIGIENE E SEGURANCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254405",
+      "display" : "FISCAL DE TRIBUTOS ESTADUAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254410",
+      "display" : "FISCAL DE TRIBUTOS MUNICIPAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254415",
+      "display" : "TECNICO DE TRIBUTOS ESTADUAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254420",
+      "display" : "TECNICO DE TRIBUTOS MUNICIPAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "254505",
+      "display" : "FISCAL DE ATIVIDADES URBANAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261105",
+      "display" : "ARQUIVISTA PESQUISADOR (JORNALISMO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261110",
+      "display" : "ASSESSOR DE IMPRENSA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261115",
+      "display" : "DIRETOR DE REDACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261120",
+      "display" : "EDITOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261125",
+      "display" : "JORNALISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261130",
+      "display" : "PRODUTOR DE TEXTO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261135",
+      "display" : "REPORTER (EXCLUSIVE RADIO E TELEVISAO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261140",
+      "display" : "REVISOR DE TEXTO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261205",
+      "display" : "BIBLIOTECARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261210",
+      "display" : "DOCUMENTALISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261215",
+      "display" : "ANALISTA DE INFORMACOES (PESQUISADOR DE INFORMACOES DE REDE)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261305",
+      "display" : "ARQUIVISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261310",
+      "display" : "MUSEOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261405",
+      "display" : "FILOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261410",
+      "display" : "INTERPRETE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261415",
+      "display" : "LINGISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261420",
+      "display" : "TRADUTOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261425",
+      "display" : "INTERPRETE DE LINGUA DE SINAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261430",
+      "display" : "AUDIODESCRITOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261505",
+      "display" : "AUTORROTEIRISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261510",
+      "display" : "CRITICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261515",
+      "display" : "ESCRITOR DE FICCAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261520",
+      "display" : "ESCRITOR DE NAO FICCAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261525",
+      "display" : "POETA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261530",
+      "display" : "REDATOR DE TEXTOS TECNICOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261605",
+      "display" : "EDITOR DE JORNAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261610",
+      "display" : "EDITOR DE LIVRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261615",
+      "display" : "EDITOR DE MIDIA ELETRONICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261620",
+      "display" : "EDITOR DE REVISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261625",
+      "display" : "EDITOR DE REVISTA CIENTIFICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261705",
+      "display" : "ANCORA DE RADIO E TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261710",
+      "display" : "COMENTARISTA DE RADIO E TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261715",
+      "display" : "LOCUTOR DE RADIO E TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261720",
+      "display" : "LOCUTOR PUBLICITARIO DE RADIO E TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261725",
+      "display" : "NARRADOR EM PROGRAMAS DE RADIO E TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261730",
+      "display" : "REPORTER DE RADIO E TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261805",
+      "display" : "FOTOGRAFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261810",
+      "display" : "FOTOGRAFO PUBLICITARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261815",
+      "display" : "FOTOGRAFO RETRATISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "261820",
+      "display" : "REPOTER FOTOGRAFICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262105",
+      "display" : "EMPRESARIO DE ESPETACULO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262110",
+      "display" : "PRODUTOR CINEMATOGRAFICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262115",
+      "display" : "PRODUTOR DE RADIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262120",
+      "display" : "PRODUTOR DE TEATRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262125",
+      "display" : "PRODUTOR DE TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262130",
+      "display" : "TECNOLOGO EM PRODUCAO FONOGRAFICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262135",
+      "display" : "TECNOLOGO EM PRODUCAO AUDIOVISUAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262205",
+      "display" : "DIRETOR DE CINEMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262210",
+      "display" : "DIRETOR DE PROGRAMAS DE RADIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262215",
+      "display" : "DIRETOR DE PROGRAMAS DE TELEVISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262220",
+      "display" : "DIRETOR TEATRAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262305",
+      "display" : "CENOGRAFO CARNAVALESCO E FESTAS POPULARES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262310",
+      "display" : "CENOGRAFO DE CINEMA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262315",
+      "display" : "CENOGRAFO DE EVENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262320",
+      "display" : "CENOGRAFO DE TEATRO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262325",
+      "display" : "CENOGRAFO DE TV"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262330",
+      "display" : "DIRETOR DE ARTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262405",
+      "display" : "ARTISTA (ARTES VISUAIS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262410",
+      "display" : "DESENHISTA INDUSTRIAL (DESIGNER)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262415",
+      "display" : "CONSERVADORRESTAURADOR DE BENS CULTURAIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262420",
+      "display" : "DESENHISTA INDUSTRIAL DE PRODUTO (DESIGNER DE PRODUTO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262425",
+      "display" : "DESENHISTA INDUSTRIAL DE PRODUTO DE MODA (DESIGNER DE MODA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262505",
+      "display" : "ATOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262605",
+      "display" : "COMPOSITOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262610",
+      "display" : "MUSICO ARRANJADOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262615",
+      "display" : "MUSICO REGENTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262620",
+      "display" : "MUSICOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262705",
+      "display" : "MUSICO INTERPRETE CANTOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262710",
+      "display" : "MUSICO INTERPRETE INSTRUMENTISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262805",
+      "display" : "ASSISTENTE DE COREOGRAFIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262810",
+      "display" : "BAILARINO (EXCETO DANCAS POPULARES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262815",
+      "display" : "COREOGRAFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262820",
+      "display" : "DRAMATURGO DE DANCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262825",
+      "display" : "ENSAIADOR DE DANCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262830",
+      "display" : "PROFESSOR DE DANCA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "262905",
+      "display" : "DECORADOR DE INTERIORES DE NIVEL SUPERIOR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "263105",
+      "display" : "MINISTRO DE CULTO RELIGIOSO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "263110",
+      "display" : "MISSIONARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "263115",
+      "display" : "TEOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "271105",
+      "display" : "CHEFE DE COZINHA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "271110",
+      "display" : "TECNOLOGO EM GASTRONOMIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "300105",
+      "display" : "TECNICO EM MECATRONICA  AUTOMACAO DA MANUFATURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "300110",
+      "display" : "TECNICO EM MECATRONICA  ROBOTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "300305",
+      "display" : "TECNICO EM ELETROMECANICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "301105",
+      "display" : "TECNICO DE LABORATORIO INDUSTRIAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "301110",
+      "display" : "TECNICO DE LABORATORIO DE ANALISES FISICOQUIMICAS (MATERIAIS DE CONSTRUCAO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "301115",
+      "display" : "TECNICO QUIMICO DE PETROLEO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "301205",
+      "display" : "TECNICO DE APOIO A BIOENGENHARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311105",
+      "display" : "TECNICO QUIMICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311110",
+      "display" : "TECNICO DE CELULOSE E PAPEL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311115",
+      "display" : "TECNICO EM CURTIMENTO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311205",
+      "display" : "TECNICO EM PETROQUIMICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311305",
+      "display" : "TECNICO EM MATERIAIS, PRODUTOS CERAMICOS E VIDROS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311405",
+      "display" : "TECNICO EM BORRACHA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311410",
+      "display" : "TECNICO EM PLASTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311505",
+      "display" : "TECNICO DE CONTROLE DE MEIO AMBIENTE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311510",
+      "display" : "TECNICO DE METEOROLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311515",
+      "display" : "TECNICO DE UTILIDADE (PRODUCAO E DISTRIBUICAO DE VAPOR, GASES, OLEOS, COMBUSTIVEIS, ENERGIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311520",
+      "display" : "TECNICO EM TRATAMENTO DE EFLUENTES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311605",
+      "display" : "TECNICO TEXTIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311610",
+      "display" : "TECNICO TEXTIL (TRATAMENTOS QUIMICOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311615",
+      "display" : "TECNICO TEXTIL DE FIACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311620",
+      "display" : "TECNICO TEXTIL DE MALHARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311625",
+      "display" : "TECNICO TEXTIL DE TECELAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311705",
+      "display" : "COLORISTA DE PAPEL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311710",
+      "display" : "COLORISTA TEXTIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311715",
+      "display" : "PREPARADOR DE TINTAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311720",
+      "display" : "PREPARADOR DE TINTAS (FABRICA DE TECIDOS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "311725",
+      "display" : "TINGIDOR DE COUROS E PELES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "312105",
+      "display" : "TECNICO DE OBRAS CIVIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "312205",
+      "display" : "TECNICO DE ESTRADAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "312210",
+      "display" : "TECNICO DE SANEAMENTO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "312305",
+      "display" : "TECNICO EM AGRIMENSURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "312310",
+      "display" : "TECNICO EM GEODESIA E CARTOGRAFIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "312315",
+      "display" : "TECNICO EM HIDROGRAFIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "312320",
+      "display" : "TOPOGRAFO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313105",
+      "display" : "ELETROTECNICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313110",
+      "display" : "ELETROTECNICO (PRODUCAO DE ENERGIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313115",
+      "display" : "ELETROTENICO NA FABRICACAO, MONTAGEM E INSTALACAO DE MAQUINAS E EQUIPAMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313120",
+      "display" : "TECNICO DE MANUTENCAO ELETRICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313125",
+      "display" : "TECNICO DE MANUTENCAO ELETRICA DE MAQUINA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313130",
+      "display" : "TECNICO ELETRICISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313205",
+      "display" : "TECNICO DE MANUTENCAO ELETRONICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313210",
+      "display" : "TECNICO DE MANUTENCAO ELETRONICA (CIRCUITOS DE MAQUINAS COM COMANDO NUMERICO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313215",
+      "display" : "TECNICO ELETRONICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313220",
+      "display" : "TECNICO EM MANUTENCAO DE EQUIPAMENTOS DE INFORMATICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313305",
+      "display" : "TECNICO DE COMUNICACAO DE DADOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313310",
+      "display" : "TECNICO DE REDE (TELECOMUNICACOES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313315",
+      "display" : "TECNICO DE TELECOMUNICACOES (TELEFONIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313320",
+      "display" : "TECNICO DE TRANSMISSAO (TELECOMUNICACOES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313405",
+      "display" : "TECNICO EM CALIBRACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313410",
+      "display" : "TECNICO EM INSTRUMENTACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313415",
+      "display" : "ENCARREGADO DE MANUTENCAO DE INSTRUMENTOS DE CONTROLE, MEDICAO E SIMILARES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "313505",
+      "display" : "TECNICO EM FOTONICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "3135D1",
+      "display" : "TECNICO EM REABILITACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "3135D2",
+      "display" : "TECNICO EM EQUIPAMENTO MEDICO HOSPITALAR"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314105",
+      "display" : "TECNICO EM MECANICA DE PRECISAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314110",
+      "display" : "TECNICO MECANICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314115",
+      "display" : "TECNICO MECANICO (CALEFACAO, VENTILACAO E REFRIGERACAO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314120",
+      "display" : "TECNICO MECANICO (MAQUINAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314125",
+      "display" : "TECNICO MECANICO (MOTORES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314205",
+      "display" : "TECNICO MECANICO NA FABRICACAO DE FERRAMENTAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314210",
+      "display" : "TECNICO MECANICO NA MANUTENCAO DE FERRAMENTAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314305",
+      "display" : "TECNICO EM AUTOMOBILISTICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314310",
+      "display" : "TECNICO MECANICO (AERONAVES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314315",
+      "display" : "TECNICO MECANICO (EMBARCACOES)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314405",
+      "display" : "TECNICO DE MANUTENCAO DE SISTEMAS E INSTRUMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314410",
+      "display" : "TECNICO EM MANUTENCAO DE MAQUINAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314605",
+      "display" : "INSPETOR DE SOLDAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314610",
+      "display" : "TECNICO EM CALDEIRARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314615",
+      "display" : "TECNICO EM ESTRUTURAS METALICAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314620",
+      "display" : "TECNICO EM SOLDAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314625",
+      "display" : "TECNOLOGO EM SOLDAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314705",
+      "display" : "TECNICO DE ACABAMENTO EM SIDERURGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314710",
+      "display" : "TECNICO DE ACIARIA EM SIDERURGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314715",
+      "display" : "TECNICO DE FUNDICAO EM SIDERURGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314720",
+      "display" : "TECNICO DE LAMINACAO EM SIDERURGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314725",
+      "display" : "TECNICO DE REDUCAO NA SIDERURGIA (PRIMEIRA FUSAO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "314730",
+      "display" : "TECNICO DE REFRATARIO EM SIDERURGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316105",
+      "display" : "TECNICO EM GEOFISICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316110",
+      "display" : "TECNICO EM GEOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316115",
+      "display" : "TECNICO EM GEOQUIMICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316120",
+      "display" : "TECNICO EM GEOTECNIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316305",
+      "display" : "TECNICO DE MINERACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316310",
+      "display" : "TECNICO DE MINERACAO (OLEO E PETROLEO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316315",
+      "display" : "TECNICO EM PROCESSAMENTO MINERAL (EXCETO PETROLEO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316320",
+      "display" : "TECNICO EM PESQUISA MINERAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316325",
+      "display" : "TECNICO DE PRODUCAO EM REFINO DE PETROLEO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316330",
+      "display" : "TECNICO EM PLANEJAMENTO DE LAVRA DE MINAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316335",
+      "display" : "DESINCRUSTADOR (POCOS DE PETROLEO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "316340",
+      "display" : "CIMENTADOR (POCOS DE PETROLEO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "317105",
+      "display" : "PROGRAMADOR DE INTERNET"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "317110",
+      "display" : "PROGRAMADOR DE SISTEMAS DE INFORMACAO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "317115",
+      "display" : "PROGRAMADOR DE MAQUINAS  FERRAMENTA COM COMANDO NUMERICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "317120",
+      "display" : "PROGRAMADOR DE MULTIMIDIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "317205",
+      "display" : "OPERADOR DE COMPUTADOR (INCLUSIVE MICROCOMPUTADOR)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "317210",
+      "display" : "TECNICO DE APOIO AO USUARIO DE INFORMATICA (HELPDESK)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318005",
+      "display" : "DESENHISTA TECNICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318010",
+      "display" : "DESENHISTA COPISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318015",
+      "display" : "DESENHISTA DETALHISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318105",
+      "display" : "DESENHISTA TECNICO (ARQUITETURA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318110",
+      "display" : "DESENHISTA TECNICO (CARTOGRAFIA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318115",
+      "display" : "DESENHISTA TECNICO (CONSTRUCAO CIVIL)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318120",
+      "display" : "DESENHISTA TECNICO (INSTALACOES HIDROSSANITARIAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318205",
+      "display" : "DESENHISTA TECNICO MECANICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318210",
+      "display" : "DESENHISTA TECNICO AERONAUTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318215",
+      "display" : "DESENHISTA TECNICO NAVAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318305",
+      "display" : "DESENHISTA TECNICO (ELETRICIDADE E ELETRONICA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318310",
+      "display" : "DESENHISTA TECNICO (CALEFACAO, VENTILACAO E REFRIGERACAO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318405",
+      "display" : "DESENHISTA TECNICO (ARTES GRAFICAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318410",
+      "display" : "DESENHISTA TECNICO (ILUSTRACOES ARTISTICAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318415",
+      "display" : "DESENHISTA TECNICO (ILUSTRACOES TECNICAS)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318420",
+      "display" : "DESENHISTA TECNICO (INDUSTRIA TEXTIL)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318425",
+      "display" : "DESENHISTA TECNICO (MOBILIARIO)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318430",
+      "display" : "DESENHISTA TECNICO DE EMBALAGENS, MAQUETES E LEIAUTES"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318505",
+      "display" : "DESENHISTA PROJETISTA DE ARQUITETURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318510",
+      "display" : "DESENHISTA PROJETISTA DE CONSTRUCAO CIVIL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318605",
+      "display" : "DESENHISTA PROJETISTA DE MAQUINAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318610",
+      "display" : "DESENHISTA PROJETISTA MECANICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318705",
+      "display" : "DESENHISTA PROJETISTA DE ELETRICIDADE"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318710",
+      "display" : "DESENHISTA PROJETISTA ELETRONICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318805",
+      "display" : "PROJETISTA DE MOVEIS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318810",
+      "display" : "MODELISTA DE ROUPAS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "318815",
+      "display" : "MODELISTA DE CALCADOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "319105",
+      "display" : "TECNICO EM CALCADOS E ARTEFATOS DE COURO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "319110",
+      "display" : "TECNICO EM CONFECCOES DO VESTUARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "319205",
+      "display" : "TECNICO DO MOBILIARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "320105",
+      "display" : "TECNICO EM BIOTERISMO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "320110",
+      "display" : "TECNICO EM HISTOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321105",
+      "display" : "TECNICO AGRICOLA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321110",
+      "display" : "TECNICO AGROPECUARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321205",
+      "display" : "TECNICO EM MADEIRA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321210",
+      "display" : "TECNICO FLORESTAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321305",
+      "display" : "TECNICO EM PISCICULTURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321310",
+      "display" : "TECNICO EM CARCINICULTURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321315",
+      "display" : "TECNICO EM MITILICULTURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "321320",
+      "display" : "TECNICO EM RANICULTURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322105",
+      "display" : "TECNICO EM ACUPUNTURA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322110",
+      "display" : "PODOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322115",
+      "display" : "TECNICO EM QUIROPRAXIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322120",
+      "display" : "MASSOTERAPEUTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322125",
+      "display" : "TERAPEUTA HOLISTICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322130",
+      "display" : "ESTETICISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322135",
+      "display" : "DOULA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322205",
+      "display" : "TECNICO DE ENFERMAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322210",
+      "display" : "TECNICO DE ENFERMAGEM DE TERAPIA INTENSIVA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322215",
+      "display" : "TECNICO DE ENFERMAGEM DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322220",
+      "display" : "TECNICO DE ENFERMAGEM PSIQUIATRICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322225",
+      "display" : "INSTRUMENTADOR CIRURGICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322230",
+      "display" : "AUXILIAR DE ENFERMAGEM"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322235",
+      "display" : "AUXILIAR DE ENFERMAGEM DO TRABALHO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322240",
+      "display" : "AUXILIAR DE SAUDE (NAVEGACAO MARITIMA)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322245",
+      "display" : "TECNICO DE ENFERMAGEM DA ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322250",
+      "display" : "AUXILIAR DE ENFERMAGEM DA ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322305",
+      "display" : "TECNICO EM OPTICA E OPTOMETRIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322405",
+      "display" : "TECNICO EM SAUDE BUCAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322410",
+      "display" : "PROTETICO DENTARIO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322415",
+      "display" : "AUXILIAR EM SAUDE BUCAL"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322420",
+      "display" : "AUXILIAR DE PROTESE DENTARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322425",
+      "display" : "TECNICO EM SAUDE BUCAL DA ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322430",
+      "display" : "AUXILIAR EM SAUDE BUCAL DA ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322505",
+      "display" : "TECNICO DE ORTOPEDIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "322605",
+      "display" : "TECNICO DE IMOBILIZACAO ORTOPEDICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "323105",
+      "display" : "TECNICO EM PECUARIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324105",
+      "display" : "TECNICO EM METODOS ELETROGRAFICOS EM ENCEFALOGRAFIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324110",
+      "display" : "TECNICO EM METODOS GRAFICOS EM CARDIOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324115",
+      "display" : "TECNICO EM RADIOLOGIA E IMAGENOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324120",
+      "display" : "TECNOLOGO EM RADIOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324125",
+      "display" : "TECNOLOGO OFTALMICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324205",
+      "display" : "TECNICO EM PATOLOGIA CLINICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324210",
+      "display" : "AUXILIAR TECNICO EM PATOLOGIA CLINICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324215",
+      "display" : "CITOTECNICO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "324220",
+      "display" : "TECNICO EM HEMOTERAPIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325005",
+      "display" : "ENOLOGO"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325010",
+      "display" : "AROMISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325015",
+      "display" : "PERFUMISTA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325105",
+      "display" : "AUXILIAR TECNICO EM LABORATORIO DE FARMACIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325110",
+      "display" : "TECNICO EM LABORATORIO DE FARMACIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325115",
+      "display" : "TECNICO EM FARMACIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325205",
+      "display" : "TECNICO DE ALIMENTOS"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325210",
+      "display" : "TECNICO EM NUTRICAO E DIETETICA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325305",
+      "display" : "TECNICO EM BIOTECNOLOGIA"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "code" : "325310",
+      "display" : "TECNICO EM IMUNOBIOLOGICOS"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

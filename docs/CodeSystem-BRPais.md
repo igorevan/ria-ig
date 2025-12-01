@@ -20,7 +20,7 @@ Códigos para representação de países.
 
 Língua: pt-BR
 
-Este sistema de código define o seguinte código:
+Este case-sensitive sistema de código `http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais` define o seguinte códigos:
 
 
 

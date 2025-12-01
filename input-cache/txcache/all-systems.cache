@@ -1927,7 +1927,6 @@ v: {
   "code" : "pt-BR",
   "system" : "urn:ietf:bcp:47",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1956,7 +1955,6 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1981,7 +1979,6 @@ v: {
   "code" : "en",
   "system" : "urn:ietf:bcp:47",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2006,7 +2003,6 @@ v: {
   "code" : "es",
   "system" : "urn:ietf:bcp:47",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2043,7 +2039,6 @@ v: {
   "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0",
   "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2101,7 +2096,6 @@ v: {
   "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0",
   "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2148,7 +2142,6 @@ v: {
   "system" : "http://hl7.org/fhir/event-status",
   "version" : "4.0.1",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -2185,7 +2178,6 @@ v: {
   "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0",
   "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
   "server" : "https://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -2235,6 +2227,86 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "30587"
+}, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0", "version": "0.1.0", "langs":"pt-BR", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
+  }]
+}}####
+v: {
+  "display" : "JANSSEN",
+  "code" : "30587",
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+  "version" : "0.1.0",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n63 63: tx-op\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Analysing\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Parameters: http-lang=pt-BR, disp-lang=pt-BR, default-to-latest\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|0.1.0\"\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Validate \"[#30587 (\"\")]\" and infer system\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Check \"#30587\"\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Inferred CodeSystem = \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI\"\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|*\r\n63 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Code \"30587\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|0.1.0\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "1"
+}, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0", "version": "0.1.0", "langs":"pt-BR", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
+  }]
+}}####
+v: {
+  "display" : "1ª Dose",
+  "code" : "1",
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose",
+  "version" : "0.1.0",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: Analysing\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: Parameters: http-lang=pt-BR, disp-lang=pt-BR, default-to-latest\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|0.1.0\"\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: Validate \"[#1 (\"\")]\" and infer system\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: Check \"#1\"\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: Inferred CodeSystem = \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose\"\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|*\r\n16 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0|0.1.0: Code \"1\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|0.1.0\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0", "version": "0.1.0", "langs":"pt-BR", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
+  }]
+}}####
+v: {
+  "display" : "BUTANTAN",
+  "code" : "152",
+  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+  "version" : "0.1.0",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n47 47: tx-op\r\n47 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Analysing\r\n47 0: 0ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Parameters: http-lang=pt-BR, disp-lang=pt-BR, default-to-latest\r\n62 15: 15ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|0.1.0\"\r\n62 0: 15ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Validate \"[#152 (\"\")]\" and infer system\r\n62 0: 15ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Check \"#152\"\r\n62 0: 15ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Inferred CodeSystem = \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI\"\r\n62 0: 15ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|*\r\n62 0: 15ms http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0|0.1.0: Code \"152\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|0.1.0\r\n",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"

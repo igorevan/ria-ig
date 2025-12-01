@@ -17,35 +17,12 @@ v: {
   "display" : "Registro anterior/Transcrição de caderneta",
   "code" : "01",
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
-  "version" : "*",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0",
-  "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
+  "version" : "0.1.0",
   "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n32 32   : 0ms  : Analysing http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem--0|0.1.0 for validation purposes\r\n32 0    : 0ms  : Parameters: disp-lang=pt-BR, default-to-latest\r\n32 0    : 0ms  : Prepare include: \"(http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem)\"\r\n32 0    : 0ms  : CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem|0.1.0\"\r\n32 0    : 0ms  : Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem#01 (\"\")]\"\r\n32 0    : 0ms  : Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem#01\"\r\n32 0    : 0ms  : CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem|*\r\n32 0    : 0ms  : check code in (http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem) at Coding\r\n32 0    : 0ms  : Code \"01\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem|0.1.0\r\n",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODESYSTEM_VERSION"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0"
-    },
-    "location" : ["Coding.system"],
-    "expression" : ["Coding.system"]
-  }]
+  "resourceType" : "OperationOutcome"
 }
 
 }
@@ -61,13 +38,43 @@ v: {
   }
 }}####
 e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem version *"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "language": "pt", "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem version *"
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:02cf0151-6e70-40d6-8c67-925c48269df5",
+    "timestamp" : "2025-12-01T17:48:34.506Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+      "code" : "01",
+      "display" : "Registro anterior/Transcrição de caderneta"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+      "code" : "02",
+      "display" : "Vacina no Exterior"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

@@ -28,7 +28,9 @@ Língua: pt-BR
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+Expansão a partir de tx.fhir.org com base em [codesystem Estratégia de Vacinação v0.1.0 (CodeSystem)](CodeSystem-BREstrategiaVacinacao.md)
+
+Este conjunto de valores contém 16 conceitos
 
 -------
 

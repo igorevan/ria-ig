@@ -17,35 +17,12 @@ v: {
   "display" : "Rotina",
   "code" : "1",
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
-  "version" : "*",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0",
-  "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
+  "version" : "0.1.0",
   "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0--0|0.1.0 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=pt-BR, default-to-latest\r\n16 0    : 0ms  : Prepare include: \"(http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao)\"\r\n16 0    : 0ms  : CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao|0.1.0\"\r\n16 0    : 0ms  : Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao#1 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao#1\"\r\n16 0    : 0ms  : CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao|*\r\n16 0    : 0ms  : check code in (http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao) at Coding\r\n16 0    : 0ms  : Code \"1\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao|0.1.0\r\n",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODESYSTEM_VERSION"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0"
-    },
-    "location" : ["Coding.system"],
-    "expression" : ["Coding.system"]
-  }]
+  "resourceType" : "OperationOutcome"
 }
 
 }
@@ -61,13 +38,122 @@ v: {
   }
 }}####
 e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao version *"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "language": "pt", "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao version *"
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:3cf75fef-e269-4bd2-8e90-49a96211b0b7",
+    "timestamp" : "2025-12-01T17:48:22.443Z",
+    "total" : 16,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao|0.1.0"
+    }],
+    "property" : [{
+      "code" : "status",
+      "uri" : "http://hl7.org/fhir/concept-properties#status"
+    }],
+    "contains" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "inactive" : true,
+      "code" : "0",
+      "display" : "Sem registro no sistema de informação de origem",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "1",
+      "display" : "Rotina"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "2",
+      "display" : "Especial"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "3",
+      "display" : "Bloqueio"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "4",
+      "display" : "Intensificação"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "5",
+      "display" : "Campanha indiscriminada"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "6",
+      "display" : "Campanha seletiva"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "7",
+      "display" : "Soroterapia"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "8",
+      "display" : "Serviço Privado"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "9",
+      "display" : "Monitoramento das Estratégias de Vacinação"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "10",
+      "display" : "Pesquisa"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "11",
+      "display" : "Pré-exposição"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "12",
+      "display" : "Pós-exposição"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "13",
+      "display" : "Reexposição"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "14",
+      "display" : "Vacinação Escolar"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+      "code" : "15",
+      "display" : "Operação Gota"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

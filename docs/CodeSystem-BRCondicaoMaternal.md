@@ -20,7 +20,7 @@ Indicação da condição maternal da pessoa vacinada.
 
 Língua: pt-BR
 
-Este sistema de código define o seguinte código:
+Este case-sensitive sistema de código `http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal` define o seguinte códigos:
 
 
 

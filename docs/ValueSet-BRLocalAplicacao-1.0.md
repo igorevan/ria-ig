@@ -28,7 +28,9 @@ Língua: pt-BR
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+Expansão a partir de tx.fhir.org com base em [codesystem Local de Aplicação v0.1.0 (CodeSystem)](CodeSystem-BRLocalAplicacao.md)
+
+Este conjunto de valores contém 24 conceitos
 
 -------
 

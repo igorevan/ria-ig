@@ -28,7 +28,9 @@ Língua: pt-BR
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+Expansão a partir de tx.fhir.org com base em [codesystem Grupo de Atendimento v0.1.0 (CodeSystem)](CodeSystem-BRGrupoAtendimento.md)
+
+Este conjunto de valores contém 107 conceitos
 
 -------
 

@@ -29,7 +29,9 @@ Língua: pt-BR
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+Expansão a partir de tx.fhir.org com base em [codesystem Imunobiológico v0.1.0 (CodeSystem)](CodeSystem-BRImunobiologico.md)
+
+Este conjunto de valores contém 116 conceitos
 
 -------
 

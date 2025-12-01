@@ -17,35 +17,12 @@ v: {
   "display" : "Registro de Imunobiológico Administrado",
   "code" : "RIA",
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
-  "version" : "*",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0",
-  "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
+  "version" : "0.1.0",
   "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0--0|0.1.0 for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=pt-BR, default-to-latest\r\n15 0    : 0ms  : Prepare include: \"(http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento)\"\r\n15 0    : 0ms  : CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|0.1.0\"\r\n15 0    : 0ms  : Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#RIA (\"\")]\"\r\n15 0    : 0ms  : Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#RIA\"\r\n15 0    : 0ms  : CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|*\r\n15 0    : 0ms  : check code in (http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento) at Coding\r\n15 0    : 0ms  : Code \"RIA\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|0.1.0\r\n",
   "unknown-systems" : "",
   "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODESYSTEM_VERSION"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the code cannot be validated. Valid versions: 0.1.0"
-    },
-    "location" : ["Coding.system"],
-    "expression" : ["Coding.system"]
-  }]
+  "resourceType" : "OperationOutcome"
 }
 
 }
@@ -61,13 +38,88 @@ v: {
   }
 }}####
 e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento version *"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "language": "pt", "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0", "version": "0.1.0"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from https://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento version *"
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:07c4a9b7-e8f1-4e22-b6be-856b98a1b1b7",
+    "timestamp" : "2025-12-01T17:48:35.334Z",
+    "total" : 11,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "CMD",
+      "display" : "Conjunto Mínimo de Dados"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "SA",
+      "display" : "Sumário de Alta"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "RAC",
+      "display" : "Registro de Atendimento Clínico"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "RIA",
+      "display" : "Registro de Imunobiológico Administrado"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "RPM",
+      "display" : "Registro de Prescrição de Medicamento"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "RDM",
+      "display" : "Registro de Dispensação de Medicamento"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "REL",
+      "display" : "Resultado de Exame(s) Laboratoriais(s)"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "RA",
+      "display" : "Regulação Assistencial"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "ATM",
+      "display" : "Atestado Médico/Odontológico"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "REPM",
+      "display" : "Registro Eletrônico da Prescrição de Medicamento"
+    },
+    {
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+      "code" : "REDFM",
+      "display" : "Registro Eletrônico de Dispensação ou Fornecimento de Medicamentos"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

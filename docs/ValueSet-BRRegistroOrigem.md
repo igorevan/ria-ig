@@ -28,7 +28,9 @@ Língua: pt-BR
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+Expansão a partir de tx.fhir.org com base em [codesystem Registro de Origem v0.1.0 (CodeSystem)](CodeSystem-BRRegistroOrigem.md)
+
+Este conjunto de valores contém 2 conceitos
 
 -------
 
