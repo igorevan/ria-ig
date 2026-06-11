@@ -1,0 +1,117 @@
+RIARNDSIG : Validation Results
+=========================================
+
+err = 2, warn = 15, info = 4
+IG Publisher Version: 2.2.8 Out of date - current version is null
+Generated Thu Jun 11 20:00:44 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/fhir/r4/ria/1.0.0)
+ Build Errors : 7 / 0 / 0
+ /home/igor/ria-ig/input/examples/example-RIA-R : 2 / 2 / 2
+ /home/igor/ria-ig/input/myig : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRCBO : 0 / 0 / 3
+ /home/igor/ria-ig/input/resources/CodeSystem-BRCID10 : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRCategoriaDiagnostico : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRCondicaoMaternal : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRDose : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BREstrategiaVacinacao : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRFabricantePNI : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRGrupoAtendimento : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRImunobiologico : 0 / 0 / 3
+ /home/igor/ria-ig/input/resources/CodeSystem-BRLocalAplicacao : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRPais : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRRegistroOrigem : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRTipoDocumento : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRViaAdministracao : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 0 / 7 / 2
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRCondicaoMaternal : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRContatoHanseniase : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BREstrategiaVacinacao-1.0 : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0 : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRGrupoAtendimento : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0 : 0 / 12 / 1
+ /home/igor/ria-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0 : 0 / 10 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRCID10-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRCategoriaDiagnostico : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRCondicaoMaternal-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRDose-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BREstadoEvento-1.0 : 0 / 2 / 2
+ /home/igor/ria-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 2 / 2
+ /home/igor/ria-ig/input/resources/ValueSet-BREstrategiaVacinacao-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRFabricanteImunobiologico-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRGrupoAtendimento-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRImunobiologico-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRLocalAplicacao-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BROcupacao-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRPais-1.0 : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRRegistroOrigem : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 2 / 1
+ /home/igor/ria-ig/input/resources/ValueSet-BRViaAdministracao-1.0 : 0 / 2 / 1
+</table>
+== n/a ==
+ERROR: pt-BR/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 232, column 7: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: pt-BR/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 234, column 7: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: pt-BR/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 236, column 7: The link 'definitions.ttl.zip' for "Turtle" cannot be resolved
+ERROR: pt-BR/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 241, column 7: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: pt-BR/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 243, column 7: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: pt-BR/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 245, column 7: The link 'examples.ttl.zip' for "Turtle" cannot be resolved
+ERROR: pt-BR/forms.html#/html/body/div/div/div/div/div/div/p/a at Line 230, column 88: The link 'link do formulário' for "aqui" cannot be resolved
+== input/examples/example-RIA-R.json ==
+ERROR: Bundle/example-RIA-R: Bundle.entry[0].resource.type: Nenhuma das codificações fornecidas faz parte do conjunto de valores 'Tipo de Documento (ValueSet)' (http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0|1.0.0-release) e é necessária uma codificação deste conjunto de valores) (códigos = http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#RIA)
+ERROR: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0
+INFORMATION: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|1.0.0-release
+== input/myig.xml ==
+== input/resources/CodeSystem-BRCBO.xml ==
+== input/resources/CodeSystem-BRCID10.xml ==
+== input/resources/CodeSystem-BRCategoriaDiagnostico.xml ==
+== input/resources/CodeSystem-BRCondicaoMaternal.xml ==
+== input/resources/CodeSystem-BRDose.xml ==
+== input/resources/CodeSystem-BREstrategiaVacinacao.xml ==
+== input/resources/CodeSystem-BRFabricantePNI.xml ==
+== input/resources/CodeSystem-BRGrupoAtendimento.xml ==
+== input/resources/CodeSystem-BRImunobiologico.xml ==
+== input/resources/CodeSystem-BRLocalAplicacao.xml ==
+== input/resources/CodeSystem-BRPais.xml ==
+== input/resources/CodeSystem-BRRegistroOrigem.xml ==
+== input/resources/CodeSystem-BRTipoDocumento.xml ==
+== input/resources/CodeSystem-BRViaAdministracao.xml ==
+== input/resources/StructureDefinition-BRCID10Avaliado-1.0.xml ==
+INFORMATION: StructureDefinition/BRCID10Avaliado-1.0: StructureDefinition.snapshot.element[4].binding.extension[0]: O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 está obsoleto com a nota Use additionalBinding extension or element instead
+== input/resources/StructureDefinition-BRCondicaoMaternal.xml ==
+== input/resources/StructureDefinition-BRContatoHanseniase.xml ==
+== input/resources/StructureDefinition-BREstrategiaVacinacao-1.0.xml ==
+== input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.xml ==
+== input/resources/StructureDefinition-BRGrupoAtendimento.xml ==
+== input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml ==
+== input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.json ==
+== input/resources/ValueSet-BRCID10-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRCID10-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRCategoriaDiagnostico.xml ==
+WARNING: ValueSet.where(id = 'BRCategoriaDiagnostico'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRCondicaoMaternal-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRCondicaoMaternal-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRDose-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRDose-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BREstadoEvento-1.0.xml ==
+INFORMATION: ValueSet/BREstadoEvento-1.0: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://hl7.org/fhir/event-status' is not known, and no terminology service supports it
+WARNING: ValueSet.where(id = 'BREstadoEvento-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/event-status' version '*' could not be found, so the value set cannot be expanded. Valid versions: 4.0.1
+== input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.xml ==
+INFORMATION: ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://terminology.hl7.org/CodeSystem/condition-clinical' is not known, and no terminology service supports it
+WARNING: ValueSet.where(id = 'BREstadoResolucaoDiagnosticoProblema-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/condition-clinical' version '*' could not be found, so the value set cannot be expanded. Valid versions: 3.0.0 or 4.0.1
+== input/resources/ValueSet-BREstrategiaVacinacao-1.0.xml ==
+WARNING: ValueSet.where(id = 'BREstrategiaVacinacao-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRFabricanteImunobiologico-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRFabricanteImunobiologico-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRGrupoAtendimento-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRGrupoAtendimento-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRImunobiologico-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRImunobiologico-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRLocalAplicacao-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRLocalAplicacao-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BROcupacao-1.0.xml ==
+WARNING: ValueSet.where(id = 'BROcupacao-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRPais-1.0.xml ==
+== input/resources/ValueSet-BRRegistroOrigem.xml ==
+WARNING: ValueSet.where(id = 'BRRegistroOrigem'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRTipoDocumento-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRTipoDocumento-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release
+== input/resources/ValueSet-BRViaAdministracao-1.0.xml ==
+WARNING: ValueSet.where(id = 'BRViaAdministracao-1.0'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release

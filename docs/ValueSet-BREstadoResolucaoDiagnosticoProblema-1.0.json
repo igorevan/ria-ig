@@ -1,0 +1,112 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BREstadoResolucaoDiagnosticoProblema-1.0",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narrativa gerada: ValueSet BREstadoResolucaoDiagnosticoProblema-1.0</b></p><a name=\"BREstadoResolucaoDiagnosticoProblema-1.0\"> </a><a name=\"hcBREstadoResolucaoDiagnosticoProblema-1.0\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: en</p></div><ul><li>Include estes códigos, tal como definidos em <a href=\"http://tx.fhir.org/r4\"><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></a><span title=\"Version is explicitly stated to be *\"> versão &#x1F4CD;*</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td>active</td><td/><td>Ativo</td></tr><tr><td>recurrence</td><td/><td>Recorrente</td></tr><tr><td>relapse</td><td/><td>Recidiva</td></tr><tr><td>inactive</td><td/><td>Inativo</td></tr><tr><td>remission</td><td/><td>Remissão</td></tr><tr><td>resolved</td><td/><td>Resolvido</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "ehr"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "normative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+    "valueCode" : "4.0.1"
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+  "version" : "1.0.0-release",
+  "name" : "BREstadoResolucaoDiagnosticoProblema",
+  "title" : "Estado da Resolução de Diagnóstico ou Problema",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-12T13:09:53.3447193+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Estado da resolução de um diagnóstico ou problema.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "version" : "*",
+      "concept" : [{
+        "code" : "active",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Ativo"
+        }]
+      },
+      {
+        "code" : "recurrence",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Recorrente"
+        }]
+      },
+      {
+        "code" : "relapse",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Recidiva"
+        }]
+      },
+      {
+        "code" : "inactive",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Inativo"
+        }]
+      },
+      {
+        "code" : "remission",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Remissão"
+        }]
+      },
+      {
+        "code" : "resolved",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Resolvido"
+        }]
+      }]
+    }]
+  }
+}
