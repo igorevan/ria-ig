@@ -1,33 +1,5 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
-  "code" : "1"
-}, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0--0", "version": "0.1.0", "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
-  }]
-}}####
-v: {
-  "display" : "Não se aplica",
-  "code" : "1",
-  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
-  "version" : "0.1.0",
-  "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0--0|0.1.0 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=pt-BR, default-to-latest\r\n16 0    : 0ms  : Prepare include: \"(http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal)\"\r\n16 0    : 0ms  : CodeSystem found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal|0.1.0\"\r\n16 0    : 0ms  : Validate \"[http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal#1 (\"\")]\"\r\n31 15   : 15ms : Check \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal#1\"\r\n31 0    : 15ms : CodeSystem found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal|0.1.0 for http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal|*\r\n31 0    : 15ms : check code in (http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal) at Coding\r\n31 0    : 15ms : Code \"1\" found in http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal|0.1.0\r\n",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
+{"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "inactive" : true,
@@ -38,48 +10,8 @@ v: {
   }
 }}####
 e: {
-  "source" : tx.fhir.org,
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:4920d4e9-f4ce-47a3-9479-eaa7018557cf",
-    "timestamp" : "2025-12-01T17:48:20.521Z",
-    "total" : 3,
-    "offset" : 0,
-    "parameter" : [{
-      "name" : "excludeNested",
-      "valueBoolean" : false
-    },
-    {
-      "name" : "offset",
-      "valueInteger" : 0
-    },
-    {
-      "name" : "count",
-      "valueInteger" : 1000
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal|0.1.0"
-    }],
-    "contains" : [{
-      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
-      "code" : "1",
-      "display" : "Não se aplica"
-    },
-    {
-      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
-      "code" : "2",
-      "display" : "Gestante"
-    },
-    {
-      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
-      "code" : "3",
-      "display" : "Puérpera"
-    }]
-  }
-},
-  "error" : ""
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal' version '*' could not be found, so the value set cannot be expanded. Valid versions: 1.0.0-release"
 }
 -------------------------------------------------------------------------------------

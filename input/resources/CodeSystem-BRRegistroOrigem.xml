@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem" />
   <version value="01.10" />
   <name value="BRRegistroOrigem" />
-  <title value="Registro de Origem" />
+  <title value="Registro de Origem (CodeSystem)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2022-01-21T14:38:40.0457007+00:00" />

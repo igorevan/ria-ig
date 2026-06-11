@@ -50,7 +50,7 @@
         "definition": "Especifica o tipo de documento que está sendo enviado na composição.",
         "mustSupport": true,
         "binding": {
-          "strength": "preferred",
+          "strength": "required",
           "description": "Tipo de documento",
           "valueSet": "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0"
         }

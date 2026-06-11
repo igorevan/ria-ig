@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0" />
   <version value="1.0" />
   <name value="BRCondicaoMaternal" />
-  <title value="Condição Maternal" />
+  <title value="Condição Maternal (ValueSet)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2021-08-19T19:16:00.146+00:00" />

@@ -3,22 +3,34 @@
   <id value="br.gov.saude.ria.fhir" />
   <language value="pt-BR" />
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="informative" />
+    <valueCode value="normative" />
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1" />
   </extension>
-  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.ria.fhir" />
-  <version value="0.1.0" />
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ehr" />
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.1" />
+  </extension>
+  <url
+    value="https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir" />
+  <version value="1.0.0-release" />
   <name value="RIARNDSIG" />
   <title value="Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS" />
   <status value="active" />
   <experimental value="false" />
   <publisher value="Ministério da Saúde do Brasil" />
   <contact>
+    <name value="Ministério da Saúde do Brasil" />
     <telecom>
       <system value="url" />
       <value value="http://www.saude.gov.br" />
+    </telecom>
+    <telecom>
+      <system value="email" />
+      <value value="cgiis.datasus@saude.gov.br" />
     </telecom>
   </contact>
   <description value="Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)" />
@@ -32,26 +44,11 @@
   <license value="CC0-1.0" />
   <fhirVersion value="4.0.1" />
   <!-- <dependsOn>
-    <uri value="http://terminologia.saude.gov.br/fhir" />
-    <packageId value="br.gov.saude.terminologia.fhir" />
-    <version value="1.0.0" />
-  </dependsOn> -->
-  <!-- <dependsOn>
-    <uri value="http://www.saude.gov.br/fhir/r4" />
-    <packageId value="br.ufg.cgis.rnds-lite" />
+    <uri value="http://terminology.hl7.org" />
+    <packageId value="hl7.terminology" />
     <version value="1.0.0" />
   </dependsOn> -->
   <definition>
-    <resource>
-      <reference>
-        <reference value="Bundle/example-RIA-C" />
-      </reference>
-      <name value="Bundle de exemplo do RIA-C" />
-      <description
-        value="Bundle de exemplo do Registro de Imunobiológico Administrado em Campanha (RIA-C)" />
-      <exampleCanonical
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0" />
-    </resource>
     <resource>
       <reference>
         <reference value="Bundle/example-RIA-R" />
@@ -72,13 +69,8 @@
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="seguranca.html" />
-        <title value="Segurança" />
-        <generation value="html" />
-      </page>
-      <page>
-        <nameUrl value="integracao.html" />
-        <title value="Integração" />
+        <nameUrl value="lives.html" />
+        <title value="Lives" />
         <generation value="html" />
       </page>
       <page>
@@ -87,18 +79,8 @@
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="mcRiac.html" />
-        <title value="Modelo Computacional" />
-        <generation value="html" />
-      </page>
-      <page>
-        <nameUrl value="mcRiar.html" />
-        <title value="Modelo Computacional" />
-        <generation value="html" />
-      </page>
-      <page>
-        <nameUrl value="miRiac.html" />
-        <title value="Modelo de Informação" />
+        <nameUrl value="integracao.html" />
+        <title value="Integração" />
         <generation value="html" />
       </page>
       <page>
@@ -107,13 +89,13 @@
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="exemplos.html" />
-        <title value="Exemplos" />
+        <nameUrl value="mcRiar.html" />
+        <title value="Modelo Computacional" />
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="downloads.html" />
-        <title value="Useful Downloads" />
+        <nameUrl value="exemplos.html" />
+        <title value="Exemplos" />
         <generation value="html" />
       </page>
       <page>
@@ -121,10 +103,25 @@
         <title value="Histórico de mudanças" />
         <generation value="html" />
       </page>
+      <page>
+        <nameUrl value="downloads.html" />
+        <title value="Downloads" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="forms.html" />
+        <title value="Feedback" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="suporte.html" />
+        <title value="Suporte da RNDS" />
+        <generation value="html" />
+      </page>
     </page>
     <parameter>
       <code value="copyrightyear" />
-      <value value="2023+" />
+      <value value="2026+" />
     </parameter>
     <parameter>
       <code value="releaselabel" />
@@ -145,6 +142,171 @@
     <parameter>
       <code value="path-pages" />
       <value value="input/pagecontent" />
+    </parameter>
+    <parameter>
+      <code value="i18n-default-lang" />
+      <value value="pt-BR" />
+    </parameter>
+    <!-- <parameter>
+      <code value="i18n-lang" />
+      <value value="en" />
+    </parameter> -->
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value
+        value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0" />
+    </parameter>
+    <parameter>
+      <code value="special-url" />
+      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0" />
     </parameter>
   </definition>
 </ImplementationGuide>

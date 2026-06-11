@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao" />
   <version value="01.03" />
   <name value="BRLocalAplicacao" />
-  <title value="Local de Aplicação" />
+  <title value="Local de Aplicação (CodeSystem)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2022-12-05T18:15:54.9540124+00:00" />

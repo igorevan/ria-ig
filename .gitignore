@@ -1,8 +1,7 @@
 .DS_Store
 Thumbs.db
 /fsh-generated
-publisher.jar
+/input-cache
 /output
 /temp
 /template
-full-ig.zip

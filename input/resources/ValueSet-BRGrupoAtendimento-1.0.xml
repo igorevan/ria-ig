@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0" />
   <version value="1.0" />
   <name value="BRGrupoAtendimento" />
-  <title value="Tipo de grupo de atendimento" />
+  <title value="Tipo de grupo de atendimento (ValueSet)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2020-12-15T16:29:40.3537413+00:00" />

@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0" />
   <version value="1.0" />
   <name value="BRFabricanteImunobiologico" />
-  <title value="Fabricante do Imunobiológico" />
+  <title value="Fabricante do Imunobiológico (ValueSet)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2021-02-05T14:54:32.2909517+00:00" />

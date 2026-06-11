@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0" />
   <version value="1.0" />
   <name value="BRPais" />
-  <title value="País" />
+  <title value="País (ValueSet)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2020-03-13T21:12:40.0380164+00:00" />

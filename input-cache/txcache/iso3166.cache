@@ -2,11 +2,15 @@
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "BR"
-}, "valueSet" :null, "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
   }]
 }}####
 v: {
@@ -14,7 +18,9 @@ v: {
   "code" : "BR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n1ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -24,11 +30,15 @@ v: {
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "BR"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
   }]
 }}####
 v: {
@@ -36,7 +46,9 @@ v: {
   "code" : "BR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -46,11 +58,15 @@ v: {
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "BR"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
   }]
 }}####
 v: {
@@ -58,7 +74,9 @@ v: {
   "code" : "BR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -68,11 +86,15 @@ v: {
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "BR"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
   }]
 }}####
 v: {
@@ -80,7 +102,9 @@ v: {
   "code" : "BR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -90,11 +114,15 @@ v: {
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "BR"
-}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
   }]
 }}####
 v: {
@@ -102,7 +130,9 @@ v: {
   "code" : "BR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n0ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n0ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n0ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -112,11 +142,15 @@ v: {
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "BR"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "pt-BR"
   }]
 }}####
 v: {
@@ -124,7 +158,9 @@ v: {
   "code" : "BR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -146,17 +182,22 @@ v: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4e09eb1d-310c-4d97-bca5-b17622b1581a",
-    "timestamp" : "2024-01-30T17:36:10.356Z",
+    "identifier" : "urn:uuid:52b04e49-1256-4095-ba2d-084063e88228",
+    "timestamp" : "2026-06-11T20:03:26.378Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",
       "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
       "name" : "offset",
@@ -168,10 +209,6 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
-    },
-    {
-      "name" : "version",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -197,7 +234,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "ALA",
-      "display" : "Eland Islands"
+      "display" : "Åland Islands"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -312,7 +349,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "BLM",
-      "display" : "Saint Barthilemy"
+      "display" : "Saint Barthélemy"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -397,7 +434,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CIV",
-      "display" : "Ctte d'Ivoire"
+      "display" : "Côte d'Ivoire"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -447,7 +484,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CUW",
-      "display" : "Curagao"
+      "display" : "Curaçao"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1112,7 +1149,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "REU",
-      "display" : "Riunion"
+      "display" : "Réunion"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1439,17 +1476,22 @@ e: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:89049397-5d2f-451f-a781-5820e552ce55",
-    "timestamp" : "2024-01-30T17:36:10.559Z",
-    "total" : 249,
+    "identifier" : "urn:uuid:785c9c85-4fa7-4c29-86b1-dbb654c2968d",
+    "timestamp" : "2026-06-11T20:03:27.215Z",
+    "total" : 291,
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",
       "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
       "name" : "offset",
@@ -1461,10 +1503,6 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
-    },
-    {
-      "name" : "version",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -1540,7 +1578,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "AX",
-      "display" : "Eland Islands"
+      "display" : "Åland Islands"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1595,7 +1633,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "BL",
-      "display" : "Saint Barthilemy"
+      "display" : "Saint Barthélemy"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1685,7 +1723,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CI",
-      "display" : "Ctte d'Ivoire"
+      "display" : "Côte d'Ivoire"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1730,7 +1768,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CW",
-      "display" : "Curagao"
+      "display" : "Curaçao"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2405,7 +2443,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "RE",
-      "display" : "Riunion"
+      "display" : "Réunion"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2665,7 +2703,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "VI",
-      "display" : "Virgin Islands,"
+      "display" : "Virgin Islands, U.S."
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2711,6 +2749,216 @@ e: {
       "system" : "urn:iso:std:iso:3166",
       "code" : "ZW",
       "display" : "Zimbabwe"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AA",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QM",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QN",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QO",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QP",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QQ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QR",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QS",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QT",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QU",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QV",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QW",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QX",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QY",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QZ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XA",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XB",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XC",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XD",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XE",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XF",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XG",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XH",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XI",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XJ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XK",
+      "display" : "Kosovo"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XL",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XM",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XN",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XO",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XP",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XQ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XR",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XS",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XT",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XU",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XV",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XW",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XX",
+      "display" : "Unknown"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XY",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XZ",
+      "display" : "International Waters"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ZZ",
+      "display" : "Unknown or Invalid Territory"
     }]
   }
 },
@@ -2732,17 +2980,22 @@ e: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:909b011c-eb0b-4405-b0af-5f18d5fbdc61",
-    "timestamp" : "2024-01-30T17:36:10.746Z",
+    "identifier" : "urn:uuid:33cb0010-29b0-4e35-a453-5f30c445691b",
+    "timestamp" : "2026-06-11T20:03:28.070Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",
       "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
       "name" : "offset",
@@ -2754,10 +3007,6 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
-    },
-    {
-      "name" : "version",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -3128,7 +3377,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "248",
-      "display" : "Eland Islands"
+      "display" : "Åland Islands"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -3308,7 +3557,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "384",
-      "display" : "Ctte d'Ivoire"
+      "display" : "Côte d'Ivoire"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -3518,7 +3767,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "531",
-      "display" : "Curagao"
+      "display" : "Curaçao"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -3673,7 +3922,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "638",
-      "display" : "Riunion"
+      "display" : "Réunion"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -3693,7 +3942,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "652",
-      "display" : "Saint Barthilemy"
+      "display" : "Saint Barthélemy"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -4008,51 +4257,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "BR"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Brazil",
-  "code" : "BR",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "BR"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Brazil",
-  "code" : "BR",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
 }
 -------------------------------------------------------------------------------------

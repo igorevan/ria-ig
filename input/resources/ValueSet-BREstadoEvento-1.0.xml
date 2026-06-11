@@ -1,11 +1,11 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="BREstadoEvento-1.0" />
-  <language value="pt-BR" />
+  <language value="en" />
   <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0" />
   <version value="01.10" />
   <name value="BREstadoEvento" />
   <title value="Estado do Evento" />
-  <status value="draft" />
+  <status value="active" />
   <experimental value="false" />
   <date value="2020-04-07T12:14:07.8417018+00:00" />
   <publisher value="Ministério da Saúde do Brasil" />
@@ -17,35 +17,59 @@
       <version value="*" />
       <concept>
         <code value="preparation" />
-        <display value="Pré-procedimento" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Pré-procedimento" />
+        </designation>
       </concept>
       <concept>
         <code value="in-progress" />
-        <display value="Em andamento" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Em andamento" />
+        </designation>
       </concept>
       <concept>
         <code value="not-done" />
-        <display value="Não Realizado" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Não Realizado" />
+        </designation>
       </concept>
       <concept>
         <code value="on-hold" />
-        <display value="Suspenso" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Suspenso" />
+        </designation>
       </concept>
       <concept>
         <code value="stopped" />
-        <display value="Cancelado" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Cancelado" />
+        </designation>
       </concept>
       <concept>
         <code value="completed" />
-        <display value="Completado" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Completado" />
+        </designation>
       </concept>
       <concept>
         <code value="unknown" />
-        <display value="Desconhecido" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Desconhecido" />
+        </designation>
       </concept>
       <concept>
         <code value="entered-in-error" />
-        <display value="Entrada com erro" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Entrada com erro" />
+        </designation>
       </concept>
     </include>
   </compose>

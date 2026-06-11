@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento" />
   <version value="3.1" />
   <name value="BRGrupoAtendimento" />
-  <title value="Grupo de Atendimento" />
+  <title value="Grupo de Atendimento (CodeSystem)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2021-08-20T14:59:27.326+00:00" />

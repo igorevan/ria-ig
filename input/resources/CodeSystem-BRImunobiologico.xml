@@ -4,7 +4,7 @@
   <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico" />
   <version value="02.16" />
   <name value="BRImunobiologico" />
-  <title value="Imunobiológico" />
+  <title value="Imunobiológico (CodeSystem)" />
   <status value="active" />
   <experimental value="false" />
   <date value="2023-01-12T18:40:15.6103207+00:00" />
