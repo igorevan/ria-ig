@@ -1,18 +1,5 @@
 {
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose" : null,
   "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico" : null,
   "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao" : null,
-  "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao" : null
+  "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0" : null
 }

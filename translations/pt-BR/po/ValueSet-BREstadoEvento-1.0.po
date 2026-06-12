@@ -1,0 +1,71 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "BREstadoEvento"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Estado do Evento"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Identificação do estado de um evento."
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "*"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Pré-procedimento"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Em andamento"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Não Realizado"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Suspenso"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Cancelado"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Completado"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Desconhecido"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Entrada com erro"
+msgstr ""
+

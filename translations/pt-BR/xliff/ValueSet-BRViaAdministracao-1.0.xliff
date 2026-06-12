@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="ValueSet-BRViaAdministracao-1.0" original="Resource ValueSet-BRViaAdministracao-1.0" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-BRViaAdministracao-1.0" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>BRViaAdministracao</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRViaAdministracao-1.0" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Via de Administração do Imunobiológico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRViaAdministracao-1.0" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRViaAdministracao-1.0" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRViaAdministracao-1.0" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Via de administração de um imunobiológico.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRViaAdministracao-1.0" resname="ValueSet.compose.include.version">
+             <notes>
+               <note id="n1">ValueSet.compose.include.version</note>
+             </notes>
+        <source>*</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

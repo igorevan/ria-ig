@@ -1,0 +1,1216 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "BRImunobiologico"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Imunobiológico (CodeSystem)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Classifica os tipos de imunobiológicos."
+msgstr ""
+
+# CodeSystem.property.description
+#: CodeSystem.property.description
+msgid "Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes."
+msgstr ""
+
+# CodeSystem.property.description
+#: CodeSystem.property.description
+msgid "Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina."
+msgstr ""
+
+# CodeSystem.property.description
+#: CodeSystem.property.description
+msgid "Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IGHAT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "imunoglobulina humana antitétano"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antitetânico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAAR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antiaracnídico (Loxosceles, Phoneutria, Tityus)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAESC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antiescorpiônico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina difteria e tétano infantil"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAELA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antielapídico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antirrábico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SABR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antibotrópico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HB"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina hepatite B"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAD"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antidiftérico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SABC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antibotrópico e anticrotálico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SABL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antibotrópico e antilaquético"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MenAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina meningo AC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VFA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina febre amarela"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BCG"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina BCG"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro anticrotálico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Hib"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Hib"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VR embrião de galinha"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina raiva embrião de galinha"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IGHAVZ"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "imunoglobulina humana antivaricela"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IGHAHB"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "imunoglobulina humana anti-hepatite B"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VPP23"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina pneumo 23"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VIP"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina inativada poliomielite"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IGHAR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "imunoglobulina humana antirrábica"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SCR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina tríplice viral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "dT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina difteria e tétano adulto"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VPC10"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina pneumo 10"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SALATRO"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antilatrodéctico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VOPb"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina oral poliomielite bivalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Penta acelular"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina penta acelular (DTPa/VIP/Hib)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "FTp"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina febre tifóide"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SALOX"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antiloxoscélico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SALON"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antilonômico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "INF3"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina influenza trivalente"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Influenza vaccine trivalent"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Vacuna influenza trivalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VZ"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina varicela"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HA virossomal"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina hepatite A (virossomal)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina dupla viral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina raiva"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SBOTULTRI"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antibotulínico (trivalente)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Tetra"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina DTP/Hib"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VPC7"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina pneumo 7"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MenC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina meningo C"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Penta"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina penta (DTP/HB/Hib)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Hexa acelular"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina hexa acelular (DTPa/HB/VIP/Hib)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "INFH1N1-2009"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina influenza A (H1N1) (inativada, fragmentada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "ROTA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina rotavírus"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DTP"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina DTP"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DTPa"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina DTPa infantil"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILSCR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina sarampo, caxumba, rubéola"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILVFA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina febre amarela"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILHib"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina Haemophilus influenzae B"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Fta"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina febre tifóide (atenuada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILMenAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina meningo AC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILSR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina sarampo, rubéola"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILVAR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina varicela"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HAinf"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina hepatite A infantil"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SCRV"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina tetraviral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "dTpa"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina dTpa adulto"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DTPa/VIP"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina tetra acelular DTPa/VIP"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VPC13"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina pneumo 13"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HPV2"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina HPV bivalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Tétano"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina tétano"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HA-HBinf"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina hepatite A e B infantil"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HA-HBad"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina hepatite A e B adulto"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "INF3-ID"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina influenza trivalente ID"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "ROTA5"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina rotavírus pentavalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MenBC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina meningo BC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HPV4"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina HPV quadrivalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SAB"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "soro antibotulínico AB (bivalente)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sarampo"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina sarampo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Rubéola"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina rubéola"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina sarampo, caxumba, rubéola e varicela"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MenACWY"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina meningo ACWY"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VCO"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina cólera oral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VHZ"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina herpes-zóster (atenuada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "INF4"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina influenza tetravalente"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Influenza vaccine tetravalent"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Vacuna influenza tetravalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MenB"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina meningo B"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILBCG"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina BCG"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILVR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina raiva"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILMenC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina meningo C"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Dengue"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina dengue (recombinante e atenuada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HAad"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina hepatite A adulto"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VFA-F"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina febre amarela fracionada"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "XM9QW8 Vacuna COVID-19, vector viral no replicante"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 SINOVAC/BUTANTAN - CORONAVAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "XM1NL1 COVID-19 vaccine, inactivated virus"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "XM1NL1 Vacuna COVID-19, virus inactivado"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 PFIZER - COMIRNATY"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-RNAm, Pfizer (Comirnaty)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "XM0GQ8 COVID-19 vaccine, RNA based"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "XM0GQ8 Vacuna COVID-19, basada en ARN"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 JANSSEN - Ad26.COV2.S"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 ASTRAZENECA - ChAdOx1-S"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILSCRV"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina sarampo, caxumba, rubéola e varicela"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DILVR embrião de galinha"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "diluente para vacina raiva embrião de galinha"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HPV9"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina HPV nonavalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "NaCl 0,9%"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "cloreto de sódio, solução injetável - 0,9%"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 GAMALEYA - SPUTNIK V"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-recombinante, Gamaleya (Sputnik V)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 BHARAT - COVAXIN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-inativada, Bharat (Covaxin)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 MODERNA - SPIKEVAX"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-RNAm, Moderna (Spikevax)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 SINOVAC - CORONAVAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-inativada, Sinovac (Coronavac)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VVS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina varíola símia (atenuada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VHZR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina herpes-zóster (recombinante)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 PFIZER - COMIRNATY BIVALENTE"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DNG"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina dengue (atenuada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19-SPIKEVAX BI"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-RNAm, Moderna (Spikevax) bivalente"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VPC15"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina pneumo 15"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VPC20"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina pneumo 20"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VVSR-Rec"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina vírus sincicial respiratório A e B (recombinante)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VVSR-RecAdj"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina vírus sincicial respiratório (recombinante, adjuvada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "INF4-alta dosagem"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina influenza tetravalente - alta dosagem"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "dTpa/VIP"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina tetra acelular dTpa/VIP"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 SERUM/ZALIKA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-recombinante, Serum/Zalika"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CHIKUNGUNYA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina chikungunya (recombinante e atenuada)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "COVID-19 SINOPHARM"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "vacina Covid-19-inativada, Sinopharm"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "NIRSEVIMABE 0,5ml"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "nirsevimabe 0,5ml"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "NIRSEVIMABE 1,0ml"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "nirsevimabe 1,0ml"
+msgstr ""
+

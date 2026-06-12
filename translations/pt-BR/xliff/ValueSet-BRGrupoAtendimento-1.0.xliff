@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="ValueSet-BRGrupoAtendimento-1.0" original="Resource ValueSet-BRGrupoAtendimento-1.0" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-BRGrupoAtendimento-1.0" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>BRGrupoAtendimento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRGrupoAtendimento-1.0" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Tipo de grupo de atendimento (ValueSet)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRGrupoAtendimento-1.0" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRGrupoAtendimento-1.0" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRGrupoAtendimento-1.0" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BRGrupoAtendimento-1.0" resname="ValueSet.compose.include.version">
+             <notes>
+               <note id="n1">ValueSet.compose.include.version</note>
+             </notes>
+        <source>*</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

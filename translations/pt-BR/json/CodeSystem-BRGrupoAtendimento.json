@@ -1,0 +1,679 @@
+{
+  "id" : "CodeSystem-BRGrupoAtendimento",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "BRGrupoAtendimento",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "Grupo de Atendimento (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Sem registro no modelo de informação de origem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Hemoglobinopatia grave",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Neoplasias",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Diabetes Mellitus",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pneumopatias Crônicas Graves",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Doença Renal Crônica",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Doenças Cardiovasculares e Cerebrovasculares",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Hipertensão de difícil controle ou com complicações/lesão de órgão alvo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Indivíduos Transplantados de Órgão Sólido",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Obesidade Grave (Imc≥40)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Síndrome de Down",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Outros Imunocomprometidos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Indivíduos Transplantados de Medula Óssea",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Cirrose hepática",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Doença neurológica crônica",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Doença cardiovascular",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Imunocomprometidos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Trissomias",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Doença Hepática Crônica",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Prematuridade",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Anomalias de vias aéreas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Obesidade (score-Z acima de +2)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Erros Inatos da Imunidade (EII)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 18 a 64 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 65 a 69 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 70 a 74 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 75 a 79 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 80 anos ou mais",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 12 a 17 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 5 a 11 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 3 a 4 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 6 meses a 2 anos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Faixa Etária",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas de 60 nos ou mais Institucionalizadas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas Institucionalizadas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Marinha do Brasil - MB",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Exército Brasileiro - EB",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Força Aérea Brasileira - FAB",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Bombeiro Civil",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Bombeiro Militar",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Guarda Municipal",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Policial Rodoviário Federal",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Policial Civil",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Policial Federal",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Policial Militar",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Quilombola",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ribeirinha",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Crianças Quilombolas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Crianças Ribeirinhas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Povos indígenas em terras indígenas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Crianças Indígenas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Povos indígenas vivendo em terras indígenas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Povos indígenas vivendo fora das terras indígenas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ensino Básico",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ensino Superior",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Auxiliar de Veterinário",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Biólogo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Biomédico",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Cozinheiro e Auxiliares",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Cuidador de Idosos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Doula/Parteira",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Enfermeiro(a)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Farmacêutico",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Fisioterapeutas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Fonoaudiólogo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Médico",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Médico Veterinário",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Motorista de Ambulância",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Nutricionista",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Odontologista",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profissionais e Auxiliares de limpeza",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Profissionais de Educação Física",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Psicólogo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Recepcionista",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Segurança",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Assistente Social",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Técnico de Enfermagem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Técnico de Veterinário",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Terapeuta Ocupacional",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Outros",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Auxiliar de Enfermagem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Técnico de Odontologia",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Acadêmicos/estudantes em estágio em estabelecimentos de saúde",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Agente de Combate a Endemias - ACE",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Agente Comunitário de Saúde - ACS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Auxiliar em Saúde Bucal - ASB",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Técnico em Saúde Bucal - TSB",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Aéreo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Caminhoneiro",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Coletivo Rodoviário Passageiros Urbano e de Longo Curso",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ferroviário",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Metroviário",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Aquaviário",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas com Deficiência Institucionalizadas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas com Deficiência Permanente",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pessoas em Situação de Rua",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Trabalhadores Portuários",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Funcionário do Sistema de Privação de Liberdade",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "População Privada de Liberdade",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Adolescentes cumprindo medidas Socioeducativas",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Trabalhadores Industriais",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Trabalhadores de limpeza urbana e manejo de resíduos sólidos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Gestante",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Puérpera",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "População Rural",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Outros Grupos",
+      "target" : null
+    }]
+  }]
+}

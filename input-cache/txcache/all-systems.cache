@@ -9,7 +9,7 @@
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -17,7 +17,7 @@ v: {
   "code" : "pt-BR",
   "system" : "urn:ietf:bcp:47",
   "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Analysing http://hl7.org/fhir/ValueSet/languages|4.0.1 for validation purposes\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW)\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Validate \"[undefined#pt-BR (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Check \"undefined#pt-BR\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: check code in (urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW) at \n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Code \"pt-BR\" found in urn:ietf:bcp:47|null",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Analysing http://hl7.org/fhir/ValueSet/languages|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW)\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Validate \"[undefined#pt-BR (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Check \"undefined#pt-BR\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: check code in (urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW) at \n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Code \"pt-BR\" found in urn:ietf:bcp:47|null",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -35,7 +35,7 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -61,7 +61,7 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -87,7 +87,7 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -113,7 +113,7 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -125,122 +125,6 @@ v: {
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "152"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
-      "version" : "*"
-    }]
-  }
-}, "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
-  }]
-}}####
-v: {
-  "display" : "BUTANTAN",
-  "code" : "152",
-  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
-  "version" : "*",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI' version '*' could not be found, so the code cannot be validated. Valid versions: 1.0.0-release",
-  "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
-  "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: Analysing urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b for validation purposes\n0ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n1ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: Prepare include[0]: \"(http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI)\"\n1ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: CodeSystem version * not found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|*\"\n1ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: Validate \"[undefined#152 (\"undefined\")]\" and infer system\n1ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: Check \"undefined#152\"\n1ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: Inferred CodeSystem = \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI\"\n1ms urn:uuid:623ee2bc-b42c-4ca6-872a-db506a79de6b: CodeSystem not found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|*",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODESYSTEM_VERSION"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI' version '*' could not be found, so the code cannot be validated. Valid versions: 1.0.0-release"
-    },
-    "expression" : ["system"]
-  }]
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "code" : "1"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose",
-      "version" : "*"
-    }]
-  }
-}, "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
-  }]
-}}####
-v: {
-  "display" : "1ª Dose",
-  "code" : "1",
-  "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose",
-  "version" : "*",
-  "severity" : "error",
-  "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose' version '*' could not be found, so the code cannot be validated. Valid versions: 1.0.0-release",
-  "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
-  "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: Analysing urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889 for validation purposes\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: Prepare include[0]: \"(http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose)\"\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: CodeSystem version * not found: \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|*\"\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: Validate \"[undefined#1 (\"undefined\")]\" and infer system\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: Check \"undefined#1\"\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: Inferred CodeSystem = \"http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose\"\n1ms urn:uuid:bb33ee2d-237f-4e1d-8283-ee82c8caf889: CodeSystem not found: http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose|*",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome",
-  "issue" : [{
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
-      "valueString" : "UNKNOWN_CODESYSTEM_VERSION"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
-      "valueUrl" : "https://tx.fhir.org/r4"
-    }],
-    "severity" : "error",
-    "code" : "not-found",
-    "details" : {
-      "coding" : [{
-        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
-        "code" : "not-found"
-      }],
-      "text" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose' version '*' could not be found, so the code cannot be validated. Valid versions: 1.0.0-release"
-    },
-    "expression" : ["system"]
-  }]
 }
 
 }

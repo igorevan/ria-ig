@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "BRFabricanteImunobiologico"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Fabricante do Imunobiológico (ValueSet)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Fabricante do imunobiológico administrado"
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "*"
+msgstr ""
+

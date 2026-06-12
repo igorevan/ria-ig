@@ -1,0 +1,61 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "BREstadoResolucaoDiagnosticoProblema"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Estado da Resolução de Diagnóstico ou Problema"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Estado da resolução de um diagnóstico ou problema."
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "*"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Ativo"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Recorrente"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Recidiva"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Inativo"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Remissão"
+msgstr ""
+
+# ValueSet.compose.include.concept.designation.value
+#: ValueSet.compose.include.concept.designation.value
+msgid "Resolvido"
+msgstr ""
+

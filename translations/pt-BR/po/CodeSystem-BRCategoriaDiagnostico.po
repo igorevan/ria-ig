@@ -1,0 +1,36 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "BRCategoriaDiagnostico"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Categoria do Diagnóstico (CodeSystem)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Códigos para representação do tipo de categoria do diagnóstico realizado."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Principal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Secundário"
+msgstr ""
+

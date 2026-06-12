@@ -34,6 +34,12 @@
     </telecom>
   </contact>
   <description value="Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)" />
+  <!-- <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm" />
+      <code value="076" />
+    </coding>
+  </jurisdiction> -->
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166" />
@@ -143,14 +149,18 @@
       <code value="path-pages" />
       <value value="input/pagecontent" />
     </parameter>
-    <parameter>
+    <!-- <parameter>
       <code value="i18n-default-lang" />
       <value value="pt-BR" />
     </parameter>
-    <!-- <parameter>
+    <parameter>
       <code value="i18n-lang" />
-      <value value="en" />
+      <value value="pt-BR" />
     </parameter> -->
+    <parameter>
+      <code value="special-url-base" />
+      <value value="http://www.saude.gov.br/fhir/r4" />
+    </parameter>
     <parameter>
       <code value="special-url" />
       <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" />

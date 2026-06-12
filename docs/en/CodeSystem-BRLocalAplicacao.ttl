@@ -1,0 +1,351 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRLocalAplicacao> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRLocalAplicacao"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "ehr"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "normative" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "4.0.1"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"^^xsd:anyURI ;
+     fhir:l <http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
+  fhir:name [ fhir:v "BRLocalAplicacao"] ; # 
+  fhir:title [ fhir:v "Local de Aplicação (CodeSystem)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2022-12-05T18:15:54.9540124+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Define a localização anatômica de aplicação de uma substância"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "0" ] ;
+     fhir:display [ fhir:v "Sem registro no sistema de informação de origem" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "No registration in the source information system" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Sin registro en el sistema de información de fuentes" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Deltóide Direito" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Right deltoid" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Deltoides derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Deltóide Esquerdo" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Left deltoid" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Deltoides izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Vasto Lateral da Coxa Direita" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Right Vastus Lateralis" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Vasto lateral derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Vasto Lateral da Coxa Esquerda" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Left Vastus Lateralis" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Vasto lateral izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Ventroglúteo Direito" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Right ventro gluteus" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Ventro gluteus derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Ventroglúteo Esquerdo" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Left ventro gluteus" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Ventro gluteus izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Glúteo (descontinuado)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "gluteus (deprecated)" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Glúteo (descontinuado)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Ferimento Local" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Local Injury" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Lesión local" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Boca" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Mouth" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Boca" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Dorso Glúteo Direito" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Right Gluteal Dorso" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Dorso Gluteal Derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Dorso Glúteo Esquerdo" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Left Gluteal Dorso" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Dorso Gluteal Izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Face Externa Inferior do Braço Direito" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Lower Face of Right Arm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Inferior Externa del Brazo Derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Face Externa Inferior do Braço Esquerdo" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Lower Face of Left Arm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Inferior Externa del Brazo Izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Face Externa Superior do Braço Direito" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Upper Face of Right Arm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Superior Externa del Brazo Derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Face Externa Superior do Braço Esquerdo" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Upper Face of Left Arm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Superior Externa del Brazo Izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Rede Venosa" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Venous System" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Sistema Venoso" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Face Anterolateral Externa da Coxa Direita" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Anterolateral Face of Right Thigh" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Anterolateral Externa del Muslo Derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Face Anterolateral Externa da Coxa Esquerda" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Anterolateral Face of Left Thigh" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Anterolateral Externa del Muslo Izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Face Anterolateral Externa do Braço Direito" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Anterolateral Face of Right Arm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Anterolateral Externa del Brazo Derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Face Anterolateral Externa do Braço Esquerdo" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Anterolateral Face of Left Arm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Anterolateral Externa del Brazo Izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Face Anterolateral Externa do Antebraço Direito" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Anterolateral Face of the Right Forearm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Anterolateral Externa del Antebrazo Derecho" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Face Anterolateral Externa do Antebraço Esquerdo" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "External Anterolateral Face of the Left Forearm" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cara Anterolateral Externa del Antebrazo Izquierdo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:display [ fhir:v "Outro" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Other" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Otra" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

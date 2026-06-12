@@ -1,0 +1,810 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRDose> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRDose"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "ehr"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "normative" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "4.0.1"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"^^xsd:anyURI ;
+     fhir:l <http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
+  fhir:name [ fhir:v "BRDose"] ; # 
+  fhir:title [ fhir:v "Dose de Vacina"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-01-06T18:23:38.3705+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Define a dose da administração de uma substância."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "1ª Dose" ] ;
+     fhir:definition [ fhir:v "D1" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "First dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Primera dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "2ª Dose" ] ;
+     fhir:definition [ fhir:v "D2" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Second dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Segunda dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "3ª Dose" ] ;
+     fhir:definition [ fhir:v "D3" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Third dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tercera dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "4ª Dose" ] ;
+     fhir:definition [ fhir:v "D4" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fourth dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cuarta dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "5ª Dose" ] ;
+     fhir:definition [ fhir:v "D5" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fifth dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Quinta dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "1º Reforço" ] ;
+     fhir:definition [ fhir:v "R1" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "First booster dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Primer refuerzo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "2º Reforço" ] ;
+     fhir:definition [ fhir:v "R2" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Second booster dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Segundo refuerzo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Dose" ] ;
+     fhir:definition [ fhir:v "D" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Única" ] ;
+     fhir:definition [ fhir:v "DU" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Single dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Dosis única" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Revacinação" ] ;
+     fhir:definition [ fhir:v "REV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Revaccination" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Revacunación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Tratamento com uma dose" ] ;
+     fhir:definition [ fhir:v "T1" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "1 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 1 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Tratamento com duas doses" ] ;
+     fhir:definition [ fhir:v "T2" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "2 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 2 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Tratamento com três doses" ] ;
+     fhir:definition [ fhir:v "T3" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "3 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 3 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Tratamento com quatro doses" ] ;
+     fhir:definition [ fhir:v "T4" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "4 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 4 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Tratamento com cinco doses" ] ;
+     fhir:definition [ fhir:v "T5" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "5 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 5 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Tratamento com seis doses" ] ;
+     fhir:definition [ fhir:v "T6" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "6 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 6 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Tratamento com sete doses" ] ;
+     fhir:definition [ fhir:v "T7" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "7 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 7 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Tratamento com oito doses" ] ;
+     fhir:definition [ fhir:v "T8" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "8 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 8 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Tratamento com nove doses" ] ;
+     fhir:definition [ fhir:v "T9" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "9 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 9 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Tratamento com dez doses" ] ;
+     fhir:definition [ fhir:v "T10" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "10 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 10 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Tratamento com onze doses" ] ;
+     fhir:definition [ fhir:v "T11" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "11 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 11 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Tratamento com doze doses" ] ;
+     fhir:definition [ fhir:v "T12" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "12 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 12 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Tratamento com treze doses" ] ;
+     fhir:definition [ fhir:v "T13" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "13 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 13 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Tratamento com quartorze doses" ] ;
+     fhir:definition [ fhir:v "T14" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "14 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 14 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Tratamento com quinze doses" ] ;
+     fhir:definition [ fhir:v "T15" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "15 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 15 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "Tratamento com dezesseis doses" ] ;
+     fhir:definition [ fhir:v "T16" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "16 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 16 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Tratamento com dezessete doses" ] ;
+     fhir:definition [ fhir:v "T17" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "17 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 17 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Tratamento com dezoito doses" ] ;
+     fhir:definition [ fhir:v "T18" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "18 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 18 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Tratamento com dezenove doses" ] ;
+     fhir:definition [ fhir:v "T19" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "19 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 19 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Tratamento com vinte doses" ] ;
+     fhir:definition [ fhir:v "T20" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "20 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 20 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "Tratamento com vinte e quatro doses" ] ;
+     fhir:definition [ fhir:v "T24" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "24 dose treatment" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tratamiento de 24 dosis" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "1ª Dose Revacinação" ] ;
+     fhir:definition [ fhir:v "D1REV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "First dose revaccinacion" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Primera dosis revacunación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "2ª Dose Revacinação" ] ;
+     fhir:definition [ fhir:v "D2REV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Second dose revaccinacion" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Segunda dosis revacunación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "3ª Dose Revacinação" ] ;
+     fhir:definition [ fhir:v "D3REV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Third dose revaccinacion" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tecera dosis revacunación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "4ª Dose Revacinação" ] ;
+     fhir:definition [ fhir:v "D4REV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fourth dose revaccinacion" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cuarta dosis revacunación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "Dose Inicial" ] ;
+     fhir:definition [ fhir:v "DI" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Initial dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Dosis inicial" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Dose Adicional" ] ;
+     fhir:definition [ fhir:v "DA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Additional dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Dosis adicional" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "Reforço" ] ;
+     fhir:definition [ fhir:v "REF" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Booster" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Refuerzo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "3º Reforço" ] ;
+     fhir:definition [ fhir:v "R3" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Third booster dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tercer refuerzo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "4º Reforço" ] ;
+     fhir:definition [ fhir:v "R4" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fourth booster dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cuarto refuerzo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "5º Reforço" ] ;
+     fhir:definition [ fhir:v "R5" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fifth booster dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Quinto refuerzo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "6º Reforço" ] ;
+     fhir:definition [ fhir:v "R6" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Sixth booster dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Sexto refuerzo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "5ª Dose Revacinação" ] ;
+     fhir:definition [ fhir:v "D5REV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fifth dose revaccinacion" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Quinta dosis revacunación" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "1ª Dose Fracionada" ] ;
+     fhir:definition [ fhir:v "D1F" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "First fractional dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Primera dosis fraccionada" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "2ª Dose Fracionada" ] ;
+     fhir:definition [ fhir:v "D2F" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Second fractional dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Secunda dosis fraccionada" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:display [ fhir:v "3ª Dose Fracionada" ] ;
+     fhir:definition [ fhir:v "D3F" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Third fractional dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Tercera dosis fraccionada" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:display [ fhir:v "4ª Dose Fracionada" ] ;
+     fhir:definition [ fhir:v "D4F" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fourth fractional dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Cuarta dosis fraccionada" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:display [ fhir:v "5ª Dose Fracionada" ] ;
+     fhir:definition [ fhir:v "D5F" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Fifth fractional dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Quinta dosis fraccionada" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "1ª Dose Dobrada" ] ;
+     fhir:definition [ fhir:v "D1D" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "1st double dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "1ra dosis doble" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:display [ fhir:v "2ª Dose Dobrada" ] ;
+     fhir:definition [ fhir:v "D2D" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "2nd double dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "2da dosis doble" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "3ª Dose Dobrada" ] ;
+     fhir:definition [ fhir:v "D3D" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "3rd double dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "3ra dosis doble" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "4ª Dose Dobrada" ] ;
+     fhir:definition [ fhir:v "D4D" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "4th double dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "4ta dosis doble" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "1ª Dose Revacinação Dobrada" ] ;
+     fhir:definition [ fhir:v "D1REVD" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "2ª Dose Revacinação Dobrada" ] ;
+     fhir:definition [ fhir:v "D2REVD" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "3ª Dose Revacinação Dobrada" ] ;
+     fhir:definition [ fhir:v "D3REVD" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "4ª Dose Revacinação Dobrada" ] ;
+     fhir:definition [ fhir:v "D4REVD" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "Dose Zero" ] ;
+     fhir:definition [ fhir:v "D0" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "Zero-dose" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "Dosis cero" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "58" ] ;
+     fhir:display [ fhir:v "Reforço Zero" ] ;
+     fhir:definition [ fhir:v "R0" ]
+  ] [
+     fhir:code [ fhir:v "59" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 1 frasco-ampola/ampola" ] ;
+     fhir:definition [ fhir:v "P/T1" ]
+  ] [
+     fhir:code [ fhir:v "60" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 2 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T2" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 3 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T3" ]
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 4 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T4" ]
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 5 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T5" ]
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 6 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T6" ]
+  ] [
+     fhir:code [ fhir:v "65" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 7 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T7" ]
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 8 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T8" ]
+  ] [
+     fhir:code [ fhir:v "67" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 9 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T9" ]
+  ] [
+     fhir:code [ fhir:v "68" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 10 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T10" ]
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 11 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T11" ]
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 12 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T12" ]
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 13 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T13" ]
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 14 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T14" ]
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 15 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T15" ]
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 16 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T16" ]
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 17 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T17" ]
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 18 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T18" ]
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 19 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T19" ]
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 20 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T20" ]
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 21 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T21" ]
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 22 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T22" ]
+  ] [
+     fhir:code [ fhir:v "81" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 23 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T23" ]
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:display [ fhir:v "Profilaxia/Tratamento com 24 frascos-ampolas/ampolas" ] ;
+     fhir:definition [ fhir:v "P/T24" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

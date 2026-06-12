@@ -1,0 +1,1246 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "BRFabricantePNI"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Fabricante do Imunobiológico (CodeSystem)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Apresenta o fabricante do imunobiológico."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IVB"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "INSTITUTO VITAL BRAZIL S.A"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "INSTITUTO VITAL BRAZIL S.A"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PFIZER"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "LABORATORIOS PFIZER LTDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "LABORATORIOS PFIZER LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "FIOCRUZ"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "FUNDACAO OSWALDO CRUZ"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "FUNDACAO OSWALDO CRUZ"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "FUNED"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "FUNDACAO EZEQUIEL DIAS"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "FUNDACAO EZEQUIEL DIAS"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "F.A.P."
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "FUNDACAO ATAULPHO DE PAIVA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "FUNDACAO ATAULPHO DE PAIVA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BUTANTAN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "INSTITUTO BUTANTAN"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "INSTITUTO BUTANTAN"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "TECPAR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "INSTITUTO DE TECNOLOGIA DO PARANA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "INSTITUTO DE TECNOLOGIA DO PARANA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "DADO B."
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "DADE BEHRING MARBUG GMBH"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "DADE BEHRING MARBUG GMBH"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SMITHKLINE"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GLAXOSMITHKLINE BEECHAM"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "GLAXOSMITHKLINE BEECHAM"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GREENCROSS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GREEN CROSS - PHARMACEUTICAL B. M. CORP."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "GREEN CROSS - PHARMACEUTICAL B. M. CORP."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "AVENTIS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "AVENTIS PASTEUR S.A."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "AVENTIS PASTEUR S.A."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CHIRON SPA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "NOVARTIS/CHIRON S.P.A. VACCINES"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "NOVARTIS/CHIRON S.P.A. VACCINES"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SERUM-INDIA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SERUM INSTITUTE OF INDIA LTD."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "SERUM INSTITUTE OF INDIA LTD."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "LGCHEMICAL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "LG CHEMICAL INVESTIMENT LTD"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "LG CHEMICAL INVESTIMENT LTD"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MERCK"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MERCK SHARP DOHME CO., INC."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "MERCK SHARP DOHME CO., INC."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BIKEN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "FUNDACAO INVEST. DE INFERM. MICROB. DA UNIVERSIDADE DE OSAKA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "FUNDACAO INVEST. DE INFERM. MICROB. DA UNIVERSIDADE DE OSAKA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SEVAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SEVAC S.A."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "SEVAC S.A."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BERNE"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SWISS SERUM AND VACCINES INSTITUTE BERNE"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "SWISS SERUM AND VACCINES INSTITUTE BERNE"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "INCQS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "INSTITUTO NACIONAL DE CONTROLE DE QUALIDADE EM SAUDE"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "INSTITUTO NACIONAL DE CONTROLE DE QUALIDADE EM SAUDE"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BAYER"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BAYER CORPORATION - BIOLOGICAL PRODUCTS"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BAYER CORPORATION - BIOLOGICAL PRODUCTS"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BAXTER"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BAXTER VACCINE AKTIENGESELLSCHAFT"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BAXTER VACCINE AKTIENGESELLSCHAFT"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CYANAMID"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "AMERICAN CYANAMID COMPANY"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "AMERICAN CYANAMID COMPANY"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CPPI"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "CENTRO DE PRODUCAO E PESQUISA DE IMUNOBIOLOGICOS"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "CENTRO DE PRODUCAO E PESQUISA DE IMUNOBIOLOGICOS"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IIMUNO"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "INSTITUTE OF IMMUNOLOGY - CROACIA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "INSTITUTE OF IMMUNOLOGY - CROACIA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CSL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "CSL BEHRING GMBH"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "CSL BEHRING GMBH"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "WYETH-LTDA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "WYETH INDUSTRIA FARMACEUTICA LTDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "WYETH INDUSTRIA FARMACEUTICA LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "NOVARTIS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "NOVARTIS PHARMA SERVICES INC."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "NOVARTIS PHARMA SERVICES INC."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HEBER"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "HEBER BIOTEC"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "HEBER BIOTEC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BERNA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BERNA BIOTECH KOREA CORPORATION"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BERNA BIOTECH KOREA CORPORATION"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SANPASTEUR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SANOFI PASTEUR"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "SANOFI PASTEUR"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MERIAL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MERIAL MEXICO, SA BECV"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "MERIAL MEXICO, SA BECV"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BIOVET"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BIOVET"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BIOVET"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CRUCELL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "CRUCELL SWEDEN AB"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "CRUCELL SWEDEN AB"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VIRBAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "VIRBAC S.A"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "VIRBAC S.A"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GRIFOLS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GRIFOLS BRASIL LTDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "GRIFOLS BRASIL LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "KEDRION"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "KEDRION BIOPHARMA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "KEDRION BIOPHARMA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BIOGENESIS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BIOGENESIS-BAGO S/A"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BIOGENESIS-BAGO S/A"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SHANTHA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SHANTHA BIOTECHNICS"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "SHANTHA BIOTECHNICS"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BIOFARMA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BIOFARMA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BIOFARMA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BIOLOGICAL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BIOLOGICAL E. LIMITED"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BIOLOGICAL E. LIMITED"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "INTERVAX"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "INTERVAX LTDA."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "INTERVAX LTDA."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BB-NCIPD"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BB-NCIPD LTD."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BB-NCIPD LTD."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "LGLIFE"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "LG LIFE SCIENCES LTDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "LG LIFE SCIENCES LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MERCK-GO"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MERCK SHARP E DOHME FARMACEUTICA LTDA / GO"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "MERCK SHARP E DOHME FARMACEUTICA LTDA / GO"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "EUBIOLOGI"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "EUBIOLOGICS CO., LTD."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "EUBIOLOGICS CO., LTD."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GSK-BRASIL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GLAXOSMITHKLINE BRASIL LTDA."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "GLAXOSMITHKLINE BRASIL LTDA."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "KAMADA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "KAMADA LTD."
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "KAMADA LTD."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SANMEDLEY"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SANOFI MEDLEY FARMACEUTICA LTDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "SANOFI MEDLEY FARMACEUTICA LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "VINS"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "VINS BIOPRODUCTS LIMITED"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "VINS BIOPRODUCTS LIMITED"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PFIZER-BELGICA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "PFIZER MANUFACTURING BELGIUM NV - BELGICA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "PFIZER MANUFACTURING BELGIUM NV - BELGICA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PANACEA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "PANACEA BIOTEC LTD"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "PANACEA BIOTEC LTD"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BIOGENESIS BAGO SAUDE ANIMAL LTDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BIOGENESIS BAGO SAUDE ANIMAL LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BOEHRINGER"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BOEHRINGER INGELHEIM ANIMAL HEALTH"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BOEHRINGER INGELHEIM ANIMAL HEALTH"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SINOVAC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SINOVAC LIFE SCIENCE CO., LTD"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "SINOVAC LIFE SCIENCE CO., LTD"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "ASTRAZENECA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ASTRAZENECA AB"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "ASTRAZENECA AB"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "EQUIPLEX"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "EQUIPLEX INDUSTRIA FARMACEUTICA LTDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "EQUIPLEX INDUSTRIA FARMACEUTICA LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "JANSSEN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "JANSSEN PHARMACEUTICA NV"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "JANSSEN PHARMACEUTICA NV"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BAV-NORDIC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BAVARIAN NORDIC A/S"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BAVARIAN NORDIC A/S"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "AMYIN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "AMYIN OHIO LLC"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "AMYIN OHIO LLC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GAMALEYA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "INSTITUTO GAMALEYA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "INSTITUTO GAMALEYA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MODERNA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MODERNA BIOTECH"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "MODERNA BIOTECH"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BHARAT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BHARAT BIOTECH"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BHARAT BIOTECH"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "FINLAY"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "FINLAY VACUNAS Y SUEROS"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "FINLAY VACUNAS Y SUEROS"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BIOMERIEUX"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BIO LAB MERIEUX"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "BIO LAB MERIEUX"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "ABBOTT-HOLAN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ABBOTT BIOLOGICALS B.V. WEESP HOLANDA"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "ABBOTT BIOLOGICALS B.V. WEESP HOLANDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GLAXO-BIO"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GLAXOSMITHKLINE BIOLOGICALS S.A. - BELGICA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "HALEXISTAR"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "HALEX ISTAR INDUSTRIA FARMACEUTICA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "EMERGENT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "EMERGENT BIOSOLUTIONS INC."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BEHRING"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "CSL BEHRING COMERCIO DE PRODUTOS FARMACEUTICOS LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "TAKEDA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "TAKEDA PHARMA LTDA."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "IDT BIOLOGIKA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "IDT BIOLOGIKA GMBH"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SINOVAC BIOTECH CO. LTD"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MODERNA SWITZERLAND GMBH"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "ROVI-PHARMA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ROVI PHARMA INDUSTRIAL SERVICES S.A."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "CATALENT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "CATALENT INDIANA, LLC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "ADIUM"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "ADIUM LABORATORIO FARMACEUTICO"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "SK-BIOSCEN"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "SK BIOSCIENCE CO., LTD"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MERCK-CAMPI"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MERCK SHARP & DOHME FARMACEUTICA - CAMPINAS/SP"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MERCK-RJ"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MERCK S/A - RJ"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MSD-LLC"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MERCK SHARP & DOHME LLC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MERCK-SP"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MERCK SHARP & DOHME FARMACEUTICA LTDA - SAO PAULO/SP"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GSK-SRL"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GLAXOSMITHKLINE VACCINES S.R.L"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GSK-FRANCA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GLAXOSMITHKLINE BIOLOGICALS S.A. - FRANCA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "GC-BIOPHARMA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "GC BIOPHARMA CORP."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "FARMACE"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "FARMACE INDUSTRIA QUIMICO-FARMACEUTICA CEARENSE LTDA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "KI BIOPHARMA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "KI BIOPHARMA LLC LIMITED."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BIONTECH"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BIONTECH MANUFACTURING GMBH"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "MIBE"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "MIBE GMBH ARZNEIMITTEL BRECHNA"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "BEIJING"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "BEIJING INSTITUTE OF BIOLOGICAL PRODUCTS CO., LTD."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "JUBILANT"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "JUBILANT HOLLISTERSTIER LLC"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "PFIZER-IRLANDA"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "PFIZER IRELAND PHARMACEUTICALS"
+msgstr ""
+

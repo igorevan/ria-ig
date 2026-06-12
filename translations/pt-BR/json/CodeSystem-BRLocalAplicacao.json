@@ -1,0 +1,469 @@
+{
+  "id" : "CodeSystem-BRLocalAplicacao",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "BRLocalAplicacao",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "Local de Aplicação (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Define a localização anatômica de aplicação de uma substância",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Sem registro no sistema de informação de origem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "No registration in the source information system",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Sin registro en el sistema de información de fuentes",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Deltóide Direito",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Right deltoid",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Deltoides derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Deltóide Esquerdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Left deltoid",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Deltoides izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Vasto Lateral da Coxa Direita",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Right Vastus Lateralis",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Vasto lateral derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Vasto Lateral da Coxa Esquerda",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Left Vastus Lateralis",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Vasto lateral izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ventroglúteo Direito",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Right ventro gluteus",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Ventro gluteus derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ventroglúteo Esquerdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Left ventro gluteus",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Ventro gluteus izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Glúteo (descontinuado)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "gluteus (deprecated)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Glúteo (descontinuado)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Ferimento Local",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Local Injury",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Lesión local",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Boca",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Mouth",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Boca",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Dorso Glúteo Direito",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Right Gluteal Dorso",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Dorso Gluteal Derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Dorso Glúteo Esquerdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Left Gluteal Dorso",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Dorso Gluteal Izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Externa Inferior do Braço Direito",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Lower Face of Right Arm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Inferior Externa del Brazo Derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Externa Inferior do Braço Esquerdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Lower Face of Left Arm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Inferior Externa del Brazo Izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Externa Superior do Braço Direito",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Upper Face of Right Arm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Superior Externa del Brazo Derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Externa Superior do Braço Esquerdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Upper Face of Left Arm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Superior Externa del Brazo Izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Rede Venosa",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Venous System",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Sistema Venoso",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Anterolateral Externa da Coxa Direita",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Anterolateral Face of Right Thigh",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Anterolateral Externa del Muslo Derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Anterolateral Externa da Coxa Esquerda",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Anterolateral Face of Left Thigh",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Anterolateral Externa del Muslo Izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Anterolateral Externa do Braço Direito",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Anterolateral Face of Right Arm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Anterolateral Externa del Brazo Derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Anterolateral Externa do Braço Esquerdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Anterolateral Face of Left Arm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Anterolateral Externa del Brazo Izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Anterolateral Externa do Antebraço Direito",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Anterolateral Face of the Right Forearm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Anterolateral Externa del Antebrazo Derecho",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Face Anterolateral Externa do Antebraço Esquerdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "External Anterolateral Face of the Left Forearm",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Cara Anterolateral Externa del Antebrazo Izquierdo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Outro",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Other",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Otra",
+      "target" : null
+    }]
+  }]
+}

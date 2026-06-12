@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="ValueSet-BREstadoEvento-1.0" original="Resource ValueSet-BREstadoEvento-1.0" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>BREstadoEvento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>Estado do Evento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Identificação do estado de um evento.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.version">
+             <notes>
+               <note id="n1">ValueSet.compose.include.version</note>
+             </notes>
+        <source>*</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Pré-procedimento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Em andamento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Não Realizado</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Suspenso</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Cancelado</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Completado</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Desconhecido</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-BREstadoEvento-1.0" resname="ValueSet.compose.include.concept.designation.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.concept.designation.value</note>
+             </notes>
+        <source>Entrada com erro</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

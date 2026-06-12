@@ -1,0 +1,1709 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="CodeSystem-BRImunobiologico" original="Resource CodeSystem-BRImunobiologico" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>BRImunobiologico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Imunobiológico (CodeSystem)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Classifica os tipos de imunobiológicos.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">CodeSystem.property.description</note>
+             </notes>
+        <source>Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">CodeSystem.property.description</note>
+             </notes>
+        <source>Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.property.description">
+             <notes>
+               <note id="n1">CodeSystem.property.description</note>
+             </notes>
+        <source>Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>IGHAT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>imunoglobulina humana antitétano</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antitetânico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAAR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAESC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antiescorpiônico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina difteria e tétano infantil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAELA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antielapídico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antirrábico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SABR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antibotrópico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina hepatite B</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAD</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antidiftérico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SABC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antibotrópico e anticrotálico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SABL</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antibotrópico e antilaquético</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>MenAC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina meningo AC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VFA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina febre amarela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>BCG</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina BCG</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro anticrotálico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Hib</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Hib</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VR embrião de galinha</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina raiva embrião de galinha</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>IGHAVZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>imunoglobulina humana antivaricela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>IGHAHB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>imunoglobulina humana anti-hepatite B</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VPP23</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina pneumo 23</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VIP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina inativada poliomielite</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>IGHAR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>imunoglobulina humana antirrábica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SCR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina tríplice viral</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>dT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina difteria e tétano adulto</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VPC10</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina pneumo 10</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SALATRO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antilatrodéctico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VOPb</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina oral poliomielite bivalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Penta acelular</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina penta acelular (DTPa/VIP/Hib)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>FTp</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina febre tifóide</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SALOX</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antiloxoscélico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SALON</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antilonômico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>INF3</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina influenza trivalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Influenza vaccine trivalent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Vacuna influenza trivalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina varicela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HA virossomal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina hepatite A (virossomal)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina dupla viral</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina raiva</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SBOTULTRI</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antibotulínico (trivalente)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tetra</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina DTP/Hib</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VPC7</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina pneumo 7</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>MenC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina meningo C</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Penta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina penta (DTP/HB/Hib)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Hexa acelular</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina hexa acelular (DTPa/HB/VIP/Hib)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>INFH1N1-2009</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina influenza A (H1N1) (inativada, fragmentada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>ROTA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina rotavírus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DTP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina DTP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DTPa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina DTPa infantil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILSCR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina sarampo, caxumba, rubéola</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILVFA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina febre amarela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILHib</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina Haemophilus influenzae B</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Fta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina febre tifóide (atenuada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILMenAC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina meningo AC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILSR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina sarampo, rubéola</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILVAR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina varicela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HAinf</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina hepatite A infantil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SCRV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina tetraviral</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>dTpa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina dTpa adulto</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DTPa/VIP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina tetra acelular DTPa/VIP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VPC13</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina pneumo 13</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HPV2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina HPV bivalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tétano</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina tétano</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HA-HBinf</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina hepatite A e B infantil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HA-HBad</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina hepatite A e B adulto</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>INF3-ID</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina influenza trivalente ID</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>ROTA5</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina rotavírus pentavalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>MenBC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina meningo BC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HPV4</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina HPV quadrivalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>SAB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>soro antibotulínico AB (bivalente)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sarampo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina sarampo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Rubéola</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina rubéola</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina sarampo, caxumba, rubéola e varicela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>MenACWY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina meningo ACWY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VCO</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina cólera oral</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VHZ</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina herpes-zóster (atenuada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>INF4</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina influenza tetravalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Influenza vaccine tetravalent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Vacuna influenza tetravalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>MenB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina meningo B</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILBCG</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina BCG</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILVR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina raiva</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILMenC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina meningo C</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dengue</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina dengue (recombinante e atenuada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HAad</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina hepatite A adulto</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VFA-F</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina febre amarela fracionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>XM9QW8 COVID-19 vaccine, non-replicating viral vector</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>XM9QW8 Vacuna COVID-19, vector viral no replicante</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>XM1NL1 COVID-19 vaccine, inactivated virus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>XM1NL1 Vacuna COVID-19, virus inactivado</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 PFIZER - COMIRNATY</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-RNAm, Pfizer (Comirnaty)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>XM0GQ8 COVID-19 vaccine, RNA based</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>XM0GQ8 Vacuna COVID-19, basada en ARN</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 JANSSEN - Ad26.COV2.S</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 ASTRAZENECA - ChAdOx1-S</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILSCRV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina sarampo, caxumba, rubéola e varicela</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DILVR embrião de galinha</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>diluente para vacina raiva embrião de galinha</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>HPV9</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina HPV nonavalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>NaCl 0,9%</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>cloreto de sódio, solução injetável - 0,9%</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 GAMALEYA - SPUTNIK V</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-recombinante, Gamaleya (Sputnik V)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 BHARAT - COVAXIN</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-inativada, Bharat (Covaxin)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 MODERNA - SPIKEVAX</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-RNAm, Moderna (Spikevax)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 SINOVAC - CORONAVAC</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-inativada, Sinovac (Coronavac)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina varíola símia (atenuada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VHZR</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina herpes-zóster (recombinante)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 PFIZER - COMIRNATY BIVALENTE</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>DNG</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina dengue (atenuada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19-SPIKEVAX BI</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-RNAm, Moderna (Spikevax) bivalente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VPC15</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina pneumo 15</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VPC20</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina pneumo 20</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VVSR-Rec</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina vírus sincicial respiratório A e B (recombinante)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>VVSR-RecAdj</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina vírus sincicial respiratório (recombinante, adjuvada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>INF4-alta dosagem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina influenza tetravalente - alta dosagem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>dTpa/VIP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina tetra acelular dTpa/VIP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 SERUM/ZALIKA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-recombinante, Serum/Zalika</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>CHIKUNGUNYA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina chikungunya (recombinante e atenuada)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>COVID-19 SINOPHARM</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>vacina Covid-19-inativada, Sinopharm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>NIRSEVIMABE 0,5ml</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>nirsevimabe 0,5ml</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>NIRSEVIMABE 1,0ml</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRImunobiologico" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>nirsevimabe 1,0ml</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

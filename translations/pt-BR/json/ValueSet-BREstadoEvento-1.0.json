@@ -1,0 +1,91 @@
+{
+  "id" : "ValueSet-BREstadoEvento-1.0",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "BREstadoEvento",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "Estado do Evento",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Identificação do estado de um evento.",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.version",
+      "context" : "ValueSet.compose.include.version",
+      "source" : "*",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Pré-procedimento",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Em andamento",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Não Realizado",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Suspenso",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Cancelado",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Completado",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Desconhecido",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.concept.designation.value",
+      "context" : "ValueSet.compose.include.concept.designation.value",
+      "source" : "Entrada com erro",
+      "target" : null
+    }]
+  }]
+}

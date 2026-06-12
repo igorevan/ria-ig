@@ -1,0 +1,43 @@
+{
+  "id" : "ValueSet-BRFabricanteImunobiologico-1.0",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "BRFabricanteImunobiologico",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "Fabricante do Imunobiológico (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Fabricante do imunobiológico administrado",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.version",
+      "context" : "ValueSet.compose.include.version",
+      "source" : "*",
+      "target" : null
+    }]
+  }]
+}

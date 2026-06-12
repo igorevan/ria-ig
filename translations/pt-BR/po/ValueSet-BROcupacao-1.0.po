@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "BROcupacao"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Classificação Brasileira de Ocupações - CBO (ValueSet)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Classifica as profissões do mercado de trabalho brasileiro."
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "*"
+msgstr ""
+

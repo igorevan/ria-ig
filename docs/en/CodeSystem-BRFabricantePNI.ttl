@@ -1,0 +1,930 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRFabricantePNI> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BRFabricantePNI"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "ehr"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "normative" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "4.0.1"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"^^xsd:anyURI ;
+     fhir:l <http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0-release"] ; # 
+  fhir:name [ fhir:v "BRFabricantePNI"] ; # 
+  fhir:title [ fhir:v "Fabricante do Imunobiológico (CodeSystem)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-01-02T18:15:54.9540124+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.saude.gov.br" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Apresenta o fabricante do imunobiológico."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "BR" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "141" ] ;
+     fhir:display [ fhir:v "IVB" ] ;
+     fhir:definition [ fhir:v "INSTITUTO VITAL BRAZIL S.A" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "INSTITUTO VITAL BRAZIL S.A" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "INSTITUTO VITAL BRAZIL S.A" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "142" ] ;
+     fhir:display [ fhir:v "PFIZER" ] ;
+     fhir:definition [ fhir:v "LABORATORIOS PFIZER LTDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "LABORATORIOS PFIZER LTDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "LABORATORIOS PFIZER LTDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "149" ] ;
+     fhir:display [ fhir:v "FIOCRUZ" ] ;
+     fhir:definition [ fhir:v "FUNDACAO OSWALDO CRUZ" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "FUNDACAO OSWALDO CRUZ" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "FUNDACAO OSWALDO CRUZ" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "150" ] ;
+     fhir:display [ fhir:v "FUNED" ] ;
+     fhir:definition [ fhir:v "FUNDACAO EZEQUIEL DIAS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "FUNDACAO EZEQUIEL DIAS" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "FUNDACAO EZEQUIEL DIAS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "151" ] ;
+     fhir:display [ fhir:v "F.A.P." ] ;
+     fhir:definition [ fhir:v "FUNDACAO ATAULPHO DE PAIVA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "FUNDACAO ATAULPHO DE PAIVA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "FUNDACAO ATAULPHO DE PAIVA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "152" ] ;
+     fhir:display [ fhir:v "BUTANTAN" ] ;
+     fhir:definition [ fhir:v "INSTITUTO BUTANTAN" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "INSTITUTO BUTANTAN" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "INSTITUTO BUTANTAN" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "153" ] ;
+     fhir:display [ fhir:v "TECPAR" ] ;
+     fhir:definition [ fhir:v "INSTITUTO DE TECNOLOGIA DO PARANA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "INSTITUTO DE TECNOLOGIA DO PARANA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "INSTITUTO DE TECNOLOGIA DO PARANA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "156" ] ;
+     fhir:display [ fhir:v "DADO B." ] ;
+     fhir:definition [ fhir:v "DADE BEHRING MARBUG GMBH" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "DADE BEHRING MARBUG GMBH" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "DADE BEHRING MARBUG GMBH" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "159" ] ;
+     fhir:display [ fhir:v "SMITHKLINE" ] ;
+     fhir:definition [ fhir:v "GLAXOSMITHKLINE BEECHAM" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "GLAXOSMITHKLINE BEECHAM" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "GLAXOSMITHKLINE BEECHAM" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "160" ] ;
+     fhir:display [ fhir:v "GREENCROSS" ] ;
+     fhir:definition [ fhir:v "GREEN CROSS - PHARMACEUTICAL B. M. CORP." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "GREEN CROSS - PHARMACEUTICAL B. M. CORP." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "GREEN CROSS - PHARMACEUTICAL B. M. CORP." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "161" ] ;
+     fhir:display [ fhir:v "AVENTIS" ] ;
+     fhir:definition [ fhir:v "AVENTIS PASTEUR S.A." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "AVENTIS PASTEUR S.A." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "AVENTIS PASTEUR S.A." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "162" ] ;
+     fhir:display [ fhir:v "CHIRON SPA" ] ;
+     fhir:definition [ fhir:v "NOVARTIS/CHIRON S.P.A. VACCINES" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "NOVARTIS/CHIRON S.P.A. VACCINES" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "NOVARTIS/CHIRON S.P.A. VACCINES" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "163" ] ;
+     fhir:display [ fhir:v "SERUM-INDIA" ] ;
+     fhir:definition [ fhir:v "SERUM INSTITUTE OF INDIA LTD." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "SERUM INSTITUTE OF INDIA LTD." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "SERUM INSTITUTE OF INDIA LTD." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "164" ] ;
+     fhir:display [ fhir:v "LGCHEMICAL" ] ;
+     fhir:definition [ fhir:v "LG CHEMICAL INVESTIMENT LTD" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "LG CHEMICAL INVESTIMENT LTD" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "LG CHEMICAL INVESTIMENT LTD" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "165" ] ;
+     fhir:display [ fhir:v "MERCK" ] ;
+     fhir:definition [ fhir:v "MERCK SHARP DOHME CO., INC." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "MERCK SHARP DOHME CO., INC." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "MERCK SHARP DOHME CO., INC." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "166" ] ;
+     fhir:display [ fhir:v "BIKEN" ] ;
+     fhir:definition [ fhir:v "FUNDACAO INVEST. DE INFERM. MICROB. DA UNIVERSIDADE DE OSAKA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "FUNDACAO INVEST. DE INFERM. MICROB. DA UNIVERSIDADE DE OSAKA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "FUNDACAO INVEST. DE INFERM. MICROB. DA UNIVERSIDADE DE OSAKA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "167" ] ;
+     fhir:display [ fhir:v "SEVAC" ] ;
+     fhir:definition [ fhir:v "SEVAC S.A." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "SEVAC S.A." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "SEVAC S.A." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "168" ] ;
+     fhir:display [ fhir:v "BERNE" ] ;
+     fhir:definition [ fhir:v "SWISS SERUM AND VACCINES INSTITUTE BERNE" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "SWISS SERUM AND VACCINES INSTITUTE BERNE" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "SWISS SERUM AND VACCINES INSTITUTE BERNE" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "235" ] ;
+     fhir:display [ fhir:v "INCQS" ] ;
+     fhir:definition [ fhir:v "INSTITUTO NACIONAL DE CONTROLE DE QUALIDADE EM SAUDE" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "INSTITUTO NACIONAL DE CONTROLE DE QUALIDADE EM SAUDE" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "INSTITUTO NACIONAL DE CONTROLE DE QUALIDADE EM SAUDE" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "239" ] ;
+     fhir:display [ fhir:v "BAYER" ] ;
+     fhir:definition [ fhir:v "BAYER CORPORATION - BIOLOGICAL PRODUCTS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BAYER CORPORATION - BIOLOGICAL PRODUCTS" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BAYER CORPORATION - BIOLOGICAL PRODUCTS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "608" ] ;
+     fhir:display [ fhir:v "BAXTER" ] ;
+     fhir:definition [ fhir:v "BAXTER VACCINE AKTIENGESELLSCHAFT" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BAXTER VACCINE AKTIENGESELLSCHAFT" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BAXTER VACCINE AKTIENGESELLSCHAFT" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1659" ] ;
+     fhir:display [ fhir:v "CYANAMID" ] ;
+     fhir:definition [ fhir:v "AMERICAN CYANAMID COMPANY" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "AMERICAN CYANAMID COMPANY" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "AMERICAN CYANAMID COMPANY" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1913" ] ;
+     fhir:display [ fhir:v "CPPI" ] ;
+     fhir:definition [ fhir:v "CENTRO DE PRODUCAO E PESQUISA DE IMUNOBIOLOGICOS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "CENTRO DE PRODUCAO E PESQUISA DE IMUNOBIOLOGICOS" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "CENTRO DE PRODUCAO E PESQUISA DE IMUNOBIOLOGICOS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2250" ] ;
+     fhir:display [ fhir:v "IIMUNO" ] ;
+     fhir:definition [ fhir:v "INSTITUTE OF IMMUNOLOGY - CROACIA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "INSTITUTE OF IMMUNOLOGY - CROACIA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "INSTITUTE OF IMMUNOLOGY - CROACIA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2260" ] ;
+     fhir:display [ fhir:v "CSL" ] ;
+     fhir:definition [ fhir:v "CSL BEHRING GMBH" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "CSL BEHRING GMBH" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "CSL BEHRING GMBH" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2263" ] ;
+     fhir:display [ fhir:v "WYETH-LTDA" ] ;
+     fhir:definition [ fhir:v "WYETH INDUSTRIA FARMACEUTICA LTDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "WYETH INDUSTRIA FARMACEUTICA LTDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "WYETH INDUSTRIA FARMACEUTICA LTDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2355" ] ;
+     fhir:display [ fhir:v "NOVARTIS" ] ;
+     fhir:definition [ fhir:v "NOVARTIS PHARMA SERVICES INC." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "NOVARTIS PHARMA SERVICES INC." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "NOVARTIS PHARMA SERVICES INC." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2560" ] ;
+     fhir:display [ fhir:v "HEBER" ] ;
+     fhir:definition [ fhir:v "HEBER BIOTEC" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "HEBER BIOTEC" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "HEBER BIOTEC" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2769" ] ;
+     fhir:display [ fhir:v "BERNA" ] ;
+     fhir:definition [ fhir:v "BERNA BIOTECH KOREA CORPORATION" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BERNA BIOTECH KOREA CORPORATION" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BERNA BIOTECH KOREA CORPORATION" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2862" ] ;
+     fhir:display [ fhir:v "SANPASTEUR" ] ;
+     fhir:definition [ fhir:v "SANOFI PASTEUR" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "SANOFI PASTEUR" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "SANOFI PASTEUR" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2901" ] ;
+     fhir:display [ fhir:v "MERIAL" ] ;
+     fhir:definition [ fhir:v "MERIAL MEXICO, SA BECV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "MERIAL MEXICO, SA BECV" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "MERIAL MEXICO, SA BECV" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3521" ] ;
+     fhir:display [ fhir:v "BIOVET" ] ;
+     fhir:definition [ fhir:v "BIOVET" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BIOVET" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BIOVET" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10534" ] ;
+     fhir:display [ fhir:v "CRUCELL" ] ;
+     fhir:definition [ fhir:v "CRUCELL SWEDEN AB" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "CRUCELL SWEDEN AB" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "CRUCELL SWEDEN AB" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "11347" ] ;
+     fhir:display [ fhir:v "VIRBAC" ] ;
+     fhir:definition [ fhir:v "VIRBAC S.A" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "VIRBAC S.A" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "VIRBAC S.A" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "12551" ] ;
+     fhir:display [ fhir:v "GRIFOLS" ] ;
+     fhir:definition [ fhir:v "GRIFOLS BRASIL LTDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "GRIFOLS BRASIL LTDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "GRIFOLS BRASIL LTDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "12572" ] ;
+     fhir:display [ fhir:v "KEDRION" ] ;
+     fhir:definition [ fhir:v "KEDRION BIOPHARMA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "KEDRION BIOPHARMA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "KEDRION BIOPHARMA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13219" ] ;
+     fhir:display [ fhir:v "BIOGENESIS" ] ;
+     fhir:definition [ fhir:v "BIOGENESIS-BAGO S/A" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BIOGENESIS-BAGO S/A" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BIOGENESIS-BAGO S/A" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13688" ] ;
+     fhir:display [ fhir:v "SHANTHA" ] ;
+     fhir:definition [ fhir:v "SHANTHA BIOTECHNICS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "SHANTHA BIOTECHNICS" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "SHANTHA BIOTECHNICS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "16763" ] ;
+     fhir:display [ fhir:v "BIOFARMA" ] ;
+     fhir:definition [ fhir:v "BIOFARMA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BIOFARMA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BIOFARMA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "17934" ] ;
+     fhir:display [ fhir:v "BIOLOGICAL" ] ;
+     fhir:definition [ fhir:v "BIOLOGICAL E. LIMITED" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BIOLOGICAL E. LIMITED" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BIOLOGICAL E. LIMITED" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "18189" ] ;
+     fhir:display [ fhir:v "INTERVAX" ] ;
+     fhir:definition [ fhir:v "INTERVAX LTDA." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "INTERVAX LTDA." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "INTERVAX LTDA." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "18190" ] ;
+     fhir:display [ fhir:v "BB-NCIPD" ] ;
+     fhir:definition [ fhir:v "BB-NCIPD LTD." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BB-NCIPD LTD." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BB-NCIPD LTD." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "22942" ] ;
+     fhir:display [ fhir:v "LGLIFE" ] ;
+     fhir:definition [ fhir:v "LG LIFE SCIENCES LTDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "LG LIFE SCIENCES LTDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "LG LIFE SCIENCES LTDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "26313" ] ;
+     fhir:display [ fhir:v "MERCK-GO" ] ;
+     fhir:definition [ fhir:v "MERCK SHARP E DOHME FARMACEUTICA LTDA / GO" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "MERCK SHARP E DOHME FARMACEUTICA LTDA / GO" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "MERCK SHARP E DOHME FARMACEUTICA LTDA / GO" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "27816" ] ;
+     fhir:display [ fhir:v "EUBIOLOGI" ] ;
+     fhir:definition [ fhir:v "EUBIOLOGICS CO., LTD." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "EUBIOLOGICS CO., LTD." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "EUBIOLOGICS CO., LTD." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "27880" ] ;
+     fhir:display [ fhir:v "GSK-BRASIL" ] ;
+     fhir:definition [ fhir:v "GLAXOSMITHKLINE BRASIL LTDA." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "GLAXOSMITHKLINE BRASIL LTDA." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "GLAXOSMITHKLINE BRASIL LTDA." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28211" ] ;
+     fhir:display [ fhir:v "KAMADA" ] ;
+     fhir:definition [ fhir:v "KAMADA LTD." ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "KAMADA LTD." ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "KAMADA LTD." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28251" ] ;
+     fhir:display [ fhir:v "SANMEDLEY" ] ;
+     fhir:definition [ fhir:v "SANOFI MEDLEY FARMACEUTICA LTDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "SANOFI MEDLEY FARMACEUTICA LTDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "SANOFI MEDLEY FARMACEUTICA LTDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28283" ] ;
+     fhir:display [ fhir:v "VINS" ] ;
+     fhir:definition [ fhir:v "VINS BIOPRODUCTS LIMITED" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "VINS BIOPRODUCTS LIMITED" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "VINS BIOPRODUCTS LIMITED" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28290" ] ;
+     fhir:display [ fhir:v "PFIZER-BELGICA" ] ;
+     fhir:definition [ fhir:v "PFIZER MANUFACTURING BELGIUM NV - BELGICA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "PFIZER MANUFACTURING BELGIUM NV - BELGICA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "PFIZER MANUFACTURING BELGIUM NV - BELGICA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28303" ] ;
+     fhir:display [ fhir:v "PANACEA" ] ;
+     fhir:definition [ fhir:v "PANACEA BIOTEC LTD" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "PANACEA BIOTEC LTD" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "PANACEA BIOTEC LTD" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28425" ] ;
+     fhir:display [ fhir:v "BIOGENESIS" ] ;
+     fhir:definition [ fhir:v "BIOGENESIS BAGO SAUDE ANIMAL LTDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BIOGENESIS BAGO SAUDE ANIMAL LTDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BIOGENESIS BAGO SAUDE ANIMAL LTDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28738" ] ;
+     fhir:display [ fhir:v "BOEHRINGER" ] ;
+     fhir:definition [ fhir:v "BOEHRINGER INGELHEIM ANIMAL HEALTH" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BOEHRINGER INGELHEIM ANIMAL HEALTH" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BOEHRINGER INGELHEIM ANIMAL HEALTH" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "29501" ] ;
+     fhir:display [ fhir:v "SINOVAC" ] ;
+     fhir:definition [ fhir:v "SINOVAC LIFE SCIENCE CO., LTD" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "SINOVAC LIFE SCIENCE CO., LTD" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "SINOVAC LIFE SCIENCE CO., LTD" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "29909" ] ;
+     fhir:display [ fhir:v "ASTRAZENECA" ] ;
+     fhir:definition [ fhir:v "ASTRAZENECA AB" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "ASTRAZENECA AB" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "ASTRAZENECA AB" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "30357" ] ;
+     fhir:display [ fhir:v "EQUIPLEX" ] ;
+     fhir:definition [ fhir:v "EQUIPLEX INDUSTRIA FARMACEUTICA LTDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "EQUIPLEX INDUSTRIA FARMACEUTICA LTDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "EQUIPLEX INDUSTRIA FARMACEUTICA LTDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "30587" ] ;
+     fhir:display [ fhir:v "JANSSEN" ] ;
+     fhir:definition [ fhir:v "JANSSEN PHARMACEUTICA NV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "JANSSEN PHARMACEUTICA NV" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "JANSSEN PHARMACEUTICA NV" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "33502" ] ;
+     fhir:display [ fhir:v "BAV-NORDIC" ] ;
+     fhir:definition [ fhir:v "BAVARIAN NORDIC A/S" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BAVARIAN NORDIC A/S" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BAVARIAN NORDIC A/S" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "33713" ] ;
+     fhir:display [ fhir:v "AMYIN" ] ;
+     fhir:definition [ fhir:v "AMYIN OHIO LLC" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "AMYIN OHIO LLC" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "AMYIN OHIO LLC" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "35977" ] ;
+     fhir:display [ fhir:v "GAMALEYA" ] ;
+     fhir:definition [ fhir:v "INSTITUTO GAMALEYA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "INSTITUTO GAMALEYA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "INSTITUTO GAMALEYA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "35978" ] ;
+     fhir:display [ fhir:v "MODERNA" ] ;
+     fhir:definition [ fhir:v "MODERNA BIOTECH" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "MODERNA BIOTECH" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "MODERNA BIOTECH" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "35979" ] ;
+     fhir:display [ fhir:v "BHARAT" ] ;
+     fhir:definition [ fhir:v "BHARAT BIOTECH" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BHARAT BIOTECH" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BHARAT BIOTECH" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "169" ] ;
+     fhir:display [ fhir:v "FINLAY" ] ;
+     fhir:definition [ fhir:v "FINLAY VACUNAS Y SUEROS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "FINLAY VACUNAS Y SUEROS" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "FINLAY VACUNAS Y SUEROS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "712" ] ;
+     fhir:display [ fhir:v "BIOMERIEUX" ] ;
+     fhir:definition [ fhir:v "BIO LAB MERIEUX" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "BIO LAB MERIEUX" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "BIO LAB MERIEUX" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "36271" ] ;
+     fhir:display [ fhir:v "ABBOTT-HOLAN" ] ;
+     fhir:definition [ fhir:v "ABBOTT BIOLOGICALS B.V. WEESP HOLANDA" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "en" ] ;
+       fhir:value [ fhir:v "ABBOTT BIOLOGICALS B.V. WEESP HOLANDA" ]
+     ] [
+       fhir:language [ fhir:v "es" ] ;
+       fhir:value [ fhir:v "ABBOTT BIOLOGICALS B.V. WEESP HOLANDA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "28289" ] ;
+     fhir:display [ fhir:v "GLAXO-BIO" ] ;
+     fhir:definition [ fhir:v "GLAXOSMITHKLINE BIOLOGICALS S.A. - BELGICA" ]
+  ] [
+     fhir:code [ fhir:v "9406" ] ;
+     fhir:display [ fhir:v "HALEXISTAR" ] ;
+     fhir:definition [ fhir:v "HALEX ISTAR INDUSTRIA FARMACEUTICA" ]
+  ] [
+     fhir:code [ fhir:v "37646" ] ;
+     fhir:display [ fhir:v "EMERGENT" ] ;
+     fhir:definition [ fhir:v "EMERGENT BIOSOLUTIONS INC." ]
+  ] [
+     fhir:code [ fhir:v "26513" ] ;
+     fhir:display [ fhir:v "BEHRING" ] ;
+     fhir:definition [ fhir:v "CSL BEHRING COMERCIO DE PRODUTOS FARMACEUTICOS LTDA" ]
+  ] [
+     fhir:code [ fhir:v "39263" ] ;
+     fhir:display [ fhir:v "TAKEDA" ] ;
+     fhir:definition [ fhir:v "TAKEDA PHARMA LTDA." ]
+  ] [
+     fhir:code [ fhir:v "39262" ] ;
+     fhir:display [ fhir:v "IDT BIOLOGIKA" ] ;
+     fhir:definition [ fhir:v "IDT BIOLOGIKA GMBH" ]
+  ] [
+     fhir:code [ fhir:v "42490" ] ;
+     fhir:display [ fhir:v "SINOVAC" ] ;
+     fhir:definition [ fhir:v "SINOVAC BIOTECH CO. LTD" ]
+  ] [
+     fhir:code [ fhir:v "42430" ] ;
+     fhir:display [ fhir:v "MODERNA" ] ;
+     fhir:definition [ fhir:v "MODERNA SWITZERLAND GMBH" ]
+  ] [
+     fhir:code [ fhir:v "42488" ] ;
+     fhir:display [ fhir:v "ROVI-PHARMA" ] ;
+     fhir:definition [ fhir:v "ROVI PHARMA INDUSTRIAL SERVICES S.A." ]
+  ] [
+     fhir:code [ fhir:v "42489" ] ;
+     fhir:display [ fhir:v "CATALENT" ] ;
+     fhir:definition [ fhir:v "CATALENT INDIANA, LLC" ]
+  ] [
+     fhir:code [ fhir:v "42507" ] ;
+     fhir:display [ fhir:v "ADIUM" ] ;
+     fhir:definition [ fhir:v "ADIUM LABORATORIO FARMACEUTICO" ]
+  ] [
+     fhir:code [ fhir:v "42655" ] ;
+     fhir:display [ fhir:v "SK-BIOSCEN" ] ;
+     fhir:definition [ fhir:v "SK BIOSCIENCE CO., LTD" ]
+  ] [
+     fhir:code [ fhir:v "25538" ] ;
+     fhir:display [ fhir:v "MERCK-CAMPI" ] ;
+     fhir:definition [ fhir:v "MERCK SHARP & DOHME FARMACEUTICA - CAMPINAS/SP" ]
+  ] [
+     fhir:code [ fhir:v "27883" ] ;
+     fhir:display [ fhir:v "MERCK-RJ" ] ;
+     fhir:definition [ fhir:v "MERCK S/A - RJ" ]
+  ] [
+     fhir:code [ fhir:v "42932" ] ;
+     fhir:display [ fhir:v "MSD-LLC" ] ;
+     fhir:definition [ fhir:v "MERCK SHARP & DOHME LLC" ]
+  ] [
+     fhir:code [ fhir:v "42931" ] ;
+     fhir:display [ fhir:v "MERCK-SP" ] ;
+     fhir:definition [ fhir:v "MERCK SHARP & DOHME FARMACEUTICA LTDA - SAO PAULO/SP" ]
+  ] [
+     fhir:code [ fhir:v "43175" ] ;
+     fhir:display [ fhir:v "GSK-SRL" ] ;
+     fhir:definition [ fhir:v "GLAXOSMITHKLINE VACCINES S.R.L" ]
+  ] [
+     fhir:code [ fhir:v "43202" ] ;
+     fhir:display [ fhir:v "GSK-FRANCA" ] ;
+     fhir:definition [ fhir:v "GLAXOSMITHKLINE BIOLOGICALS S.A. - FRANCA" ]
+  ] [
+     fhir:code [ fhir:v "43499" ] ;
+     fhir:display [ fhir:v "GC-BIOPHARMA" ] ;
+     fhir:definition [ fhir:v "GC BIOPHARMA CORP." ]
+  ] [
+     fhir:code [ fhir:v "31101" ] ;
+     fhir:display [ fhir:v "FARMACE" ] ;
+     fhir:definition [ fhir:v "FARMACE INDUSTRIA QUIMICO-FARMACEUTICA CEARENSE LTDA" ]
+  ] [
+     fhir:code [ fhir:v "43897" ] ;
+     fhir:display [ fhir:v "KI BIOPHARMA" ] ;
+     fhir:definition [ fhir:v "KI BIOPHARMA LLC LIMITED." ]
+  ] [
+     fhir:code [ fhir:v "44618" ] ;
+     fhir:display [ fhir:v "BIONTECH" ] ;
+     fhir:definition [ fhir:v "BIONTECH MANUFACTURING GMBH" ]
+  ] [
+     fhir:code [ fhir:v "44779" ] ;
+     fhir:display [ fhir:v "MIBE" ] ;
+     fhir:definition [ fhir:v "MIBE GMBH ARZNEIMITTEL BRECHNA" ]
+  ] [
+     fhir:code [ fhir:v "44805" ] ;
+     fhir:display [ fhir:v "BEIJING" ] ;
+     fhir:definition [ fhir:v "BEIJING INSTITUTE OF BIOLOGICAL PRODUCTS CO., LTD." ]
+  ] [
+     fhir:code [ fhir:v "44781" ] ;
+     fhir:display [ fhir:v "JUBILANT" ] ;
+     fhir:definition [ fhir:v "JUBILANT HOLLISTERSTIER LLC" ]
+  ] [
+     fhir:code [ fhir:v "45086" ] ;
+     fhir:display [ fhir:v "PFIZER-IRLANDA" ] ;
+     fhir:definition [ fhir:v "PFIZER IRELAND PHARMACEUTICALS" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

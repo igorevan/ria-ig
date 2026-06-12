@@ -1,0 +1,43 @@
+{
+  "id" : "ValueSet-BREstrategiaVacinacao-1.0",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "BREstrategiaVacinacao",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "Estratégia de Vacinação (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Identifica a estratégia de vacinação adotada.",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.version",
+      "context" : "ValueSet.compose.include.version",
+      "source" : "*",
+      "target" : null
+    }]
+  }]
+}

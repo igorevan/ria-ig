@@ -1,0 +1,277 @@
+{
+  "id" : "CodeSystem-BREstrategiaVacinacao",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "BREstrategiaVacinacao",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "Estratégia de Vacinação (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Classifica a estratégia de vacinação adotada.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Sem registro no sistema de informação de origem",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Rotina",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Routine immunization",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Rutina",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Especial",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Special",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Especial",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Bloqueio",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Blocking vaccination",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Vacunación de bloqueo",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Intensificação",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Intensification",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Intensificación",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campanha indiscriminada",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Indiscriminate campaign",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Campaña indiscriminada",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Campanha seletiva",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Selective campaign",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Campaña selectiva",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Soroterapia",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Serum therapy",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Sueroterapia",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Serviço Privado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Private Sector",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Servicio privado",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Monitoramento das Estratégias de Vacinação",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pesquisa",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Trials",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Ensayos clínicos",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pré-exposição",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Pre-exposure",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Preexposición",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Pós-exposição",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Post-exposure",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Post-exposición",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Reexposição",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Re-exposure",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.designation.value",
+      "context" : "CodeSystem.concept.designation.value",
+      "source" : "Reexposición",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Vacinação Escolar",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Operação Gota",
+      "target" : null
+    }]
+  }]
+}

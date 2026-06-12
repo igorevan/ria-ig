@@ -1,0 +1,941 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "BRViaAdministracao"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Via de Administração"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Classifica a via na qual foi administrada uma substância em um indivíduo."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sem registro no sistema de informação de origem"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "No registration in the source information system"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Sin registro en el sistema de información de fuentes"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Otológica"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Auricular"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Bucal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Buccal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Bucal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Dermatológica"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cutaneous"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cutáneo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intracervical"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracervical"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Endosinusial"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Endosinusal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Endotraqueopulmonar"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Endotracheopulmonary"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Endotraqueopulmonar"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Epidural"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Epidural"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Epilesional"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Epilesional"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Extraminiótica"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Extra-amniotic"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Extraamniótico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Gastroenteral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Gastroenteral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Inalatória"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Inhalation"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Inhalación"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intra-aminiótica"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intra-amniotic"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraamniótico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intra-arterial"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intra-arterial"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraarterial"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intra-articular"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intra-articular"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraarticular"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intrabursal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intrabursal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intracameral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracameral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intracardíaca"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracardiac"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracardiaco"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intracavernosa"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracavernous"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracavernoso"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intracerebroventricular"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracerebroventricular"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intracoronariana"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracoronary"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intracoronario"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intradérmica"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intradermal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intradérmica"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intradiscal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intradiscal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intraepidermal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraepidermal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraepidérmico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intralesional"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intra-lesional"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intralesional"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intralinfática"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intra-lymphatic"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intralinfática"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intramuscular"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intramuscular"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intraocular"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraocular"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intraóssea"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraosseous"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraóseo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intraperitoneal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraperitoneal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intrapleural"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intrapleural"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intraesternal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intra-sternal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraósea Esternal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intratecal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intrathecal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intratecal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intrauterina"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intrauterine"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intrauterino"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intravenosa"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intravenous"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intravenosa"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intraventricular cardíaca"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraventricular cardiac"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intraventricular cardiaco"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intravesical"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intravesical"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intravitreal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intravitreal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intravítreo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Iontoforese"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Iontophoresis"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Iontoforesis"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Irrigação"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Irrigation"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Irrigación"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Nasal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Nasal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Inalatória por Via Nasal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Nasal Inhalation (restricted to nasal admnistration)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Inhalación Nasal (restringida a la administración nasal)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Oftálmica"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Ocular (Ophtalmic)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Ocular (oftálmico)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Oral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Oral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Inalatória por Via Oral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Oral Inhalation (restricted to oral admnistration)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Inhalación Oral (restringida a la administración oral)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Periarticular"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Periarticular"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Perineural"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Perineural"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Retal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Rectal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Perfusão Regional"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Regional Perfusion"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Perfusión regional"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Subconjuntival"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Subconjunctival"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Subconjuntival"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Subcutânea"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Subcutaneous"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Subcutáneo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sublingual"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Sublingual"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Transdérmica"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Transdermal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Transdérmico"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Uretral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Urethral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Uretral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Vaginal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Vaginal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Capilar"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Scalp (Capillary Action)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cuero Cabelludo (Acción Capilar)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Não disponível"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Unavailable"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Indisponible"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Local"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Local"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Parenteral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Parenteral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Peridural"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Peridural"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Espinhal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Spinal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Espinal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Subcapsular"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Subcapsular"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intratraqueal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intratracheal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intratraqueal"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intrabronquial"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intrabronchial"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intrabronquial"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Subtenoniana"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Subtenonian"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Subtenoniano"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Tecidos Moles"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Soft Tissue"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Tejido Suave"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Mucosa Oral"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Oromucosal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Mucosa Oral"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Retrobulbar"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Retrobulbar"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Infiltração"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Infiltration"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Infiltración"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Mucosa"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Mucosal"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Mucosa"
+msgstr ""
+

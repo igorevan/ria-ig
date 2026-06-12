@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="CodeSystem-BRCondicaoMaternal" original="Resource CodeSystem-BRCondicaoMaternal" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>BRCondicaoMaternal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Condição Maternal (CodeSystem)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Indicação da condição maternal da pessoa vacinada.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Não se aplica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Gestante</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRCondicaoMaternal" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Puérpera</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

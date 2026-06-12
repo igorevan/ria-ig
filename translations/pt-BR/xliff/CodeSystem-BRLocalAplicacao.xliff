@@ -1,0 +1,547 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="CodeSystem-BRLocalAplicacao" original="Resource CodeSystem-BRLocalAplicacao" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>BRLocalAplicacao</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Local de Aplicação (CodeSystem)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Define a localização anatômica de aplicação de uma substância</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sem registro no sistema de informação de origem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>No registration in the source information system</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Sin registro en el sistema de información de fuentes</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Deltóide Direito</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Right deltoid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Deltoides derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Deltóide Esquerdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Left deltoid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Deltoides izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Vasto Lateral da Coxa Direita</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Right Vastus Lateralis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Vasto lateral derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Vasto Lateral da Coxa Esquerda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Left Vastus Lateralis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Vasto lateral izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ventroglúteo Direito</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Right ventro gluteus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Ventro gluteus derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ventroglúteo Esquerdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Left ventro gluteus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Ventro gluteus izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Glúteo (descontinuado)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>gluteus (deprecated)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Glúteo (descontinuado)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ferimento Local</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Local Injury</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Lesión local</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Boca</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Mouth</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Boca</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dorso Glúteo Direito</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Right Gluteal Dorso</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dorso Gluteal Derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dorso Glúteo Esquerdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Left Gluteal Dorso</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dorso Gluteal Izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Externa Inferior do Braço Direito</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Lower Face of Right Arm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Inferior Externa del Brazo Derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Externa Inferior do Braço Esquerdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Lower Face of Left Arm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Inferior Externa del Brazo Izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Externa Superior do Braço Direito</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Upper Face of Right Arm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Superior Externa del Brazo Derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Externa Superior do Braço Esquerdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Upper Face of Left Arm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Superior Externa del Brazo Izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Rede Venosa</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Venous System</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Sistema Venoso</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Anterolateral Externa da Coxa Direita</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Anterolateral Face of Right Thigh</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Anterolateral Externa del Muslo Derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Anterolateral Externa da Coxa Esquerda</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Anterolateral Face of Left Thigh</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Anterolateral Externa del Muslo Izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Anterolateral Externa do Braço Direito</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Anterolateral Face of Right Arm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Anterolateral Externa del Brazo Derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Anterolateral Externa do Braço Esquerdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Anterolateral Face of Left Arm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Anterolateral Externa del Brazo Izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Anterolateral Externa do Antebraço Direito</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Anterolateral Face of the Right Forearm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Anterolateral Externa del Antebrazo Derecho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Face Anterolateral Externa do Antebraço Esquerdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>External Anterolateral Face of the Left Forearm</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cara Anterolateral Externa del Antebrazo Izquierdo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Outro</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Other</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRLocalAplicacao" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Otra</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

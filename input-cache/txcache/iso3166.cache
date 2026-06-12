@@ -10,63 +10,7 @@
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
-  }]
-}}####
-v: {
-  "display" : "Brazil",
-  "code" : "BR",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n1ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "BR"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
-  }]
-}}####
-v: {
-  "display" : "Brazil",
-  "code" : "BR",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "BR"
-}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -86,7 +30,7 @@ v: {
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "BR"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"pt-BR", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
@@ -94,7 +38,7 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -103,7 +47,63 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "BR"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Brazil",
+  "code" : "BR",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "BR"
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Brazil",
+  "code" : "BR",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -122,7 +122,7 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -150,7 +150,7 @@ v: {
   },
   {
     "name" : "defaultDisplayLanguage",
-    "valueCode" : "pt-BR"
+    "valueCode" : "en"
   }]
 }}####
 v: {
@@ -159,7 +159,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -187,8 +187,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:52b04e49-1256-4095-ba2d-084063e88228",
-    "timestamp" : "2026-06-11T20:03:26.378Z",
+    "identifier" : "urn:uuid:10e6cf9e-1419-4efc-b674-92faaf897ebe",
+    "timestamp" : "2026-06-12T18:26:25.539Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -1481,8 +1481,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:785c9c85-4fa7-4c29-86b1-dbb654c2968d",
-    "timestamp" : "2026-06-11T20:03:27.215Z",
+    "identifier" : "urn:uuid:da534d52-3031-4669-9058-334db587a3b1",
+    "timestamp" : "2026-06-12T18:26:26.516Z",
     "total" : 291,
     "offset" : 0,
     "parameter" : [{
@@ -2985,8 +2985,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:33cb0010-29b0-4e35-a453-5f30c445691b",
-    "timestamp" : "2026-06-11T20:03:28.070Z",
+    "identifier" : "urn:uuid:1de52d51-54eb-40c7-8e07-638ebedd5134",
+    "timestamp" : "2026-06-12T18:26:27.587Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{

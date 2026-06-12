@@ -1,0 +1,386 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "BRLocalAplicacao"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Local de Aplicação (CodeSystem)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Define a localização anatômica de aplicação de uma substância"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sem registro no sistema de informação de origem"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "No registration in the source information system"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Sin registro en el sistema de información de fuentes"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Deltóide Direito"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Right deltoid"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Deltoides derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Deltóide Esquerdo"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Left deltoid"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Deltoides izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Vasto Lateral da Coxa Direita"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Right Vastus Lateralis"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Vasto lateral derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Vasto Lateral da Coxa Esquerda"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Left Vastus Lateralis"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Vasto lateral izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Ventroglúteo Direito"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Right ventro gluteus"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Ventro gluteus derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Ventroglúteo Esquerdo"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Left ventro gluteus"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Ventro gluteus izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Glúteo (descontinuado)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "gluteus (deprecated)"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Glúteo (descontinuado)"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Ferimento Local"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Local Injury"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Lesión local"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Boca"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Mouth"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Boca"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Dorso Glúteo Direito"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Right Gluteal Dorso"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Dorso Gluteal Derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Dorso Glúteo Esquerdo"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Left Gluteal Dorso"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Dorso Gluteal Izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Externa Inferior do Braço Direito"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Lower Face of Right Arm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Inferior Externa del Brazo Derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Externa Inferior do Braço Esquerdo"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Lower Face of Left Arm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Inferior Externa del Brazo Izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Externa Superior do Braço Direito"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Upper Face of Right Arm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Superior Externa del Brazo Derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Externa Superior do Braço Esquerdo"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Upper Face of Left Arm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Superior Externa del Brazo Izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Rede Venosa"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Venous System"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Sistema Venoso"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Anterolateral Externa da Coxa Direita"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Anterolateral Face of Right Thigh"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Anterolateral Externa del Muslo Derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Anterolateral Externa da Coxa Esquerda"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Anterolateral Face of Left Thigh"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Anterolateral Externa del Muslo Izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Anterolateral Externa do Braço Direito"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Anterolateral Face of Right Arm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Anterolateral Externa del Brazo Derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Anterolateral Externa do Braço Esquerdo"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Anterolateral Face of Left Arm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Anterolateral Externa del Brazo Izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Anterolateral Externa do Antebraço Direito"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Anterolateral Face of the Right Forearm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Anterolateral Externa del Antebrazo Derecho"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Face Anterolateral Externa do Antebraço Esquerdo"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "External Anterolateral Face of the Left Forearm"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Cara Anterolateral Externa del Antebrazo Izquierdo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Outro"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Other"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Otra"
+msgstr ""
+

@@ -1,33 +1,16 @@
 {
   "http://unstats.un.org/unsd/methods/m49/m49.htm" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico" : null,
   "urn:ietf:bcp:47" : null,
-  "http://terminology.hl7.org/CodeSystem/condition-clinical" : {
-    "server" : "http://tx.fhir.org/r4",
-    "filename" : "cs-ae9e4677-b2e9-4bcd-86bd-0ec5b588399e.json"
-  },
   "urn:iso:std:iso:3166" : {
     "server" : "http://tx.fhir.org/r4",
-    "filename" : "cs-f9068f04-0595-4cd5-a5e7-fdf0576e633e.json"
+    "filename" : "cs-fbb518f8-e04d-4c7a-a67e-75425daf698c.json"
+  },
+  "http://terminology.hl7.org/CodeSystem/condition-clinical" : {
+    "server" : "http://tx.fhir.org/r4",
+    "filename" : "cs-785fda82-d39e-4d7d-bc1f-c9fcc6d621f6.json"
   },
   "urn:iso:std:iso:3166:-2" : {
     "server" : "http://tx.fhir.org/r4",
-    "filename" : "cs-2cf2f667-9d23-4789-83ed-3bf62bd21416.json"
-  },
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento" : null,
-  "http://hl7.org/fhir/event-status" : {
-    "server" : "http://tx.fhir.org/r4",
-    "filename" : "cs-7f95bfa3-1816-4b8d-8c7c-7e74e555dfec.json"
-  },
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao" : null
+    "filename" : "cs-6c750455-30c6-444c-bade-2e44a30fcbd4.json"
+  }
 }

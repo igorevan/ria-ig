@@ -1,0 +1,1933 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="CodeSystem-BRDose" original="Resource CodeSystem-BRDose" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>BRDose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Dose de Vacina</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Define a dose da administração de uma substância.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>1ª Dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>First dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Primera dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>2ª Dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Second dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Segunda dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>3ª Dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D3</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Third dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tercera dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>4ª Dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D4</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fourth dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cuarta dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>5ª Dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D5</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fifth dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Quinta dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>1º Reforço</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>R1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>First booster dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Primer refuerzo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>2º Reforço</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>R2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Second booster dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Segundo refuerzo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Única</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>DU</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Single dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dosis única</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Revacinação</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>REV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Revaccination</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Revacunación</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com uma dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>1 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 1 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com duas doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>2 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 2 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com três doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T3</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>3 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 3 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com quatro doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T4</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>4 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 4 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com cinco doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T5</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>5 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 5 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com seis doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T6</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>6 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 6 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com sete doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T7</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>7 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 7 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com oito doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T8</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>8 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 8 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com nove doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T9</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>9 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 9 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com dez doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T10</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>10 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 10 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com onze doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T11</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>11 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 11 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com doze doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T12</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>12 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 12 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com treze doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T13</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>13 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 13 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com quartorze doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T14</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>14 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 14 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com quinze doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T15</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>15 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 15 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com dezesseis doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T16</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>16 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 16 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com dezessete doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T17</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>17 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 17 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com dezoito doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T18</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>18 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 18 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com dezenove doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T19</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>19 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 19 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com vinte doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T20</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>20 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 20 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Tratamento com vinte e quatro doses</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>T24</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>24 dose treatment</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tratamiento de 24 dosis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>1ª Dose Revacinação</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D1REV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>First dose revaccinacion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Primera dosis revacunación</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>2ª Dose Revacinação</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D2REV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Second dose revaccinacion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Segunda dosis revacunación</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>3ª Dose Revacinação</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D3REV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Third dose revaccinacion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tecera dosis revacunación</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>4ª Dose Revacinação</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D4REV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fourth dose revaccinacion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cuarta dosis revacunación</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dose Inicial</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>DI</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Initial dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dosis inicial</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dose Adicional</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>DA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Additional dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dosis adicional</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Reforço</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>REF</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Booster</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Refuerzo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>3º Reforço</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>R3</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Third booster dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tercer refuerzo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>4º Reforço</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>R4</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fourth booster dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cuarto refuerzo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>5º Reforço</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>R5</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fifth booster dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Quinto refuerzo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>6º Reforço</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>R6</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Sixth booster dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Sexto refuerzo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>5ª Dose Revacinação</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D5REV</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fifth dose revaccinacion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Quinta dosis revacunación</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>1ª Dose Fracionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D1F</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>First fractional dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Primera dosis fraccionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>2ª Dose Fracionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D2F</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Second fractional dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Secunda dosis fraccionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>3ª Dose Fracionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D3F</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Third fractional dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Tercera dosis fraccionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>4ª Dose Fracionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D4F</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fourth fractional dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Cuarta dosis fraccionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>5ª Dose Fracionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D5F</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Fifth fractional dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Quinta dosis fraccionada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>1ª Dose Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D1D</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>1st double dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>1ra dosis doble</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>2ª Dose Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D2D</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>2nd double dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>2da dosis doble</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>3ª Dose Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D3D</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>3rd double dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>3ra dosis doble</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>4ª Dose Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D4D</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>4th double dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>4ta dosis doble</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>1ª Dose Revacinação Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D1REVD</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>2ª Dose Revacinação Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D2REVD</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>3ª Dose Revacinação Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D3REVD</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>4ª Dose Revacinação Dobrada</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D4REVD</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Dose Zero</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>D0</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Zero-dose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.designation.value">
+             <notes>
+               <note id="n1">CodeSystem.concept.designation.value</note>
+             </notes>
+        <source>Dosis cero</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Reforço Zero</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>R0</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 1 frasco-ampola/ampola</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T1</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 2 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 3 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T3</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 4 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T4</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 5 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T5</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 6 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T6</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 7 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T7</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 8 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T8</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 9 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T9</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 10 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T10</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 11 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T11</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 12 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T12</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 13 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T13</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 14 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T14</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 15 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T15</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 16 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T16</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 17 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T17</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 18 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T18</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 19 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T19</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 20 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T20</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 21 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T21</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 22 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T22</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 23 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T23</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profilaxia/Tratamento com 24 frascos-ampolas/ampolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRDose" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>P/T24</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

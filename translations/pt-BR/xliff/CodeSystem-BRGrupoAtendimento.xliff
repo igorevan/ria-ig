@@ -1,0 +1,792 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="pt-BR" id="CodeSystem-BRGrupoAtendimento" original="Resource CodeSystem-BRGrupoAtendimento" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>BRGrupoAtendimento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Grupo de Atendimento (CodeSystem)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Ministério da Saúde do Brasil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Sem registro no modelo de informação de origem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Hemoglobinopatia grave</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Neoplasias</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Diabetes Mellitus</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pneumopatias Crônicas Graves</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Doença Renal Crônica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Doenças Cardiovasculares e Cerebrovasculares</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Hipertensão de difícil controle ou com complicações/lesão de órgão alvo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Indivíduos Transplantados de Órgão Sólido</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Obesidade Grave (Imc≥40)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Síndrome de Down</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Outros Imunocomprometidos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Indivíduos Transplantados de Medula Óssea</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Cirrose hepática</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Doença neurológica crônica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Doença cardiovascular</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Imunocomprometidos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Trissomias</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Doença Hepática Crônica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Prematuridade</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Anomalias de vias aéreas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Obesidade (score-Z acima de +2)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Erros Inatos da Imunidade (EII)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 18 a 64 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 65 a 69 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 70 a 74 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 75 a 79 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 80 anos ou mais</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 12 a 17 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 5 a 11 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 3 a 4 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 6 meses a 2 anos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Faixa Etária</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas de 60 nos ou mais Institucionalizadas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas Institucionalizadas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Marinha do Brasil - MB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Exército Brasileiro - EB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Força Aérea Brasileira - FAB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Bombeiro Civil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Bombeiro Militar</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Guarda Municipal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Policial Rodoviário Federal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Policial Civil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Policial Federal</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Policial Militar</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Quilombola</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ribeirinha</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Crianças Quilombolas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Crianças Ribeirinhas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Povos indígenas em terras indígenas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Crianças Indígenas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Povos indígenas vivendo em terras indígenas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Povos indígenas vivendo fora das terras indígenas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ensino Básico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ensino Superior</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Auxiliar de Veterinário</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Biólogo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Biomédico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Cozinheiro e Auxiliares</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Cuidador de Idosos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Doula/Parteira</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Enfermeiro(a)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Farmacêutico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Fisioterapeutas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Fonoaudiólogo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Médico Veterinário</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Motorista de Ambulância</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Nutricionista</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Odontologista</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profissionais e Auxiliares de limpeza</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Profissionais de Educação Física</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Psicólogo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Recepcionista</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Segurança</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Assistente Social</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Técnico de Enfermagem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Técnico de Veterinário</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Terapeuta Ocupacional</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Outros</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Auxiliar de Enfermagem</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Técnico de Odontologia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Acadêmicos/estudantes em estágio em estabelecimentos de saúde</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Agente de Combate a Endemias - ACE</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Agente Comunitário de Saúde - ACS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Auxiliar em Saúde Bucal - ASB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Técnico em Saúde Bucal - TSB</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Aéreo</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Caminhoneiro</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Coletivo Rodoviário Passageiros Urbano e de Longo Curso</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Ferroviário</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Metroviário</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Aquaviário</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas com Deficiência Institucionalizadas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas com Deficiência Permanente</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Pessoas em Situação de Rua</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Trabalhadores Portuários</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Funcionário do Sistema de Privação de Liberdade</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>População Privada de Liberdade</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Adolescentes cumprindo medidas Socioeducativas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Trabalhadores Industriais</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Trabalhadores de limpeza urbana e manejo de resíduos sólidos</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Gestante</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Puérpera</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>População Rural</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-BRGrupoAtendimento" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Outros Grupos</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

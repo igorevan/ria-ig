@@ -1,0 +1,55 @@
+{
+  "id" : "CodeSystem-BRCondicaoMaternal",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "BRCondicaoMaternal",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "Condição Maternal (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Indicação da condição maternal da pessoa vacinada.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Não se aplica",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Gestante",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Puérpera",
+      "target" : null
+    }]
+  }]
+}

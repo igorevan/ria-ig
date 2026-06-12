@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "BREstrategiaVacinacao"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Estratégia de Vacinação (ValueSet)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Identifica a estratégia de vacinação adotada."
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "*"
+msgstr ""
+

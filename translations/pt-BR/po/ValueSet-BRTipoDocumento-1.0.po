@@ -1,0 +1,31 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "BRTipoDocumento"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "Tipo de Documento (ValueSet)"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Classifica o tipo de documento que está sendo trafegado."
+msgstr ""
+
+# ValueSet.compose.include.version
+#: ValueSet.compose.include.version
+msgid "*"
+msgstr ""
+

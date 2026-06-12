@@ -1,0 +1,36 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "BRRegistroOrigem"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Registro de Origem (CodeSystem)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Códigos para representação da Origem do Registro de Imunobiológico."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Registro anterior/Transcrição de caderneta"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Vacina no Exterior"
+msgstr ""
+

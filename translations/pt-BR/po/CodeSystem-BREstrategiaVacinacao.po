@@ -1,0 +1,226 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "BREstrategiaVacinacao"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Estratégia de Vacinação (CodeSystem)"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Ministério da Saúde do Brasil"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Classifica a estratégia de vacinação adotada."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Sem registro no sistema de informação de origem"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Rotina"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Routine immunization"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Rutina"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Especial"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Special"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Especial"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Bloqueio"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Blocking vaccination"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Vacunación de bloqueo"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Intensificação"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intensification"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Intensificación"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Campanha indiscriminada"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Indiscriminate campaign"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Campaña indiscriminada"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Campanha seletiva"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Selective campaign"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Campaña selectiva"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Soroterapia"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Serum therapy"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Sueroterapia"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Serviço Privado"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Private Sector"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Servicio privado"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Monitoramento das Estratégias de Vacinação"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Pesquisa"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Trials"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Ensayos clínicos"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Pré-exposição"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Pre-exposure"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Preexposición"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Pós-exposição"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Post-exposure"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Post-exposición"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Reexposição"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Re-exposure"
+msgstr ""
+
+# CodeSystem.concept.designation.value
+#: CodeSystem.concept.designation.value
+msgid "Reexposición"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Vacinação Escolar"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Operação Gota"
+msgstr ""
+

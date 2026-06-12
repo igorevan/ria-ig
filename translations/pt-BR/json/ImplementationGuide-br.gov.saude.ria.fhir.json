@@ -1,0 +1,553 @@
+{
+  "id" : "ImplementationGuide-br.gov.saude.ria.fhir",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "pt-BR",
+    "entries" : [{
+      "id" : "ImplementationGuide.name",
+      "context" : "ImplementationGuide.name",
+      "source" : "RIARNDSIG",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.title",
+      "context" : "ImplementationGuide.title",
+      "source" : "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.publisher",
+      "context" : "ImplementationGuide.publisher",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Ministério da Saúde do Brasil",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.description",
+      "context" : "ImplementationGuide.description",
+      "source" : "Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Bundle de exemplo do RIA-R",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Bundle de exemplo do Registro de Imunobiológico Administrado em Rotina (RIA-R)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Classificação Brasileira de Ocupações - CBO (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classifica as profissões do mercado de trabalho brasileiro.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Categoria do Diagnóstico (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Códigos para representação do tipo de categoria do diagnóstico realizado.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Condição Maternal (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Indicação da condição maternal da pessoa vacinada.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Dose de Vacina",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Define a dose da administração de uma substância.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Estratégia de Vacinação (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classifica a estratégia de vacinação adotada.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Fabricante do Imunobiológico (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Apresenta o fabricante do imunobiológico.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Grupo de Atendimento (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Imunobiológico (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classifica os tipos de imunobiológicos.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Local de Aplicação (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Define a localização anatômica de aplicação de uma substância",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "País (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Códigos para representação de países.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Registro de Origem (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Códigos para representação da Origem do Registro de Imunobiológico.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Tipo de Documento (CodeSystem)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classificação dos tipos de documentos compartilhados no Brasil.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Via de Administração",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classifica a via na qual foi administrada uma substância em um indivíduo.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "CID10 Avaliado",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Condição Maternal",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Contato Hanseníase",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extensão utilizada para identificar indivíduos com contato próximo de pacientes que vivem com Hanseníase.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Estratégia de Vacinação",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Identifica a estratégia de vacinação adotada.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Estratégia de Vacinação Pesquisa",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Extensão para as informações relacionadas aos dados da pesquisa clínica registrada na ANVISA.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Grupo de Atendimento",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Identificação do grupo de atendimento para vacinação.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Imunobiológico Administrado em Rotina",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Representa um imunobiológico administrado em Rotina (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023).",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Registro de Imunobiológico Administrado na Rotina",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Documento que aprepresenta o registro da administração de imunobiológicos na rotina de imunização (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023).",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Categoria do Diagnóstico (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Condição Maternal (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "ValueSet utilizado para Indicar a condição maternal da pessoa vacinada.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Dose do Imunobiológico",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "ValueSet utilizado para definir o tipo da dose administrada no indivíduo.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Estado do Evento",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Identificação do estado de um evento.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Estado da Resolução de Diagnóstico ou Problema",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Estado da resolução de um diagnóstico ou problema.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Estratégia de Vacinação (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Fabricante do Imunobiológico (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Fabricante do imunobiológico administrado",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Tipo de grupo de atendimento (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Imunobiológico (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Tipos de imunobiológicos disponíveis no Brasil.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Local de Aplicação (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Localização anatômica para aplicação de um injetável.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Classificação Brasileira de Ocupações - CBO (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "País (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Registro de Origem (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Tipo de Documento (ValueSet)",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Classifica o tipo de documento que está sendo trafegado.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Via de Administração do Imunobiológico",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Via de administração de um imunobiológico.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Índice",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Principal",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Lives",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Credenciamento",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Integração",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Modelo de Informação",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Modelo Computacional",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Exemplos",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Histórico de mudanças",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Downloads",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Feedback",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Suporte da RNDS",
+      "target" : null
+    }]
+  }]
+}
