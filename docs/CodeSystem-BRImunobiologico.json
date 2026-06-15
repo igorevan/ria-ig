@@ -4,7 +4,7 @@
   "language" : "pt-BR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRImunobiologico</b></p><a name=\"BRImunobiologico\"> </a><a name=\"hcBRImunobiologico\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>Nome</td><td>Nome</td><td/><td>string</td><td>Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.</td></tr><tr><td>Categoria</td><td>Categoria</td><td/><td>string</td><td>Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.</td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td><td>Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta.</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Nome</b></td><td><b>Categoria</b></td><td><b>Inactive</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRImunobiologico-1\"> </a></td><td>IGHAT</td><td>imunoglobulina humana antitétano</td><td>Imunoglobulina humana antitétano</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRImunobiologico-2\"> </a></td><td>SAT</td><td>soro antitetânico</td><td>Soro antitetânico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRImunobiologico-3\"> </a></td><td>SAAR</td><td>soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRImunobiologico-4\"> </a></td><td>SAESC</td><td>soro antiescorpiônico</td><td>Soro antiescorpiônico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRImunobiologico-5\"> </a></td><td>DT</td><td>vacina difteria e tétano infantil</td><td>Vacina adsorvida difteria e tétano infantil</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRImunobiologico-6\"> </a></td><td>SAELA</td><td>soro antielapídico</td><td>soro antielapídico (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRImunobiologico-7\"> </a></td><td>SAR</td><td>soro antirrábico</td><td>soro antirrábico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRImunobiologico-8\"> </a></td><td>SABR</td><td>soro antibotrópico</td><td>soro antibotrópico (pentavalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRImunobiologico-9\"> </a></td><td>HB</td><td>vacina hepatite B</td><td>vacina hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRImunobiologico-10\"> </a></td><td>SAD</td><td>soro antidiftérico</td><td>soro antidiftérico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRImunobiologico-11\"> </a></td><td>SABC</td><td>soro antibotrópico e anticrotálico</td><td>soro antibotrópico (pentavalente) e anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRImunobiologico-12\"> </a></td><td>SABL</td><td>soro antibotrópico e antilaquético</td><td>soro antibotrópico (pentavalente) e antilaquético</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRImunobiologico-13\"> </a></td><td>MenAC</td><td>vacina meningo AC</td><td>vacina meningocócica AC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRImunobiologico-14\"> </a></td><td>VFA</td><td>vacina febre amarela</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRImunobiologico-15\"> </a></td><td>BCG</td><td>vacina BCG</td><td>vacina BCG</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRImunobiologico-16\"> </a></td><td>SAC</td><td>soro anticrotálico</td><td>soro anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRImunobiologico-17\"> </a></td><td>Hib</td><td>vacina Hib</td><td>vacina Haemophilus influenza B (conjugada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">18<a name=\"BRImunobiologico-18\"> </a></td><td>VR embrião de galinha</td><td>vacina raiva embrião de galinha</td><td>vacina raiva (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRImunobiologico-19\"> </a></td><td>IGHAVZ</td><td>imunoglobulina humana antivaricela</td><td>imunoglobulina humana antivaricela</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRImunobiologico-20\"> </a></td><td>IGHAHB</td><td>imunoglobulina humana anti-hepatite B</td><td>imunoglobulina humana anti-hepatite B</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRImunobiologico-21\"> </a></td><td>VPP23</td><td>vacina pneumo 23</td><td>vacina pneumocócica 23-valente (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRImunobiologico-22\"> </a></td><td>VIP</td><td>vacina inativada poliomielite</td><td>vacina poliomelite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRImunobiologico-23\"> </a></td><td>IGHAR</td><td>imunoglobulina humana antirrábica</td><td>imunoglobulina humana antirrábica</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRImunobiologico-24\"> </a></td><td>SCR</td><td>vacina tríplice viral</td><td>vacina sarampo, caxumba, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRImunobiologico-25\"> </a></td><td>dT</td><td>vacina difteria e tétano adulto</td><td>vacina adsorvida difteria e tétano adulto</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRImunobiologico-26\"> </a></td><td>VPC10</td><td>vacina pneumo 10</td><td>vacina pneumocócica 10-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRImunobiologico-27\"> </a></td><td>SALATRO</td><td>soro antilatrodéctico</td><td>soro antilatrodéctico (Latrodectus curacaviensis)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRImunobiologico-28\"> </a></td><td>VOPb</td><td>vacina oral poliomielite bivalente</td><td>vacina poliomielite 1 e 3 (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRImunobiologico-29\"> </a></td><td>Penta acelular</td><td>vacina penta acelular (DTPa/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRImunobiologico-30\"> </a></td><td>FTp</td><td>vacina febre tifóide</td><td>vacina febre tifóide (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRImunobiologico-31\"> </a></td><td>SALOX</td><td>soro antiloxoscélico</td><td>soro antiloxoscélico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRImunobiologico-32\"> </a></td><td>SALON</td><td>soro antilonômico</td><td>soro antilonômico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRImunobiologico-33\"> </a></td><td>INF3</td><td>vacina influenza trivalente</td><td>vacina influenza trivalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRImunobiologico-34\"> </a></td><td>VZ</td><td>vacina varicela</td><td>vacina varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRImunobiologico-35\"> </a></td><td>HA virossomal</td><td>vacina hepatite A (virossomal)</td><td>vacina adsorvida hepatite A (virossomal)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRImunobiologico-36\"> </a></td><td>SR</td><td>vacina dupla viral</td><td>vacina sarampo, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRImunobiologico-37\"> </a></td><td>VR</td><td>vacina raiva</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRImunobiologico-38\"> </a></td><td>SBOTULTRI</td><td>soro antibotulínico (trivalente)</td><td>soro antibotulínico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRImunobiologico-39\"> </a></td><td>Tetra</td><td>vacina DTP/Hib</td><td>vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRImunobiologico-40\"> </a></td><td>VPC7</td><td>vacina pneumo 7</td><td>vacina pneumocócica 7-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRImunobiologico-41\"> </a></td><td>MenC</td><td>vacina meningo C</td><td>vacina meningocócica C (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRImunobiologico-42\"> </a></td><td>Penta</td><td>vacina penta (DTP/HB/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRImunobiologico-43\"> </a></td><td>Hexa acelular</td><td>vacina hexa acelular (DTPa/HB/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRImunobiologico-44\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRImunobiologico-45\"> </a></td><td>ROTA</td><td>vacina rotavírus</td><td>vacina rotavírus humano G1P[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRImunobiologico-46\"> </a></td><td>DTP</td><td>vacina DTP</td><td>vacina adsorvida difteria, tétano e pertussis</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRImunobiologico-47\"> </a></td><td>DTPa</td><td>vacina DTPa infantil</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRImunobiologico-48\"> </a></td><td>DILSCR</td><td>diluente para vacina sarampo, caxumba, rubéola</td><td>diluente para vacina sarampo, caxumba, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRImunobiologico-49\"> </a></td><td>DILVFA</td><td>diluente para vacina febre amarela</td><td>diluente para vacina febre amarela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRImunobiologico-50\"> </a></td><td>DILHib</td><td>diluente para vacina Haemophilus influenzae B</td><td>diluente para vacina Haemophilus influenzae B (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRImunobiologico-51\"> </a></td><td>Fta</td><td>vacina febre tifóide (atenuada)</td><td>vacina febre tifóide (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRImunobiologico-52\"> </a></td><td>DILMenAC</td><td>diluente para vacina meningo AC</td><td>diluente para vacina meningocócica AC (polissacarídica)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRImunobiologico-53\"> </a></td><td>DILSR</td><td>diluente para vacina sarampo, rubéola</td><td>diluente para vacina sarampo, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRImunobiologico-54\"> </a></td><td>DILVAR</td><td>diluente para vacina varicela</td><td>diluente para vacina varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRImunobiologico-55\"> </a></td><td>HAinf</td><td>vacina hepatite A infantil</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRImunobiologico-56\"> </a></td><td>SCRV</td><td>vacina tetraviral</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRImunobiologico-57\"> </a></td><td>dTpa</td><td>vacina dTpa adulto</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRImunobiologico-58\"> </a></td><td>DTPa/VIP</td><td>vacina tetra acelular DTPa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRImunobiologico-59\"> </a></td><td>VPC13</td><td>vacina pneumo 13</td><td>vacina pneumocócica 13-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRImunobiologico-60\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRImunobiologico-61\"> </a></td><td>Tétano</td><td>vacina tétano</td><td>vacina tétano (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRImunobiologico-62\"> </a></td><td>HA-HBinf</td><td>vacina hepatite A e B infantil</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRImunobiologico-63\"> </a></td><td>HA-HBad</td><td>vacina hepatite A e B adulto</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRImunobiologico-64\"> </a></td><td>INF3-ID</td><td>vacina influenza trivalente ID</td><td>vacina influenza trivalente (fragmentada, inativada) intradérmica</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"BRImunobiologico-65\"> </a></td><td>ROTA5</td><td>vacina rotavírus pentavalente</td><td>vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRImunobiologico-66\"> </a></td><td>MenBC</td><td>vacina meningo BC</td><td>vacina meningocócica BC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRImunobiologico-67\"> </a></td><td>HPV4</td><td>vacina HPV quadrivalente</td><td>vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRImunobiologico-68\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRImunobiologico-69\"> </a></td><td>SAB</td><td>soro antibotulínico AB (bivalente)</td><td>soro antibotulínico AB (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRImunobiologico-70\"> </a></td><td>Sarampo</td><td>vacina sarampo</td><td>vacina sarampo (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRImunobiologico-71\"> </a></td><td>Rubéola</td><td>vacina rubéola</td><td>vacina rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRImunobiologico-72\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRImunobiologico-73\"> </a></td><td>SCRV</td><td>vacina sarampo, caxumba, rubéola e varicela</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRImunobiologico-74\"> </a></td><td>MenACWY</td><td>vacina meningo ACWY</td><td>vacina meningocócica ACWY (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRImunobiologico-75\"> </a></td><td>VCO</td><td>vacina cólera oral</td><td>vacina cólera (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRImunobiologico-76\"> </a></td><td>VHZ</td><td>vacina herpes-zóster (atenuada)</td><td>vacina herpes-zóster (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRImunobiologico-77\"> </a></td><td>INF4</td><td>vacina influenza tetravalente</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRImunobiologico-78\"> </a></td><td>MenB</td><td>vacina meningo B</td><td>vacina adsorvida meningocócica B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRImunobiologico-79\"> </a></td><td>DILBCG</td><td>diluente para vacina BCG</td><td>diluente para vacina BCG</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRImunobiologico-80\"> </a></td><td>DILVR</td><td>diluente para vacina raiva</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRImunobiologico-81\"> </a></td><td>DILMenC</td><td>diluente para vacina meningo C</td><td>diluente para vacina meningocócica C (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRImunobiologico-82\"> </a></td><td>Dengue</td><td>vacina dengue (recombinante e atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">83<a name=\"BRImunobiologico-83\"> </a></td><td>HAad</td><td>vacina hepatite A adulto</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"BRImunobiologico-84\"> </a></td><td>VFA-F</td><td>vacina febre amarela fracionada</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"BRImunobiologico-85\"> </a></td><td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td><td>vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"BRImunobiologico-86\"> </a></td><td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td><td>vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"BRImunobiologico-87\"> </a></td><td>COVID-19 PFIZER - COMIRNATY</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"BRImunobiologico-88\"> </a></td><td>COVID-19 JANSSEN - Ad26.COV2.S</td><td>vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"BRImunobiologico-89\"> </a></td><td>COVID-19 ASTRAZENECA - ChAdOx1-S</td><td>vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"BRImunobiologico-90\"> </a></td><td>DILSCRV</td><td>diluente para vacina sarampo, caxumba, rubéola e varicela</td><td>diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"BRImunobiologico-91\"> </a></td><td>DILVR embrião de galinha</td><td>diluente para vacina raiva embrião de galinha</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"BRImunobiologico-92\"> </a></td><td>VR</td><td>vacina raiva</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"BRImunobiologico-93\"> </a></td><td>HPV9</td><td>vacina HPV nonavalente</td><td>vacina papilomavírus humano 9-valente (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"BRImunobiologico-94\"> </a></td><td>NaCl 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>Diluente</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">95<a name=\"BRImunobiologico-95\"> </a></td><td>COVID-19 GAMALEYA - SPUTNIK V</td><td>vacina Covid-19-recombinante, Gamaleya (Sputnik V)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">96<a name=\"BRImunobiologico-96\"> </a></td><td>COVID-19 BHARAT - COVAXIN</td><td>vacina Covid-19-inativada, Bharat (Covaxin)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"BRImunobiologico-97\"> </a></td><td>COVID-19 MODERNA - SPIKEVAX</td><td>vacina Covid-19-RNAm, Moderna (Spikevax)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"BRImunobiologico-98\"> </a></td><td>COVID-19 SINOVAC - CORONAVAC</td><td>vacina Covid-19-inativada, Sinovac (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRImunobiologico-99\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRImunobiologico-100\"> </a></td><td>VVS</td><td>vacina varíola símia (atenuada)</td><td>vacina varíola símia (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRImunobiologico-101\"> </a></td><td>VHZR</td><td>vacina herpes-zóster (recombinante)</td><td>vacina herpes-zóster (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRImunobiologico-102\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRImunobiologico-103\"> </a></td><td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente</td><td>vacina covid-19 bivalente</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRImunobiologico-104\"> </a></td><td>DNG</td><td>vacina dengue (atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (atenuada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">105<a name=\"BRImunobiologico-105\"> </a></td><td>COVID-19-SPIKEVAX BI</td><td>vacina Covid-19-RNAm, Moderna (Spikevax) bivalente</td><td>Vacina covid-19 bivalente (recombinante)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRImunobiologico-106\"> </a></td><td>VPC15</td><td>vacina pneumo 15</td><td>vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"BRImunobiologico-107\"> </a></td><td>VPC20</td><td>vacina pneumo 20</td><td>vacina pneumocócica 20-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">108<a name=\"BRImunobiologico-108\"> </a></td><td>VVSR-Rec</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"BRImunobiologico-109\"> </a></td><td>VVSR-RecAdj</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">110<a name=\"BRImunobiologico-110\"> </a></td><td>INF4-alta dosagem</td><td>vacina influenza tetravalente - alta dosagem</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">111<a name=\"BRImunobiologico-111\"> </a></td><td>dTpa/VIP</td><td>vacina tetra acelular dTpa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"BRImunobiologico-112\"> </a></td><td>COVID-19 SERUM/ZALIKA</td><td>vacina Covid-19-recombinante, Serum/Zalika</td><td>Vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"BRImunobiologico-113\"> </a></td><td>CHIKUNGUNYA</td><td>vacina chikungunya (recombinante e atenuada)</td><td>vacina chikungunya (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"BRImunobiologico-114\"> </a></td><td>COVID-19 SINOPHARM</td><td>vacina Covid-19-inativada, Sinopharm</td><td>vacina covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"BRImunobiologico-115\"> </a></td><td>NIRSEVIMABE 0,5ml</td><td>nirsevimabe 0,5ml</td><td>nirsevimabe 0,5ml</td><td>Anticorpo Monoclonal</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"BRImunobiologico-116\"> </a></td><td>NIRSEVIMABE 1,0ml</td><td>nirsevimabe 1,0ml</td><td>nirsevimabe 1,0ml</td><td>Anticorpo Monoclonal</td><td/></tr></table><p><b>Ecrãs de idiomas adicionais</b></p><table class=\"codes\"><tr><td><b>Código</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>1</td><td/><td/></tr><tr><td>2</td><td/><td/></tr><tr><td>3</td><td/><td/></tr><tr><td>4</td><td/><td/></tr><tr><td>5</td><td/><td/></tr><tr><td>6</td><td/><td/></tr><tr><td>7</td><td/><td/></tr><tr><td>8</td><td/><td/></tr><tr><td>9</td><td/><td/></tr><tr><td>10</td><td/><td/></tr><tr><td>11</td><td/><td/></tr><tr><td>12</td><td/><td/></tr><tr><td>13</td><td/><td/></tr><tr><td>14</td><td/><td/></tr><tr><td>15</td><td/><td/></tr><tr><td>16</td><td/><td/></tr><tr><td>17</td><td/><td/></tr><tr><td>18</td><td/><td/></tr><tr><td>19</td><td/><td/></tr><tr><td>20</td><td/><td/></tr><tr><td>21</td><td/><td/></tr><tr><td>22</td><td/><td/></tr><tr><td>23</td><td/><td/></tr><tr><td>24</td><td/><td/></tr><tr><td>25</td><td/><td/></tr><tr><td>26</td><td/><td/></tr><tr><td>27</td><td/><td/></tr><tr><td>28</td><td/><td/></tr><tr><td>29</td><td/><td/></tr><tr><td>30</td><td/><td/></tr><tr><td>31</td><td/><td/></tr><tr><td>32</td><td/><td/></tr><tr><td>33</td><td>Influenza vaccine trivalent</td><td>Vacuna influenza trivalente</td></tr><tr><td>34</td><td/><td/></tr><tr><td>35</td><td/><td/></tr><tr><td>36</td><td/><td/></tr><tr><td>37</td><td/><td/></tr><tr><td>38</td><td/><td/></tr><tr><td>39</td><td/><td/></tr><tr><td>40</td><td/><td/></tr><tr><td>41</td><td/><td/></tr><tr><td>42</td><td/><td/></tr><tr><td>43</td><td/><td/></tr><tr><td>44</td><td/><td/></tr><tr><td>45</td><td/><td/></tr><tr><td>46</td><td/><td/></tr><tr><td>47</td><td/><td/></tr><tr><td>48</td><td/><td/></tr><tr><td>49</td><td/><td/></tr><tr><td>50</td><td/><td/></tr><tr><td>51</td><td/><td/></tr><tr><td>52</td><td/><td/></tr><tr><td>53</td><td/><td/></tr><tr><td>54</td><td/><td/></tr><tr><td>55</td><td/><td/></tr><tr><td>56</td><td/><td/></tr><tr><td>57</td><td/><td/></tr><tr><td>58</td><td/><td/></tr><tr><td>59</td><td/><td/></tr><tr><td>60</td><td/><td/></tr><tr><td>61</td><td/><td/></tr><tr><td>62</td><td/><td/></tr><tr><td>63</td><td/><td/></tr><tr><td>64</td><td/><td/></tr><tr><td>65</td><td/><td/></tr><tr><td>66</td><td/><td/></tr><tr><td>67</td><td/><td/></tr><tr><td>68</td><td/><td/></tr><tr><td>69</td><td/><td/></tr><tr><td>70</td><td/><td/></tr><tr><td>71</td><td/><td/></tr><tr><td>72</td><td/><td/></tr><tr><td>73</td><td/><td/></tr><tr><td>74</td><td/><td/></tr><tr><td>75</td><td/><td/></tr><tr><td>76</td><td/><td/></tr><tr><td>77</td><td>Influenza vaccine tetravalent</td><td>Vacuna influenza tetravalente</td></tr><tr><td>78</td><td/><td/></tr><tr><td>79</td><td/><td/></tr><tr><td>80</td><td/><td/></tr><tr><td>81</td><td/><td/></tr><tr><td>82</td><td/><td/></tr><tr><td>83</td><td/><td/></tr><tr><td>84</td><td/><td/></tr><tr><td>85</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>86</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>87</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>88</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>89</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>90</td><td/><td/></tr><tr><td>91</td><td/><td/></tr><tr><td>92</td><td/><td/></tr><tr><td>93</td><td/><td/></tr><tr><td>94</td><td/><td/></tr><tr><td>95</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>96</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>97</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>98</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>99</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>100</td><td/><td/></tr><tr><td>101</td><td/><td/></tr><tr><td>102</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>103</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>104</td><td/><td/></tr><tr><td>105</td><td/><td/></tr><tr><td>106</td><td/><td/></tr><tr><td>107</td><td/><td/></tr><tr><td>108</td><td/><td/></tr><tr><td>109</td><td/><td/></tr><tr><td>110</td><td/><td/></tr><tr><td>111</td><td/><td/></tr><tr><td>112</td><td/><td/></tr><tr><td>113</td><td/><td/></tr><tr><td>114</td><td/><td/></tr><tr><td>115</td><td/><td/></tr><tr><td>116</td><td/><td/></tr></table></div>"
+    "div" : "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRImunobiologico</b></p><a name=\"BRImunobiologico\"> </a><a name=\"hcBRImunobiologico\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>Name</td><td>Name</td><td/><td>string</td><td>Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.</td></tr><tr><td>Category</td><td>Category</td><td/><td>string</td><td>Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.</td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td><td>Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta.</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Name</b></td><td><b>Category</b></td><td><b>Inactive</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRImunobiologico-1\"> </a></td><td>IGHAT</td><td>imunoglobulina humana antitétano</td><td>Imunoglobulina humana antitétano</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRImunobiologico-2\"> </a></td><td>SAT</td><td>soro antitetânico</td><td>Soro antitetânico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRImunobiologico-3\"> </a></td><td>SAAR</td><td>soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRImunobiologico-4\"> </a></td><td>SAESC</td><td>soro antiescorpiônico</td><td>Soro antiescorpiônico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRImunobiologico-5\"> </a></td><td>DT</td><td>vacina difteria e tétano infantil</td><td>Vacina adsorvida difteria e tétano infantil</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRImunobiologico-6\"> </a></td><td>SAELA</td><td>soro antielapídico</td><td>soro antielapídico (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRImunobiologico-7\"> </a></td><td>SAR</td><td>soro antirrábico</td><td>soro antirrábico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRImunobiologico-8\"> </a></td><td>SABR</td><td>soro antibotrópico</td><td>soro antibotrópico (pentavalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRImunobiologico-9\"> </a></td><td>HB</td><td>vacina hepatite B</td><td>vacina hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRImunobiologico-10\"> </a></td><td>SAD</td><td>soro antidiftérico</td><td>soro antidiftérico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRImunobiologico-11\"> </a></td><td>SABC</td><td>soro antibotrópico e anticrotálico</td><td>soro antibotrópico (pentavalente) e anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRImunobiologico-12\"> </a></td><td>SABL</td><td>soro antibotrópico e antilaquético</td><td>soro antibotrópico (pentavalente) e antilaquético</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRImunobiologico-13\"> </a></td><td>MenAC</td><td>vacina meningo AC</td><td>vacina meningocócica AC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRImunobiologico-14\"> </a></td><td>VFA</td><td>vacina febre amarela</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRImunobiologico-15\"> </a></td><td>BCG</td><td>vacina BCG</td><td>vacina BCG</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRImunobiologico-16\"> </a></td><td>SAC</td><td>soro anticrotálico</td><td>soro anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRImunobiologico-17\"> </a></td><td>Hib</td><td>vacina Hib</td><td>vacina Haemophilus influenza B (conjugada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">18<a name=\"BRImunobiologico-18\"> </a></td><td>VR embrião de galinha</td><td>vacina raiva embrião de galinha</td><td>vacina raiva (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRImunobiologico-19\"> </a></td><td>IGHAVZ</td><td>imunoglobulina humana antivaricela</td><td>imunoglobulina humana antivaricela</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRImunobiologico-20\"> </a></td><td>IGHAHB</td><td>imunoglobulina humana anti-hepatite B</td><td>imunoglobulina humana anti-hepatite B</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRImunobiologico-21\"> </a></td><td>VPP23</td><td>vacina pneumo 23</td><td>vacina pneumocócica 23-valente (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRImunobiologico-22\"> </a></td><td>VIP</td><td>vacina inativada poliomielite</td><td>vacina poliomelite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRImunobiologico-23\"> </a></td><td>IGHAR</td><td>imunoglobulina humana antirrábica</td><td>imunoglobulina humana antirrábica</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRImunobiologico-24\"> </a></td><td>SCR</td><td>vacina tríplice viral</td><td>vacina sarampo, caxumba, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRImunobiologico-25\"> </a></td><td>dT</td><td>vacina difteria e tétano adulto</td><td>vacina adsorvida difteria e tétano adulto</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRImunobiologico-26\"> </a></td><td>VPC10</td><td>vacina pneumo 10</td><td>vacina pneumocócica 10-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRImunobiologico-27\"> </a></td><td>SALATRO</td><td>soro antilatrodéctico</td><td>soro antilatrodéctico (Latrodectus curacaviensis)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRImunobiologico-28\"> </a></td><td>VOPb</td><td>vacina oral poliomielite bivalente</td><td>vacina poliomielite 1 e 3 (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRImunobiologico-29\"> </a></td><td>Penta acelular</td><td>vacina penta acelular (DTPa/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRImunobiologico-30\"> </a></td><td>FTp</td><td>vacina febre tifóide</td><td>vacina febre tifóide (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRImunobiologico-31\"> </a></td><td>SALOX</td><td>soro antiloxoscélico</td><td>soro antiloxoscélico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRImunobiologico-32\"> </a></td><td>SALON</td><td>soro antilonômico</td><td>soro antilonômico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRImunobiologico-33\"> </a></td><td>INF3</td><td>vacina influenza trivalente</td><td>vacina influenza trivalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRImunobiologico-34\"> </a></td><td>VZ</td><td>vacina varicela</td><td>vacina varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRImunobiologico-35\"> </a></td><td>HA virossomal</td><td>vacina hepatite A (virossomal)</td><td>vacina adsorvida hepatite A (virossomal)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRImunobiologico-36\"> </a></td><td>SR</td><td>vacina dupla viral</td><td>vacina sarampo, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRImunobiologico-37\"> </a></td><td>VR</td><td>vacina raiva (inativada)</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRImunobiologico-38\"> </a></td><td>SBOTULTRI</td><td>soro antibotulínico (trivalente)</td><td>soro antibotulínico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRImunobiologico-39\"> </a></td><td>Tetra</td><td>vacina DTP/Hib</td><td>vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRImunobiologico-40\"> </a></td><td>VPC7</td><td>vacina pneumo 7</td><td>vacina pneumocócica 7-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRImunobiologico-41\"> </a></td><td>MenC</td><td>vacina meningo C</td><td>vacina meningocócica C (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRImunobiologico-42\"> </a></td><td>Penta</td><td>vacina penta (DTP/HB/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRImunobiologico-43\"> </a></td><td>Hexa acelular</td><td>vacina hexa acelular (DTPa/HB/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRImunobiologico-44\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRImunobiologico-45\"> </a></td><td>ROTA</td><td>vacina rotavírus</td><td>vacina rotavírus humano G1P[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRImunobiologico-46\"> </a></td><td>DTP</td><td>vacina DTP</td><td>vacina adsorvida difteria, tétano e pertussis</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRImunobiologico-47\"> </a></td><td>DTPa</td><td>vacina DTPa infantil</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRImunobiologico-48\"> </a></td><td>DILSCR</td><td>diluente para vacina tríplice viral</td><td>diluente para vacina sarampo, caxumba, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRImunobiologico-49\"> </a></td><td>DILVFA</td><td>diluente para vacina febre amarela</td><td>diluente para vacina febre amarela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRImunobiologico-50\"> </a></td><td>DILHib</td><td>diluente para vacina Hib</td><td>diluente para vacina Haemophilus influenzae B (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRImunobiologico-51\"> </a></td><td>Fta</td><td>vacina febre tifóide (atenuada)</td><td>vacina febre tifóide (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRImunobiologico-52\"> </a></td><td>DILMenAC</td><td>diluente para vacina meningo AC</td><td>diluente para vacina meningocócica AC (polissacarídica)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRImunobiologico-53\"> </a></td><td>DILSR</td><td>diluente para vacina dupla viral</td><td>diluente para vacina sarampo, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRImunobiologico-54\"> </a></td><td>DILVAR</td><td>diluente para vacina varicela</td><td>diluente para vacina varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRImunobiologico-55\"> </a></td><td>HAinf</td><td>vacina hepatite A infantil</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRImunobiologico-56\"> </a></td><td>SCRV</td><td>vacina tetraviral</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRImunobiologico-57\"> </a></td><td>dTpa</td><td>vacina dTpa adulto</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRImunobiologico-58\"> </a></td><td>DTPa/VIP</td><td>vacina tetra acelular DTPa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRImunobiologico-59\"> </a></td><td>VPC13</td><td>vacina pneumo 13</td><td>vacina pneumocócica 13-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRImunobiologico-60\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRImunobiologico-61\"> </a></td><td>Tétano</td><td>vacina tétano</td><td>vacina tétano (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRImunobiologico-62\"> </a></td><td>HA-HBinf</td><td>vacina hepatite A e B infantil</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRImunobiologico-63\"> </a></td><td>HA-HBad</td><td>vacina hepatite A e B adulto</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRImunobiologico-64\"> </a></td><td>INF3-ID</td><td>vacina influenza trivalente ID</td><td>vacina influenza trivalente (fragmentada, inativada) intradérmica</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"BRImunobiologico-65\"> </a></td><td>ROTA5</td><td>vacina rotavírus pentavalente</td><td>vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRImunobiologico-66\"> </a></td><td>MenBC</td><td>vacina meningo BC</td><td>vacina meningocócica BC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRImunobiologico-67\"> </a></td><td>HPV4</td><td>vacina HPV quadrivalente</td><td>vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRImunobiologico-68\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRImunobiologico-69\"> </a></td><td>SAB</td><td>soro antibotulínico AB (bivalente)</td><td>soro antibotulínico AB (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRImunobiologico-70\"> </a></td><td>Sarampo</td><td>vacina sarampo</td><td>vacina sarampo (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRImunobiologico-71\"> </a></td><td>Rubéola</td><td>vacina rubéola</td><td>vacina rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRImunobiologico-72\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRImunobiologico-73\"> </a></td><td>SCRV</td><td>vacina sarampo, caxumba, rubéola e varicela</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRImunobiologico-74\"> </a></td><td>MenACWY</td><td>vacina meningo ACWY</td><td>vacina meningocócica ACWY (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRImunobiologico-75\"> </a></td><td>VCO</td><td>vacina cólera oral</td><td>vacina cólera (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRImunobiologico-76\"> </a></td><td>VHZ</td><td>vacina herpes-zóster (atenuada)</td><td>vacina herpes-zóster (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRImunobiologico-77\"> </a></td><td>INF4</td><td>vacina influenza tetravalente</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRImunobiologico-78\"> </a></td><td>MenB</td><td>vacina meningo B</td><td>vacina adsorvida meningocócica B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRImunobiologico-79\"> </a></td><td>DILBCG</td><td>diluente para vacina BCG</td><td>diluente para vacina BCG</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRImunobiologico-80\"> </a></td><td>DILVR</td><td>diluente para vacina raiva (inativada)</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRImunobiologico-81\"> </a></td><td>DILMenC</td><td>diluente para vacina meningo C</td><td>diluente para vacina meningocócica C (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRImunobiologico-82\"> </a></td><td>Dengue</td><td>vacina dengue (recombinante e atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">83<a name=\"BRImunobiologico-83\"> </a></td><td>HAad</td><td>vacina hepatite A adulto</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"BRImunobiologico-84\"> </a></td><td>VFA-F</td><td>vacina febre amarela fracionada</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"BRImunobiologico-85\"> </a></td><td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td><td>vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"BRImunobiologico-86\"> </a></td><td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td><td>vacina covid-19-inativada, Sinovac/Butantan (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"BRImunobiologico-87\"> </a></td><td>COVID-19 PFIZER - COMIRNATY</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"BRImunobiologico-88\"> </a></td><td>COVID-19 JANSSEN - Ad26.COV2.S</td><td>vacina covid-19-recombinante, Janssen (Ad26.COV2.S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"BRImunobiologico-89\"> </a></td><td>COVID-19 ASTRAZENECA - ChAdOx1-S</td><td>vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"BRImunobiologico-90\"> </a></td><td>DILSCRV</td><td>diluente para vacina tetraviral</td><td>diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"BRImunobiologico-91\"> </a></td><td>DILVR embrião de galinha</td><td>diluente para vacina raiva embrião de galinha</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"BRImunobiologico-92\"> </a></td><td>VR</td><td>vacina raiva</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"BRImunobiologico-93\"> </a></td><td>HPV9</td><td>vacina HPV nonavalente</td><td>vacina papilomavírus humano 9-valente (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"BRImunobiologico-94\"> </a></td><td>NaCl 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>Diluente</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">95<a name=\"BRImunobiologico-95\"> </a></td><td>COVID-19 GAMALEYA - SPUTNIK V</td><td>vacina covid-19-recombinante, Gamaleya (Sputnik V)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">96<a name=\"BRImunobiologico-96\"> </a></td><td>COVID-19 BHARAT - COVAXIN</td><td>vacina covid-19-inativada, Bharat (Covaxin)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"BRImunobiologico-97\"> </a></td><td>COVID-19 MODERNA - SPIKEVAX</td><td>vacina covid-19-RNAm, Moderna (Spikevax)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"BRImunobiologico-98\"> </a></td><td>COVID-19 SINOVAC - CORONAVAC</td><td>vacina covid-19-inativada, Sinovac (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRImunobiologico-99\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRImunobiologico-100\"> </a></td><td>VVS</td><td>vacina varíola símia (atenuada)</td><td>vacina varíola símia (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRImunobiologico-101\"> </a></td><td>VHZR</td><td>vacina herpes-zóster (recombinante)</td><td>vacina herpes-zóster (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRImunobiologico-102\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRImunobiologico-103\"> </a></td><td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente</td><td>vacina covid-19 bivalente</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRImunobiologico-104\"> </a></td><td>DNG</td><td>vacina dengue (atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (atenuada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">105<a name=\"BRImunobiologico-105\"> </a></td><td>COVID-19-SPIKEVAX BI</td><td>vacina covid-19-RNAm, Moderna (Spikevax) bivalente</td><td>Vacina covid-19 bivalente (recombinante)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRImunobiologico-106\"> </a></td><td>VPC15</td><td>vacina pneumo 15</td><td>vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"BRImunobiologico-107\"> </a></td><td>VPC20</td><td>vacina pneumo 20</td><td>vacina pneumocócica 20-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">108<a name=\"BRImunobiologico-108\"> </a></td><td>VVSR-Rec</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"BRImunobiologico-109\"> </a></td><td>VVSR-RecAdj</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">110<a name=\"BRImunobiologico-110\"> </a></td><td>INF4-alta dosagem</td><td>vacina influenza tetravalente - alta dosagem</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">111<a name=\"BRImunobiologico-111\"> </a></td><td>dTpa/VIP</td><td>vacina tetra acelular dTpa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"BRImunobiologico-112\"> </a></td><td>COVID-19 SERUM/ZALIKA</td><td>vacina covid-19-recombinante, Serum/Zalika</td><td>Vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"BRImunobiologico-113\"> </a></td><td>CHIKUNGUNYA</td><td>vacina chikungunya (recombinante e atenuada)</td><td>vacina chikungunya (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"BRImunobiologico-114\"> </a></td><td>COVID-19 SINOPHARM</td><td>vacina covid-19-inativada, Sinopharm</td><td>vacina covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"BRImunobiologico-115\"> </a></td><td>NIRSEVIMABE 0,5ml</td><td>nirsevimabe 0,5ml</td><td>nirsevimabe 0,5ml</td><td>Anticorpo Monoclonal</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"BRImunobiologico-116\"> </a></td><td>NIRSEVIMABE 1,0ml</td><td>nirsevimabe 1,0ml</td><td>nirsevimabe 1,0ml</td><td>Anticorpo Monoclonal</td><td/></tr><tr><td style=\"white-space:nowrap\">117<a name=\"BRImunobiologico-117\"> </a></td><td>INF3-alta dosagem</td><td>vacina influenza trivalente - alta dosagem</td><td>vacina influenza trivalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">118<a name=\"BRImunobiologico-118\"> </a></td><td>DILMenACWY</td><td>diluente para vacina meningo ACWY</td><td>diluente para vacina meningocócica ACWY (conjugada)</td><td>Diluente</td><td/></tr></table><p><b>Ecrãs de idiomas adicionais</b></p><table class=\"codes\"><tr><td><b>Código</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>1</td><td/><td/></tr><tr><td>2</td><td/><td/></tr><tr><td>3</td><td/><td/></tr><tr><td>4</td><td/><td/></tr><tr><td>5</td><td/><td/></tr><tr><td>6</td><td/><td/></tr><tr><td>7</td><td/><td/></tr><tr><td>8</td><td/><td/></tr><tr><td>9</td><td/><td/></tr><tr><td>10</td><td/><td/></tr><tr><td>11</td><td/><td/></tr><tr><td>12</td><td/><td/></tr><tr><td>13</td><td/><td/></tr><tr><td>14</td><td/><td/></tr><tr><td>15</td><td/><td/></tr><tr><td>16</td><td/><td/></tr><tr><td>17</td><td/><td/></tr><tr><td>18</td><td/><td/></tr><tr><td>19</td><td/><td/></tr><tr><td>20</td><td/><td/></tr><tr><td>21</td><td/><td/></tr><tr><td>22</td><td/><td/></tr><tr><td>23</td><td/><td/></tr><tr><td>24</td><td/><td/></tr><tr><td>25</td><td/><td/></tr><tr><td>26</td><td/><td/></tr><tr><td>27</td><td/><td/></tr><tr><td>28</td><td/><td/></tr><tr><td>29</td><td/><td/></tr><tr><td>30</td><td/><td/></tr><tr><td>31</td><td/><td/></tr><tr><td>32</td><td/><td/></tr><tr><td>33</td><td>Influenza vaccine trivalent</td><td>Vacuna influenza trivalente</td></tr><tr><td>34</td><td/><td/></tr><tr><td>35</td><td/><td/></tr><tr><td>36</td><td/><td/></tr><tr><td>37</td><td/><td/></tr><tr><td>38</td><td/><td/></tr><tr><td>39</td><td/><td/></tr><tr><td>40</td><td/><td/></tr><tr><td>41</td><td/><td/></tr><tr><td>42</td><td/><td/></tr><tr><td>43</td><td/><td/></tr><tr><td>44</td><td/><td/></tr><tr><td>45</td><td/><td/></tr><tr><td>46</td><td/><td/></tr><tr><td>47</td><td/><td/></tr><tr><td>48</td><td/><td/></tr><tr><td>49</td><td/><td/></tr><tr><td>50</td><td/><td/></tr><tr><td>51</td><td/><td/></tr><tr><td>52</td><td/><td/></tr><tr><td>53</td><td/><td/></tr><tr><td>54</td><td/><td/></tr><tr><td>55</td><td/><td/></tr><tr><td>56</td><td/><td/></tr><tr><td>57</td><td/><td/></tr><tr><td>58</td><td/><td/></tr><tr><td>59</td><td/><td/></tr><tr><td>60</td><td/><td/></tr><tr><td>61</td><td/><td/></tr><tr><td>62</td><td/><td/></tr><tr><td>63</td><td/><td/></tr><tr><td>64</td><td/><td/></tr><tr><td>65</td><td/><td/></tr><tr><td>66</td><td/><td/></tr><tr><td>67</td><td/><td/></tr><tr><td>68</td><td/><td/></tr><tr><td>69</td><td/><td/></tr><tr><td>70</td><td/><td/></tr><tr><td>71</td><td/><td/></tr><tr><td>72</td><td/><td/></tr><tr><td>73</td><td/><td/></tr><tr><td>74</td><td/><td/></tr><tr><td>75</td><td/><td/></tr><tr><td>76</td><td/><td/></tr><tr><td>77</td><td>Influenza vaccine tetravalent</td><td>Vacuna influenza tetravalente</td></tr><tr><td>78</td><td/><td/></tr><tr><td>79</td><td/><td/></tr><tr><td>80</td><td/><td/></tr><tr><td>81</td><td/><td/></tr><tr><td>82</td><td/><td/></tr><tr><td>83</td><td/><td/></tr><tr><td>84</td><td/><td/></tr><tr><td>85</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>86</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>87</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>88</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>89</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>90</td><td/><td/></tr><tr><td>91</td><td/><td/></tr><tr><td>92</td><td/><td/></tr><tr><td>93</td><td/><td/></tr><tr><td>94</td><td/><td/></tr><tr><td>95</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>96</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>97</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>98</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>99</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>100</td><td/><td/></tr><tr><td>101</td><td/><td/></tr><tr><td>102</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>103</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>104</td><td/><td/></tr><tr><td>105</td><td/><td/></tr><tr><td>106</td><td/><td/></tr><tr><td>107</td><td/><td/></tr><tr><td>108</td><td/><td/></tr><tr><td>109</td><td/><td/></tr><tr><td>110</td><td/><td/></tr><tr><td>111</td><td/><td/></tr><tr><td>112</td><td/><td/></tr><tr><td>113</td><td/><td/></tr><tr><td>114</td><td/><td/></tr><tr><td>115</td><td/><td/></tr><tr><td>116</td><td/><td/></tr><tr><td>117</td><td/><td/></tr><tr><td>118</td><td/><td/></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -63,12 +63,12 @@
   "caseSensitive" : true,
   "content" : "complete",
   "property" : [{
-    "code" : "Nome",
+    "code" : "Name",
     "description" : "Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.",
     "type" : "string"
   },
   {
-    "code" : "Categoria",
+    "code" : "Category",
     "description" : "Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.",
     "type" : "string"
   },
@@ -83,11 +83,11 @@
     "display" : "IGHAT",
     "definition" : "imunoglobulina humana antitétano",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Imunoglobulina humana antitétano"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -96,11 +96,11 @@
     "display" : "SAT",
     "definition" : "soro antitetânico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Soro antitetânico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -109,11 +109,11 @@
     "display" : "SAAR",
     "definition" : "soro antiaracnídico (Loxosceles, Phoneutria, Tityus)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -122,11 +122,11 @@
     "display" : "SAESC",
     "definition" : "soro antiescorpiônico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Soro antiescorpiônico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -135,11 +135,11 @@
     "display" : "DT",
     "definition" : "vacina difteria e tétano infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Vacina adsorvida difteria e tétano infantil"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -148,11 +148,11 @@
     "display" : "SAELA",
     "definition" : "soro antielapídico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antielapídico (bivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -161,11 +161,11 @@
     "display" : "SAR",
     "definition" : "soro antirrábico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antirrábico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -174,11 +174,11 @@
     "display" : "SABR",
     "definition" : "soro antibotrópico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotrópico (pentavalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -187,11 +187,11 @@
     "display" : "HB",
     "definition" : "vacina hepatite B",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina hepatite B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -200,11 +200,11 @@
     "display" : "SAD",
     "definition" : "soro antidiftérico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antidiftérico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -213,11 +213,11 @@
     "display" : "SABC",
     "definition" : "soro antibotrópico e anticrotálico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotrópico (pentavalente) e anticrotálico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -226,11 +226,11 @@
     "display" : "SABL",
     "definition" : "soro antibotrópico e antilaquético",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotrópico (pentavalente) e antilaquético"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -239,11 +239,11 @@
     "display" : "MenAC",
     "definition" : "vacina meningo AC",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica AC (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -252,11 +252,11 @@
     "display" : "VFA",
     "definition" : "vacina febre amarela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre amarela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -265,11 +265,11 @@
     "display" : "BCG",
     "definition" : "vacina BCG",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina BCG"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -278,11 +278,11 @@
     "display" : "SAC",
     "definition" : "soro anticrotálico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro anticrotálico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -291,11 +291,11 @@
     "display" : "Hib",
     "definition" : "vacina Hib",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina Haemophilus influenza B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -308,11 +308,11 @@
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -321,11 +321,11 @@
     "display" : "IGHAVZ",
     "definition" : "imunoglobulina humana antivaricela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "imunoglobulina humana antivaricela"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -334,11 +334,11 @@
     "display" : "IGHAHB",
     "definition" : "imunoglobulina humana anti-hepatite B",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "imunoglobulina humana anti-hepatite B"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -347,11 +347,11 @@
     "display" : "VPP23",
     "definition" : "vacina pneumo 23",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 23-valente (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -360,11 +360,11 @@
     "display" : "VIP",
     "definition" : "vacina inativada poliomielite",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina poliomelite 1, 2 e 3 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -373,11 +373,11 @@
     "display" : "IGHAR",
     "definition" : "imunoglobulina humana antirrábica",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "imunoglobulina humana antirrábica"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -386,11 +386,11 @@
     "display" : "SCR",
     "definition" : "vacina tríplice viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, caxumba, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -399,11 +399,11 @@
     "display" : "dT",
     "definition" : "vacina difteria e tétano adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria e tétano adulto"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -412,11 +412,11 @@
     "display" : "VPC10",
     "definition" : "vacina pneumo 10",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 10-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -425,11 +425,11 @@
     "display" : "SALATRO",
     "definition" : "soro antilatrodéctico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antilatrodéctico (Latrodectus curacaviensis)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -438,11 +438,11 @@
     "display" : "VOPb",
     "definition" : "vacina oral poliomielite bivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina poliomielite 1 e 3 (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -451,11 +451,11 @@
     "display" : "Penta acelular",
     "definition" : "vacina penta acelular (DTPa/VIP/Hib)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -464,11 +464,11 @@
     "display" : "FTp",
     "definition" : "vacina febre tifóide",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre tifóide (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -477,11 +477,11 @@
     "display" : "SALOX",
     "definition" : "soro antiloxoscélico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antiloxoscélico (trivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -490,11 +490,11 @@
     "display" : "SALON",
     "definition" : "soro antilonômico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antilonômico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -511,11 +511,11 @@
       "value" : "Vacuna influenza trivalente"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza trivalente (fragmentada, inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -524,11 +524,11 @@
     "display" : "VZ",
     "definition" : "vacina varicela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -537,11 +537,11 @@
     "display" : "HA virossomal",
     "definition" : "vacina hepatite A (virossomal)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A (virossomal)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -550,24 +550,24 @@
     "display" : "SR",
     "definition" : "vacina dupla viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "37",
     "display" : "VR",
-    "definition" : "vacina raiva",
+    "definition" : "vacina raiva (inativada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -576,11 +576,11 @@
     "display" : "SBOTULTRI",
     "definition" : "soro antibotulínico (trivalente)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotulínico (trivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -589,11 +589,11 @@
     "display" : "Tetra",
     "definition" : "vacina DTP/Hib",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -602,11 +602,11 @@
     "display" : "VPC7",
     "definition" : "vacina pneumo 7",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 7-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -615,11 +615,11 @@
     "display" : "MenC",
     "definition" : "vacina meningo C",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica C (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -628,11 +628,11 @@
     "display" : "Penta",
     "definition" : "vacina penta (DTP/HB/Hib)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -641,11 +641,11 @@
     "display" : "Hexa acelular",
     "definition" : "vacina hexa acelular (DTPa/HB/VIP/Hib)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -654,11 +654,11 @@
     "display" : "INFH1N1-2009",
     "definition" : "vacina influenza A (H1N1) (inativada, fragmentada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -667,11 +667,11 @@
     "display" : "ROTA",
     "definition" : "vacina rotavírus",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina rotavírus humano G1P[8] (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -680,11 +680,11 @@
     "display" : "DTP",
     "definition" : "vacina DTP",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano e pertussis"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -693,24 +693,24 @@
     "display" : "DTPa",
     "definition" : "vacina DTPa infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano e pertussis (acelular)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "48",
     "display" : "DILSCR",
-    "definition" : "diluente para vacina sarampo, caxumba, rubéola",
+    "definition" : "diluente para vacina tríplice viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina sarampo, caxumba, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -719,24 +719,24 @@
     "display" : "DILVFA",
     "definition" : "diluente para vacina febre amarela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina febre amarela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "50",
     "display" : "DILHib",
-    "definition" : "diluente para vacina Haemophilus influenzae B",
+    "definition" : "diluente para vacina Hib",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -745,11 +745,11 @@
     "display" : "Fta",
     "definition" : "vacina febre tifóide (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre tifóide (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -758,24 +758,24 @@
     "display" : "DILMenAC",
     "definition" : "diluente para vacina meningo AC",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina meningocócica AC (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "53",
     "display" : "DILSR",
-    "definition" : "diluente para vacina sarampo, rubéola",
+    "definition" : "diluente para vacina dupla viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina sarampo, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -784,11 +784,11 @@
     "display" : "DILVAR",
     "definition" : "diluente para vacina varicela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -797,11 +797,11 @@
     "display" : "HAinf",
     "definition" : "vacina hepatite A infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -810,11 +810,11 @@
     "display" : "SCRV",
     "definition" : "vacina tetraviral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -823,11 +823,11 @@
     "display" : "dTpa",
     "definition" : "vacina dTpa adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano e pertussis (acelular)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -836,11 +836,11 @@
     "display" : "DTPa/VIP",
     "definition" : "vacina tetra acelular DTPa/VIP",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -849,11 +849,11 @@
     "display" : "VPC13",
     "definition" : "vacina pneumo 13",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 13-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -862,11 +862,11 @@
     "display" : "HPV2",
     "definition" : "vacina HPV bivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 16 e 18 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -875,11 +875,11 @@
     "display" : "Tétano",
     "definition" : "vacina tétano",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina tétano (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -888,11 +888,11 @@
     "display" : "HA-HBinf",
     "definition" : "vacina hepatite A e B infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A e hepatite B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -901,11 +901,11 @@
     "display" : "HA-HBad",
     "definition" : "vacina hepatite A e B adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A e hepatite B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -914,11 +914,11 @@
     "display" : "INF3-ID",
     "definition" : "vacina influenza trivalente ID",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza trivalente (fragmentada, inativada) intradérmica"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -927,11 +927,11 @@
     "display" : "ROTA5",
     "definition" : "vacina rotavírus pentavalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -940,11 +940,11 @@
     "display" : "MenBC",
     "definition" : "vacina meningo BC",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica BC (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -953,11 +953,11 @@
     "display" : "HPV4",
     "definition" : "vacina HPV quadrivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -966,11 +966,11 @@
     "display" : "HPV2",
     "definition" : "vacina HPV bivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 16 e 18 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -979,11 +979,11 @@
     "display" : "SAB",
     "definition" : "soro antibotulínico AB (bivalente)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotulínico AB (bivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -992,11 +992,11 @@
     "display" : "Sarampo",
     "definition" : "vacina sarampo",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1005,11 +1005,11 @@
     "display" : "Rubéola",
     "definition" : "vacina rubéola",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1018,11 +1018,11 @@
     "display" : "INFH1N1-2009",
     "definition" : "vacina influenza A (H1N1) (inativada, fragmentada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1031,11 +1031,11 @@
     "display" : "SCRV",
     "definition" : "vacina sarampo, caxumba, rubéola e varicela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1044,11 +1044,11 @@
     "display" : "MenACWY",
     "definition" : "vacina meningo ACWY",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica ACWY (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1057,11 +1057,11 @@
     "display" : "VCO",
     "definition" : "vacina cólera oral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina cólera (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1070,11 +1070,11 @@
     "display" : "VHZ",
     "definition" : "vacina herpes-zóster (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina herpes-zóster (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1091,11 +1091,11 @@
       "value" : "Vacuna influenza tetravalente"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tetravalente (fragmentada, inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1104,11 +1104,11 @@
     "display" : "MenB",
     "definition" : "vacina meningo B",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida meningocócica B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1117,24 +1117,24 @@
     "display" : "DILBCG",
     "definition" : "diluente para vacina BCG",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina BCG"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "80",
     "display" : "DILVR",
-    "definition" : "diluente para vacina raiva",
+    "definition" : "diluente para vacina raiva (inativada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1143,11 +1143,11 @@
     "display" : "DILMenC",
     "definition" : "diluente para vacina meningo C",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina meningocócica C (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1156,11 +1156,11 @@
     "display" : "Dengue",
     "definition" : "vacina dengue (recombinante e atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1169,11 +1169,11 @@
     "display" : "HAad",
     "definition" : "vacina hepatite A adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1182,18 +1182,18 @@
     "display" : "VFA-F",
     "definition" : "vacina febre amarela fracionada",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre amarela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "85",
     "display" : "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD",
-    "definition" : "vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)",
+    "definition" : "vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1203,18 +1203,18 @@
       "value" : "XM9QW8 Vacuna COVID-19, vector viral no replicante"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "86",
     "display" : "COVID-19 SINOVAC/BUTANTAN - CORONAVAC",
-    "definition" : "vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)",
+    "definition" : "vacina covid-19-inativada, Sinovac/Butantan (Coronavac)",
     "designation" : [{
       "language" : "en",
       "value" : "XM1NL1 COVID-19 vaccine, inactivated virus"
@@ -1224,18 +1224,18 @@
       "value" : "XM1NL1 Vacuna COVID-19, virus inactivado"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "87",
     "display" : "COVID-19 PFIZER - COMIRNATY",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty)",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty)",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1245,18 +1245,18 @@
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "88",
     "display" : "COVID-19 JANSSEN - Ad26.COV2.S",
-    "definition" : "vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)",
+    "definition" : "vacina covid-19-recombinante, Janssen (Ad26.COV2.S)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1266,18 +1266,18 @@
       "value" : "XM9QW8 Vacuna COVID-19, vector viral no replicante"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "89",
     "display" : "COVID-19 ASTRAZENECA - ChAdOx1-S",
-    "definition" : "vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)",
+    "definition" : "vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1287,24 +1287,24 @@
       "value" : "XM9QW8 Vacuna COVID-19, vector viral no replicante"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "90",
     "display" : "DILSCRV",
-    "definition" : "diluente para vacina sarampo, caxumba, rubéola e varicela",
+    "definition" : "diluente para vacina tetraviral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1313,11 +1313,11 @@
     "display" : "DILVR embrião de galinha",
     "definition" : "diluente para vacina raiva embrião de galinha",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1326,11 +1326,11 @@
     "display" : "VR",
     "definition" : "vacina raiva",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1339,11 +1339,11 @@
     "display" : "HPV9",
     "definition" : "vacina HPV nonavalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 9-valente (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1352,18 +1352,18 @@
     "display" : "NaCl 0,9%",
     "definition" : "cloreto de sódio, solução injetável - 0,9%",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "cloreto de sódio, solução injetável - 0,9%"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "95",
     "display" : "COVID-19 GAMALEYA - SPUTNIK V",
-    "definition" : "vacina Covid-19-recombinante, Gamaleya (Sputnik V)",
+    "definition" : "vacina covid-19-recombinante, Gamaleya (Sputnik V)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1377,18 +1377,18 @@
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "96",
     "display" : "COVID-19 BHARAT - COVAXIN",
-    "definition" : "vacina Covid-19-inativada, Bharat (Covaxin)",
+    "definition" : "vacina covid-19-inativada, Bharat (Covaxin)",
     "designation" : [{
       "language" : "en",
       "value" : "XM1NL1 COVID-19 vaccine, inactivated virus"
@@ -1402,18 +1402,18 @@
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "97",
     "display" : "COVID-19 MODERNA - SPIKEVAX",
-    "definition" : "vacina Covid-19-RNAm, Moderna (Spikevax)",
+    "definition" : "vacina covid-19-RNAm, Moderna (Spikevax)",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1423,18 +1423,18 @@
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "98",
     "display" : "COVID-19 SINOVAC - CORONAVAC",
-    "definition" : "vacina Covid-19-inativada, Sinovac (Coronavac)",
+    "definition" : "vacina covid-19-inativada, Sinovac (Coronavac)",
     "designation" : [{
       "language" : "en",
       "value" : "XM1NL1 COVID-19 vaccine, inactivated virus"
@@ -1444,18 +1444,18 @@
       "value" : "XM1NL1 Vacuna COVID-19, virus inactivado"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "99",
     "display" : "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1465,11 +1465,11 @@
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1478,11 +1478,11 @@
     "display" : "VVS",
     "definition" : "vacina varíola símia (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina varíola símia (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1491,18 +1491,18 @@
     "display" : "VHZR",
     "definition" : "vacina herpes-zóster (recombinante)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina herpes-zóster (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "102",
     "display" : "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1512,18 +1512,18 @@
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "103",
     "display" : "COVID-19 PFIZER - COMIRNATY BIVALENTE",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1533,11 +1533,11 @@
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 bivalente"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1546,28 +1546,28 @@
     "display" : "DNG",
     "definition" : "vacina dengue (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina dengue 1, 2, 3 e 4 (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "105",
     "display" : "COVID-19-SPIKEVAX BI",
-    "definition" : "vacina Covid-19-RNAm, Moderna (Spikevax) bivalente",
+    "definition" : "vacina covid-19-RNAm, Moderna (Spikevax) bivalente",
     "property" : [{
       "code" : "inactive",
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Vacina covid-19 bivalente (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1576,11 +1576,11 @@
     "display" : "VPC15",
     "definition" : "vacina pneumo 15",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1589,11 +1589,11 @@
     "display" : "VPC20",
     "definition" : "vacina pneumo 20",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 20-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1602,11 +1602,11 @@
     "display" : "VVSR-Rec",
     "definition" : "vacina vírus sincicial respiratório A e B (recombinante)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina vírus sincicial respiratório A e B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1615,11 +1615,11 @@
     "display" : "VVSR-RecAdj",
     "definition" : "vacina vírus sincicial respiratório (recombinante, adjuvada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina vírus sincicial respiratório (recombinante, adjuvada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1628,11 +1628,11 @@
     "display" : "INF4-alta dosagem",
     "definition" : "vacina influenza tetravalente - alta dosagem",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tetravalente (fragmentada, inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1641,24 +1641,24 @@
     "display" : "dTpa/VIP",
     "definition" : "vacina tetra acelular dTpa/VIP",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "112",
     "display" : "COVID-19 SERUM/ZALIKA",
-    "definition" : "vacina Covid-19-recombinante, Serum/Zalika",
+    "definition" : "vacina covid-19-recombinante, Serum/Zalika",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1667,24 +1667,24 @@
     "display" : "CHIKUNGUNYA",
     "definition" : "vacina chikungunya (recombinante e atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina chikungunya (recombinante e atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "114",
     "display" : "COVID-19 SINOPHARM",
-    "definition" : "vacina Covid-19-inativada, Sinopharm",
+    "definition" : "vacina covid-19-inativada, Sinopharm",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1693,11 +1693,11 @@
     "display" : "NIRSEVIMABE 0,5ml",
     "definition" : "nirsevimabe 0,5ml",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "nirsevimabe 0,5ml"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Anticorpo Monoclonal"
     }]
   },
@@ -1706,12 +1706,38 @@
     "display" : "NIRSEVIMABE 1,0ml",
     "definition" : "nirsevimabe 1,0ml",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "nirsevimabe 1,0ml"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Anticorpo Monoclonal"
+    }]
+  },
+  {
+    "code" : "117",
+    "display" : "INF3-alta dosagem",
+    "definition" : "vacina influenza trivalente - alta dosagem",
+    "property" : [{
+      "code" : "Name",
+      "valueString" : "vacina influenza trivalente (fragmentada, inativada)"
+    },
+    {
+      "code" : "Category",
+      "valueString" : "Vacina"
+    }]
+  },
+  {
+    "code" : "118",
+    "display" : "DILMenACWY",
+    "definition" : "diluente para vacina meningo ACWY",
+    "property" : [{
+      "code" : "Name",
+      "valueString" : "diluente para vacina meningocócica ACWY (conjugada)"
+    },
+    {
+      "code" : "Category",
+      "valueString" : "Diluente"
     }]
   }]
 }

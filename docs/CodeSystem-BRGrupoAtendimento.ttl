@@ -12,71 +12,50 @@
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRGrupoAtendimento</b></p><a name=\"BRGrupoAtendimento\"> </a><a name=\"hcBRGrupoAtendimento\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Inactive</b></td></tr><tr><td style=\"white-space:nowrap\">00<a name=\"BRGrupoAtendimento-00\"> </a></td><td>Sem registro no modelo de informação de origem</td><td/></tr><tr><td style=\"white-space:nowrap\">000101<a name=\"BRGrupoAtendimento-000101\"> </a></td><td>Hemoglobinopatia grave</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000102<a name=\"BRGrupoAtendimento-000102\"> </a></td><td>Neoplasias</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000103<a name=\"BRGrupoAtendimento-000103\"> </a></td><td>Diabetes Mellitus</td><td/></tr><tr><td style=\"white-space:nowrap\">000104<a name=\"BRGrupoAtendimento-000104\"> </a></td><td>Pneumopatias Crônicas Graves</td><td/></tr><tr><td style=\"white-space:nowrap\">000105<a name=\"BRGrupoAtendimento-000105\"> </a></td><td>Doença Renal Crônica</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000106<a name=\"BRGrupoAtendimento-000106\"> </a></td><td>Doenças Cardiovasculares e Cerebrovasculares</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000107<a name=\"BRGrupoAtendimento-000107\"> </a></td><td>Hipertensão de difícil controle ou com complicações/lesão de órgão alvo</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000108<a name=\"BRGrupoAtendimento-000108\"> </a></td><td>Indivíduos Transplantados de Órgão Sólido</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000109<a name=\"BRGrupoAtendimento-000109\"> </a></td><td>Obesidade Grave (Imc≥40)</td><td/></tr><tr><td style=\"white-space:nowrap\">000110<a name=\"BRGrupoAtendimento-000110\"> </a></td><td>Síndrome de Down</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000111<a name=\"BRGrupoAtendimento-000111\"> </a></td><td>Outros Imunocomprometidos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000112<a name=\"BRGrupoAtendimento-000112\"> </a></td><td>Indivíduos Transplantados de Medula Óssea</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000114<a name=\"BRGrupoAtendimento-000114\"> </a></td><td>Cirrose hepática</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000115<a name=\"BRGrupoAtendimento-000115\"> </a></td><td>Doença neurológica crônica</td><td/></tr><tr><td style=\"white-space:nowrap\">000116<a name=\"BRGrupoAtendimento-000116\"> </a></td><td>Doença cardiovascular</td><td/></tr><tr><td style=\"white-space:nowrap\">000117<a name=\"BRGrupoAtendimento-000117\"> </a></td><td>Imunocomprometidos</td><td/></tr><tr><td style=\"white-space:nowrap\">000118<a name=\"BRGrupoAtendimento-000118\"> </a></td><td>Trissomias</td><td/></tr><tr><td style=\"white-space:nowrap\">000119<a name=\"BRGrupoAtendimento-000119\"> </a></td><td>Doença Hepática Crônica</td><td/></tr><tr><td style=\"white-space:nowrap\">000120<a name=\"BRGrupoAtendimento-000120\"> </a></td><td>Prematuridade</td><td/></tr><tr><td style=\"white-space:nowrap\">000121<a name=\"BRGrupoAtendimento-000121\"> </a></td><td>Anomalias de vias aéreas</td><td/></tr><tr><td style=\"white-space:nowrap\">000122<a name=\"BRGrupoAtendimento-000122\"> </a></td><td>Obesidade (score-Z acima de +2)</td><td/></tr><tr><td style=\"white-space:nowrap\">000123<a name=\"BRGrupoAtendimento-000123\"> </a></td><td>Erros Inatos da Imunidade (EII)</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000201<a name=\"BRGrupoAtendimento-000201\"> </a></td><td>Pessoas de 18 a 64 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000202<a name=\"BRGrupoAtendimento-000202\"> </a></td><td>Pessoas de 65 a 69 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000203<a name=\"BRGrupoAtendimento-000203\"> </a></td><td>Pessoas de 70 a 74 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000204<a name=\"BRGrupoAtendimento-000204\"> </a></td><td>Pessoas de 75 a 79 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000205<a name=\"BRGrupoAtendimento-000205\"> </a></td><td>Pessoas de 80 anos ou mais</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000206<a name=\"BRGrupoAtendimento-000206\"> </a></td><td>Pessoas de 12 a 17 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000207<a name=\"BRGrupoAtendimento-000207\"> </a></td><td>Pessoas de 5 a 11 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000208<a name=\"BRGrupoAtendimento-000208\"> </a></td><td>Pessoas de 3 a 4 anos</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000209<a name=\"BRGrupoAtendimento-000209\"> </a></td><td>Pessoas de 6 meses a 2 anos</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000210<a name=\"BRGrupoAtendimento-000210\"> </a></td><td>Faixa Etária</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000301<a name=\"BRGrupoAtendimento-000301\"> </a></td><td>Pessoas de 60 nos ou mais Institucionalizadas</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000302<a name=\"BRGrupoAtendimento-000302\"> </a></td><td>Pessoas Institucionalizadas</td><td/></tr><tr><td style=\"white-space:nowrap\">000401<a name=\"BRGrupoAtendimento-000401\"> </a></td><td>Marinha do Brasil - MB</td><td/></tr><tr><td style=\"white-space:nowrap\">000402<a name=\"BRGrupoAtendimento-000402\"> </a></td><td>Exército Brasileiro - EB</td><td/></tr><tr><td style=\"white-space:nowrap\">000403<a name=\"BRGrupoAtendimento-000403\"> </a></td><td>Força Aérea Brasileira - FAB</td><td/></tr><tr><td style=\"white-space:nowrap\">000501<a name=\"BRGrupoAtendimento-000501\"> </a></td><td>Bombeiro Civil</td><td/></tr><tr><td style=\"white-space:nowrap\">000502<a name=\"BRGrupoAtendimento-000502\"> </a></td><td>Bombeiro Militar</td><td/></tr><tr><td style=\"white-space:nowrap\">000503<a name=\"BRGrupoAtendimento-000503\"> </a></td><td>Guarda Municipal</td><td/></tr><tr><td style=\"white-space:nowrap\">000504<a name=\"BRGrupoAtendimento-000504\"> </a></td><td>Policial Rodoviário Federal</td><td/></tr><tr><td style=\"white-space:nowrap\">000505<a name=\"BRGrupoAtendimento-000505\"> </a></td><td>Policial Civil</td><td/></tr><tr><td style=\"white-space:nowrap\">000506<a name=\"BRGrupoAtendimento-000506\"> </a></td><td>Policial Federal</td><td/></tr><tr><td style=\"white-space:nowrap\">000507<a name=\"BRGrupoAtendimento-000507\"> </a></td><td>Policial Militar</td><td/></tr><tr><td style=\"white-space:nowrap\">000601<a name=\"BRGrupoAtendimento-000601\"> </a></td><td>Quilombola</td><td/></tr><tr><td style=\"white-space:nowrap\">000602<a name=\"BRGrupoAtendimento-000602\"> </a></td><td>Ribeirinha</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000603<a name=\"BRGrupoAtendimento-000603\"> </a></td><td>Crianças Quilombolas</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000604<a name=\"BRGrupoAtendimento-000604\"> </a></td><td>Crianças Ribeirinhas</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000701<a name=\"BRGrupoAtendimento-000701\"> </a></td><td>Povos indígenas em terras indígenas</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000702<a name=\"BRGrupoAtendimento-000702\"> </a></td><td>Crianças Indígenas</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000703<a name=\"BRGrupoAtendimento-000703\"> </a></td><td>Povos indígenas vivendo em terras indígenas</td><td/></tr><tr><td style=\"white-space:nowrap\">000704<a name=\"BRGrupoAtendimento-000704\"> </a></td><td>Povos indígenas vivendo fora das terras indígenas</td><td/></tr><tr><td style=\"white-space:nowrap\">000801<a name=\"BRGrupoAtendimento-000801\"> </a></td><td>Ensino Básico</td><td/></tr><tr><td style=\"white-space:nowrap\">000802<a name=\"BRGrupoAtendimento-000802\"> </a></td><td>Ensino Superior</td><td/></tr><tr><td style=\"white-space:nowrap\">000901<a name=\"BRGrupoAtendimento-000901\"> </a></td><td>Auxiliar de Veterinário</td><td/></tr><tr><td style=\"white-space:nowrap\">000902<a name=\"BRGrupoAtendimento-000902\"> </a></td><td>Biólogo</td><td/></tr><tr><td style=\"white-space:nowrap\">000903<a name=\"BRGrupoAtendimento-000903\"> </a></td><td>Biomédico</td><td/></tr><tr><td style=\"white-space:nowrap\">000904<a name=\"BRGrupoAtendimento-000904\"> </a></td><td>Cozinheiro e Auxiliares</td><td/></tr><tr><td style=\"white-space:nowrap\">000905<a name=\"BRGrupoAtendimento-000905\"> </a></td><td>Cuidador de Idosos</td><td/></tr><tr><td style=\"white-space:nowrap\">000906<a name=\"BRGrupoAtendimento-000906\"> </a></td><td>Doula/Parteira</td><td/></tr><tr><td style=\"white-space:nowrap\">000907<a name=\"BRGrupoAtendimento-000907\"> </a></td><td>Enfermeiro(a)</td><td/></tr><tr><td style=\"white-space:nowrap\">000908<a name=\"BRGrupoAtendimento-000908\"> </a></td><td>Farmacêutico</td><td/></tr><tr><td style=\"white-space:nowrap\">000909<a name=\"BRGrupoAtendimento-000909\"> </a></td><td>Fisioterapeutas</td><td/></tr><tr><td style=\"white-space:nowrap\">000910<a name=\"BRGrupoAtendimento-000910\"> </a></td><td>Fonoaudiólogo</td><td/></tr><tr><td style=\"white-space:nowrap\">000911<a name=\"BRGrupoAtendimento-000911\"> </a></td><td>Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados</td><td/></tr><tr><td style=\"white-space:nowrap\">000912<a name=\"BRGrupoAtendimento-000912\"> </a></td><td>Médico</td><td/></tr><tr><td style=\"white-space:nowrap\">000913<a name=\"BRGrupoAtendimento-000913\"> </a></td><td>Médico Veterinário</td><td/></tr><tr><td style=\"white-space:nowrap\">000914<a name=\"BRGrupoAtendimento-000914\"> </a></td><td>Motorista de Ambulância</td><td/></tr><tr><td style=\"white-space:nowrap\">000915<a name=\"BRGrupoAtendimento-000915\"> </a></td><td>Nutricionista</td><td/></tr><tr><td style=\"white-space:nowrap\">000916<a name=\"BRGrupoAtendimento-000916\"> </a></td><td>Odontologista</td><td/></tr><tr><td style=\"white-space:nowrap\">000917<a name=\"BRGrupoAtendimento-000917\"> </a></td><td>Profissionais e Auxiliares de limpeza</td><td/></tr><tr><td style=\"white-space:nowrap\">000918<a name=\"BRGrupoAtendimento-000918\"> </a></td><td>Profissionais de Educação Física</td><td/></tr><tr><td style=\"white-space:nowrap\">000919<a name=\"BRGrupoAtendimento-000919\"> </a></td><td>Psicólogo</td><td/></tr><tr><td style=\"white-space:nowrap\">000920<a name=\"BRGrupoAtendimento-000920\"> </a></td><td>Recepcionista</td><td/></tr><tr><td style=\"white-space:nowrap\">000921<a name=\"BRGrupoAtendimento-000921\"> </a></td><td>Segurança</td><td/></tr><tr><td style=\"white-space:nowrap\">000922<a name=\"BRGrupoAtendimento-000922\"> </a></td><td>Assistente Social</td><td/></tr><tr><td style=\"white-space:nowrap\">000923<a name=\"BRGrupoAtendimento-000923\"> </a></td><td>Técnico de Enfermagem</td><td/></tr><tr><td style=\"white-space:nowrap\">000924<a name=\"BRGrupoAtendimento-000924\"> </a></td><td>Técnico de Veterinário</td><td/></tr><tr><td style=\"white-space:nowrap\">000925<a name=\"BRGrupoAtendimento-000925\"> </a></td><td>Terapeuta Ocupacional</td><td/></tr><tr><td style=\"white-space:nowrap\">000926<a name=\"BRGrupoAtendimento-000926\"> </a></td><td>Outros</td><td/></tr><tr><td style=\"white-space:nowrap\">000927<a name=\"BRGrupoAtendimento-000927\"> </a></td><td>Auxiliar de Enfermagem</td><td/></tr><tr><td style=\"white-space:nowrap\">000928<a name=\"BRGrupoAtendimento-000928\"> </a></td><td>Técnico de Odontologia</td><td/></tr><tr><td style=\"white-space:nowrap\">000929<a name=\"BRGrupoAtendimento-000929\"> </a></td><td>Acadêmicos/estudantes em estágio em estabelecimentos de saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000930<a name=\"BRGrupoAtendimento-000930\"> </a></td><td>Agente de Combate a Endemias - ACE</td><td/></tr><tr><td style=\"white-space:nowrap\">000931<a name=\"BRGrupoAtendimento-000931\"> </a></td><td>Agente Comunitário de Saúde - ACS</td><td/></tr><tr><td style=\"white-space:nowrap\">000932<a name=\"BRGrupoAtendimento-000932\"> </a></td><td>Auxiliar em Saúde Bucal - ASB</td><td/></tr><tr><td style=\"white-space:nowrap\">000933<a name=\"BRGrupoAtendimento-000933\"> </a></td><td>Técnico em Saúde Bucal - TSB</td><td/></tr><tr><td style=\"white-space:nowrap\">001001<a name=\"BRGrupoAtendimento-001001\"> </a></td><td>Aéreo</td><td/></tr><tr><td style=\"white-space:nowrap\">001002<a name=\"BRGrupoAtendimento-001002\"> </a></td><td>Caminhoneiro</td><td/></tr><tr><td style=\"white-space:nowrap\">001003<a name=\"BRGrupoAtendimento-001003\"> </a></td><td>Coletivo Rodoviário Passageiros Urbano e de Longo Curso</td><td/></tr><tr><td style=\"white-space:nowrap\">001004<a name=\"BRGrupoAtendimento-001004\"> </a></td><td>Ferroviário</td><td/></tr><tr><td style=\"white-space:nowrap\">001005<a name=\"BRGrupoAtendimento-001005\"> </a></td><td>Metroviário</td><td/></tr><tr><td style=\"white-space:nowrap\">001006<a name=\"BRGrupoAtendimento-001006\"> </a></td><td>Aquaviário</td><td/></tr><tr><td style=\"white-space:nowrap\">001101<a name=\"BRGrupoAtendimento-001101\"> </a></td><td>Pessoas com Deficiência Institucionalizadas</td><td/></tr><tr><td style=\"white-space:nowrap\">001102<a name=\"BRGrupoAtendimento-001102\"> </a></td><td>Pessoas com Deficiência Permanente</td><td/></tr><tr><td style=\"white-space:nowrap\">001201<a name=\"BRGrupoAtendimento-001201\"> </a></td><td>Pessoas em Situação de Rua</td><td/></tr><tr><td style=\"white-space:nowrap\">001301<a name=\"BRGrupoAtendimento-001301\"> </a></td><td>Trabalhadores Portuários</td><td/></tr><tr><td style=\"white-space:nowrap\">001401<a name=\"BRGrupoAtendimento-001401\"> </a></td><td>Funcionário do Sistema de Privação de Liberdade</td><td/></tr><tr><td style=\"white-space:nowrap\">001501<a name=\"BRGrupoAtendimento-001501\"> </a></td><td>População Privada de Liberdade</td><td/></tr><tr><td style=\"white-space:nowrap\">001502<a name=\"BRGrupoAtendimento-001502\"> </a></td><td>Adolescentes cumprindo medidas Socioeducativas</td><td/></tr><tr><td style=\"white-space:nowrap\">001601<a name=\"BRGrupoAtendimento-001601\"> </a></td><td>Trabalhadores Industriais</td><td/></tr><tr><td style=\"white-space:nowrap\">001701<a name=\"BRGrupoAtendimento-001701\"> </a></td><td>Trabalhadores de limpeza urbana e manejo de resíduos sólidos</td><td/></tr><tr><td style=\"white-space:nowrap\">001801<a name=\"BRGrupoAtendimento-001801\"> </a></td><td>Gestante</td><td/></tr><tr><td style=\"white-space:nowrap\">001901<a name=\"BRGrupoAtendimento-001901\"> </a></td><td>Puérpera</td><td/></tr><tr><td style=\"white-space:nowrap\">002001<a name=\"BRGrupoAtendimento-002001\"> </a></td><td>População Rural</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">999999<a name=\"BRGrupoAtendimento-999999\"> </a></td><td>Outros Grupos</td><td>true</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRGrupoAtendimento</b></p><a name=\"BRGrupoAtendimento\"> </a><a name=\"hcBRGrupoAtendimento\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>Category</td><td>Category</td><td/><td>string</td><td>Identifica a classificação macro do grupo de atendimento para a vacinação, agregando descrições específicas de indivíduos que compartilham características clínicas, epidemiológicas, ocupacionais, etárias ou sociais comuns, com o objetivo de padronizar registros, apoiar estratégias de imunização e viabilizar análises agregadas nos sistemas de informação em saúde.</td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td><td>Status do Grupo de Atendimento em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta.</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Category</b></td><td><b>Inactive</b></td></tr><tr><td style=\"white-space:nowrap\">00<a name=\"BRGrupoAtendimento-00\"> </a></td><td>Sem registro no modelo de informação de origem</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">000101<a name=\"BRGrupoAtendimento-000101\"> </a></td><td>Hemoglobinopatia grave</td><td>Comorbidades</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000102<a name=\"BRGrupoAtendimento-000102\"> </a></td><td>Neoplasias</td><td>Comorbidades</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000103<a name=\"BRGrupoAtendimento-000103\"> </a></td><td>Diabetes Mellitus</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000104<a name=\"BRGrupoAtendimento-000104\"> </a></td><td>Pneumopatias Crônicas Graves</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000105<a name=\"BRGrupoAtendimento-000105\"> </a></td><td>Doença Renal Crônica</td><td>Comorbidades</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000106<a name=\"BRGrupoAtendimento-000106\"> </a></td><td>Doenças Cardiovasculares e Cerebrovasculares</td><td>Comorbidades</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000107<a name=\"BRGrupoAtendimento-000107\"> </a></td><td>Hipertensão de difícil controle ou com complicações/lesão de órgão alvo</td><td>Comorbidades</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000108<a name=\"BRGrupoAtendimento-000108\"> </a></td><td>Indivíduos Transplantados de Órgão Sólido</td><td>Comorbidades</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000109<a name=\"BRGrupoAtendimento-000109\"> </a></td><td>Obesidade Grave (Imc≥40)</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000110<a name=\"BRGrupoAtendimento-000110\"> </a></td><td>Síndrome de Down</td><td>Comorbidades</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000111<a name=\"BRGrupoAtendimento-000111\"> </a></td><td>Outros Imunocomprometidos</td><td>Comorbidades</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000112<a name=\"BRGrupoAtendimento-000112\"> </a></td><td>Indivíduos Transplantados de Medula Óssea</td><td>Comorbidades</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000114<a name=\"BRGrupoAtendimento-000114\"> </a></td><td>Cirrose hepática</td><td>Comorbidades</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000115<a name=\"BRGrupoAtendimento-000115\"> </a></td><td>Doença neurológica crônica</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000116<a name=\"BRGrupoAtendimento-000116\"> </a></td><td>Doença cardiovascular</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000117<a name=\"BRGrupoAtendimento-000117\"> </a></td><td>Imunocomprometidos</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000118<a name=\"BRGrupoAtendimento-000118\"> </a></td><td>Trissomias</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000119<a name=\"BRGrupoAtendimento-000119\"> </a></td><td>Doença Hepática Crônica</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000120<a name=\"BRGrupoAtendimento-000120\"> </a></td><td>Prematuridade</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000121<a name=\"BRGrupoAtendimento-000121\"> </a></td><td>Anomalias de vias aéreas</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000122<a name=\"BRGrupoAtendimento-000122\"> </a></td><td>Obesidade (score-Z acima de +2)</td><td>Comorbidades</td><td/></tr><tr><td style=\"white-space:nowrap\">000123<a name=\"BRGrupoAtendimento-000123\"> </a></td><td>Erros Inatos da Imunidade (EII)</td><td>Comorbidades</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000201<a name=\"BRGrupoAtendimento-000201\"> </a></td><td>Pessoas de 18 a 64 anos</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000202<a name=\"BRGrupoAtendimento-000202\"> </a></td><td>Pessoas de 65 a 69 anos</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000203<a name=\"BRGrupoAtendimento-000203\"> </a></td><td>Pessoas de 70 a 74 anos</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000204<a name=\"BRGrupoAtendimento-000204\"> </a></td><td>Pessoas de 75 a 79 anos</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000205<a name=\"BRGrupoAtendimento-000205\"> </a></td><td>Pessoas de 80 anos ou mais</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000206<a name=\"BRGrupoAtendimento-000206\"> </a></td><td>Pessoas de 12 a 17 anos</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000207<a name=\"BRGrupoAtendimento-000207\"> </a></td><td>Pessoas de 5 a 11 anos</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000208<a name=\"BRGrupoAtendimento-000208\"> </a></td><td>Pessoas de 3 a 4 anos</td><td>Faixa Etária</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000209<a name=\"BRGrupoAtendimento-000209\"> </a></td><td>Pessoas de 6 meses a 2 anos</td><td>Faixa Etária</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000210<a name=\"BRGrupoAtendimento-000210\"> </a></td><td>Faixa Etária</td><td>Faixa Etária</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000301<a name=\"BRGrupoAtendimento-000301\"> </a></td><td>Pessoas de 60 nos ou mais Institucionalizadas</td><td>Pessoas Institucionalizadas</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000302<a name=\"BRGrupoAtendimento-000302\"> </a></td><td>Pessoas Institucionalizadas</td><td>Pessoas Institucionalizadas</td><td/></tr><tr><td style=\"white-space:nowrap\">000401<a name=\"BRGrupoAtendimento-000401\"> </a></td><td>Marinha do Brasil - MB</td><td>Forças Armadas (membros ativos)</td><td/></tr><tr><td style=\"white-space:nowrap\">000402<a name=\"BRGrupoAtendimento-000402\"> </a></td><td>Exército Brasileiro - EB</td><td>Forças Armadas (membros ativos)</td><td/></tr><tr><td style=\"white-space:nowrap\">000403<a name=\"BRGrupoAtendimento-000403\"> </a></td><td>Força Aérea Brasileira - FAB</td><td>Forças Armadas (membros ativos)</td><td/></tr><tr><td style=\"white-space:nowrap\">000501<a name=\"BRGrupoAtendimento-000501\"> </a></td><td>Bombeiro Civil</td><td>Forças de Segurança e Salvamento</td><td/></tr><tr><td style=\"white-space:nowrap\">000502<a name=\"BRGrupoAtendimento-000502\"> </a></td><td>Bombeiro Militar</td><td>Forças de Segurança e Salvamento</td><td/></tr><tr><td style=\"white-space:nowrap\">000503<a name=\"BRGrupoAtendimento-000503\"> </a></td><td>Guarda Municipal</td><td>Forças de Segurança e Salvamento</td><td/></tr><tr><td style=\"white-space:nowrap\">000504<a name=\"BRGrupoAtendimento-000504\"> </a></td><td>Policial Rodoviário Federal</td><td>Forças de Segurança e Salvamento</td><td/></tr><tr><td style=\"white-space:nowrap\">000505<a name=\"BRGrupoAtendimento-000505\"> </a></td><td>Policial Civil</td><td>Forças de Segurança e Salvamento</td><td/></tr><tr><td style=\"white-space:nowrap\">000506<a name=\"BRGrupoAtendimento-000506\"> </a></td><td>Policial Federal</td><td>Forças de Segurança e Salvamento</td><td/></tr><tr><td style=\"white-space:nowrap\">000507<a name=\"BRGrupoAtendimento-000507\"> </a></td><td>Policial Militar</td><td>Forças de Segurança e Salvamento</td><td/></tr><tr><td style=\"white-space:nowrap\">000601<a name=\"BRGrupoAtendimento-000601\"> </a></td><td>Quilombola</td><td>Povos e Comunidades Tradicionais</td><td/></tr><tr><td style=\"white-space:nowrap\">000602<a name=\"BRGrupoAtendimento-000602\"> </a></td><td>Ribeirinha</td><td>Povos e Comunidades Tradicionais</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000603<a name=\"BRGrupoAtendimento-000603\"> </a></td><td>Crianças Quilombolas</td><td>Povos e Comunidades Tradicionais</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000604<a name=\"BRGrupoAtendimento-000604\"> </a></td><td>Crianças Ribeirinhas</td><td>Povos e Comunidades Tradicionais</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000701<a name=\"BRGrupoAtendimento-000701\"> </a></td><td>Povos indígenas em terras indígenas</td><td>Povos Indígenas</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">000702<a name=\"BRGrupoAtendimento-000702\"> </a></td><td>Crianças Indígenas</td><td>Povos Indígenas</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">000703<a name=\"BRGrupoAtendimento-000703\"> </a></td><td>Povos indígenas vivendo em terras indígenas</td><td>Povos Indígenas</td><td/></tr><tr><td style=\"white-space:nowrap\">000704<a name=\"BRGrupoAtendimento-000704\"> </a></td><td>Povos indígenas vivendo fora das terras indígenas</td><td>Povos Indígenas</td><td/></tr><tr><td style=\"white-space:nowrap\">000801<a name=\"BRGrupoAtendimento-000801\"> </a></td><td>Ensino Básico</td><td>Trabalhadores da Educação</td><td/></tr><tr><td style=\"white-space:nowrap\">000802<a name=\"BRGrupoAtendimento-000802\"> </a></td><td>Ensino Superior</td><td>Trabalhadores da Educação</td><td/></tr><tr><td style=\"white-space:nowrap\">000901<a name=\"BRGrupoAtendimento-000901\"> </a></td><td>Auxiliar de Veterinário</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000902<a name=\"BRGrupoAtendimento-000902\"> </a></td><td>Biólogo</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000903<a name=\"BRGrupoAtendimento-000903\"> </a></td><td>Biomédico</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000904<a name=\"BRGrupoAtendimento-000904\"> </a></td><td>Cozinheiro e Auxiliares</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000905<a name=\"BRGrupoAtendimento-000905\"> </a></td><td>Cuidador de Idosos</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000906<a name=\"BRGrupoAtendimento-000906\"> </a></td><td>Doula/Parteira</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000907<a name=\"BRGrupoAtendimento-000907\"> </a></td><td>Enfermeiro(a)</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000908<a name=\"BRGrupoAtendimento-000908\"> </a></td><td>Farmacêutico</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000909<a name=\"BRGrupoAtendimento-000909\"> </a></td><td>Fisioterapeutas</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000910<a name=\"BRGrupoAtendimento-000910\"> </a></td><td>Fonoaudiólogo</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000911<a name=\"BRGrupoAtendimento-000911\"> </a></td><td>Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000912<a name=\"BRGrupoAtendimento-000912\"> </a></td><td>Médico</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000913<a name=\"BRGrupoAtendimento-000913\"> </a></td><td>Médico Veterinário</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000914<a name=\"BRGrupoAtendimento-000914\"> </a></td><td>Motorista de Ambulância</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000915<a name=\"BRGrupoAtendimento-000915\"> </a></td><td>Nutricionista</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000916<a name=\"BRGrupoAtendimento-000916\"> </a></td><td>Odontologista</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000917<a name=\"BRGrupoAtendimento-000917\"> </a></td><td>Profissionais e Auxiliares de limpeza</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000918<a name=\"BRGrupoAtendimento-000918\"> </a></td><td>Profissionais de Educação Física</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000919<a name=\"BRGrupoAtendimento-000919\"> </a></td><td>Psicólogo</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000920<a name=\"BRGrupoAtendimento-000920\"> </a></td><td>Recepcionista</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000921<a name=\"BRGrupoAtendimento-000921\"> </a></td><td>Segurança</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000922<a name=\"BRGrupoAtendimento-000922\"> </a></td><td>Assistente Social</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000923<a name=\"BRGrupoAtendimento-000923\"> </a></td><td>Técnico de Enfermagem</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000924<a name=\"BRGrupoAtendimento-000924\"> </a></td><td>Técnico de Veterinário</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000925<a name=\"BRGrupoAtendimento-000925\"> </a></td><td>Terapeuta Ocupacional</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000926<a name=\"BRGrupoAtendimento-000926\"> </a></td><td>Outros Trabalhadores da Saúde</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000927<a name=\"BRGrupoAtendimento-000927\"> </a></td><td>Auxiliar de Enfermagem</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000928<a name=\"BRGrupoAtendimento-000928\"> </a></td><td>Técnico de Odontologia</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000929<a name=\"BRGrupoAtendimento-000929\"> </a></td><td>Acadêmicos/estudantes em estágio em estabelecimentos de saúde</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000930<a name=\"BRGrupoAtendimento-000930\"> </a></td><td>Agente de Combate a Endemias - ACE</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000931<a name=\"BRGrupoAtendimento-000931\"> </a></td><td>Agente Comunitário de Saúde - ACS</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000932<a name=\"BRGrupoAtendimento-000932\"> </a></td><td>Auxiliar em Saúde Bucal - ASB</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">000933<a name=\"BRGrupoAtendimento-000933\"> </a></td><td>Técnico em Saúde Bucal - TSB</td><td>Trabalhadores de Saúde</td><td/></tr><tr><td style=\"white-space:nowrap\">001001<a name=\"BRGrupoAtendimento-001001\"> </a></td><td>Aéreo</td><td>Trabalhadores de Transporte</td><td/></tr><tr><td style=\"white-space:nowrap\">001002<a name=\"BRGrupoAtendimento-001002\"> </a></td><td>Caminhoneiro</td><td>Trabalhadores de Transporte</td><td/></tr><tr><td style=\"white-space:nowrap\">001003<a name=\"BRGrupoAtendimento-001003\"> </a></td><td>Coletivo Rodoviário Passageiros Urbano e de Longo Curso</td><td>Trabalhadores de Transporte</td><td/></tr><tr><td style=\"white-space:nowrap\">001004<a name=\"BRGrupoAtendimento-001004\"> </a></td><td>Ferroviário</td><td>Trabalhadores de Transporte</td><td/></tr><tr><td style=\"white-space:nowrap\">001005<a name=\"BRGrupoAtendimento-001005\"> </a></td><td>Metroviário</td><td>Trabalhadores de Transporte</td><td/></tr><tr><td style=\"white-space:nowrap\">001006<a name=\"BRGrupoAtendimento-001006\"> </a></td><td>Aquaviário</td><td>Trabalhadores de Transporte</td><td/></tr><tr><td style=\"white-space:nowrap\">001101<a name=\"BRGrupoAtendimento-001101\"> </a></td><td>Pessoas com Deficiência Institucionalizadas</td><td>Pessoas com Deficiência</td><td/></tr><tr><td style=\"white-space:nowrap\">001102<a name=\"BRGrupoAtendimento-001102\"> </a></td><td>Pessoas com Deficiência Permanente</td><td>Pessoas com Deficiência</td><td/></tr><tr><td style=\"white-space:nowrap\">001201<a name=\"BRGrupoAtendimento-001201\"> </a></td><td>Pessoas em Situação de Rua</td><td>Pessoas em Situação de Rua</td><td/></tr><tr><td style=\"white-space:nowrap\">001301<a name=\"BRGrupoAtendimento-001301\"> </a></td><td>Trabalhadores Portuários</td><td>Trabalhadores Portuários</td><td/></tr><tr><td style=\"white-space:nowrap\">001401<a name=\"BRGrupoAtendimento-001401\"> </a></td><td>Funcionário do Sistema de Privação de Liberdade</td><td>Funcionário do Sistema de Privação de Liberdade</td><td/></tr><tr><td style=\"white-space:nowrap\">001501<a name=\"BRGrupoAtendimento-001501\"> </a></td><td>População Privada de Liberdade</td><td>População Privada de Liberdade</td><td/></tr><tr><td style=\"white-space:nowrap\">001502<a name=\"BRGrupoAtendimento-001502\"> </a></td><td>Adolescentes cumprindo medidas Socioeducativas</td><td>População Privada de Liberdade</td><td/></tr><tr><td style=\"white-space:nowrap\">001601<a name=\"BRGrupoAtendimento-001601\"> </a></td><td>Trabalhadores Industriais</td><td>Trabalhadores Industriais</td><td/></tr><tr><td style=\"white-space:nowrap\">001701<a name=\"BRGrupoAtendimento-001701\"> </a></td><td>Trabalhadores de limpeza urbana e manejo de resíduos sólidos</td><td>Trabalhadores de Limpeza Urbana</td><td/></tr><tr><td style=\"white-space:nowrap\">001801<a name=\"BRGrupoAtendimento-001801\"> </a></td><td>Gestante</td><td>Gestante</td><td/></tr><tr><td style=\"white-space:nowrap\">001901<a name=\"BRGrupoAtendimento-001901\"> </a></td><td>Puérpera</td><td>Puérpera</td><td/></tr><tr><td style=\"white-space:nowrap\">002001<a name=\"BRGrupoAtendimento-002001\"> </a></td><td>População Rural</td><td>População Rural</td><td/></tr><tr><td style=\"white-space:nowrap\">002101<a name=\"BRGrupoAtendimento-002101\"> </a></td><td>Profissionais dos Correios</td><td>Trabalhadores de Logística</td><td/></tr><tr><td style=\"white-space:nowrap\">002201<a name=\"BRGrupoAtendimento-002201\"> </a></td><td>Pessoas com Transtorno do Espectro Autista (TEA)</td><td>Transtorno do Desenvolvimento</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">999999<a name=\"BRGrupoAtendimento-999999\"> </a></td><td>Outros Grupos</td><td>Outros</td><td>true</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "ehr"
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Integer ;
+       a fhir:integer ;
        fhir:v 1 ;
        fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
-         ] ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           a fhir:Canonical ;
+           a fhir:canonical ;
            fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
-           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
        ] )
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "normative" ;
        fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
-         ] ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           a fhir:Canonical ;
+           a fhir:canonical ;
            fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
-           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
        ] )
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "4.0.1"
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"^^xsd:anyURI ;
-     fhir:l <http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento>
-  ] ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0-release"] ; # 
   fhir:name [ fhir:v "BRGrupoAtendimento"] ; # 
   fhir:title [ fhir:v "Grupo de Atendimento (CodeSystem)"] ; # 
@@ -97,21 +76,20 @@
   fhir:description [ fhir:v "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "BR" ]
      ] )
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
+     fhir:code [ fhir:v "Category" ] ;
+     fhir:description [ fhir:v "Identifica a classificação macro do grupo de atendimento para a vacinação, agregando descrições específicas de indivíduos que compartilham características clínicas, epidemiológicas, ocupacionais, etárias ou sociais comuns, com o objetivo de padronizar registros, apoiar estratégias de imunização e viabilizar análises agregadas nos sistemas de informação em saúde." ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
      fhir:code [ fhir:v "inactive" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#inactive"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#inactive>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#inactive"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Status do Grupo de Atendimento em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta." ] ;
      fhir:type [ fhir:v "boolean" ]
   ] ) ; # 
   fhir:concept ( [
@@ -119,63 +97,136 @@
      fhir:display [ fhir:v "Sem registro no modelo de informação de origem" ]
   ] [
      fhir:code [ fhir:v "000101" ] ;
-     fhir:display [ fhir:v "Hemoglobinopatia grave" ]
+     fhir:display [ fhir:v "Hemoglobinopatia grave" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000102" ] ;
      fhir:display [ fhir:v "Neoplasias" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "000103" ] ;
-     fhir:display [ fhir:v "Diabetes Mellitus" ]
+     fhir:display [ fhir:v "Diabetes Mellitus" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000104" ] ;
-     fhir:display [ fhir:v "Pneumopatias Crônicas Graves" ]
+     fhir:display [ fhir:v "Pneumopatias Crônicas Graves" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000105" ] ;
-     fhir:display [ fhir:v "Doença Renal Crônica" ]
+     fhir:display [ fhir:v "Doença Renal Crônica" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000106" ] ;
      fhir:display [ fhir:v "Doenças Cardiovasculares e Cerebrovasculares" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "000107" ] ;
-     fhir:display [ fhir:v "Hipertensão de difícil controle ou com complicações/lesão de órgão alvo" ]
+     fhir:display [ fhir:v "Hipertensão de difícil controle ou com complicações/lesão de órgão alvo" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000108" ] ;
      fhir:display [ fhir:v "Indivíduos Transplantados de Órgão Sólido" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "000109" ] ;
-     fhir:display [ fhir:v "Obesidade Grave (Imc≥40)" ]
+     fhir:display [ fhir:v "Obesidade Grave (Imc≥40)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000110" ] ;
-     fhir:display [ fhir:v "Síndrome de Down" ]
+     fhir:display [ fhir:v "Síndrome de Down" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000111" ] ;
      fhir:display [ fhir:v "Outros Imunocomprometidos" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
        ]
      ] )
   ] [
@@ -184,8 +235,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
        ]
      ] )
   ] [
@@ -194,45 +251,120 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "000115" ] ;
-     fhir:display [ fhir:v "Doença neurológica crônica" ]
+     fhir:display [ fhir:v "Doença neurológica crônica" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000116" ] ;
-     fhir:display [ fhir:v "Doença cardiovascular" ]
+     fhir:display [ fhir:v "Doença cardiovascular" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000117" ] ;
-     fhir:display [ fhir:v "Imunocomprometidos" ]
+     fhir:display [ fhir:v "Imunocomprometidos" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000118" ] ;
-     fhir:display [ fhir:v "Trissomias" ]
+     fhir:display [ fhir:v "Trissomias" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000119" ] ;
-     fhir:display [ fhir:v "Doença Hepática Crônica" ]
+     fhir:display [ fhir:v "Doença Hepática Crônica" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000120" ] ;
-     fhir:display [ fhir:v "Prematuridade" ]
+     fhir:display [ fhir:v "Prematuridade" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000121" ] ;
-     fhir:display [ fhir:v "Anomalias de vias aéreas" ]
+     fhir:display [ fhir:v "Anomalias de vias aéreas" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000122" ] ;
-     fhir:display [ fhir:v "Obesidade (score-Z acima de +2)" ]
+     fhir:display [ fhir:v "Obesidade (score-Z acima de +2)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000123" ] ;
-     fhir:display [ fhir:v "Erros Inatos da Imunidade (EII)" ]
+     fhir:display [ fhir:v "Erros Inatos da Imunidade (EII)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Comorbidades"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000201" ] ;
      fhir:display [ fhir:v "Pessoas de 18 a 64 anos" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -241,8 +373,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -251,8 +389,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -261,8 +405,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -271,8 +421,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -281,8 +437,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -291,8 +453,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -301,8 +469,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
@@ -311,70 +485,186 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "000210" ] ;
-     fhir:display [ fhir:v "Faixa Etária" ]
+     fhir:display [ fhir:v "Faixa Etária" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Faixa Etária"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000301" ] ;
      fhir:display [ fhir:v "Pessoas de 60 nos ou mais Institucionalizadas" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Pessoas Institucionalizadas"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "000302" ] ;
-     fhir:display [ fhir:v "Pessoas Institucionalizadas" ]
+     fhir:display [ fhir:v "Pessoas Institucionalizadas" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Pessoas Institucionalizadas"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000401" ] ;
-     fhir:display [ fhir:v "Marinha do Brasil - MB" ]
+     fhir:display [ fhir:v "Marinha do Brasil - MB" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças Armadas (membros ativos)"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000402" ] ;
-     fhir:display [ fhir:v "Exército Brasileiro - EB" ]
+     fhir:display [ fhir:v "Exército Brasileiro - EB" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças Armadas (membros ativos)"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000403" ] ;
-     fhir:display [ fhir:v "Força Aérea Brasileira - FAB" ]
+     fhir:display [ fhir:v "Força Aérea Brasileira - FAB" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças Armadas (membros ativos)"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000501" ] ;
-     fhir:display [ fhir:v "Bombeiro Civil" ]
+     fhir:display [ fhir:v "Bombeiro Civil" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças de Segurança e Salvamento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000502" ] ;
-     fhir:display [ fhir:v "Bombeiro Militar" ]
+     fhir:display [ fhir:v "Bombeiro Militar" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças de Segurança e Salvamento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000503" ] ;
-     fhir:display [ fhir:v "Guarda Municipal" ]
+     fhir:display [ fhir:v "Guarda Municipal" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças de Segurança e Salvamento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000504" ] ;
-     fhir:display [ fhir:v "Policial Rodoviário Federal" ]
+     fhir:display [ fhir:v "Policial Rodoviário Federal" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças de Segurança e Salvamento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000505" ] ;
-     fhir:display [ fhir:v "Policial Civil" ]
+     fhir:display [ fhir:v "Policial Civil" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças de Segurança e Salvamento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000506" ] ;
-     fhir:display [ fhir:v "Policial Federal" ]
+     fhir:display [ fhir:v "Policial Federal" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças de Segurança e Salvamento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000507" ] ;
-     fhir:display [ fhir:v "Policial Militar" ]
+     fhir:display [ fhir:v "Policial Militar" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Forças de Segurança e Salvamento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000601" ] ;
-     fhir:display [ fhir:v "Quilombola" ]
+     fhir:display [ fhir:v "Quilombola" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos e Comunidades Tradicionais"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000602" ] ;
-     fhir:display [ fhir:v "Ribeirinha" ]
+     fhir:display [ fhir:v "Ribeirinha" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos e Comunidades Tradicionais"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000603" ] ;
      fhir:display [ fhir:v "Crianças Quilombolas" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos e Comunidades Tradicionais"
        ]
      ] )
   ] [
@@ -383,8 +673,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos e Comunidades Tradicionais"
        ]
      ] )
   ] [
@@ -393,8 +689,14 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos Indígenas"
        ]
      ] )
   ] [
@@ -403,183 +705,600 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos Indígenas"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "000703" ] ;
-     fhir:display [ fhir:v "Povos indígenas vivendo em terras indígenas" ]
+     fhir:display [ fhir:v "Povos indígenas vivendo em terras indígenas" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos Indígenas"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000704" ] ;
-     fhir:display [ fhir:v "Povos indígenas vivendo fora das terras indígenas" ]
+     fhir:display [ fhir:v "Povos indígenas vivendo fora das terras indígenas" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Povos Indígenas"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000801" ] ;
-     fhir:display [ fhir:v "Ensino Básico" ]
+     fhir:display [ fhir:v "Ensino Básico" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores da Educação"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000802" ] ;
-     fhir:display [ fhir:v "Ensino Superior" ]
+     fhir:display [ fhir:v "Ensino Superior" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores da Educação"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000901" ] ;
-     fhir:display [ fhir:v "Auxiliar de Veterinário" ]
+     fhir:display [ fhir:v "Auxiliar de Veterinário" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000902" ] ;
-     fhir:display [ fhir:v "Biólogo" ]
+     fhir:display [ fhir:v "Biólogo" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000903" ] ;
-     fhir:display [ fhir:v "Biomédico" ]
+     fhir:display [ fhir:v "Biomédico" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000904" ] ;
-     fhir:display [ fhir:v "Cozinheiro e Auxiliares" ]
+     fhir:display [ fhir:v "Cozinheiro e Auxiliares" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000905" ] ;
-     fhir:display [ fhir:v "Cuidador de Idosos" ]
+     fhir:display [ fhir:v "Cuidador de Idosos" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000906" ] ;
-     fhir:display [ fhir:v "Doula/Parteira" ]
+     fhir:display [ fhir:v "Doula/Parteira" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000907" ] ;
-     fhir:display [ fhir:v "Enfermeiro(a)" ]
+     fhir:display [ fhir:v "Enfermeiro(a)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000908" ] ;
-     fhir:display [ fhir:v "Farmacêutico" ]
+     fhir:display [ fhir:v "Farmacêutico" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000909" ] ;
-     fhir:display [ fhir:v "Fisioterapeutas" ]
+     fhir:display [ fhir:v "Fisioterapeutas" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000910" ] ;
-     fhir:display [ fhir:v "Fonoaudiólogo" ]
+     fhir:display [ fhir:v "Fonoaudiólogo" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000911" ] ;
-     fhir:display [ fhir:v "Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados" ]
+     fhir:display [ fhir:v "Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000912" ] ;
-     fhir:display [ fhir:v "Médico" ]
+     fhir:display [ fhir:v "Médico" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000913" ] ;
-     fhir:display [ fhir:v "Médico Veterinário" ]
+     fhir:display [ fhir:v "Médico Veterinário" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000914" ] ;
-     fhir:display [ fhir:v "Motorista de Ambulância" ]
+     fhir:display [ fhir:v "Motorista de Ambulância" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000915" ] ;
-     fhir:display [ fhir:v "Nutricionista" ]
+     fhir:display [ fhir:v "Nutricionista" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000916" ] ;
-     fhir:display [ fhir:v "Odontologista" ]
+     fhir:display [ fhir:v "Odontologista" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000917" ] ;
-     fhir:display [ fhir:v "Profissionais e Auxiliares de limpeza" ]
+     fhir:display [ fhir:v "Profissionais e Auxiliares de limpeza" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000918" ] ;
-     fhir:display [ fhir:v "Profissionais de Educação Física" ]
+     fhir:display [ fhir:v "Profissionais de Educação Física" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000919" ] ;
-     fhir:display [ fhir:v "Psicólogo" ]
+     fhir:display [ fhir:v "Psicólogo" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000920" ] ;
-     fhir:display [ fhir:v "Recepcionista" ]
+     fhir:display [ fhir:v "Recepcionista" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000921" ] ;
-     fhir:display [ fhir:v "Segurança" ]
+     fhir:display [ fhir:v "Segurança" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000922" ] ;
-     fhir:display [ fhir:v "Assistente Social" ]
+     fhir:display [ fhir:v "Assistente Social" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000923" ] ;
-     fhir:display [ fhir:v "Técnico de Enfermagem" ]
+     fhir:display [ fhir:v "Técnico de Enfermagem" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000924" ] ;
-     fhir:display [ fhir:v "Técnico de Veterinário" ]
+     fhir:display [ fhir:v "Técnico de Veterinário" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000925" ] ;
-     fhir:display [ fhir:v "Terapeuta Ocupacional" ]
+     fhir:display [ fhir:v "Terapeuta Ocupacional" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000926" ] ;
-     fhir:display [ fhir:v "Outros" ]
+     fhir:display [ fhir:v "Outros Trabalhadores da Saúde" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000927" ] ;
-     fhir:display [ fhir:v "Auxiliar de Enfermagem" ]
+     fhir:display [ fhir:v "Auxiliar de Enfermagem" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000928" ] ;
-     fhir:display [ fhir:v "Técnico de Odontologia" ]
+     fhir:display [ fhir:v "Técnico de Odontologia" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000929" ] ;
-     fhir:display [ fhir:v "Acadêmicos/estudantes em estágio em estabelecimentos de saúde" ]
+     fhir:display [ fhir:v "Acadêmicos/estudantes em estágio em estabelecimentos de saúde" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000930" ] ;
-     fhir:display [ fhir:v "Agente de Combate a Endemias - ACE" ]
+     fhir:display [ fhir:v "Agente de Combate a Endemias - ACE" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000931" ] ;
-     fhir:display [ fhir:v "Agente Comunitário de Saúde - ACS" ]
+     fhir:display [ fhir:v "Agente Comunitário de Saúde - ACS" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000932" ] ;
-     fhir:display [ fhir:v "Auxiliar em Saúde Bucal - ASB" ]
+     fhir:display [ fhir:v "Auxiliar em Saúde Bucal - ASB" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "000933" ] ;
-     fhir:display [ fhir:v "Técnico em Saúde Bucal - TSB" ]
+     fhir:display [ fhir:v "Técnico em Saúde Bucal - TSB" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Saúde"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001001" ] ;
-     fhir:display [ fhir:v "Aéreo" ]
+     fhir:display [ fhir:v "Aéreo" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Transporte"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001002" ] ;
-     fhir:display [ fhir:v "Caminhoneiro" ]
+     fhir:display [ fhir:v "Caminhoneiro" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Transporte"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001003" ] ;
-     fhir:display [ fhir:v "Coletivo Rodoviário Passageiros Urbano e de Longo Curso" ]
+     fhir:display [ fhir:v "Coletivo Rodoviário Passageiros Urbano e de Longo Curso" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Transporte"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001004" ] ;
-     fhir:display [ fhir:v "Ferroviário" ]
+     fhir:display [ fhir:v "Ferroviário" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Transporte"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001005" ] ;
-     fhir:display [ fhir:v "Metroviário" ]
+     fhir:display [ fhir:v "Metroviário" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Transporte"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001006" ] ;
-     fhir:display [ fhir:v "Aquaviário" ]
+     fhir:display [ fhir:v "Aquaviário" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Transporte"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001101" ] ;
-     fhir:display [ fhir:v "Pessoas com Deficiência Institucionalizadas" ]
+     fhir:display [ fhir:v "Pessoas com Deficiência Institucionalizadas" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Pessoas com Deficiência"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001102" ] ;
-     fhir:display [ fhir:v "Pessoas com Deficiência Permanente" ]
+     fhir:display [ fhir:v "Pessoas com Deficiência Permanente" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Pessoas com Deficiência"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001201" ] ;
-     fhir:display [ fhir:v "Pessoas em Situação de Rua" ]
+     fhir:display [ fhir:v "Pessoas em Situação de Rua" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Pessoas em Situação de Rua"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001301" ] ;
-     fhir:display [ fhir:v "Trabalhadores Portuários" ]
+     fhir:display [ fhir:v "Trabalhadores Portuários" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores Portuários"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001401" ] ;
-     fhir:display [ fhir:v "Funcionário do Sistema de Privação de Liberdade" ]
+     fhir:display [ fhir:v "Funcionário do Sistema de Privação de Liberdade" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Funcionário do Sistema de Privação de Liberdade"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001501" ] ;
-     fhir:display [ fhir:v "População Privada de Liberdade" ]
+     fhir:display [ fhir:v "População Privada de Liberdade" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "População Privada de Liberdade"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001502" ] ;
-     fhir:display [ fhir:v "Adolescentes cumprindo medidas Socioeducativas" ]
+     fhir:display [ fhir:v "Adolescentes cumprindo medidas Socioeducativas" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "População Privada de Liberdade"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001601" ] ;
-     fhir:display [ fhir:v "Trabalhadores Industriais" ]
+     fhir:display [ fhir:v "Trabalhadores Industriais" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores Industriais"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001701" ] ;
-     fhir:display [ fhir:v "Trabalhadores de limpeza urbana e manejo de resíduos sólidos" ]
+     fhir:display [ fhir:v "Trabalhadores de limpeza urbana e manejo de resíduos sólidos" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Limpeza Urbana"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001801" ] ;
-     fhir:display [ fhir:v "Gestante" ]
+     fhir:display [ fhir:v "Gestante" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Gestante"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "001901" ] ;
-     fhir:display [ fhir:v "Puérpera" ]
+     fhir:display [ fhir:v "Puérpera" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Puérpera"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "002001" ] ;
-     fhir:display [ fhir:v "População Rural" ]
+     fhir:display [ fhir:v "População Rural" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "População Rural"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "002101" ] ;
+     fhir:display [ fhir:v "Profissionais dos Correios" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Trabalhadores de Logística"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "002201" ] ;
+     fhir:display [ fhir:v "Pessoas com Transtorno do Espectro Autista (TEA)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Transtorno do Desenvolvimento"
+       ]
+     ] )
   ] [
      fhir:code [ fhir:v "999999" ] ;
      fhir:display [ fhir:v "Outros Grupos" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Outros"
        ]
      ] )
   ] ) . # 

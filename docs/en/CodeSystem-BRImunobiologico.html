@@ -316,13 +316,13 @@
   <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" data-fhir="generated"><p class="res-header-id"></p><a name="BRImunobiologico"> </a><a name="hcBRImunobiologico"> </a>
 <div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p>
 <table class="grid" data-fhir="generated"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr>
-<tr><td>Nome</td>
-<td>Nome</td>
+<tr><td>Name</td>
+<td>Name</td>
 <td></td>
 <td>string</td>
 <td>Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.</td></tr>
-<tr><td>Categoria</td>
-<td>Categoria</td>
+<tr><td>Category</td>
+<td>Category</td>
 <td></td>
 <td>string</td>
 <td>Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.</td></tr>
@@ -331,7 +331,7 @@
 <td>http://hl7.org/fhir/concept-properties#inactive</td>
 <td>boolean</td>
 <td>Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta.</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code> define o seguinte códigos:</p>
-<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Nome</b></td><td><b>Categoria</b></td><td><b>Inactive</b></td></tr>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Name</b></td><td><b>Category</b></td><td><b>Inactive</b></td></tr>
 <tr><td style="white-space:nowrap">1<a name="BRImunobiologico-1"> </a></td>
 <td>IGHAT</td>
 <td>imunoglobulina humana antitétano</td>
@@ -550,7 +550,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">37<a name="BRImunobiologico-37"> </a></td>
 <td>VR</td>
-<td>vacina raiva</td>
+<td>vacina raiva (inativada)</td>
 <td>vacina raiva (inativada)</td>
 <td>Vacina</td>
 <td></td></tr>
@@ -616,7 +616,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">48<a name="BRImunobiologico-48"> </a></td>
 <td>DILSCR</td>
-<td>diluente para vacina sarampo, caxumba, rubéola</td>
+<td>diluente para vacina tríplice viral</td>
 <td>diluente para vacina sarampo, caxumba, rubéola (atenuada)</td>
 <td>Diluente</td>
 <td></td></tr>
@@ -628,7 +628,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">50<a name="BRImunobiologico-50"> </a></td>
 <td>DILHib</td>
-<td>diluente para vacina Haemophilus influenzae B</td>
+<td>diluente para vacina Hib</td>
 <td>diluente para vacina Haemophilus influenzae B (conjugada)</td>
 <td>Diluente</td>
 <td></td></tr>
@@ -646,7 +646,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">53<a name="BRImunobiologico-53"> </a></td>
 <td>DILSR</td>
-<td>diluente para vacina sarampo, rubéola</td>
+<td>diluente para vacina dupla viral</td>
 <td>diluente para vacina sarampo, rubéola (atenuada)</td>
 <td>Diluente</td>
 <td></td></tr>
@@ -808,7 +808,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">80<a name="BRImunobiologico-80"> </a></td>
 <td>DILVR</td>
-<td>diluente para vacina raiva</td>
+<td>diluente para vacina raiva (inativada)</td>
 <td>diluente para vacina raiva (inativada)</td>
 <td>Diluente</td>
 <td></td></tr>
@@ -838,37 +838,37 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">85<a name="BRImunobiologico-85"> </a></td>
 <td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td>
-<td>vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)</td>
+<td>vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)</td>
 <td>vacina covid-19 (recombinante)</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">86<a name="BRImunobiologico-86"> </a></td>
 <td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td>
-<td>vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)</td>
+<td>vacina covid-19-inativada, Sinovac/Butantan (Coronavac)</td>
 <td>vacina adsorvida covid-19 (inativada)</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">87<a name="BRImunobiologico-87"> </a></td>
 <td>COVID-19 PFIZER - COMIRNATY</td>
-<td>vacina Covid-19-RNAm, Pfizer (Comirnaty)</td>
+<td>vacina covid-19-RNAm, Pfizer (Comirnaty)</td>
 <td>vacina covid-19</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">88<a name="BRImunobiologico-88"> </a></td>
 <td>COVID-19 JANSSEN - Ad26.COV2.S</td>
-<td>vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)</td>
+<td>vacina covid-19-recombinante, Janssen (Ad26.COV2.S)</td>
 <td>vacina covid-19 (recombinante)</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">89<a name="BRImunobiologico-89"> </a></td>
 <td>COVID-19 ASTRAZENECA - ChAdOx1-S</td>
-<td>vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)</td>
+<td>vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)</td>
 <td>vacina covid-19 (recombinante)</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">90<a name="BRImunobiologico-90"> </a></td>
 <td>DILSCRV</td>
-<td>diluente para vacina sarampo, caxumba, rubéola e varicela</td>
+<td>diluente para vacina tetraviral</td>
 <td>diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)</td>
 <td>Diluente</td>
 <td></td></tr>
@@ -898,31 +898,31 @@
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">95<a name="BRImunobiologico-95"> </a></td>
 <td>COVID-19 GAMALEYA - SPUTNIK V</td>
-<td>vacina Covid-19-recombinante, Gamaleya (Sputnik V)</td>
+<td>vacina covid-19-recombinante, Gamaleya (Sputnik V)</td>
 <td>vacina covid-19 (recombinante)</td>
 <td>Vacina</td>
 <td>true</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">96<a name="BRImunobiologico-96"> </a></td>
 <td>COVID-19 BHARAT - COVAXIN</td>
-<td>vacina Covid-19-inativada, Bharat (Covaxin)</td>
+<td>vacina covid-19-inativada, Bharat (Covaxin)</td>
 <td>vacina adsorvida covid-19 (inativada)</td>
 <td>Vacina</td>
 <td>true</td></tr>
 <tr><td style="white-space:nowrap">97<a name="BRImunobiologico-97"> </a></td>
 <td>COVID-19 MODERNA - SPIKEVAX</td>
-<td>vacina Covid-19-RNAm, Moderna (Spikevax)</td>
+<td>vacina covid-19-RNAm, Moderna (Spikevax)</td>
 <td>vacina covid-19</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">98<a name="BRImunobiologico-98"> </a></td>
 <td>COVID-19 SINOVAC - CORONAVAC</td>
-<td>vacina Covid-19-inativada, Sinovac (Coronavac)</td>
+<td>vacina covid-19-inativada, Sinovac (Coronavac)</td>
 <td>vacina adsorvida covid-19 (inativada)</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">99<a name="BRImunobiologico-99"> </a></td>
 <td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td>
-<td>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica</td>
+<td>vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica</td>
 <td>vacina covid-19</td>
 <td>Vacina</td>
 <td></td></tr>
@@ -940,13 +940,13 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">102<a name="BRImunobiologico-102"> </a></td>
 <td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td>
-<td>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos</td>
+<td>vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos</td>
 <td>vacina covid-19</td>
 <td>Vacina</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">103<a name="BRImunobiologico-103"> </a></td>
 <td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td>
-<td>vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente</td>
+<td>vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente</td>
 <td>vacina covid-19 bivalente</td>
 <td>Vacina</td>
 <td></td></tr>
@@ -958,7 +958,7 @@
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">105<a name="BRImunobiologico-105"> </a></td>
 <td>COVID-19-SPIKEVAX BI</td>
-<td>vacina Covid-19-RNAm, Moderna (Spikevax) bivalente</td>
+<td>vacina covid-19-RNAm, Moderna (Spikevax) bivalente</td>
 <td>Vacina covid-19 bivalente (recombinante)</td>
 <td>Vacina</td>
 <td>true</td></tr>
@@ -1000,7 +1000,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">112<a name="BRImunobiologico-112"> </a></td>
 <td>COVID-19 SERUM/ZALIKA</td>
-<td>vacina Covid-19-recombinante, Serum/Zalika</td>
+<td>vacina covid-19-recombinante, Serum/Zalika</td>
 <td>Vacina covid-19 (recombinante)</td>
 <td>Vacina</td>
 <td></td></tr>
@@ -1012,7 +1012,7 @@
 <td></td></tr>
 <tr><td style="white-space:nowrap">114<a name="BRImunobiologico-114"> </a></td>
 <td>COVID-19 SINOPHARM</td>
-<td>vacina Covid-19-inativada, Sinopharm</td>
+<td>vacina covid-19-inativada, Sinopharm</td>
 <td>vacina covid-19 (inativada)</td>
 <td>Vacina</td>
 <td></td></tr>
@@ -1027,6 +1027,18 @@
 <td>nirsevimabe 1,0ml</td>
 <td>nirsevimabe 1,0ml</td>
 <td>Anticorpo Monoclonal</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">117<a name="BRImunobiologico-117"> </a></td>
+<td>INF3-alta dosagem</td>
+<td>vacina influenza trivalente - alta dosagem</td>
+<td>vacina influenza trivalente (fragmentada, inativada)</td>
+<td>Vacina</td>
+<td></td></tr>
+<tr><td style="white-space:nowrap">118<a name="BRImunobiologico-118"> </a></td>
+<td>DILMenACWY</td>
+<td>diluente para vacina meningo ACWY</td>
+<td>diluente para vacina meningocócica ACWY (conjugada)</td>
+<td>Diluente</td>
 <td></td></tr></table><p><b>Ecrãs de idiomas adicionais</b></p>
 <table class="codes" data-fhir="generated"><tr><td><b>Código</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr>
 <tr><td>1</td>
@@ -1376,6 +1388,12 @@
 <td></td></tr>
 <tr><td>116</td>
 <td></td>
+<td></td></tr>
+<tr><td>117</td>
+<td></td>
+<td></td></tr>
+<tr><td>118</td>
+<td></td>
 <td></td></tr></table></div>
 
   <hr/>
@@ -1438,8 +1456,8 @@
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
           Package br.gov.saude.ria.fhir#1.0.0-release based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-06-12 15:23:00 -0300">
-    2026-06-12
+  <span title="2026-06-15 08:34:00 -0300">
+    2026-06-15
   </span>
 
           <br/>

@@ -14,7 +14,7 @@ Generated $--. FHIR version $-- for br.gov.saude.ria.fhir#$-- (canonical = https
  /home/igor/ria-ig/input/resources/CodeSystem-BRDose : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BREstrategiaVacinacao : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRFabricantePNI : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/CodeSystem-BRGrupoAtendimento : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRGrupoAtendimento : 0 / 0 / 2
  /home/igor/ria-ig/input/resources/CodeSystem-BRImunobiologico : 0 / 0 / 3
  /home/igor/ria-ig/input/resources/CodeSystem-BRLocalAplicacao : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRPais : 0 / 0 / 1
@@ -34,7 +34,7 @@ Generated $--. FHIR version $-- for br.gov.saude.ria.fhir#$-- (canonical = https
  /home/igor/ria-ig/input/resources/ValueSet-BRCondicaoMaternal-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRDose-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BREstadoEvento-1.0 : 0 / 0 / 9
- /home/igor/ria-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 0 / 7
+ /home/igor/ria-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BREstrategiaVacinacao-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRFabricanteImunobiologico-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRGrupoAtendimento-1.0 : 0 / 0 / 1

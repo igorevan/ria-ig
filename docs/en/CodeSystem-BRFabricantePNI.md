@@ -1052,6 +1052,36 @@ This Code system is referenced in the definition of the following value sets:
     "code" : "45086",
     "display" : "PFIZER-IRLANDA",
     "definition" : "PFIZER IRELAND PHARMACEUTICALS"
+  },
+  {
+    "code" : "45240",
+    "display" : "TAKEDA-JAPAO",
+    "definition" : "TAKEDA GMBH"
+  },
+  {
+    "code" : "44329",
+    "display" : "PATHEON",
+    "definition" : "PATHEON MANUFATURING SERVICES LLC"
+  },
+  {
+    "code" : "45686",
+    "display" : "CORIXA-GSK",
+    "definition" : "CORIXA CORPORATION DBA GLAXOSMITHKLINE VACCINES"
+  },
+  {
+    "code" : "45915",
+    "display" : "SINOVAC",
+    "definition" : "SINOVAC (DALIAN) VACCINE TECHNOLOGY CO., LTD."
+  },
+  {
+    "code" : "46263",
+    "display" : "JIANGSU-DESA",
+    "definition" : "JIANGSU DESANO PHARMACEUTICAL CO. LTD."
+  },
+  {
+    "code" : "47619",
+    "display" : "LIBBS",
+    "definition" : "LIBBS FARMACEUTICA LTDA."
   }]
 }
 

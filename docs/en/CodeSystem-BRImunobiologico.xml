@@ -55,12 +55,12 @@
   <caseSensitive value="true"/>
   <content value="complete"/>
   <property>
-    <code value="Nome"/>
+    <code value="Name"/>
     <description value="Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes."/>
     <type value="string"/>
   </property>
   <property>
-    <code value="Categoria"/>
+    <code value="Category"/>
     <description value="Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina."/>
     <type value="string"/>
   </property>
@@ -75,11 +75,11 @@
     <display value="IGHAT"/>
     <definition value="imunoglobulina humana antitétano"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="Imunoglobulina humana antitétano"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Imunoglobulina"/>
     </property>
   </concept>
@@ -88,11 +88,11 @@
     <display value="SAT"/>
     <definition value="soro antitetânico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="Soro antitetânico"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -101,11 +101,11 @@
     <display value="SAAR"/>
     <definition value="soro antiaracnídico (Loxosceles, Phoneutria, Tityus)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -114,11 +114,11 @@
     <display value="SAESC"/>
     <definition value="soro antiescorpiônico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="Soro antiescorpiônico"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -127,11 +127,11 @@
     <display value="DT"/>
     <definition value="vacina difteria e tétano infantil"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="Vacina adsorvida difteria e tétano infantil"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -140,11 +140,11 @@
     <display value="SAELA"/>
     <definition value="soro antielapídico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antielapídico (bivalente)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -153,11 +153,11 @@
     <display value="SAR"/>
     <definition value="soro antirrábico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antirrábico"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -166,11 +166,11 @@
     <display value="SABR"/>
     <definition value="soro antibotrópico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antibotrópico (pentavalente)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -179,11 +179,11 @@
     <display value="HB"/>
     <definition value="vacina hepatite B"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina hepatite B (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -192,11 +192,11 @@
     <display value="SAD"/>
     <definition value="soro antidiftérico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antidiftérico"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -205,11 +205,11 @@
     <display value="SABC"/>
     <definition value="soro antibotrópico e anticrotálico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antibotrópico (pentavalente) e anticrotálico"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -218,11 +218,11 @@
     <display value="SABL"/>
     <definition value="soro antibotrópico e antilaquético"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antibotrópico (pentavalente) e antilaquético"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -231,11 +231,11 @@
     <display value="MenAC"/>
     <definition value="vacina meningo AC"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina meningocócica AC (polissacarídica)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -244,11 +244,11 @@
     <display value="VFA"/>
     <definition value="vacina febre amarela"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina febre amarela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -257,11 +257,11 @@
     <display value="BCG"/>
     <definition value="vacina BCG"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina BCG"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -270,11 +270,11 @@
     <display value="SAC"/>
     <definition value="soro anticrotálico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro anticrotálico"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -283,11 +283,11 @@
     <display value="Hib"/>
     <definition value="vacina Hib"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina Haemophilus influenza B (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -300,11 +300,11 @@
       <valueBoolean value="true"/>
     </property>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina raiva (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -313,11 +313,11 @@
     <display value="IGHAVZ"/>
     <definition value="imunoglobulina humana antivaricela"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="imunoglobulina humana antivaricela"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Imunoglobulina"/>
     </property>
   </concept>
@@ -326,11 +326,11 @@
     <display value="IGHAHB"/>
     <definition value="imunoglobulina humana anti-hepatite B"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="imunoglobulina humana anti-hepatite B"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Imunoglobulina"/>
     </property>
   </concept>
@@ -339,11 +339,11 @@
     <display value="VPP23"/>
     <definition value="vacina pneumo 23"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina pneumocócica 23-valente (polissacarídica)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -352,11 +352,11 @@
     <display value="VIP"/>
     <definition value="vacina inativada poliomielite"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina poliomelite 1, 2 e 3 (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -365,11 +365,11 @@
     <display value="IGHAR"/>
     <definition value="imunoglobulina humana antirrábica"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="imunoglobulina humana antirrábica"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Imunoglobulina"/>
     </property>
   </concept>
@@ -378,11 +378,11 @@
     <display value="SCR"/>
     <definition value="vacina tríplice viral"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina sarampo, caxumba, rubéola (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -391,11 +391,11 @@
     <display value="dT"/>
     <definition value="vacina difteria e tétano adulto"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria e tétano adulto"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -404,11 +404,11 @@
     <display value="VPC10"/>
     <definition value="vacina pneumo 10"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina pneumocócica 10-valente (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -417,11 +417,11 @@
     <display value="SALATRO"/>
     <definition value="soro antilatrodéctico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antilatrodéctico (Latrodectus curacaviensis)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -430,11 +430,11 @@
     <display value="VOPb"/>
     <definition value="vacina oral poliomielite bivalente"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina poliomielite 1 e 3 (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -443,11 +443,11 @@
     <display value="Penta acelular"/>
     <definition value="vacina penta acelular (DTPa/VIP/Hib)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -456,11 +456,11 @@
     <display value="FTp"/>
     <definition value="vacina febre tifóide"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina febre tifóide (polissacarídica)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -469,11 +469,11 @@
     <display value="SALOX"/>
     <definition value="soro antiloxoscélico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antiloxoscélico (trivalente)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -482,11 +482,11 @@
     <display value="SALON"/>
     <definition value="soro antilonômico"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antilonômico"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -503,11 +503,11 @@
       <value value="Vacuna influenza trivalente"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina influenza trivalente (fragmentada, inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -516,11 +516,11 @@
     <display value="VZ"/>
     <definition value="vacina varicela"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina varicela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -529,11 +529,11 @@
     <display value="HA virossomal"/>
     <definition value="vacina hepatite A (virossomal)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida hepatite A (virossomal)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -542,24 +542,24 @@
     <display value="SR"/>
     <definition value="vacina dupla viral"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina sarampo, rubéola (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="37"/>
     <display value="VR"/>
-    <definition value="vacina raiva"/>
+    <definition value="vacina raiva (inativada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina raiva (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -568,11 +568,11 @@
     <display value="SBOTULTRI"/>
     <definition value="soro antibotulínico (trivalente)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antibotulínico (trivalente)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -581,11 +581,11 @@
     <display value="Tetra"/>
     <definition value="vacina DTP/Hib"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -594,11 +594,11 @@
     <display value="VPC7"/>
     <definition value="vacina pneumo 7"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina pneumocócica 7-valente (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -607,11 +607,11 @@
     <display value="MenC"/>
     <definition value="vacina meningo C"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina meningocócica C (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -620,11 +620,11 @@
     <display value="Penta"/>
     <definition value="vacina penta (DTP/HB/Hib)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -633,11 +633,11 @@
     <display value="Hexa acelular"/>
     <definition value="vacina hexa acelular (DTPa/HB/VIP/Hib)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -646,11 +646,11 @@
     <display value="INFH1N1-2009"/>
     <definition value="vacina influenza A (H1N1) (inativada, fragmentada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina influenza tipo A (H1N1) (inativada, fragmentada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -659,11 +659,11 @@
     <display value="ROTA"/>
     <definition value="vacina rotavírus"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina rotavírus humano G1P[8] (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -672,11 +672,11 @@
     <display value="DTP"/>
     <definition value="vacina DTP"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano e pertussis"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -685,24 +685,24 @@
     <display value="DTPa"/>
     <definition value="vacina DTPa infantil"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano e pertussis (acelular)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="48"/>
     <display value="DILSCR"/>
-    <definition value="diluente para vacina sarampo, caxumba, rubéola"/>
+    <definition value="diluente para vacina tríplice viral"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina sarampo, caxumba, rubéola (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -711,24 +711,24 @@
     <display value="DILVFA"/>
     <definition value="diluente para vacina febre amarela"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina febre amarela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
   <concept>
     <code value="50"/>
     <display value="DILHib"/>
-    <definition value="diluente para vacina Haemophilus influenzae B"/>
+    <definition value="diluente para vacina Hib"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina Haemophilus influenzae B (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -737,11 +737,11 @@
     <display value="Fta"/>
     <definition value="vacina febre tifóide (atenuada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina febre tifóide (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -750,24 +750,24 @@
     <display value="DILMenAC"/>
     <definition value="diluente para vacina meningo AC"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina meningocócica AC (polissacarídica)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
   <concept>
     <code value="53"/>
     <display value="DILSR"/>
-    <definition value="diluente para vacina sarampo, rubéola"/>
+    <definition value="diluente para vacina dupla viral"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina sarampo, rubéola (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -776,11 +776,11 @@
     <display value="DILVAR"/>
     <definition value="diluente para vacina varicela"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina varicela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -789,11 +789,11 @@
     <display value="HAinf"/>
     <definition value="vacina hepatite A infantil"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida hepatite A (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -802,11 +802,11 @@
     <display value="SCRV"/>
     <definition value="vacina tetraviral"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina sarampo, caxumba, rubéola e varicela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -815,11 +815,11 @@
     <display value="dTpa"/>
     <definition value="vacina dTpa adulto"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano e pertussis (acelular)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -828,11 +828,11 @@
     <display value="DTPa/VIP"/>
     <definition value="vacina tetra acelular DTPa/VIP"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -841,11 +841,11 @@
     <display value="VPC13"/>
     <definition value="vacina pneumo 13"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina pneumocócica 13-valente (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -854,11 +854,11 @@
     <display value="HPV2"/>
     <definition value="vacina HPV bivalente"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina papilomavírus humano 16 e 18 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -867,11 +867,11 @@
     <display value="Tétano"/>
     <definition value="vacina tétano"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina tétano (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -880,11 +880,11 @@
     <display value="HA-HBinf"/>
     <definition value="vacina hepatite A e B infantil"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida hepatite A e hepatite B (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -893,11 +893,11 @@
     <display value="HA-HBad"/>
     <definition value="vacina hepatite A e B adulto"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida hepatite A e hepatite B (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -906,11 +906,11 @@
     <display value="INF3-ID"/>
     <definition value="vacina influenza trivalente ID"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina influenza trivalente (fragmentada, inativada) intradérmica"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -919,11 +919,11 @@
     <display value="ROTA5"/>
     <definition value="vacina rotavírus pentavalente"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -932,11 +932,11 @@
     <display value="MenBC"/>
     <definition value="vacina meningo BC"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina meningocócica BC (polissacarídica)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -945,11 +945,11 @@
     <display value="HPV4"/>
     <definition value="vacina HPV quadrivalente"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -958,11 +958,11 @@
     <display value="HPV2"/>
     <definition value="vacina HPV bivalente"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina papilomavírus humano 16 e 18 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -971,11 +971,11 @@
     <display value="SAB"/>
     <definition value="soro antibotulínico AB (bivalente)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="soro antibotulínico AB (bivalente)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Soro"/>
     </property>
   </concept>
@@ -984,11 +984,11 @@
     <display value="Sarampo"/>
     <definition value="vacina sarampo"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina sarampo (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -997,11 +997,11 @@
     <display value="Rubéola"/>
     <definition value="vacina rubéola"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina rubéola (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1010,11 +1010,11 @@
     <display value="INFH1N1-2009"/>
     <definition value="vacina influenza A (H1N1) (inativada, fragmentada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina influenza tipo A (H1N1) (inativada, fragmentada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1023,11 +1023,11 @@
     <display value="SCRV"/>
     <definition value="vacina sarampo, caxumba, rubéola e varicela"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina sarampo, caxumba, rubéola e varicela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1036,11 +1036,11 @@
     <display value="MenACWY"/>
     <definition value="vacina meningo ACWY"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina meningocócica ACWY (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1049,11 +1049,11 @@
     <display value="VCO"/>
     <definition value="vacina cólera oral"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina cólera (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1062,11 +1062,11 @@
     <display value="VHZ"/>
     <definition value="vacina herpes-zóster (atenuada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina herpes-zóster (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1083,11 +1083,11 @@
       <value value="Vacuna influenza tetravalente"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina influenza tetravalente (fragmentada, inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1096,11 +1096,11 @@
     <display value="MenB"/>
     <definition value="vacina meningo B"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida meningocócica B (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1109,24 +1109,24 @@
     <display value="DILBCG"/>
     <definition value="diluente para vacina BCG"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina BCG"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
   <concept>
     <code value="80"/>
     <display value="DILVR"/>
-    <definition value="diluente para vacina raiva"/>
+    <definition value="diluente para vacina raiva (inativada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina raiva (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -1135,11 +1135,11 @@
     <display value="DILMenC"/>
     <definition value="diluente para vacina meningo C"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina meningocócica C (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -1148,11 +1148,11 @@
     <display value="Dengue"/>
     <definition value="vacina dengue (recombinante e atenuada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1161,11 +1161,11 @@
     <display value="HAad"/>
     <definition value="vacina hepatite A adulto"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida hepatite A (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1174,18 +1174,18 @@
     <display value="VFA-F"/>
     <definition value="vacina febre amarela fracionada"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina febre amarela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="85"/>
     <display value="COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD"/>
-    <definition value="vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)"/>
+    <definition value="vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)"/>
     <designation>
       <language value="en"/>
       <value value="XM9QW8 COVID-19 vaccine, non-replicating viral vector"/>
@@ -1195,18 +1195,18 @@
       <value value="XM9QW8 Vacuna COVID-19, vector viral no replicante"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="86"/>
     <display value="COVID-19 SINOVAC/BUTANTAN - CORONAVAC"/>
-    <definition value="vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)"/>
+    <definition value="vacina covid-19-inativada, Sinovac/Butantan (Coronavac)"/>
     <designation>
       <language value="en"/>
       <value value="XM1NL1 COVID-19 vaccine, inactivated virus"/>
@@ -1216,18 +1216,18 @@
       <value value="XM1NL1 Vacuna COVID-19, virus inactivado"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida covid-19 (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="87"/>
     <display value="COVID-19 PFIZER - COMIRNATY"/>
-    <definition value="vacina Covid-19-RNAm, Pfizer (Comirnaty)"/>
+    <definition value="vacina covid-19-RNAm, Pfizer (Comirnaty)"/>
     <designation>
       <language value="en"/>
       <value value="XM0GQ8 COVID-19 vaccine, RNA based"/>
@@ -1237,18 +1237,18 @@
       <value value="XM0GQ8 Vacuna COVID-19, basada en ARN"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="88"/>
     <display value="COVID-19 JANSSEN - Ad26.COV2.S"/>
-    <definition value="vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)"/>
+    <definition value="vacina covid-19-recombinante, Janssen (Ad26.COV2.S)"/>
     <designation>
       <language value="en"/>
       <value value="XM9QW8 COVID-19 vaccine, non-replicating viral vector"/>
@@ -1258,18 +1258,18 @@
       <value value="XM9QW8 Vacuna COVID-19, vector viral no replicante"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="89"/>
     <display value="COVID-19 ASTRAZENECA - ChAdOx1-S"/>
-    <definition value="vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)"/>
+    <definition value="vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)"/>
     <designation>
       <language value="en"/>
       <value value="XM9QW8 COVID-19 vaccine, non-replicating viral vector"/>
@@ -1279,24 +1279,24 @@
       <value value="XM9QW8 Vacuna COVID-19, vector viral no replicante"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="90"/>
     <display value="DILSCRV"/>
-    <definition value="diluente para vacina sarampo, caxumba, rubéola e varicela"/>
+    <definition value="diluente para vacina tetraviral"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -1305,11 +1305,11 @@
     <display value="DILVR embrião de galinha"/>
     <definition value="diluente para vacina raiva embrião de galinha"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="diluente para vacina raiva (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
@@ -1318,11 +1318,11 @@
     <display value="VR"/>
     <definition value="vacina raiva"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina raiva (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1331,11 +1331,11 @@
     <display value="HPV9"/>
     <definition value="vacina HPV nonavalente"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina papilomavírus humano 9-valente (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1344,18 +1344,18 @@
     <display value="NaCl 0,9%"/>
     <definition value="cloreto de sódio, solução injetável - 0,9%"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="cloreto de sódio, solução injetável - 0,9%"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Diluente"/>
     </property>
   </concept>
   <concept>
     <code value="95"/>
     <display value="COVID-19 GAMALEYA - SPUTNIK V"/>
-    <definition value="vacina Covid-19-recombinante, Gamaleya (Sputnik V)"/>
+    <definition value="vacina covid-19-recombinante, Gamaleya (Sputnik V)"/>
     <designation>
       <language value="en"/>
       <value value="XM9QW8 COVID-19 vaccine, non-replicating viral vector"/>
@@ -1369,18 +1369,18 @@
       <valueBoolean value="true"/>
     </property>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="96"/>
     <display value="COVID-19 BHARAT - COVAXIN"/>
-    <definition value="vacina Covid-19-inativada, Bharat (Covaxin)"/>
+    <definition value="vacina covid-19-inativada, Bharat (Covaxin)"/>
     <designation>
       <language value="en"/>
       <value value="XM1NL1 COVID-19 vaccine, inactivated virus"/>
@@ -1394,18 +1394,18 @@
       <valueBoolean value="true"/>
     </property>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida covid-19 (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="97"/>
     <display value="COVID-19 MODERNA - SPIKEVAX"/>
-    <definition value="vacina Covid-19-RNAm, Moderna (Spikevax)"/>
+    <definition value="vacina covid-19-RNAm, Moderna (Spikevax)"/>
     <designation>
       <language value="en"/>
       <value value="XM0GQ8 COVID-19 vaccine, RNA based"/>
@@ -1415,18 +1415,18 @@
       <value value="XM0GQ8 Vacuna COVID-19, basada en ARN"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="98"/>
     <display value="COVID-19 SINOVAC - CORONAVAC"/>
-    <definition value="vacina Covid-19-inativada, Sinovac (Coronavac)"/>
+    <definition value="vacina covid-19-inativada, Sinovac (Coronavac)"/>
     <designation>
       <language value="en"/>
       <value value="XM1NL1 COVID-19 vaccine, inactivated virus"/>
@@ -1436,18 +1436,18 @@
       <value value="XM1NL1 Vacuna COVID-19, virus inactivado"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida covid-19 (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="99"/>
     <display value="COVID-19 PFIZER - COMIRNATY PEDIÁTRICA"/>
-    <definition value="vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica"/>
+    <definition value="vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica"/>
     <designation>
       <language value="en"/>
       <value value="XM0GQ8 COVID-19 vaccine, RNA based"/>
@@ -1457,11 +1457,11 @@
       <value value="XM0GQ8 Vacuna COVID-19, basada en ARN"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1470,11 +1470,11 @@
     <display value="VVS"/>
     <definition value="vacina varíola símia (atenuada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina varíola símia (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1483,18 +1483,18 @@
     <display value="VHZR"/>
     <definition value="vacina herpes-zóster (recombinante)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina herpes-zóster (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="102"/>
     <display value="COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS"/>
-    <definition value="vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos"/>
+    <definition value="vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos"/>
     <designation>
       <language value="en"/>
       <value value="XM0GQ8 COVID-19 vaccine, RNA based"/>
@@ -1504,18 +1504,18 @@
       <value value="XM0GQ8 Vacuna COVID-19, basada en ARN"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="103"/>
     <display value="COVID-19 PFIZER - COMIRNATY BIVALENTE"/>
-    <definition value="vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente"/>
+    <definition value="vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente"/>
     <designation>
       <language value="en"/>
       <value value="XM0GQ8 COVID-19 vaccine, RNA based"/>
@@ -1525,11 +1525,11 @@
       <value value="XM0GQ8 Vacuna COVID-19, basada en ARN"/>
     </designation>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19 bivalente"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1538,28 +1538,28 @@
     <display value="DNG"/>
     <definition value="vacina dengue (atenuada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina dengue 1, 2, 3 e 4 (atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="105"/>
     <display value="COVID-19-SPIKEVAX BI"/>
-    <definition value="vacina Covid-19-RNAm, Moderna (Spikevax) bivalente"/>
+    <definition value="vacina covid-19-RNAm, Moderna (Spikevax) bivalente"/>
     <property>
       <code value="inactive"/>
       <valueBoolean value="true"/>
     </property>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="Vacina covid-19 bivalente (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1568,11 +1568,11 @@
     <display value="VPC15"/>
     <definition value="vacina pneumo 15"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1581,11 +1581,11 @@
     <display value="VPC20"/>
     <definition value="vacina pneumo 20"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina pneumocócica 20-valente (conjugada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1594,11 +1594,11 @@
     <display value="VVSR-Rec"/>
     <definition value="vacina vírus sincicial respiratório A e B (recombinante)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina vírus sincicial respiratório A e B (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1607,11 +1607,11 @@
     <display value="VVSR-RecAdj"/>
     <definition value="vacina vírus sincicial respiratório (recombinante, adjuvada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina vírus sincicial respiratório (recombinante, adjuvada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1620,11 +1620,11 @@
     <display value="INF4-alta dosagem"/>
     <definition value="vacina influenza tetravalente - alta dosagem"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina influenza tetravalente (fragmentada, inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1633,24 +1633,24 @@
     <display value="dTpa/VIP"/>
     <definition value="vacina tetra acelular dTpa/VIP"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="112"/>
     <display value="COVID-19 SERUM/ZALIKA"/>
-    <definition value="vacina Covid-19-recombinante, Serum/Zalika"/>
+    <definition value="vacina covid-19-recombinante, Serum/Zalika"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="Vacina covid-19 (recombinante)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1659,24 +1659,24 @@
     <display value="CHIKUNGUNYA"/>
     <definition value="vacina chikungunya (recombinante e atenuada)"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina chikungunya (recombinante e atenuada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
   <concept>
     <code value="114"/>
     <display value="COVID-19 SINOPHARM"/>
-    <definition value="vacina Covid-19-inativada, Sinopharm"/>
+    <definition value="vacina covid-19-inativada, Sinopharm"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="vacina covid-19 (inativada)"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Vacina"/>
     </property>
   </concept>
@@ -1685,11 +1685,11 @@
     <display value="NIRSEVIMABE 0,5ml"/>
     <definition value="nirsevimabe 0,5ml"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="nirsevimabe 0,5ml"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Anticorpo Monoclonal"/>
     </property>
   </concept>
@@ -1698,12 +1698,38 @@
     <display value="NIRSEVIMABE 1,0ml"/>
     <definition value="nirsevimabe 1,0ml"/>
     <property>
-      <code value="Nome"/>
+      <code value="Name"/>
       <valueString value="nirsevimabe 1,0ml"/>
     </property>
     <property>
-      <code value="Categoria"/>
+      <code value="Category"/>
       <valueString value="Anticorpo Monoclonal"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="117"/>
+    <display value="INF3-alta dosagem"/>
+    <definition value="vacina influenza trivalente - alta dosagem"/>
+    <property>
+      <code value="Name"/>
+      <valueString value="vacina influenza trivalente (fragmentada, inativada)"/>
+    </property>
+    <property>
+      <code value="Category"/>
+      <valueString value="Vacina"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="118"/>
+    <display value="DILMenACWY"/>
+    <definition value="diluente para vacina meningo ACWY"/>
+    <property>
+      <code value="Name"/>
+      <valueString value="diluente para vacina meningocócica ACWY (conjugada)"/>
+    </property>
+    <property>
+      <code value="Category"/>
+      <valueString value="Diluente"/>
     </property>
   </concept>
 </CodeSystem>

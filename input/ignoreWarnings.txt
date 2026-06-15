@@ -11,6 +11,7 @@
 The value set expansion is too large, and only a subset has been displayed
 %Referência ao projeto CodeSystem%
 Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset
+%Muitas ferramentas terminológicas não saberão o que fazer com ela%
 
 # Erros de validação de exemplos
 Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|1.0.0-release

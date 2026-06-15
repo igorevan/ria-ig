@@ -12,71 +12,50 @@
   fhir:language [ fhir:v "pt-BR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRImunobiologico</b></p><a name=\"BRImunobiologico\"> </a><a name=\"hcBRImunobiologico\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>Nome</td><td>Nome</td><td/><td>string</td><td>Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.</td></tr><tr><td>Categoria</td><td>Categoria</td><td/><td>string</td><td>Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.</td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td><td>Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta.</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Nome</b></td><td><b>Categoria</b></td><td><b>Inactive</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRImunobiologico-1\"> </a></td><td>IGHAT</td><td>imunoglobulina humana antitétano</td><td>Imunoglobulina humana antitétano</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRImunobiologico-2\"> </a></td><td>SAT</td><td>soro antitetânico</td><td>Soro antitetânico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRImunobiologico-3\"> </a></td><td>SAAR</td><td>soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRImunobiologico-4\"> </a></td><td>SAESC</td><td>soro antiescorpiônico</td><td>Soro antiescorpiônico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRImunobiologico-5\"> </a></td><td>DT</td><td>vacina difteria e tétano infantil</td><td>Vacina adsorvida difteria e tétano infantil</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRImunobiologico-6\"> </a></td><td>SAELA</td><td>soro antielapídico</td><td>soro antielapídico (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRImunobiologico-7\"> </a></td><td>SAR</td><td>soro antirrábico</td><td>soro antirrábico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRImunobiologico-8\"> </a></td><td>SABR</td><td>soro antibotrópico</td><td>soro antibotrópico (pentavalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRImunobiologico-9\"> </a></td><td>HB</td><td>vacina hepatite B</td><td>vacina hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRImunobiologico-10\"> </a></td><td>SAD</td><td>soro antidiftérico</td><td>soro antidiftérico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRImunobiologico-11\"> </a></td><td>SABC</td><td>soro antibotrópico e anticrotálico</td><td>soro antibotrópico (pentavalente) e anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRImunobiologico-12\"> </a></td><td>SABL</td><td>soro antibotrópico e antilaquético</td><td>soro antibotrópico (pentavalente) e antilaquético</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRImunobiologico-13\"> </a></td><td>MenAC</td><td>vacina meningo AC</td><td>vacina meningocócica AC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRImunobiologico-14\"> </a></td><td>VFA</td><td>vacina febre amarela</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRImunobiologico-15\"> </a></td><td>BCG</td><td>vacina BCG</td><td>vacina BCG</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRImunobiologico-16\"> </a></td><td>SAC</td><td>soro anticrotálico</td><td>soro anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRImunobiologico-17\"> </a></td><td>Hib</td><td>vacina Hib</td><td>vacina Haemophilus influenza B (conjugada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">18<a name=\"BRImunobiologico-18\"> </a></td><td>VR embrião de galinha</td><td>vacina raiva embrião de galinha</td><td>vacina raiva (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRImunobiologico-19\"> </a></td><td>IGHAVZ</td><td>imunoglobulina humana antivaricela</td><td>imunoglobulina humana antivaricela</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRImunobiologico-20\"> </a></td><td>IGHAHB</td><td>imunoglobulina humana anti-hepatite B</td><td>imunoglobulina humana anti-hepatite B</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRImunobiologico-21\"> </a></td><td>VPP23</td><td>vacina pneumo 23</td><td>vacina pneumocócica 23-valente (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRImunobiologico-22\"> </a></td><td>VIP</td><td>vacina inativada poliomielite</td><td>vacina poliomelite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRImunobiologico-23\"> </a></td><td>IGHAR</td><td>imunoglobulina humana antirrábica</td><td>imunoglobulina humana antirrábica</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRImunobiologico-24\"> </a></td><td>SCR</td><td>vacina tríplice viral</td><td>vacina sarampo, caxumba, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRImunobiologico-25\"> </a></td><td>dT</td><td>vacina difteria e tétano adulto</td><td>vacina adsorvida difteria e tétano adulto</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRImunobiologico-26\"> </a></td><td>VPC10</td><td>vacina pneumo 10</td><td>vacina pneumocócica 10-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRImunobiologico-27\"> </a></td><td>SALATRO</td><td>soro antilatrodéctico</td><td>soro antilatrodéctico (Latrodectus curacaviensis)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRImunobiologico-28\"> </a></td><td>VOPb</td><td>vacina oral poliomielite bivalente</td><td>vacina poliomielite 1 e 3 (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRImunobiologico-29\"> </a></td><td>Penta acelular</td><td>vacina penta acelular (DTPa/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRImunobiologico-30\"> </a></td><td>FTp</td><td>vacina febre tifóide</td><td>vacina febre tifóide (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRImunobiologico-31\"> </a></td><td>SALOX</td><td>soro antiloxoscélico</td><td>soro antiloxoscélico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRImunobiologico-32\"> </a></td><td>SALON</td><td>soro antilonômico</td><td>soro antilonômico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRImunobiologico-33\"> </a></td><td>INF3</td><td>vacina influenza trivalente</td><td>vacina influenza trivalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRImunobiologico-34\"> </a></td><td>VZ</td><td>vacina varicela</td><td>vacina varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRImunobiologico-35\"> </a></td><td>HA virossomal</td><td>vacina hepatite A (virossomal)</td><td>vacina adsorvida hepatite A (virossomal)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRImunobiologico-36\"> </a></td><td>SR</td><td>vacina dupla viral</td><td>vacina sarampo, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRImunobiologico-37\"> </a></td><td>VR</td><td>vacina raiva</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRImunobiologico-38\"> </a></td><td>SBOTULTRI</td><td>soro antibotulínico (trivalente)</td><td>soro antibotulínico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRImunobiologico-39\"> </a></td><td>Tetra</td><td>vacina DTP/Hib</td><td>vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRImunobiologico-40\"> </a></td><td>VPC7</td><td>vacina pneumo 7</td><td>vacina pneumocócica 7-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRImunobiologico-41\"> </a></td><td>MenC</td><td>vacina meningo C</td><td>vacina meningocócica C (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRImunobiologico-42\"> </a></td><td>Penta</td><td>vacina penta (DTP/HB/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRImunobiologico-43\"> </a></td><td>Hexa acelular</td><td>vacina hexa acelular (DTPa/HB/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRImunobiologico-44\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRImunobiologico-45\"> </a></td><td>ROTA</td><td>vacina rotavírus</td><td>vacina rotavírus humano G1P[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRImunobiologico-46\"> </a></td><td>DTP</td><td>vacina DTP</td><td>vacina adsorvida difteria, tétano e pertussis</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRImunobiologico-47\"> </a></td><td>DTPa</td><td>vacina DTPa infantil</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRImunobiologico-48\"> </a></td><td>DILSCR</td><td>diluente para vacina sarampo, caxumba, rubéola</td><td>diluente para vacina sarampo, caxumba, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRImunobiologico-49\"> </a></td><td>DILVFA</td><td>diluente para vacina febre amarela</td><td>diluente para vacina febre amarela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRImunobiologico-50\"> </a></td><td>DILHib</td><td>diluente para vacina Haemophilus influenzae B</td><td>diluente para vacina Haemophilus influenzae B (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRImunobiologico-51\"> </a></td><td>Fta</td><td>vacina febre tifóide (atenuada)</td><td>vacina febre tifóide (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRImunobiologico-52\"> </a></td><td>DILMenAC</td><td>diluente para vacina meningo AC</td><td>diluente para vacina meningocócica AC (polissacarídica)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRImunobiologico-53\"> </a></td><td>DILSR</td><td>diluente para vacina sarampo, rubéola</td><td>diluente para vacina sarampo, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRImunobiologico-54\"> </a></td><td>DILVAR</td><td>diluente para vacina varicela</td><td>diluente para vacina varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRImunobiologico-55\"> </a></td><td>HAinf</td><td>vacina hepatite A infantil</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRImunobiologico-56\"> </a></td><td>SCRV</td><td>vacina tetraviral</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRImunobiologico-57\"> </a></td><td>dTpa</td><td>vacina dTpa adulto</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRImunobiologico-58\"> </a></td><td>DTPa/VIP</td><td>vacina tetra acelular DTPa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRImunobiologico-59\"> </a></td><td>VPC13</td><td>vacina pneumo 13</td><td>vacina pneumocócica 13-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRImunobiologico-60\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRImunobiologico-61\"> </a></td><td>Tétano</td><td>vacina tétano</td><td>vacina tétano (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRImunobiologico-62\"> </a></td><td>HA-HBinf</td><td>vacina hepatite A e B infantil</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRImunobiologico-63\"> </a></td><td>HA-HBad</td><td>vacina hepatite A e B adulto</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRImunobiologico-64\"> </a></td><td>INF3-ID</td><td>vacina influenza trivalente ID</td><td>vacina influenza trivalente (fragmentada, inativada) intradérmica</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"BRImunobiologico-65\"> </a></td><td>ROTA5</td><td>vacina rotavírus pentavalente</td><td>vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRImunobiologico-66\"> </a></td><td>MenBC</td><td>vacina meningo BC</td><td>vacina meningocócica BC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRImunobiologico-67\"> </a></td><td>HPV4</td><td>vacina HPV quadrivalente</td><td>vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRImunobiologico-68\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRImunobiologico-69\"> </a></td><td>SAB</td><td>soro antibotulínico AB (bivalente)</td><td>soro antibotulínico AB (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRImunobiologico-70\"> </a></td><td>Sarampo</td><td>vacina sarampo</td><td>vacina sarampo (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRImunobiologico-71\"> </a></td><td>Rubéola</td><td>vacina rubéola</td><td>vacina rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRImunobiologico-72\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRImunobiologico-73\"> </a></td><td>SCRV</td><td>vacina sarampo, caxumba, rubéola e varicela</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRImunobiologico-74\"> </a></td><td>MenACWY</td><td>vacina meningo ACWY</td><td>vacina meningocócica ACWY (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRImunobiologico-75\"> </a></td><td>VCO</td><td>vacina cólera oral</td><td>vacina cólera (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRImunobiologico-76\"> </a></td><td>VHZ</td><td>vacina herpes-zóster (atenuada)</td><td>vacina herpes-zóster (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRImunobiologico-77\"> </a></td><td>INF4</td><td>vacina influenza tetravalente</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRImunobiologico-78\"> </a></td><td>MenB</td><td>vacina meningo B</td><td>vacina adsorvida meningocócica B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRImunobiologico-79\"> </a></td><td>DILBCG</td><td>diluente para vacina BCG</td><td>diluente para vacina BCG</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRImunobiologico-80\"> </a></td><td>DILVR</td><td>diluente para vacina raiva</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRImunobiologico-81\"> </a></td><td>DILMenC</td><td>diluente para vacina meningo C</td><td>diluente para vacina meningocócica C (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRImunobiologico-82\"> </a></td><td>Dengue</td><td>vacina dengue (recombinante e atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">83<a name=\"BRImunobiologico-83\"> </a></td><td>HAad</td><td>vacina hepatite A adulto</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"BRImunobiologico-84\"> </a></td><td>VFA-F</td><td>vacina febre amarela fracionada</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"BRImunobiologico-85\"> </a></td><td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td><td>vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"BRImunobiologico-86\"> </a></td><td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td><td>vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"BRImunobiologico-87\"> </a></td><td>COVID-19 PFIZER - COMIRNATY</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"BRImunobiologico-88\"> </a></td><td>COVID-19 JANSSEN - Ad26.COV2.S</td><td>vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"BRImunobiologico-89\"> </a></td><td>COVID-19 ASTRAZENECA - ChAdOx1-S</td><td>vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"BRImunobiologico-90\"> </a></td><td>DILSCRV</td><td>diluente para vacina sarampo, caxumba, rubéola e varicela</td><td>diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"BRImunobiologico-91\"> </a></td><td>DILVR embrião de galinha</td><td>diluente para vacina raiva embrião de galinha</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"BRImunobiologico-92\"> </a></td><td>VR</td><td>vacina raiva</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"BRImunobiologico-93\"> </a></td><td>HPV9</td><td>vacina HPV nonavalente</td><td>vacina papilomavírus humano 9-valente (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"BRImunobiologico-94\"> </a></td><td>NaCl 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>Diluente</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">95<a name=\"BRImunobiologico-95\"> </a></td><td>COVID-19 GAMALEYA - SPUTNIK V</td><td>vacina Covid-19-recombinante, Gamaleya (Sputnik V)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">96<a name=\"BRImunobiologico-96\"> </a></td><td>COVID-19 BHARAT - COVAXIN</td><td>vacina Covid-19-inativada, Bharat (Covaxin)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"BRImunobiologico-97\"> </a></td><td>COVID-19 MODERNA - SPIKEVAX</td><td>vacina Covid-19-RNAm, Moderna (Spikevax)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"BRImunobiologico-98\"> </a></td><td>COVID-19 SINOVAC - CORONAVAC</td><td>vacina Covid-19-inativada, Sinovac (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRImunobiologico-99\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRImunobiologico-100\"> </a></td><td>VVS</td><td>vacina varíola símia (atenuada)</td><td>vacina varíola símia (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRImunobiologico-101\"> </a></td><td>VHZR</td><td>vacina herpes-zóster (recombinante)</td><td>vacina herpes-zóster (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRImunobiologico-102\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRImunobiologico-103\"> </a></td><td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td><td>vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente</td><td>vacina covid-19 bivalente</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRImunobiologico-104\"> </a></td><td>DNG</td><td>vacina dengue (atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (atenuada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">105<a name=\"BRImunobiologico-105\"> </a></td><td>COVID-19-SPIKEVAX BI</td><td>vacina Covid-19-RNAm, Moderna (Spikevax) bivalente</td><td>Vacina covid-19 bivalente (recombinante)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRImunobiologico-106\"> </a></td><td>VPC15</td><td>vacina pneumo 15</td><td>vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"BRImunobiologico-107\"> </a></td><td>VPC20</td><td>vacina pneumo 20</td><td>vacina pneumocócica 20-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">108<a name=\"BRImunobiologico-108\"> </a></td><td>VVSR-Rec</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"BRImunobiologico-109\"> </a></td><td>VVSR-RecAdj</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">110<a name=\"BRImunobiologico-110\"> </a></td><td>INF4-alta dosagem</td><td>vacina influenza tetravalente - alta dosagem</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">111<a name=\"BRImunobiologico-111\"> </a></td><td>dTpa/VIP</td><td>vacina tetra acelular dTpa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"BRImunobiologico-112\"> </a></td><td>COVID-19 SERUM/ZALIKA</td><td>vacina Covid-19-recombinante, Serum/Zalika</td><td>Vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"BRImunobiologico-113\"> </a></td><td>CHIKUNGUNYA</td><td>vacina chikungunya (recombinante e atenuada)</td><td>vacina chikungunya (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"BRImunobiologico-114\"> </a></td><td>COVID-19 SINOPHARM</td><td>vacina Covid-19-inativada, Sinopharm</td><td>vacina covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"BRImunobiologico-115\"> </a></td><td>NIRSEVIMABE 0,5ml</td><td>nirsevimabe 0,5ml</td><td>nirsevimabe 0,5ml</td><td>Anticorpo Monoclonal</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"BRImunobiologico-116\"> </a></td><td>NIRSEVIMABE 1,0ml</td><td>nirsevimabe 1,0ml</td><td>nirsevimabe 1,0ml</td><td>Anticorpo Monoclonal</td><td/></tr></table><p><b>Ecrãs de idiomas adicionais</b></p><table class=\"codes\"><tr><td><b>Código</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>1</td><td/><td/></tr><tr><td>2</td><td/><td/></tr><tr><td>3</td><td/><td/></tr><tr><td>4</td><td/><td/></tr><tr><td>5</td><td/><td/></tr><tr><td>6</td><td/><td/></tr><tr><td>7</td><td/><td/></tr><tr><td>8</td><td/><td/></tr><tr><td>9</td><td/><td/></tr><tr><td>10</td><td/><td/></tr><tr><td>11</td><td/><td/></tr><tr><td>12</td><td/><td/></tr><tr><td>13</td><td/><td/></tr><tr><td>14</td><td/><td/></tr><tr><td>15</td><td/><td/></tr><tr><td>16</td><td/><td/></tr><tr><td>17</td><td/><td/></tr><tr><td>18</td><td/><td/></tr><tr><td>19</td><td/><td/></tr><tr><td>20</td><td/><td/></tr><tr><td>21</td><td/><td/></tr><tr><td>22</td><td/><td/></tr><tr><td>23</td><td/><td/></tr><tr><td>24</td><td/><td/></tr><tr><td>25</td><td/><td/></tr><tr><td>26</td><td/><td/></tr><tr><td>27</td><td/><td/></tr><tr><td>28</td><td/><td/></tr><tr><td>29</td><td/><td/></tr><tr><td>30</td><td/><td/></tr><tr><td>31</td><td/><td/></tr><tr><td>32</td><td/><td/></tr><tr><td>33</td><td>Influenza vaccine trivalent</td><td>Vacuna influenza trivalente</td></tr><tr><td>34</td><td/><td/></tr><tr><td>35</td><td/><td/></tr><tr><td>36</td><td/><td/></tr><tr><td>37</td><td/><td/></tr><tr><td>38</td><td/><td/></tr><tr><td>39</td><td/><td/></tr><tr><td>40</td><td/><td/></tr><tr><td>41</td><td/><td/></tr><tr><td>42</td><td/><td/></tr><tr><td>43</td><td/><td/></tr><tr><td>44</td><td/><td/></tr><tr><td>45</td><td/><td/></tr><tr><td>46</td><td/><td/></tr><tr><td>47</td><td/><td/></tr><tr><td>48</td><td/><td/></tr><tr><td>49</td><td/><td/></tr><tr><td>50</td><td/><td/></tr><tr><td>51</td><td/><td/></tr><tr><td>52</td><td/><td/></tr><tr><td>53</td><td/><td/></tr><tr><td>54</td><td/><td/></tr><tr><td>55</td><td/><td/></tr><tr><td>56</td><td/><td/></tr><tr><td>57</td><td/><td/></tr><tr><td>58</td><td/><td/></tr><tr><td>59</td><td/><td/></tr><tr><td>60</td><td/><td/></tr><tr><td>61</td><td/><td/></tr><tr><td>62</td><td/><td/></tr><tr><td>63</td><td/><td/></tr><tr><td>64</td><td/><td/></tr><tr><td>65</td><td/><td/></tr><tr><td>66</td><td/><td/></tr><tr><td>67</td><td/><td/></tr><tr><td>68</td><td/><td/></tr><tr><td>69</td><td/><td/></tr><tr><td>70</td><td/><td/></tr><tr><td>71</td><td/><td/></tr><tr><td>72</td><td/><td/></tr><tr><td>73</td><td/><td/></tr><tr><td>74</td><td/><td/></tr><tr><td>75</td><td/><td/></tr><tr><td>76</td><td/><td/></tr><tr><td>77</td><td>Influenza vaccine tetravalent</td><td>Vacuna influenza tetravalente</td></tr><tr><td>78</td><td/><td/></tr><tr><td>79</td><td/><td/></tr><tr><td>80</td><td/><td/></tr><tr><td>81</td><td/><td/></tr><tr><td>82</td><td/><td/></tr><tr><td>83</td><td/><td/></tr><tr><td>84</td><td/><td/></tr><tr><td>85</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>86</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>87</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>88</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>89</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>90</td><td/><td/></tr><tr><td>91</td><td/><td/></tr><tr><td>92</td><td/><td/></tr><tr><td>93</td><td/><td/></tr><tr><td>94</td><td/><td/></tr><tr><td>95</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>96</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>97</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>98</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>99</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>100</td><td/><td/></tr><tr><td>101</td><td/><td/></tr><tr><td>102</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>103</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>104</td><td/><td/></tr><tr><td>105</td><td/><td/></tr><tr><td>106</td><td/><td/></tr><tr><td>107</td><td/><td/></tr><tr><td>108</td><td/><td/></tr><tr><td>109</td><td/><td/></tr><tr><td>110</td><td/><td/></tr><tr><td>111</td><td/><td/></tr><tr><td>112</td><td/><td/></tr><tr><td>113</td><td/><td/></tr><tr><td>114</td><td/><td/></tr><tr><td>115</td><td/><td/></tr><tr><td>116</td><td/><td/></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"pt-BR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BRImunobiologico</b></p><a name=\"BRImunobiologico\"> </a><a name=\"hcBRImunobiologico\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td><td><b>Descrição</b></td></tr><tr><td>Name</td><td>Name</td><td/><td>string</td><td>Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.</td></tr><tr><td>Category</td><td>Category</td><td/><td>string</td><td>Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.</td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td><td>Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta.</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Name</b></td><td><b>Category</b></td><td><b>Inactive</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRImunobiologico-1\"> </a></td><td>IGHAT</td><td>imunoglobulina humana antitétano</td><td>Imunoglobulina humana antitétano</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRImunobiologico-2\"> </a></td><td>SAT</td><td>soro antitetânico</td><td>Soro antitetânico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRImunobiologico-3\"> </a></td><td>SAAR</td><td>soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BRImunobiologico-4\"> </a></td><td>SAESC</td><td>soro antiescorpiônico</td><td>Soro antiescorpiônico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BRImunobiologico-5\"> </a></td><td>DT</td><td>vacina difteria e tétano infantil</td><td>Vacina adsorvida difteria e tétano infantil</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BRImunobiologico-6\"> </a></td><td>SAELA</td><td>soro antielapídico</td><td>soro antielapídico (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BRImunobiologico-7\"> </a></td><td>SAR</td><td>soro antirrábico</td><td>soro antirrábico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BRImunobiologico-8\"> </a></td><td>SABR</td><td>soro antibotrópico</td><td>soro antibotrópico (pentavalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BRImunobiologico-9\"> </a></td><td>HB</td><td>vacina hepatite B</td><td>vacina hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BRImunobiologico-10\"> </a></td><td>SAD</td><td>soro antidiftérico</td><td>soro antidiftérico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BRImunobiologico-11\"> </a></td><td>SABC</td><td>soro antibotrópico e anticrotálico</td><td>soro antibotrópico (pentavalente) e anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BRImunobiologico-12\"> </a></td><td>SABL</td><td>soro antibotrópico e antilaquético</td><td>soro antibotrópico (pentavalente) e antilaquético</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BRImunobiologico-13\"> </a></td><td>MenAC</td><td>vacina meningo AC</td><td>vacina meningocócica AC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BRImunobiologico-14\"> </a></td><td>VFA</td><td>vacina febre amarela</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BRImunobiologico-15\"> </a></td><td>BCG</td><td>vacina BCG</td><td>vacina BCG</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"BRImunobiologico-16\"> </a></td><td>SAC</td><td>soro anticrotálico</td><td>soro anticrotálico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">17<a name=\"BRImunobiologico-17\"> </a></td><td>Hib</td><td>vacina Hib</td><td>vacina Haemophilus influenza B (conjugada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">18<a name=\"BRImunobiologico-18\"> </a></td><td>VR embrião de galinha</td><td>vacina raiva embrião de galinha</td><td>vacina raiva (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"BRImunobiologico-19\"> </a></td><td>IGHAVZ</td><td>imunoglobulina humana antivaricela</td><td>imunoglobulina humana antivaricela</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">20<a name=\"BRImunobiologico-20\"> </a></td><td>IGHAHB</td><td>imunoglobulina humana anti-hepatite B</td><td>imunoglobulina humana anti-hepatite B</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">21<a name=\"BRImunobiologico-21\"> </a></td><td>VPP23</td><td>vacina pneumo 23</td><td>vacina pneumocócica 23-valente (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"BRImunobiologico-22\"> </a></td><td>VIP</td><td>vacina inativada poliomielite</td><td>vacina poliomelite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"BRImunobiologico-23\"> </a></td><td>IGHAR</td><td>imunoglobulina humana antirrábica</td><td>imunoglobulina humana antirrábica</td><td>Imunoglobulina</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"BRImunobiologico-24\"> </a></td><td>SCR</td><td>vacina tríplice viral</td><td>vacina sarampo, caxumba, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"BRImunobiologico-25\"> </a></td><td>dT</td><td>vacina difteria e tétano adulto</td><td>vacina adsorvida difteria e tétano adulto</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"BRImunobiologico-26\"> </a></td><td>VPC10</td><td>vacina pneumo 10</td><td>vacina pneumocócica 10-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"BRImunobiologico-27\"> </a></td><td>SALATRO</td><td>soro antilatrodéctico</td><td>soro antilatrodéctico (Latrodectus curacaviensis)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">28<a name=\"BRImunobiologico-28\"> </a></td><td>VOPb</td><td>vacina oral poliomielite bivalente</td><td>vacina poliomielite 1 e 3 (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"BRImunobiologico-29\"> </a></td><td>Penta acelular</td><td>vacina penta acelular (DTPa/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"BRImunobiologico-30\"> </a></td><td>FTp</td><td>vacina febre tifóide</td><td>vacina febre tifóide (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">31<a name=\"BRImunobiologico-31\"> </a></td><td>SALOX</td><td>soro antiloxoscélico</td><td>soro antiloxoscélico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"BRImunobiologico-32\"> </a></td><td>SALON</td><td>soro antilonômico</td><td>soro antilonômico</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"BRImunobiologico-33\"> </a></td><td>INF3</td><td>vacina influenza trivalente</td><td>vacina influenza trivalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"BRImunobiologico-34\"> </a></td><td>VZ</td><td>vacina varicela</td><td>vacina varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"BRImunobiologico-35\"> </a></td><td>HA virossomal</td><td>vacina hepatite A (virossomal)</td><td>vacina adsorvida hepatite A (virossomal)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">36<a name=\"BRImunobiologico-36\"> </a></td><td>SR</td><td>vacina dupla viral</td><td>vacina sarampo, rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"BRImunobiologico-37\"> </a></td><td>VR</td><td>vacina raiva (inativada)</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"BRImunobiologico-38\"> </a></td><td>SBOTULTRI</td><td>soro antibotulínico (trivalente)</td><td>soro antibotulínico (trivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">39<a name=\"BRImunobiologico-39\"> </a></td><td>Tetra</td><td>vacina DTP/Hib</td><td>vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">40<a name=\"BRImunobiologico-40\"> </a></td><td>VPC7</td><td>vacina pneumo 7</td><td>vacina pneumocócica 7-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"BRImunobiologico-41\"> </a></td><td>MenC</td><td>vacina meningo C</td><td>vacina meningocócica C (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"BRImunobiologico-42\"> </a></td><td>Penta</td><td>vacina penta (DTP/HB/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"BRImunobiologico-43\"> </a></td><td>Hexa acelular</td><td>vacina hexa acelular (DTPa/HB/VIP/Hib)</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"BRImunobiologico-44\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"BRImunobiologico-45\"> </a></td><td>ROTA</td><td>vacina rotavírus</td><td>vacina rotavírus humano G1P[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"BRImunobiologico-46\"> </a></td><td>DTP</td><td>vacina DTP</td><td>vacina adsorvida difteria, tétano e pertussis</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"BRImunobiologico-47\"> </a></td><td>DTPa</td><td>vacina DTPa infantil</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"BRImunobiologico-48\"> </a></td><td>DILSCR</td><td>diluente para vacina tríplice viral</td><td>diluente para vacina sarampo, caxumba, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"BRImunobiologico-49\"> </a></td><td>DILVFA</td><td>diluente para vacina febre amarela</td><td>diluente para vacina febre amarela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"BRImunobiologico-50\"> </a></td><td>DILHib</td><td>diluente para vacina Hib</td><td>diluente para vacina Haemophilus influenzae B (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"BRImunobiologico-51\"> </a></td><td>Fta</td><td>vacina febre tifóide (atenuada)</td><td>vacina febre tifóide (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"BRImunobiologico-52\"> </a></td><td>DILMenAC</td><td>diluente para vacina meningo AC</td><td>diluente para vacina meningocócica AC (polissacarídica)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"BRImunobiologico-53\"> </a></td><td>DILSR</td><td>diluente para vacina dupla viral</td><td>diluente para vacina sarampo, rubéola (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"BRImunobiologico-54\"> </a></td><td>DILVAR</td><td>diluente para vacina varicela</td><td>diluente para vacina varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"BRImunobiologico-55\"> </a></td><td>HAinf</td><td>vacina hepatite A infantil</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"BRImunobiologico-56\"> </a></td><td>SCRV</td><td>vacina tetraviral</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">57<a name=\"BRImunobiologico-57\"> </a></td><td>dTpa</td><td>vacina dTpa adulto</td><td>vacina adsorvida difteria, tétano e pertussis (acelular)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">58<a name=\"BRImunobiologico-58\"> </a></td><td>DTPa/VIP</td><td>vacina tetra acelular DTPa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"BRImunobiologico-59\"> </a></td><td>VPC13</td><td>vacina pneumo 13</td><td>vacina pneumocócica 13-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"BRImunobiologico-60\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"BRImunobiologico-61\"> </a></td><td>Tétano</td><td>vacina tétano</td><td>vacina tétano (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"BRImunobiologico-62\"> </a></td><td>HA-HBinf</td><td>vacina hepatite A e B infantil</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">63<a name=\"BRImunobiologico-63\"> </a></td><td>HA-HBad</td><td>vacina hepatite A e B adulto</td><td>vacina adsorvida hepatite A e hepatite B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">64<a name=\"BRImunobiologico-64\"> </a></td><td>INF3-ID</td><td>vacina influenza trivalente ID</td><td>vacina influenza trivalente (fragmentada, inativada) intradérmica</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"BRImunobiologico-65\"> </a></td><td>ROTA5</td><td>vacina rotavírus pentavalente</td><td>vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"BRImunobiologico-66\"> </a></td><td>MenBC</td><td>vacina meningo BC</td><td>vacina meningocócica BC (polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">67<a name=\"BRImunobiologico-67\"> </a></td><td>HPV4</td><td>vacina HPV quadrivalente</td><td>vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"BRImunobiologico-68\"> </a></td><td>HPV2</td><td>vacina HPV bivalente</td><td>vacina papilomavírus humano 16 e 18 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">69<a name=\"BRImunobiologico-69\"> </a></td><td>SAB</td><td>soro antibotulínico AB (bivalente)</td><td>soro antibotulínico AB (bivalente)</td><td>Soro</td><td/></tr><tr><td style=\"white-space:nowrap\">70<a name=\"BRImunobiologico-70\"> </a></td><td>Sarampo</td><td>vacina sarampo</td><td>vacina sarampo (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">71<a name=\"BRImunobiologico-71\"> </a></td><td>Rubéola</td><td>vacina rubéola</td><td>vacina rubéola (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">72<a name=\"BRImunobiologico-72\"> </a></td><td>INFH1N1-2009</td><td>vacina influenza A (H1N1) (inativada, fragmentada)</td><td>vacina influenza tipo A (H1N1) (inativada, fragmentada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">73<a name=\"BRImunobiologico-73\"> </a></td><td>SCRV</td><td>vacina sarampo, caxumba, rubéola e varicela</td><td>vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">74<a name=\"BRImunobiologico-74\"> </a></td><td>MenACWY</td><td>vacina meningo ACWY</td><td>vacina meningocócica ACWY (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">75<a name=\"BRImunobiologico-75\"> </a></td><td>VCO</td><td>vacina cólera oral</td><td>vacina cólera (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">76<a name=\"BRImunobiologico-76\"> </a></td><td>VHZ</td><td>vacina herpes-zóster (atenuada)</td><td>vacina herpes-zóster (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">77<a name=\"BRImunobiologico-77\"> </a></td><td>INF4</td><td>vacina influenza tetravalente</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">78<a name=\"BRImunobiologico-78\"> </a></td><td>MenB</td><td>vacina meningo B</td><td>vacina adsorvida meningocócica B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"BRImunobiologico-79\"> </a></td><td>DILBCG</td><td>diluente para vacina BCG</td><td>diluente para vacina BCG</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">80<a name=\"BRImunobiologico-80\"> </a></td><td>DILVR</td><td>diluente para vacina raiva (inativada)</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"BRImunobiologico-81\"> </a></td><td>DILMenC</td><td>diluente para vacina meningo C</td><td>diluente para vacina meningocócica C (conjugada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">82<a name=\"BRImunobiologico-82\"> </a></td><td>Dengue</td><td>vacina dengue (recombinante e atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">83<a name=\"BRImunobiologico-83\"> </a></td><td>HAad</td><td>vacina hepatite A adulto</td><td>vacina adsorvida hepatite A (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"BRImunobiologico-84\"> </a></td><td>VFA-F</td><td>vacina febre amarela fracionada</td><td>vacina febre amarela (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"BRImunobiologico-85\"> </a></td><td>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</td><td>vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"BRImunobiologico-86\"> </a></td><td>COVID-19 SINOVAC/BUTANTAN - CORONAVAC</td><td>vacina covid-19-inativada, Sinovac/Butantan (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"BRImunobiologico-87\"> </a></td><td>COVID-19 PFIZER - COMIRNATY</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"BRImunobiologico-88\"> </a></td><td>COVID-19 JANSSEN - Ad26.COV2.S</td><td>vacina covid-19-recombinante, Janssen (Ad26.COV2.S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">89<a name=\"BRImunobiologico-89\"> </a></td><td>COVID-19 ASTRAZENECA - ChAdOx1-S</td><td>vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">90<a name=\"BRImunobiologico-90\"> </a></td><td>DILSCRV</td><td>diluente para vacina tetraviral</td><td>diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"BRImunobiologico-91\"> </a></td><td>DILVR embrião de galinha</td><td>diluente para vacina raiva embrião de galinha</td><td>diluente para vacina raiva (inativada)</td><td>Diluente</td><td/></tr><tr><td style=\"white-space:nowrap\">92<a name=\"BRImunobiologico-92\"> </a></td><td>VR</td><td>vacina raiva</td><td>vacina raiva (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"BRImunobiologico-93\"> </a></td><td>HPV9</td><td>vacina HPV nonavalente</td><td>vacina papilomavírus humano 9-valente (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"BRImunobiologico-94\"> </a></td><td>NaCl 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>cloreto de sódio, solução injetável - 0,9%</td><td>Diluente</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">95<a name=\"BRImunobiologico-95\"> </a></td><td>COVID-19 GAMALEYA - SPUTNIK V</td><td>vacina covid-19-recombinante, Gamaleya (Sputnik V)</td><td>vacina covid-19 (recombinante)</td><td>Vacina</td><td>true</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">96<a name=\"BRImunobiologico-96\"> </a></td><td>COVID-19 BHARAT - COVAXIN</td><td>vacina covid-19-inativada, Bharat (Covaxin)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">97<a name=\"BRImunobiologico-97\"> </a></td><td>COVID-19 MODERNA - SPIKEVAX</td><td>vacina covid-19-RNAm, Moderna (Spikevax)</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"BRImunobiologico-98\"> </a></td><td>COVID-19 SINOVAC - CORONAVAC</td><td>vacina covid-19-inativada, Sinovac (Coronavac)</td><td>vacina adsorvida covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"BRImunobiologico-99\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"BRImunobiologico-100\"> </a></td><td>VVS</td><td>vacina varíola símia (atenuada)</td><td>vacina varíola símia (atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">101<a name=\"BRImunobiologico-101\"> </a></td><td>VHZR</td><td>vacina herpes-zóster (recombinante)</td><td>vacina herpes-zóster (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">102<a name=\"BRImunobiologico-102\"> </a></td><td>COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos</td><td>vacina covid-19</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">103<a name=\"BRImunobiologico-103\"> </a></td><td>COVID-19 PFIZER - COMIRNATY BIVALENTE</td><td>vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente</td><td>vacina covid-19 bivalente</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">104<a name=\"BRImunobiologico-104\"> </a></td><td>DNG</td><td>vacina dengue (atenuada)</td><td>vacina dengue 1, 2, 3 e 4 (atenuada)</td><td>Vacina</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">105<a name=\"BRImunobiologico-105\"> </a></td><td>COVID-19-SPIKEVAX BI</td><td>vacina covid-19-RNAm, Moderna (Spikevax) bivalente</td><td>Vacina covid-19 bivalente (recombinante)</td><td>Vacina</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"BRImunobiologico-106\"> </a></td><td>VPC15</td><td>vacina pneumo 15</td><td>vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"BRImunobiologico-107\"> </a></td><td>VPC20</td><td>vacina pneumo 20</td><td>vacina pneumocócica 20-valente (conjugada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">108<a name=\"BRImunobiologico-108\"> </a></td><td>VVSR-Rec</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>vacina vírus sincicial respiratório A e B (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"BRImunobiologico-109\"> </a></td><td>VVSR-RecAdj</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>vacina vírus sincicial respiratório (recombinante, adjuvada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">110<a name=\"BRImunobiologico-110\"> </a></td><td>INF4-alta dosagem</td><td>vacina influenza tetravalente - alta dosagem</td><td>vacina influenza tetravalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">111<a name=\"BRImunobiologico-111\"> </a></td><td>dTpa/VIP</td><td>vacina tetra acelular dTpa/VIP</td><td>vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"BRImunobiologico-112\"> </a></td><td>COVID-19 SERUM/ZALIKA</td><td>vacina covid-19-recombinante, Serum/Zalika</td><td>Vacina covid-19 (recombinante)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"BRImunobiologico-113\"> </a></td><td>CHIKUNGUNYA</td><td>vacina chikungunya (recombinante e atenuada)</td><td>vacina chikungunya (recombinante e atenuada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"BRImunobiologico-114\"> </a></td><td>COVID-19 SINOPHARM</td><td>vacina covid-19-inativada, Sinopharm</td><td>vacina covid-19 (inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"BRImunobiologico-115\"> </a></td><td>NIRSEVIMABE 0,5ml</td><td>nirsevimabe 0,5ml</td><td>nirsevimabe 0,5ml</td><td>Anticorpo Monoclonal</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"BRImunobiologico-116\"> </a></td><td>NIRSEVIMABE 1,0ml</td><td>nirsevimabe 1,0ml</td><td>nirsevimabe 1,0ml</td><td>Anticorpo Monoclonal</td><td/></tr><tr><td style=\"white-space:nowrap\">117<a name=\"BRImunobiologico-117\"> </a></td><td>INF3-alta dosagem</td><td>vacina influenza trivalente - alta dosagem</td><td>vacina influenza trivalente (fragmentada, inativada)</td><td>Vacina</td><td/></tr><tr><td style=\"white-space:nowrap\">118<a name=\"BRImunobiologico-118\"> </a></td><td>DILMenACWY</td><td>diluente para vacina meningo ACWY</td><td>diluente para vacina meningocócica ACWY (conjugada)</td><td>Diluente</td><td/></tr></table><p><b>Ecrãs de idiomas adicionais</b></p><table class=\"codes\"><tr><td><b>Código</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>1</td><td/><td/></tr><tr><td>2</td><td/><td/></tr><tr><td>3</td><td/><td/></tr><tr><td>4</td><td/><td/></tr><tr><td>5</td><td/><td/></tr><tr><td>6</td><td/><td/></tr><tr><td>7</td><td/><td/></tr><tr><td>8</td><td/><td/></tr><tr><td>9</td><td/><td/></tr><tr><td>10</td><td/><td/></tr><tr><td>11</td><td/><td/></tr><tr><td>12</td><td/><td/></tr><tr><td>13</td><td/><td/></tr><tr><td>14</td><td/><td/></tr><tr><td>15</td><td/><td/></tr><tr><td>16</td><td/><td/></tr><tr><td>17</td><td/><td/></tr><tr><td>18</td><td/><td/></tr><tr><td>19</td><td/><td/></tr><tr><td>20</td><td/><td/></tr><tr><td>21</td><td/><td/></tr><tr><td>22</td><td/><td/></tr><tr><td>23</td><td/><td/></tr><tr><td>24</td><td/><td/></tr><tr><td>25</td><td/><td/></tr><tr><td>26</td><td/><td/></tr><tr><td>27</td><td/><td/></tr><tr><td>28</td><td/><td/></tr><tr><td>29</td><td/><td/></tr><tr><td>30</td><td/><td/></tr><tr><td>31</td><td/><td/></tr><tr><td>32</td><td/><td/></tr><tr><td>33</td><td>Influenza vaccine trivalent</td><td>Vacuna influenza trivalente</td></tr><tr><td>34</td><td/><td/></tr><tr><td>35</td><td/><td/></tr><tr><td>36</td><td/><td/></tr><tr><td>37</td><td/><td/></tr><tr><td>38</td><td/><td/></tr><tr><td>39</td><td/><td/></tr><tr><td>40</td><td/><td/></tr><tr><td>41</td><td/><td/></tr><tr><td>42</td><td/><td/></tr><tr><td>43</td><td/><td/></tr><tr><td>44</td><td/><td/></tr><tr><td>45</td><td/><td/></tr><tr><td>46</td><td/><td/></tr><tr><td>47</td><td/><td/></tr><tr><td>48</td><td/><td/></tr><tr><td>49</td><td/><td/></tr><tr><td>50</td><td/><td/></tr><tr><td>51</td><td/><td/></tr><tr><td>52</td><td/><td/></tr><tr><td>53</td><td/><td/></tr><tr><td>54</td><td/><td/></tr><tr><td>55</td><td/><td/></tr><tr><td>56</td><td/><td/></tr><tr><td>57</td><td/><td/></tr><tr><td>58</td><td/><td/></tr><tr><td>59</td><td/><td/></tr><tr><td>60</td><td/><td/></tr><tr><td>61</td><td/><td/></tr><tr><td>62</td><td/><td/></tr><tr><td>63</td><td/><td/></tr><tr><td>64</td><td/><td/></tr><tr><td>65</td><td/><td/></tr><tr><td>66</td><td/><td/></tr><tr><td>67</td><td/><td/></tr><tr><td>68</td><td/><td/></tr><tr><td>69</td><td/><td/></tr><tr><td>70</td><td/><td/></tr><tr><td>71</td><td/><td/></tr><tr><td>72</td><td/><td/></tr><tr><td>73</td><td/><td/></tr><tr><td>74</td><td/><td/></tr><tr><td>75</td><td/><td/></tr><tr><td>76</td><td/><td/></tr><tr><td>77</td><td>Influenza vaccine tetravalent</td><td>Vacuna influenza tetravalente</td></tr><tr><td>78</td><td/><td/></tr><tr><td>79</td><td/><td/></tr><tr><td>80</td><td/><td/></tr><tr><td>81</td><td/><td/></tr><tr><td>82</td><td/><td/></tr><tr><td>83</td><td/><td/></tr><tr><td>84</td><td/><td/></tr><tr><td>85</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>86</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>87</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>88</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>89</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>90</td><td/><td/></tr><tr><td>91</td><td/><td/></tr><tr><td>92</td><td/><td/></tr><tr><td>93</td><td/><td/></tr><tr><td>94</td><td/><td/></tr><tr><td>95</td><td>XM9QW8 COVID-19 vaccine, non-replicating viral vector</td><td>XM9QW8 Vacuna COVID-19, vector viral no replicante</td></tr><tr><td>96</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>97</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>98</td><td>XM1NL1 COVID-19 vaccine, inactivated virus</td><td>XM1NL1 Vacuna COVID-19, virus inactivado</td></tr><tr><td>99</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>100</td><td/><td/></tr><tr><td>101</td><td/><td/></tr><tr><td>102</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>103</td><td>XM0GQ8 COVID-19 vaccine, RNA based</td><td>XM0GQ8 Vacuna COVID-19, basada en ARN</td></tr><tr><td>104</td><td/><td/></tr><tr><td>105</td><td/><td/></tr><tr><td>106</td><td/><td/></tr><tr><td>107</td><td/><td/></tr><tr><td>108</td><td/><td/></tr><tr><td>109</td><td/><td/></tr><tr><td>110</td><td/><td/></tr><tr><td>111</td><td/><td/></tr><tr><td>112</td><td/><td/></tr><tr><td>113</td><td/><td/></tr><tr><td>114</td><td/><td/></tr><tr><td>115</td><td/><td/></tr><tr><td>116</td><td/><td/></tr><tr><td>117</td><td/><td/></tr><tr><td>118</td><td/><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "ehr"
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Integer ;
+       a fhir:integer ;
        fhir:v 1 ;
        fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
-         ] ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           a fhir:Canonical ;
+           a fhir:canonical ;
            fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
-           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
        ] )
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "normative" ;
        fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
-         ] ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           a fhir:Canonical ;
+           a fhir:canonical ;
            fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
-           fhir:l <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
        ] )
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "4.0.1"
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"^^xsd:anyURI ;
-     fhir:l <http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico>
-  ] ; # 
+  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0-release"] ; # 
   fhir:name [ fhir:v "BRImunobiologico"] ; # 
   fhir:title [ fhir:v "Imunobiológico (CodeSystem)"] ; # 
@@ -97,29 +76,23 @@
   fhir:description [ fhir:v "Classifica os tipos de imunobiológicos."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "BR" ]
      ] )
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
-     fhir:code [ fhir:v "Nome" ] ;
+     fhir:code [ fhir:v "Name" ] ;
      fhir:description [ fhir:v "Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes." ] ;
      fhir:type [ fhir:v "string" ]
   ] [
-     fhir:code [ fhir:v "Categoria" ] ;
+     fhir:code [ fhir:v "Category" ] ;
      fhir:description [ fhir:v "Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina." ] ;
      fhir:type [ fhir:v "string" ]
   ] [
      fhir:code [ fhir:v "inactive" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#inactive"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#inactive>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#inactive"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta." ] ;
      fhir:type [ fhir:v "boolean" ]
   ] ) ; # 
@@ -128,15 +101,15 @@
      fhir:display [ fhir:v "IGHAT" ] ;
      fhir:definition [ fhir:v "imunoglobulina humana antitétano" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Imunoglobulina humana antitétano"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Imunoglobulina"
        ]
      ] )
@@ -145,15 +118,15 @@
      fhir:display [ fhir:v "SAT" ] ;
      fhir:definition [ fhir:v "soro antitetânico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro antitetânico"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -162,15 +135,15 @@
      fhir:display [ fhir:v "SAAR" ] ;
      fhir:definition [ fhir:v "soro antiaracnídico (Loxosceles, Phoneutria, Tityus)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -179,15 +152,15 @@
      fhir:display [ fhir:v "SAESC" ] ;
      fhir:definition [ fhir:v "soro antiescorpiônico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro antiescorpiônico"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -196,15 +169,15 @@
      fhir:display [ fhir:v "DT" ] ;
      fhir:definition [ fhir:v "vacina difteria e tétano infantil" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina adsorvida difteria e tétano infantil"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -213,15 +186,15 @@
      fhir:display [ fhir:v "SAELA" ] ;
      fhir:definition [ fhir:v "soro antielapídico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antielapídico (bivalente)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -230,15 +203,15 @@
      fhir:display [ fhir:v "SAR" ] ;
      fhir:definition [ fhir:v "soro antirrábico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antirrábico"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -247,15 +220,15 @@
      fhir:display [ fhir:v "SABR" ] ;
      fhir:definition [ fhir:v "soro antibotrópico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antibotrópico (pentavalente)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -264,15 +237,15 @@
      fhir:display [ fhir:v "HB" ] ;
      fhir:definition [ fhir:v "vacina hepatite B" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina hepatite B (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -281,15 +254,15 @@
      fhir:display [ fhir:v "SAD" ] ;
      fhir:definition [ fhir:v "soro antidiftérico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antidiftérico"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -298,15 +271,15 @@
      fhir:display [ fhir:v "SABC" ] ;
      fhir:definition [ fhir:v "soro antibotrópico e anticrotálico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antibotrópico (pentavalente) e anticrotálico"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -315,15 +288,15 @@
      fhir:display [ fhir:v "SABL" ] ;
      fhir:definition [ fhir:v "soro antibotrópico e antilaquético" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antibotrópico (pentavalente) e antilaquético"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -332,15 +305,15 @@
      fhir:display [ fhir:v "MenAC" ] ;
      fhir:definition [ fhir:v "vacina meningo AC" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina meningocócica AC (polissacarídica)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -349,15 +322,15 @@
      fhir:display [ fhir:v "VFA" ] ;
      fhir:definition [ fhir:v "vacina febre amarela" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina febre amarela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -366,15 +339,15 @@
      fhir:display [ fhir:v "BCG" ] ;
      fhir:definition [ fhir:v "vacina BCG" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina BCG"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -383,15 +356,15 @@
      fhir:display [ fhir:v "SAC" ] ;
      fhir:definition [ fhir:v "soro anticrotálico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro anticrotálico"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -400,15 +373,15 @@
      fhir:display [ fhir:v "Hib" ] ;
      fhir:definition [ fhir:v "vacina Hib" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina Haemophilus influenza B (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -419,19 +392,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
        ]
      ] [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina raiva (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -440,15 +413,15 @@
      fhir:display [ fhir:v "IGHAVZ" ] ;
      fhir:definition [ fhir:v "imunoglobulina humana antivaricela" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "imunoglobulina humana antivaricela"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Imunoglobulina"
        ]
      ] )
@@ -457,15 +430,15 @@
      fhir:display [ fhir:v "IGHAHB" ] ;
      fhir:definition [ fhir:v "imunoglobulina humana anti-hepatite B" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "imunoglobulina humana anti-hepatite B"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Imunoglobulina"
        ]
      ] )
@@ -474,15 +447,15 @@
      fhir:display [ fhir:v "VPP23" ] ;
      fhir:definition [ fhir:v "vacina pneumo 23" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina pneumocócica 23-valente (polissacarídica)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -491,15 +464,15 @@
      fhir:display [ fhir:v "VIP" ] ;
      fhir:definition [ fhir:v "vacina inativada poliomielite" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina poliomelite 1, 2 e 3 (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -508,15 +481,15 @@
      fhir:display [ fhir:v "IGHAR" ] ;
      fhir:definition [ fhir:v "imunoglobulina humana antirrábica" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "imunoglobulina humana antirrábica"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Imunoglobulina"
        ]
      ] )
@@ -525,15 +498,15 @@
      fhir:display [ fhir:v "SCR" ] ;
      fhir:definition [ fhir:v "vacina tríplice viral" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina sarampo, caxumba, rubéola (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -542,15 +515,15 @@
      fhir:display [ fhir:v "dT" ] ;
      fhir:definition [ fhir:v "vacina difteria e tétano adulto" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria e tétano adulto"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -559,15 +532,15 @@
      fhir:display [ fhir:v "VPC10" ] ;
      fhir:definition [ fhir:v "vacina pneumo 10" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina pneumocócica 10-valente (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -576,15 +549,15 @@
      fhir:display [ fhir:v "SALATRO" ] ;
      fhir:definition [ fhir:v "soro antilatrodéctico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antilatrodéctico (Latrodectus curacaviensis)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -593,15 +566,15 @@
      fhir:display [ fhir:v "VOPb" ] ;
      fhir:definition [ fhir:v "vacina oral poliomielite bivalente" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina poliomielite 1 e 3 (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -610,15 +583,15 @@
      fhir:display [ fhir:v "Penta acelular" ] ;
      fhir:definition [ fhir:v "vacina penta acelular (DTPa/VIP/Hib)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -627,15 +600,15 @@
      fhir:display [ fhir:v "FTp" ] ;
      fhir:definition [ fhir:v "vacina febre tifóide" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina febre tifóide (polissacarídica)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -644,15 +617,15 @@
      fhir:display [ fhir:v "SALOX" ] ;
      fhir:definition [ fhir:v "soro antiloxoscélico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antiloxoscélico (trivalente)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -661,15 +634,15 @@
      fhir:display [ fhir:v "SALON" ] ;
      fhir:definition [ fhir:v "soro antilonômico" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antilonômico"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -685,15 +658,15 @@
        fhir:value [ fhir:v "Vacuna influenza trivalente" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina influenza trivalente (fragmentada, inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -702,15 +675,15 @@
      fhir:display [ fhir:v "VZ" ] ;
      fhir:definition [ fhir:v "vacina varicela" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina varicela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -719,15 +692,15 @@
      fhir:display [ fhir:v "HA virossomal" ] ;
      fhir:definition [ fhir:v "vacina hepatite A (virossomal)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida hepatite A (virossomal)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -736,32 +709,32 @@
      fhir:display [ fhir:v "SR" ] ;
      fhir:definition [ fhir:v "vacina dupla viral" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina sarampo, rubéola (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "37" ] ;
      fhir:display [ fhir:v "VR" ] ;
-     fhir:definition [ fhir:v "vacina raiva" ] ;
+     fhir:definition [ fhir:v "vacina raiva (inativada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina raiva (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -770,15 +743,15 @@
      fhir:display [ fhir:v "SBOTULTRI" ] ;
      fhir:definition [ fhir:v "soro antibotulínico (trivalente)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antibotulínico (trivalente)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -787,15 +760,15 @@
      fhir:display [ fhir:v "Tetra" ] ;
      fhir:definition [ fhir:v "vacina DTP/Hib" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -804,15 +777,15 @@
      fhir:display [ fhir:v "VPC7" ] ;
      fhir:definition [ fhir:v "vacina pneumo 7" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina pneumocócica 7-valente (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -821,15 +794,15 @@
      fhir:display [ fhir:v "MenC" ] ;
      fhir:definition [ fhir:v "vacina meningo C" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina meningocócica C (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -838,15 +811,15 @@
      fhir:display [ fhir:v "Penta" ] ;
      fhir:definition [ fhir:v "vacina penta (DTP/HB/Hib)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -855,15 +828,15 @@
      fhir:display [ fhir:v "Hexa acelular" ] ;
      fhir:definition [ fhir:v "vacina hexa acelular (DTPa/HB/VIP/Hib)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -872,15 +845,15 @@
      fhir:display [ fhir:v "INFH1N1-2009" ] ;
      fhir:definition [ fhir:v "vacina influenza A (H1N1) (inativada, fragmentada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -889,15 +862,15 @@
      fhir:display [ fhir:v "ROTA" ] ;
      fhir:definition [ fhir:v "vacina rotavírus" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina rotavírus humano G1P[8] (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -906,15 +879,15 @@
      fhir:display [ fhir:v "DTP" ] ;
      fhir:definition [ fhir:v "vacina DTP" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano e pertussis"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -923,32 +896,32 @@
      fhir:display [ fhir:v "DTPa" ] ;
      fhir:definition [ fhir:v "vacina DTPa infantil" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano e pertussis (acelular)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "48" ] ;
      fhir:display [ fhir:v "DILSCR" ] ;
-     fhir:definition [ fhir:v "diluente para vacina sarampo, caxumba, rubéola" ] ;
+     fhir:definition [ fhir:v "diluente para vacina tríplice viral" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina sarampo, caxumba, rubéola (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -957,32 +930,32 @@
      fhir:display [ fhir:v "DILVFA" ] ;
      fhir:definition [ fhir:v "diluente para vacina febre amarela" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina febre amarela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "50" ] ;
      fhir:display [ fhir:v "DILHib" ] ;
-     fhir:definition [ fhir:v "diluente para vacina Haemophilus influenzae B" ] ;
+     fhir:definition [ fhir:v "diluente para vacina Hib" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina Haemophilus influenzae B (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -991,15 +964,15 @@
      fhir:display [ fhir:v "Fta" ] ;
      fhir:definition [ fhir:v "vacina febre tifóide (atenuada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina febre tifóide (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1008,32 +981,32 @@
      fhir:display [ fhir:v "DILMenAC" ] ;
      fhir:definition [ fhir:v "diluente para vacina meningo AC" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina meningocócica AC (polissacarídica)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "53" ] ;
      fhir:display [ fhir:v "DILSR" ] ;
-     fhir:definition [ fhir:v "diluente para vacina sarampo, rubéola" ] ;
+     fhir:definition [ fhir:v "diluente para vacina dupla viral" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina sarampo, rubéola (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -1042,15 +1015,15 @@
      fhir:display [ fhir:v "DILVAR" ] ;
      fhir:definition [ fhir:v "diluente para vacina varicela" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina varicela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -1059,15 +1032,15 @@
      fhir:display [ fhir:v "HAinf" ] ;
      fhir:definition [ fhir:v "vacina hepatite A infantil" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida hepatite A (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1076,15 +1049,15 @@
      fhir:display [ fhir:v "SCRV" ] ;
      fhir:definition [ fhir:v "vacina tetraviral" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1093,15 +1066,15 @@
      fhir:display [ fhir:v "dTpa" ] ;
      fhir:definition [ fhir:v "vacina dTpa adulto" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano e pertussis (acelular)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1110,15 +1083,15 @@
      fhir:display [ fhir:v "DTPa/VIP" ] ;
      fhir:definition [ fhir:v "vacina tetra acelular DTPa/VIP" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1127,15 +1100,15 @@
      fhir:display [ fhir:v "VPC13" ] ;
      fhir:definition [ fhir:v "vacina pneumo 13" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina pneumocócica 13-valente (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1144,15 +1117,15 @@
      fhir:display [ fhir:v "HPV2" ] ;
      fhir:definition [ fhir:v "vacina HPV bivalente" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina papilomavírus humano 16 e 18 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1161,15 +1134,15 @@
      fhir:display [ fhir:v "Tétano" ] ;
      fhir:definition [ fhir:v "vacina tétano" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina tétano (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1178,15 +1151,15 @@
      fhir:display [ fhir:v "HA-HBinf" ] ;
      fhir:definition [ fhir:v "vacina hepatite A e B infantil" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida hepatite A e hepatite B (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1195,15 +1168,15 @@
      fhir:display [ fhir:v "HA-HBad" ] ;
      fhir:definition [ fhir:v "vacina hepatite A e B adulto" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida hepatite A e hepatite B (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1212,15 +1185,15 @@
      fhir:display [ fhir:v "INF3-ID" ] ;
      fhir:definition [ fhir:v "vacina influenza trivalente ID" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina influenza trivalente (fragmentada, inativada) intradérmica"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1229,15 +1202,15 @@
      fhir:display [ fhir:v "ROTA5" ] ;
      fhir:definition [ fhir:v "vacina rotavírus pentavalente" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1246,15 +1219,15 @@
      fhir:display [ fhir:v "MenBC" ] ;
      fhir:definition [ fhir:v "vacina meningo BC" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina meningocócica BC (polissacarídica)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1263,15 +1236,15 @@
      fhir:display [ fhir:v "HPV4" ] ;
      fhir:definition [ fhir:v "vacina HPV quadrivalente" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1280,15 +1253,15 @@
      fhir:display [ fhir:v "HPV2" ] ;
      fhir:definition [ fhir:v "vacina HPV bivalente" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina papilomavírus humano 16 e 18 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1297,15 +1270,15 @@
      fhir:display [ fhir:v "SAB" ] ;
      fhir:definition [ fhir:v "soro antibotulínico AB (bivalente)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "soro antibotulínico AB (bivalente)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Soro"
        ]
      ] )
@@ -1314,15 +1287,15 @@
      fhir:display [ fhir:v "Sarampo" ] ;
      fhir:definition [ fhir:v "vacina sarampo" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina sarampo (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1331,15 +1304,15 @@
      fhir:display [ fhir:v "Rubéola" ] ;
      fhir:definition [ fhir:v "vacina rubéola" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina rubéola (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1348,15 +1321,15 @@
      fhir:display [ fhir:v "INFH1N1-2009" ] ;
      fhir:definition [ fhir:v "vacina influenza A (H1N1) (inativada, fragmentada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1365,15 +1338,15 @@
      fhir:display [ fhir:v "SCRV" ] ;
      fhir:definition [ fhir:v "vacina sarampo, caxumba, rubéola e varicela" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1382,15 +1355,15 @@
      fhir:display [ fhir:v "MenACWY" ] ;
      fhir:definition [ fhir:v "vacina meningo ACWY" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina meningocócica ACWY (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1399,15 +1372,15 @@
      fhir:display [ fhir:v "VCO" ] ;
      fhir:definition [ fhir:v "vacina cólera oral" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina cólera (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1416,15 +1389,15 @@
      fhir:display [ fhir:v "VHZ" ] ;
      fhir:definition [ fhir:v "vacina herpes-zóster (atenuada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina herpes-zóster (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1440,15 +1413,15 @@
        fhir:value [ fhir:v "Vacuna influenza tetravalente" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina influenza tetravalente (fragmentada, inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1457,15 +1430,15 @@
      fhir:display [ fhir:v "MenB" ] ;
      fhir:definition [ fhir:v "vacina meningo B" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida meningocócica B (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1474,32 +1447,32 @@
      fhir:display [ fhir:v "DILBCG" ] ;
      fhir:definition [ fhir:v "diluente para vacina BCG" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina BCG"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "80" ] ;
      fhir:display [ fhir:v "DILVR" ] ;
-     fhir:definition [ fhir:v "diluente para vacina raiva" ] ;
+     fhir:definition [ fhir:v "diluente para vacina raiva (inativada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina raiva (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -1508,15 +1481,15 @@
      fhir:display [ fhir:v "DILMenC" ] ;
      fhir:definition [ fhir:v "diluente para vacina meningo C" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina meningocócica C (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -1525,15 +1498,15 @@
      fhir:display [ fhir:v "Dengue" ] ;
      fhir:definition [ fhir:v "vacina dengue (recombinante e atenuada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1542,15 +1515,15 @@
      fhir:display [ fhir:v "HAad" ] ;
      fhir:definition [ fhir:v "vacina hepatite A adulto" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida hepatite A (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1559,22 +1532,22 @@
      fhir:display [ fhir:v "VFA-F" ] ;
      fhir:definition [ fhir:v "vacina febre amarela fracionada" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina febre amarela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "85" ] ;
      fhir:display [ fhir:v "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
@@ -1583,22 +1556,22 @@
        fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "86" ] ;
      fhir:display [ fhir:v "COVID-19 SINOVAC/BUTANTAN - CORONAVAC" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-inativada, Sinovac/Butantan (Coronavac)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
@@ -1607,22 +1580,22 @@
        fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida covid-19 (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "87" ] ;
      fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-RNAm, Pfizer (Comirnaty)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
@@ -1631,22 +1604,22 @@
        fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "88" ] ;
      fhir:display [ fhir:v "COVID-19 JANSSEN - Ad26.COV2.S" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-recombinante, Janssen (Ad26.COV2.S)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
@@ -1655,22 +1628,22 @@
        fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "89" ] ;
      fhir:display [ fhir:v "COVID-19 ASTRAZENECA - ChAdOx1-S" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
@@ -1679,32 +1652,32 @@
        fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "90" ] ;
      fhir:display [ fhir:v "DILSCRV" ] ;
-     fhir:definition [ fhir:v "diluente para vacina sarampo, caxumba, rubéola e varicela" ] ;
+     fhir:definition [ fhir:v "diluente para vacina tetraviral" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -1713,15 +1686,15 @@
      fhir:display [ fhir:v "DILVR embrião de galinha" ] ;
      fhir:definition [ fhir:v "diluente para vacina raiva embrião de galinha" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "diluente para vacina raiva (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
@@ -1730,15 +1703,15 @@
      fhir:display [ fhir:v "VR" ] ;
      fhir:definition [ fhir:v "vacina raiva" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina raiva (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1747,15 +1720,15 @@
      fhir:display [ fhir:v "HPV9" ] ;
      fhir:definition [ fhir:v "vacina HPV nonavalente" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina papilomavírus humano 9-valente (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1764,22 +1737,22 @@
      fhir:display [ fhir:v "NaCl 0,9%" ] ;
      fhir:definition [ fhir:v "cloreto de sódio, solução injetável - 0,9%" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "cloreto de sódio, solução injetável - 0,9%"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Diluente"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "95" ] ;
      fhir:display [ fhir:v "COVID-19 GAMALEYA - SPUTNIK V" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-recombinante, Gamaleya (Sputnik V)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-recombinante, Gamaleya (Sputnik V)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
@@ -1790,26 +1763,26 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
        ]
      ] [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "96" ] ;
      fhir:display [ fhir:v "COVID-19 BHARAT - COVAXIN" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-inativada, Bharat (Covaxin)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-inativada, Bharat (Covaxin)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
@@ -1820,26 +1793,26 @@
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
        ]
      ] [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida covid-19 (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "97" ] ;
      fhir:display [ fhir:v "COVID-19 MODERNA - SPIKEVAX" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-RNAm, Moderna (Spikevax)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-RNAm, Moderna (Spikevax)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
@@ -1848,22 +1821,22 @@
        fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "98" ] ;
      fhir:display [ fhir:v "COVID-19 SINOVAC - CORONAVAC" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-inativada, Sinovac (Coronavac)" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-inativada, Sinovac (Coronavac)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
@@ -1872,22 +1845,22 @@
        fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida covid-19 (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "99" ] ;
      fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
@@ -1896,15 +1869,15 @@
        fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1913,15 +1886,15 @@
      fhir:display [ fhir:v "VVS" ] ;
      fhir:definition [ fhir:v "vacina varíola símia (atenuada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina varíola símia (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1930,22 +1903,22 @@
      fhir:display [ fhir:v "VHZR" ] ;
      fhir:definition [ fhir:v "vacina herpes-zóster (recombinante)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina herpes-zóster (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "102" ] ;
      fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
@@ -1954,22 +1927,22 @@
        fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "103" ] ;
      fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY BIVALENTE" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "en" ] ;
        fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
@@ -1978,15 +1951,15 @@
        fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
      ] ) ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19 bivalente"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -1995,38 +1968,38 @@
      fhir:display [ fhir:v "DNG" ] ;
      fhir:definition [ fhir:v "vacina dengue (atenuada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina dengue 1, 2, 3 e 4 (atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "105" ] ;
      fhir:display [ fhir:v "COVID-19-SPIKEVAX BI" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-RNAm, Moderna (Spikevax) bivalente" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-RNAm, Moderna (Spikevax) bivalente" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "inactive" ] ;
        fhir:value [
-         a fhir:Boolean ;
+         a fhir:boolean ;
          fhir:v true
        ]
      ] [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina covid-19 bivalente (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2035,15 +2008,15 @@
      fhir:display [ fhir:v "VPC15" ] ;
      fhir:definition [ fhir:v "vacina pneumo 15" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2052,15 +2025,15 @@
      fhir:display [ fhir:v "VPC20" ] ;
      fhir:definition [ fhir:v "vacina pneumo 20" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina pneumocócica 20-valente (conjugada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2069,15 +2042,15 @@
      fhir:display [ fhir:v "VVSR-Rec" ] ;
      fhir:definition [ fhir:v "vacina vírus sincicial respiratório A e B (recombinante)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina vírus sincicial respiratório A e B (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2086,15 +2059,15 @@
      fhir:display [ fhir:v "VVSR-RecAdj" ] ;
      fhir:definition [ fhir:v "vacina vírus sincicial respiratório (recombinante, adjuvada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina vírus sincicial respiratório (recombinante, adjuvada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2103,15 +2076,15 @@
      fhir:display [ fhir:v "INF4-alta dosagem" ] ;
      fhir:definition [ fhir:v "vacina influenza tetravalente - alta dosagem" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina influenza tetravalente (fragmentada, inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2120,32 +2093,32 @@
      fhir:display [ fhir:v "dTpa/VIP" ] ;
      fhir:definition [ fhir:v "vacina tetra acelular dTpa/VIP" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "112" ] ;
      fhir:display [ fhir:v "COVID-19 SERUM/ZALIKA" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-recombinante, Serum/Zalika" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-recombinante, Serum/Zalika" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina covid-19 (recombinante)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2154,32 +2127,32 @@
      fhir:display [ fhir:v "CHIKUNGUNYA" ] ;
      fhir:definition [ fhir:v "vacina chikungunya (recombinante e atenuada)" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina chikungunya (recombinante e atenuada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
   ] [
      fhir:code [ fhir:v "114" ] ;
      fhir:display [ fhir:v "COVID-19 SINOPHARM" ] ;
-     fhir:definition [ fhir:v "vacina Covid-19-inativada, Sinopharm" ] ;
+     fhir:definition [ fhir:v "vacina covid-19-inativada, Sinopharm" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "vacina covid-19 (inativada)"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Vacina"
        ]
      ] )
@@ -2188,15 +2161,15 @@
      fhir:display [ fhir:v "NIRSEVIMABE 0,5ml" ] ;
      fhir:definition [ fhir:v "nirsevimabe 0,5ml" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "nirsevimabe 0,5ml"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Anticorpo Monoclonal"
        ]
      ] )
@@ -2205,16 +2178,50 @@
      fhir:display [ fhir:v "NIRSEVIMABE 1,0ml" ] ;
      fhir:definition [ fhir:v "nirsevimabe 1,0ml" ] ;
      fhir:property ( [
-       fhir:code [ fhir:v "Nome" ] ;
+       fhir:code [ fhir:v "Name" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "nirsevimabe 1,0ml"
        ]
      ] [
-       fhir:code [ fhir:v "Categoria" ] ;
+       fhir:code [ fhir:v "Category" ] ;
        fhir:value [
-         a fhir:String ;
+         a fhir:string ;
          fhir:v "Anticorpo Monoclonal"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "117" ] ;
+     fhir:display [ fhir:v "INF3-alta dosagem" ] ;
+     fhir:definition [ fhir:v "vacina influenza trivalente - alta dosagem" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Name" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "vacina influenza trivalente (fragmentada, inativada)"
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Vacina"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "118" ] ;
+     fhir:display [ fhir:v "DILMenACWY" ] ;
+     fhir:definition [ fhir:v "diluente para vacina meningo ACWY" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "Name" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "diluente para vacina meningocócica ACWY (conjugada)"
+       ]
+     ] [
+       fhir:code [ fhir:v "Category" ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Diluente"
        ]
      ] )
   ] ) . # 

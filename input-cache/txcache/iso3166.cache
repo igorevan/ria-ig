@@ -19,7 +19,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -47,7 +47,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=pt-BR, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -131,7 +131,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n0ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n0ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n0ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#BR\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"BR\" found in urn:iso:std:iso:3166|2018",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -159,7 +159,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.fhir.org/r4",
-  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n0ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Validate \"[urn:iso:std:iso:3166#BR (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Check \"urn:iso:std:iso:3166#BR\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: check code in (urn:iso:std:iso:3166) at Coding\n1ms http://hl7.org/fhir/ValueSet/jurisdiction--0|4.0.1: Code \"BR\" found in urn:iso:std:iso:3166|2018",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
@@ -187,8 +187,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:10e6cf9e-1419-4efc-b674-92faaf897ebe",
-    "timestamp" : "2026-06-12T18:26:25.539Z",
+    "identifier" : "urn:uuid:d40affcb-5730-4fd9-9e26-f3dd863b5e15",
+    "timestamp" : "2026-06-15T11:37:01.940Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -1481,8 +1481,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:da534d52-3031-4669-9058-334db587a3b1",
-    "timestamp" : "2026-06-12T18:26:26.516Z",
+    "identifier" : "urn:uuid:c0cb981c-6b5e-4e9f-9dee-434ebec72b62",
+    "timestamp" : "2026-06-15T11:37:02.972Z",
     "total" : 291,
     "offset" : 0,
     "parameter" : [{
@@ -2985,8 +2985,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1de52d51-54eb-40c7-8e07-638ebedd5134",
-    "timestamp" : "2026-06-12T18:26:27.587Z",
+    "identifier" : "urn:uuid:df28a56f-228b-4751-b39d-7e2668bc18ef",
+    "timestamp" : "2026-06-15T11:37:04.003Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{

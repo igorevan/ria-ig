@@ -2,8 +2,8 @@ RIARNDSIG : Validation Results
 =========================================
 
 err = 2, warn = 0, info = 0
-IG Publisher Version: 2.2.8
-Generated Fri Jun 12 15:27:03 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/fhir/r4/ria/1.0.0)
+IG Publisher Version: 2.2.9
+Generated Mon Jun 15 08:37:38 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/fhir/r4/ria/1.0.0)
  Build Errors : 7 / 0 / 0
  /home/igor/ria-ig/input/examples/example-RIA-R : 1 / 2 / 2
  /home/igor/ria-ig/input/myig : 0 / 0 / 1
@@ -14,7 +14,7 @@ Generated Fri Jun 12 15:27:03 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.
  /home/igor/ria-ig/input/resources/CodeSystem-BRDose : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BREstrategiaVacinacao : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRFabricantePNI : 0 / 0 / 1
- /home/igor/ria-ig/input/resources/CodeSystem-BRGrupoAtendimento : 0 / 0 / 1
+ /home/igor/ria-ig/input/resources/CodeSystem-BRGrupoAtendimento : 0 / 0 / 2
  /home/igor/ria-ig/input/resources/CodeSystem-BRImunobiologico : 0 / 0 / 3
  /home/igor/ria-ig/input/resources/CodeSystem-BRLocalAplicacao : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/CodeSystem-BRPais : 0 / 0 / 1
@@ -34,7 +34,7 @@ Generated Fri Jun 12 15:27:03 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.
  /home/igor/ria-ig/input/resources/ValueSet-BRCondicaoMaternal-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRDose-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BREstadoEvento-1.0 : 0 / 0 / 9
- /home/igor/ria-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 0 / 7
+ /home/igor/ria-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BREstrategiaVacinacao-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRFabricanteImunobiologico-1.0 : 0 / 0 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRGrupoAtendimento-1.0 : 0 / 0 / 1

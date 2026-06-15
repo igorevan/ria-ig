@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Jun 11, 2026 14:29+0000 for FHIR v6.0.0-ballot4 
+  Generated on Mon, Jun 15, 2026 01:52+0000 for FHIR v6.0.0-ballot4 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="6.0.0-ballot4">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -23591,6 +23591,7 @@ of the resource representation.</xs:documentation>
             <xs:element name="contentAttachment" type="Attachment"/>
             <xs:element name="contentReference" type="Reference"/>
             <xs:element name="contentCodeableConcept" type="CodeableConcept"/>
+            <xs:element name="contentString" type="string"/>
           </xs:choice>
         </xs:sequence>
       </xs:extension>
@@ -23794,6 +23795,7 @@ of the resource representation.</xs:documentation>
             <xs:element name="contentAttachment" type="Attachment"/>
             <xs:element name="contentReference" type="Reference"/>
             <xs:element name="contentCodeableConcept" type="CodeableConcept"/>
+            <xs:element name="contentString" type="string"/>
           </xs:choice>
         </xs:sequence>
       </xs:extension>
@@ -50487,7 +50489,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="communication" type="RelatedPerson.Communication" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">A language which may be used to communicate with the related person about the patient's health.</xs:documentation>
+              <xs:documentation xml:lang="en">A language which may be used to communicate with the related person.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>

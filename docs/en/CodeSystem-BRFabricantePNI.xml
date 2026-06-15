@@ -1029,4 +1029,34 @@
     <display value="PFIZER-IRLANDA"/>
     <definition value="PFIZER IRELAND PHARMACEUTICALS"/>
   </concept>
+  <concept>
+    <code value="45240"/>
+    <display value="TAKEDA-JAPAO"/>
+    <definition value="TAKEDA GMBH"/>
+  </concept>
+  <concept>
+    <code value="44329"/>
+    <display value="PATHEON"/>
+    <definition value="PATHEON MANUFATURING SERVICES LLC"/>
+  </concept>
+  <concept>
+    <code value="45686"/>
+    <display value="CORIXA-GSK"/>
+    <definition value="CORIXA CORPORATION DBA GLAXOSMITHKLINE VACCINES"/>
+  </concept>
+  <concept>
+    <code value="45915"/>
+    <display value="SINOVAC"/>
+    <definition value="SINOVAC (DALIAN) VACCINE TECHNOLOGY CO., LTD."/>
+  </concept>
+  <concept>
+    <code value="46263"/>
+    <display value="JIANGSU-DESA"/>
+    <definition value="JIANGSU DESANO PHARMACEUTICAL CO. LTD."/>
+  </concept>
+  <concept>
+    <code value="47619"/>
+    <display value="LIBBS"/>
+    <definition value="LIBBS FARMACEUTICA LTDA."/>
+  </concept>
 </CodeSystem>

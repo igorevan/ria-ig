@@ -79,12 +79,12 @@ This Code system is referenced in the definition of the following value sets:
   "caseSensitive" : true,
   "content" : "complete",
   "property" : [{
-    "code" : "Nome",
+    "code" : "Name",
     "description" : "Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes.",
     "type" : "string"
   },
   {
-    "code" : "Categoria",
+    "code" : "Category",
     "description" : "Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina.",
     "type" : "string"
   },
@@ -99,11 +99,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "IGHAT",
     "definition" : "imunoglobulina humana antitétano",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Imunoglobulina humana antitétano"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -112,11 +112,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAT",
     "definition" : "soro antitetânico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Soro antitetânico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -125,11 +125,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAAR",
     "definition" : "soro antiaracnídico (Loxosceles, Phoneutria, Tityus)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -138,11 +138,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAESC",
     "definition" : "soro antiescorpiônico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Soro antiescorpiônico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -151,11 +151,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DT",
     "definition" : "vacina difteria e tétano infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Vacina adsorvida difteria e tétano infantil"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -164,11 +164,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAELA",
     "definition" : "soro antielapídico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antielapídico (bivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -177,11 +177,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAR",
     "definition" : "soro antirrábico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antirrábico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -190,11 +190,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SABR",
     "definition" : "soro antibotrópico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotrópico (pentavalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -203,11 +203,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HB",
     "definition" : "vacina hepatite B",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina hepatite B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -216,11 +216,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAD",
     "definition" : "soro antidiftérico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antidiftérico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -229,11 +229,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SABC",
     "definition" : "soro antibotrópico e anticrotálico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotrópico (pentavalente) e anticrotálico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -242,11 +242,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SABL",
     "definition" : "soro antibotrópico e antilaquético",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotrópico (pentavalente) e antilaquético"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -255,11 +255,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "MenAC",
     "definition" : "vacina meningo AC",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica AC (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -268,11 +268,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VFA",
     "definition" : "vacina febre amarela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre amarela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -281,11 +281,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "BCG",
     "definition" : "vacina BCG",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina BCG"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -294,11 +294,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAC",
     "definition" : "soro anticrotálico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro anticrotálico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -307,11 +307,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Hib",
     "definition" : "vacina Hib",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina Haemophilus influenza B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -324,11 +324,11 @@ This Code system is referenced in the definition of the following value sets:
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -337,11 +337,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "IGHAVZ",
     "definition" : "imunoglobulina humana antivaricela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "imunoglobulina humana antivaricela"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -350,11 +350,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "IGHAHB",
     "definition" : "imunoglobulina humana anti-hepatite B",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "imunoglobulina humana anti-hepatite B"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -363,11 +363,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VPP23",
     "definition" : "vacina pneumo 23",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 23-valente (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -376,11 +376,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VIP",
     "definition" : "vacina inativada poliomielite",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina poliomelite 1, 2 e 3 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -389,11 +389,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "IGHAR",
     "definition" : "imunoglobulina humana antirrábica",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "imunoglobulina humana antirrábica"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Imunoglobulina"
     }]
   },
@@ -402,11 +402,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SCR",
     "definition" : "vacina tríplice viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, caxumba, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -415,11 +415,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "dT",
     "definition" : "vacina difteria e tétano adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria e tétano adulto"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -428,11 +428,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VPC10",
     "definition" : "vacina pneumo 10",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 10-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -441,11 +441,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SALATRO",
     "definition" : "soro antilatrodéctico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antilatrodéctico (Latrodectus curacaviensis)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -454,11 +454,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VOPb",
     "definition" : "vacina oral poliomielite bivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina poliomielite 1 e 3 (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -467,11 +467,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Penta acelular",
     "definition" : "vacina penta acelular (DTPa/VIP/Hib)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -480,11 +480,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "FTp",
     "definition" : "vacina febre tifóide",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre tifóide (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -493,11 +493,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SALOX",
     "definition" : "soro antiloxoscélico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antiloxoscélico (trivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -506,11 +506,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SALON",
     "definition" : "soro antilonômico",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antilonômico"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -527,11 +527,11 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "Vacuna influenza trivalente"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza trivalente (fragmentada, inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -540,11 +540,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VZ",
     "definition" : "vacina varicela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -553,11 +553,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HA virossomal",
     "definition" : "vacina hepatite A (virossomal)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A (virossomal)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -566,24 +566,24 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SR",
     "definition" : "vacina dupla viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "37",
     "display" : "VR",
-    "definition" : "vacina raiva",
+    "definition" : "vacina raiva (inativada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -592,11 +592,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SBOTULTRI",
     "definition" : "soro antibotulínico (trivalente)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotulínico (trivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -605,11 +605,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Tetra",
     "definition" : "vacina DTP/Hib",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -618,11 +618,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VPC7",
     "definition" : "vacina pneumo 7",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 7-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -631,11 +631,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "MenC",
     "definition" : "vacina meningo C",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica C (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -644,11 +644,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Penta",
     "definition" : "vacina penta (DTP/HB/Hib)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -657,11 +657,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Hexa acelular",
     "definition" : "vacina hexa acelular (DTPa/HB/VIP/Hib)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -670,11 +670,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "INFH1N1-2009",
     "definition" : "vacina influenza A (H1N1) (inativada, fragmentada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -683,11 +683,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "ROTA",
     "definition" : "vacina rotavírus",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina rotavírus humano G1P[8] (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -696,11 +696,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DTP",
     "definition" : "vacina DTP",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano e pertussis"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -709,24 +709,24 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DTPa",
     "definition" : "vacina DTPa infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano e pertussis (acelular)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "48",
     "display" : "DILSCR",
-    "definition" : "diluente para vacina sarampo, caxumba, rubéola",
+    "definition" : "diluente para vacina tríplice viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina sarampo, caxumba, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -735,24 +735,24 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DILVFA",
     "definition" : "diluente para vacina febre amarela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina febre amarela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "50",
     "display" : "DILHib",
-    "definition" : "diluente para vacina Haemophilus influenzae B",
+    "definition" : "diluente para vacina Hib",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina Haemophilus influenzae B (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -761,11 +761,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Fta",
     "definition" : "vacina febre tifóide (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre tifóide (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -774,24 +774,24 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DILMenAC",
     "definition" : "diluente para vacina meningo AC",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina meningocócica AC (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "53",
     "display" : "DILSR",
-    "definition" : "diluente para vacina sarampo, rubéola",
+    "definition" : "diluente para vacina dupla viral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina sarampo, rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -800,11 +800,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DILVAR",
     "definition" : "diluente para vacina varicela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -813,11 +813,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HAinf",
     "definition" : "vacina hepatite A infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -826,11 +826,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SCRV",
     "definition" : "vacina tetraviral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -839,11 +839,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "dTpa",
     "definition" : "vacina dTpa adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano e pertussis (acelular)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -852,11 +852,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DTPa/VIP",
     "definition" : "vacina tetra acelular DTPa/VIP",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -865,11 +865,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VPC13",
     "definition" : "vacina pneumo 13",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 13-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -878,11 +878,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HPV2",
     "definition" : "vacina HPV bivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 16 e 18 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -891,11 +891,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Tétano",
     "definition" : "vacina tétano",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina tétano (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -904,11 +904,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HA-HBinf",
     "definition" : "vacina hepatite A e B infantil",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A e hepatite B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -917,11 +917,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HA-HBad",
     "definition" : "vacina hepatite A e B adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A e hepatite B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -930,11 +930,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "INF3-ID",
     "definition" : "vacina influenza trivalente ID",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza trivalente (fragmentada, inativada) intradérmica"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -943,11 +943,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "ROTA5",
     "definition" : "vacina rotavírus pentavalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -956,11 +956,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "MenBC",
     "definition" : "vacina meningo BC",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica BC (polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -969,11 +969,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HPV4",
     "definition" : "vacina HPV quadrivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -982,11 +982,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HPV2",
     "definition" : "vacina HPV bivalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 16 e 18 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -995,11 +995,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SAB",
     "definition" : "soro antibotulínico AB (bivalente)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "soro antibotulínico AB (bivalente)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Soro"
     }]
   },
@@ -1008,11 +1008,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Sarampo",
     "definition" : "vacina sarampo",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1021,11 +1021,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Rubéola",
     "definition" : "vacina rubéola",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina rubéola (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1034,11 +1034,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "INFH1N1-2009",
     "definition" : "vacina influenza A (H1N1) (inativada, fragmentada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1047,11 +1047,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "SCRV",
     "definition" : "vacina sarampo, caxumba, rubéola e varicela",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1060,11 +1060,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "MenACWY",
     "definition" : "vacina meningo ACWY",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina meningocócica ACWY (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1073,11 +1073,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VCO",
     "definition" : "vacina cólera oral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina cólera (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1086,11 +1086,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VHZ",
     "definition" : "vacina herpes-zóster (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina herpes-zóster (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1107,11 +1107,11 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "Vacuna influenza tetravalente"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tetravalente (fragmentada, inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1120,11 +1120,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "MenB",
     "definition" : "vacina meningo B",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida meningocócica B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1133,24 +1133,24 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DILBCG",
     "definition" : "diluente para vacina BCG",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina BCG"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "80",
     "display" : "DILVR",
-    "definition" : "diluente para vacina raiva",
+    "definition" : "diluente para vacina raiva (inativada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1159,11 +1159,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DILMenC",
     "definition" : "diluente para vacina meningo C",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina meningocócica C (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1172,11 +1172,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "Dengue",
     "definition" : "vacina dengue (recombinante e atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1185,11 +1185,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HAad",
     "definition" : "vacina hepatite A adulto",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida hepatite A (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1198,18 +1198,18 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VFA-F",
     "definition" : "vacina febre amarela fracionada",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina febre amarela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "85",
     "display" : "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD",
-    "definition" : "vacina Covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)",
+    "definition" : "vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1219,18 +1219,18 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM9QW8 Vacuna COVID-19, vector viral no replicante"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "86",
     "display" : "COVID-19 SINOVAC/BUTANTAN - CORONAVAC",
-    "definition" : "vacina Covid-19-inativada, Sinovac/Butantan (Coronavac)",
+    "definition" : "vacina covid-19-inativada, Sinovac/Butantan (Coronavac)",
     "designation" : [{
       "language" : "en",
       "value" : "XM1NL1 COVID-19 vaccine, inactivated virus"
@@ -1240,18 +1240,18 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM1NL1 Vacuna COVID-19, virus inactivado"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "87",
     "display" : "COVID-19 PFIZER - COMIRNATY",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty)",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty)",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1261,18 +1261,18 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "88",
     "display" : "COVID-19 JANSSEN - Ad26.COV2.S",
-    "definition" : "vacina Covid-19-recombinante, Janssen (Ad26.COV2.S)",
+    "definition" : "vacina covid-19-recombinante, Janssen (Ad26.COV2.S)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1282,18 +1282,18 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM9QW8 Vacuna COVID-19, vector viral no replicante"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "89",
     "display" : "COVID-19 ASTRAZENECA - ChAdOx1-S",
-    "definition" : "vacina Covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)",
+    "definition" : "vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1303,24 +1303,24 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM9QW8 Vacuna COVID-19, vector viral no replicante"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "90",
     "display" : "DILSCRV",
-    "definition" : "diluente para vacina sarampo, caxumba, rubéola e varicela",
+    "definition" : "diluente para vacina tetraviral",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1329,11 +1329,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DILVR embrião de galinha",
     "definition" : "diluente para vacina raiva embrião de galinha",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "diluente para vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
@@ -1342,11 +1342,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VR",
     "definition" : "vacina raiva",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina raiva (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1355,11 +1355,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "HPV9",
     "definition" : "vacina HPV nonavalente",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina papilomavírus humano 9-valente (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1368,18 +1368,18 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "NaCl 0,9%",
     "definition" : "cloreto de sódio, solução injetável - 0,9%",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "cloreto de sódio, solução injetável - 0,9%"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Diluente"
     }]
   },
   {
     "code" : "95",
     "display" : "COVID-19 GAMALEYA - SPUTNIK V",
-    "definition" : "vacina Covid-19-recombinante, Gamaleya (Sputnik V)",
+    "definition" : "vacina covid-19-recombinante, Gamaleya (Sputnik V)",
     "designation" : [{
       "language" : "en",
       "value" : "XM9QW8 COVID-19 vaccine, non-replicating viral vector"
@@ -1393,18 +1393,18 @@ This Code system is referenced in the definition of the following value sets:
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "96",
     "display" : "COVID-19 BHARAT - COVAXIN",
-    "definition" : "vacina Covid-19-inativada, Bharat (Covaxin)",
+    "definition" : "vacina covid-19-inativada, Bharat (Covaxin)",
     "designation" : [{
       "language" : "en",
       "value" : "XM1NL1 COVID-19 vaccine, inactivated virus"
@@ -1418,18 +1418,18 @@ This Code system is referenced in the definition of the following value sets:
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "97",
     "display" : "COVID-19 MODERNA - SPIKEVAX",
-    "definition" : "vacina Covid-19-RNAm, Moderna (Spikevax)",
+    "definition" : "vacina covid-19-RNAm, Moderna (Spikevax)",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1439,18 +1439,18 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "98",
     "display" : "COVID-19 SINOVAC - CORONAVAC",
-    "definition" : "vacina Covid-19-inativada, Sinovac (Coronavac)",
+    "definition" : "vacina covid-19-inativada, Sinovac (Coronavac)",
     "designation" : [{
       "language" : "en",
       "value" : "XM1NL1 COVID-19 vaccine, inactivated virus"
@@ -1460,18 +1460,18 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM1NL1 Vacuna COVID-19, virus inactivado"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "99",
     "display" : "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1481,11 +1481,11 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1494,11 +1494,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VVS",
     "definition" : "vacina varíola símia (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina varíola símia (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1507,18 +1507,18 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VHZR",
     "definition" : "vacina herpes-zóster (recombinante)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina herpes-zóster (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "102",
     "display" : "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1528,18 +1528,18 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "103",
     "display" : "COVID-19 PFIZER - COMIRNATY BIVALENTE",
-    "definition" : "vacina Covid-19-RNAm, Pfizer (Comirnaty) bivalente",
+    "definition" : "vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente",
     "designation" : [{
       "language" : "en",
       "value" : "XM0GQ8 COVID-19 vaccine, RNA based"
@@ -1549,11 +1549,11 @@ This Code system is referenced in the definition of the following value sets:
       "value" : "XM0GQ8 Vacuna COVID-19, basada en ARN"
     }],
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 bivalente"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1562,28 +1562,28 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "DNG",
     "definition" : "vacina dengue (atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina dengue 1, 2, 3 e 4 (atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "105",
     "display" : "COVID-19-SPIKEVAX BI",
-    "definition" : "vacina Covid-19-RNAm, Moderna (Spikevax) bivalente",
+    "definition" : "vacina covid-19-RNAm, Moderna (Spikevax) bivalente",
     "property" : [{
       "code" : "inactive",
       "valueBoolean" : true
     },
     {
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Vacina covid-19 bivalente (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1592,11 +1592,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VPC15",
     "definition" : "vacina pneumo 15",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1605,11 +1605,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VPC20",
     "definition" : "vacina pneumo 20",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina pneumocócica 20-valente (conjugada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1618,11 +1618,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VVSR-Rec",
     "definition" : "vacina vírus sincicial respiratório A e B (recombinante)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina vírus sincicial respiratório A e B (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1631,11 +1631,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "VVSR-RecAdj",
     "definition" : "vacina vírus sincicial respiratório (recombinante, adjuvada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina vírus sincicial respiratório (recombinante, adjuvada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1644,11 +1644,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "INF4-alta dosagem",
     "definition" : "vacina influenza tetravalente - alta dosagem",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina influenza tetravalente (fragmentada, inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1657,24 +1657,24 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "dTpa/VIP",
     "definition" : "vacina tetra acelular dTpa/VIP",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "112",
     "display" : "COVID-19 SERUM/ZALIKA",
-    "definition" : "vacina Covid-19-recombinante, Serum/Zalika",
+    "definition" : "vacina covid-19-recombinante, Serum/Zalika",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "Vacina covid-19 (recombinante)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1683,24 +1683,24 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "CHIKUNGUNYA",
     "definition" : "vacina chikungunya (recombinante e atenuada)",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina chikungunya (recombinante e atenuada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
   {
     "code" : "114",
     "display" : "COVID-19 SINOPHARM",
-    "definition" : "vacina Covid-19-inativada, Sinopharm",
+    "definition" : "vacina covid-19-inativada, Sinopharm",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "vacina covid-19 (inativada)"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Vacina"
     }]
   },
@@ -1709,11 +1709,11 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "NIRSEVIMABE 0,5ml",
     "definition" : "nirsevimabe 0,5ml",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "nirsevimabe 0,5ml"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Anticorpo Monoclonal"
     }]
   },
@@ -1722,12 +1722,38 @@ This Code system is referenced in the definition of the following value sets:
     "display" : "NIRSEVIMABE 1,0ml",
     "definition" : "nirsevimabe 1,0ml",
     "property" : [{
-      "code" : "Nome",
+      "code" : "Name",
       "valueString" : "nirsevimabe 1,0ml"
     },
     {
-      "code" : "Categoria",
+      "code" : "Category",
       "valueString" : "Anticorpo Monoclonal"
+    }]
+  },
+  {
+    "code" : "117",
+    "display" : "INF3-alta dosagem",
+    "definition" : "vacina influenza trivalente - alta dosagem",
+    "property" : [{
+      "code" : "Name",
+      "valueString" : "vacina influenza trivalente (fragmentada, inativada)"
+    },
+    {
+      "code" : "Category",
+      "valueString" : "Vacina"
+    }]
+  },
+  {
+    "code" : "118",
+    "display" : "DILMenACWY",
+    "definition" : "diluente para vacina meningo ACWY",
+    "property" : [{
+      "code" : "Name",
+      "valueString" : "diluente para vacina meningocócica ACWY (conjugada)"
+    },
+    {
+      "code" : "Category",
+      "valueString" : "Diluente"
     }]
   }]
 }

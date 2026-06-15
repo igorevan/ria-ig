@@ -80,7 +80,7 @@ This Code system is referenced in the definition of the following value sets:
   "content" : "complete",
   "concept" : [{
     "code" : "01",
-    "display" : "Registro anterior/Transcrição de caderneta"
+    "display" : "Transcrição de caderneta"
   },
   {
     "code" : "02",
