@@ -47,9 +47,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for RIARNDSIG</h1>
- <p>Generated Mon Jun 15 08:37:38 BRT 2026, FHIR version 4.0.1 for br.gov.saude.ria.fhir#1.0.0-release (canonical = <a href="https://fhir.saude.gov.br/fhir/r4/ria/1.0.0">https://fhir.saude.gov.br/fhir/r4/ria/1.0.0</a> (<a href="https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Tue Jun 30 08:56:27 BRT 2026, FHIR version 4.0.1 for br.gov.saude.ria.fhir#1.0.0-release (canonical = <a href="https://fhir.saude.gov.br/fhir/r4/ria/1.0.0">https://fhir.saude.gov.br/fhir/r4/ria/1.0.0</a> (<a href="https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.2.9</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.2.10</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = br.gov.saude.ria.fhir, Canonical = https://fhir.saude.gov.br/fhir/r4/ria/1.0.0</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Language Info:</td><td>Stated Languages: n/a. IG Resource Lang: en. 39 of 40 (97%) of resources have a language. <a href="https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-resource-language-policy">Population Policy</a>: NONE</td></tr>
@@ -86,7 +86,7 @@
  <tr><td>Related IGs:</td><td>n/a</td></tr>
  <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
  <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
- <tr><td>Terminology Server(s):</td><td><a href="http://tx.fhir.org/r4">http://tx.fhir.org/r4</a>, <a href="https://tx.fhir.org/r4">https://tx.fhir.org/r4</a> (<a href="qa-txservers.html">details</a>)</td></tr>
+ <tr><td>Terminology Server(s):</td><td><a href="https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, <a href="https://tx.hl7.org.au/fhir">https://tx.hl7.org.au/fhir</a> (<a href="qa-txservers.html">details</a>)</td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Draft Dependencies:</td><td><ul>
@@ -1104,14 +1104,16 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
 </ul>
 <p><b>Errors relacionados as particularidades dos CodeSystems e ValueSets da RNDS</b></p><ul>
  <li>%Esta propriedade tem apenas um código% <span style="color: navy">(5 uses)</span></li>
- <li>%Muitas ferramentas terminológicas não saberão o que fazer com ela% <span style="color: maroon">(0 uses)</span></li>
- <li>%Referência ao projeto CodeSystem% <span style="color: navy">(8 uses)</span></li>
+ <li>%Referência ao projeto CodeSystem% <span style="color: navy">(47 uses)</span></li>
  <li>Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset <span style="color: navy">(1 uses)</span></li>
  <li>The value set expansion is too large, and only a subset has been displayed <span style="color: navy">(4 uses)</span></li>
 </ul>
 <p><b>Erros de validação de exemplos</b></p><ul>
  <li>%Não foi possível encontrar uma correspondência de perfil% <span style="color: navy">(1 uses)</span></li>
  <li>Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|1.0.0-release <span style="color: navy">(1 uses)</span></li>
+</ul>
+<p><b>Erros relacionados as especificações da RNDS</b></p><ul>
+ <li>%have an OID assigned% <span style="color: navy">(39 uses)</span></li>
 </ul>
 <p><b>Outros erros</b></p><ul>
  <li>An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide <span style="color: navy">(1 uses)</span></li>

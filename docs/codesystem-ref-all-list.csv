@@ -32,3 +32,4 @@ http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais,1.0.0-release,active,,BRPais,P
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem,1.0.0-release,active,,BRRegistroOrigem,Registro de Origem (CodeSystem),"Códigos para representação da Origem do Registro de Imunobiológico.","ValueSet/BRRegistroOrigem"
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento,1.0.0-release,active,,BRTipoDocumento,Tipo de Documento (CodeSystem),"Classificação dos tipos de documentos compartilhados no Brasil.","ValueSet/BRTipoDocumento-1.0"
 http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao,1.0.0-release,active,,BRViaAdministracao,Via de Administração,"Classifica a via na qual foi administrada uma substância em um indivíduo.","ValueSet/BRViaAdministracao-1.0"
+urn:ietf:bcp:47,null,draft,,Ietf_bcp_47,IETF Languages,"Languages on planet Earth","ValueSet/languages"

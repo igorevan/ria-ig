@@ -12,4 +12,4 @@ Generic: line 0, col 0, Error - The link 'link do formulário' for "aqui" cannot
 /home/igor/ria-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset (BUSINESSRULE)
 
 err = 2, warn = 0, info = 0
-IG Publisher Version: 2.2.9
+IG Publisher Version: 2.2.10

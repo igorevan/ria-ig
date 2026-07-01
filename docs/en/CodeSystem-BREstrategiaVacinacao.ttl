@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,224 +7,269 @@
 
 <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BREstrategiaVacinacao> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "BREstrategiaVacinacao"] ; # 
-  fhir:language [ fhir:v "en"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "ehr"
-     ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:integer ;
-       fhir:v 1 ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:canonical ;
-           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+  fhir:Resource.id [ fhir:value "BREstrategiaVacinacao"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "ehr" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [
+       fhir:value "1"^^xsd:integer ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir" ;
            fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
-       ] )
-     ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "normative" ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:canonical ;
-           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
-           fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
-         ]
-       ] )
-     ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "4.0.1"
-     ]
-  ] ) ; # 
-  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0-release"] ; # 
-  fhir:name [ fhir:v "BREstrategiaVacinacao"] ; # 
-  fhir:title [ fhir:v "Estratégia de Vacinação (CodeSystem)"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2020-03-11T18:12:20.2627546+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.saude.gov.br" ]
-     ] [
-       fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Classifica a estratégia de vacinação adotada."] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "BR" ]
-     ] )
-  ] ) ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:property ( [
-     fhir:code [ fhir:v "inactive" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#inactive"^^xsd:anyURI ] ;
-     fhir:type [ fhir:v "boolean" ]
-  ] ) ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "0" ] ;
-     fhir:display [ fhir:v "Sem registro no sistema de informação de origem" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "inactive" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v true
        ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "1" ] ;
-     fhir:display [ fhir:v "Rotina" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Routine immunization" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Rutina" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "2" ] ;
-     fhir:display [ fhir:v "Especial" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Special" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Especial" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "3" ] ;
-     fhir:display [ fhir:v "Bloqueio" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Blocking vaccination" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Vacunación de bloqueo" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "4" ] ;
-     fhir:display [ fhir:v "Intensificação" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Intensification" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Intensificación" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "5" ] ;
-     fhir:display [ fhir:v "Campanha indiscriminada" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Indiscriminate campaign" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Campaña indiscriminada" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "6" ] ;
-     fhir:display [ fhir:v "Campanha seletiva" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Selective campaign" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Campaña selectiva" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "7" ] ;
-     fhir:display [ fhir:v "Soroterapia" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Serum therapy" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Sueroterapia" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "8" ] ;
-     fhir:display [ fhir:v "Serviço Privado" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Private Sector" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Servicio privado" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "9" ] ;
-     fhir:display [ fhir:v "Monitoramento das Estratégias de Vacinação" ]
-  ] [
-     fhir:code [ fhir:v "10" ] ;
-     fhir:display [ fhir:v "Pesquisa" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Trials" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Ensayos clínicos" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "11" ] ;
-     fhir:display [ fhir:v "Pré-exposição" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Pre-exposure" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Preexposición" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "12" ] ;
-     fhir:display [ fhir:v "Pós-exposição" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Post-exposure" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Post-exposición" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "13" ] ;
-     fhir:display [ fhir:v "Reexposição" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Re-exposure" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Reexposición" ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "14" ] ;
-     fhir:display [ fhir:v "Vacinação Escolar" ]
-  ] [
-     fhir:code [ fhir:v "15" ] ;
-     fhir:display [ fhir:v "Operação Gota" ]
-  ] ) . # 
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [
+       fhir:value "normative" ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version" ] ;
+     fhir:Extension.valueCode [ fhir:value "4.0.1" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0-release"] ;
+  fhir:CodeSystem.name [ fhir:value "BREstrategiaVacinacao"] ;
+  fhir:CodeSystem.title [ fhir:value "Estratégia de Vacinação (CodeSystem)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2020-03-11T18:12:20.2627546+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério da Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://www.saude.gov.br" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "cgiis.datasus@saude.gov.br" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Classifica a estratégia de vacinação adotada."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#inactive" ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sem registro no sistema de informação de origem" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rotina" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Routine immunization" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Rutina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Especial" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Special" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Especial" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bloqueio" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Blocking vaccination" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Vacunación de bloqueo" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intensificação" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Intensification" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Intensificación" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Campanha indiscriminada" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Indiscriminate campaign" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Campaña indiscriminada" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Campanha seletiva" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Selective campaign" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Campaña selectiva" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Soroterapia" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Serum therapy" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Sueroterapia" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Serviço Privado" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Private Sector" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Servicio privado" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Monitoramento das Estratégias de Vacinação" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pesquisa" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Trials" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Ensayos clínicos" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pré-exposição" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pre-exposure" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Preexposición" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pós-exposição" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Post-exposure" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Post-exposición" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Reexposição" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Re-exposure" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Reexposición" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vacinação Escolar" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Operação Gota" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BREstrategiaVacinacao.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

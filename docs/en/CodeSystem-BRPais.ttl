@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,1115 +7,1466 @@
 
 <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRPais> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "BRPais"] ; # 
-  fhir:language [ fhir:v "en"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "ehr"
-     ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:integer ;
-       fhir:v 1 ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:canonical ;
-           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+  fhir:Resource.id [ fhir:value "BRPais"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "ehr" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [
+       fhir:value "1"^^xsd:integer ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir" ;
            fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
-       ] )
+       ]
      ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "normative" ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:canonical ;
-           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [
+       fhir:value "normative" ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir" ;
            fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
-       ] )
+       ]
      ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "4.0.1"
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version" ] ;
+     fhir:Extension.valueCode [ fhir:value "4.0.1" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0-release"] ;
+  fhir:CodeSystem.name [ fhir:value "BRPais"] ;
+  fhir:CodeSystem.title [ fhir:value "País (CodeSystem)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2020-03-13T21:12:16.4900634+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério da Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://www.saude.gov.br" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "cgiis.datasus@saude.gov.br" ]
      ]
-  ] ) ; # 
-  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0-release"] ; # 
-  fhir:name [ fhir:v "BRPais"] ; # 
-  fhir:title [ fhir:v "País (CodeSystem)"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2020-03-13T21:12:16.4900634+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.saude.gov.br" ]
-     ] [
-       fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Códigos para representação de países."] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "BR" ]
-     ] )
-  ] ) ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "10" ] ;
-     fhir:display [ fhir:v "BRASIL" ]
-  ] [
-     fhir:code [ fhir:v "20" ] ;
-     fhir:display [ fhir:v "RESERVADO" ]
-  ] [
-     fhir:code [ fhir:v "21" ] ;
-     fhir:display [ fhir:v "ARGENTINA" ]
-  ] [
-     fhir:code [ fhir:v "22" ] ;
-     fhir:display [ fhir:v "BOLIVIA" ]
-  ] [
-     fhir:code [ fhir:v "23" ] ;
-     fhir:display [ fhir:v "CHILE" ]
-  ] [
-     fhir:code [ fhir:v "24" ] ;
-     fhir:display [ fhir:v "PARAGUAI" ]
-  ] [
-     fhir:code [ fhir:v "25" ] ;
-     fhir:display [ fhir:v "URUGUAI" ]
-  ] [
-     fhir:code [ fhir:v "26" ] ;
-     fhir:display [ fhir:v "COLOMBIA" ]
-  ] [
-     fhir:code [ fhir:v "27" ] ;
-     fhir:display [ fhir:v "EQUADOR" ]
-  ] [
-     fhir:code [ fhir:v "28" ] ;
-     fhir:display [ fhir:v "ANTIGUA E. DEP. BARBUDA" ]
-  ] [
-     fhir:code [ fhir:v "29" ] ;
-     fhir:display [ fhir:v "ANTILHAS HOLANDESAS" ]
-  ] [
-     fhir:code [ fhir:v "30" ] ;
-     fhir:display [ fhir:v "ALEMANHA" ]
-  ] [
-     fhir:code [ fhir:v "31" ] ;
-     fhir:display [ fhir:v "BELGICA" ]
-  ] [
-     fhir:code [ fhir:v "32" ] ;
-     fhir:display [ fhir:v "GRA-BRETANHA" ]
-  ] [
-     fhir:code [ fhir:v "33" ] ;
-     fhir:display [ fhir:v "ARUBA" ]
-  ] [
-     fhir:code [ fhir:v "34" ] ;
-     fhir:display [ fhir:v "CANADA" ]
-  ] [
-     fhir:code [ fhir:v "35" ] ;
-     fhir:display [ fhir:v "ESPANHA" ]
-  ] [
-     fhir:code [ fhir:v "36" ] ;
-     fhir:display [ fhir:v "ESTADOS UNIDOS DA AMERICA (EUA)" ]
-  ] [
-     fhir:code [ fhir:v "37" ] ;
-     fhir:display [ fhir:v "FRANCA" ]
-  ] [
-     fhir:code [ fhir:v "38" ] ;
-     fhir:display [ fhir:v "SUICA" ]
-  ] [
-     fhir:code [ fhir:v "39" ] ;
-     fhir:display [ fhir:v "ITALIA" ]
-  ] [
-     fhir:code [ fhir:v "40" ] ;
-     fhir:display [ fhir:v "COMUNIDADE DAS BAHAMAS" ]
-  ] [
-     fhir:code [ fhir:v "41" ] ;
-     fhir:display [ fhir:v "JAPAO" ]
-  ] [
-     fhir:code [ fhir:v "42" ] ;
-     fhir:display [ fhir:v "CHINA" ]
-  ] [
-     fhir:code [ fhir:v "43" ] ;
-     fhir:display [ fhir:v "COREIA" ]
-  ] [
-     fhir:code [ fhir:v "44" ] ;
-     fhir:display [ fhir:v "BARBADOS" ]
-  ] [
-     fhir:code [ fhir:v "45" ] ;
-     fhir:display [ fhir:v "PORTUGAL" ]
-  ] [
-     fhir:code [ fhir:v "46" ] ;
-     fhir:display [ fhir:v "BELIZE" ]
-  ] [
-     fhir:code [ fhir:v "47" ] ;
-     fhir:display [ fhir:v "ILHAS TURKS E CAICOS" ]
-  ] [
-     fhir:code [ fhir:v "48" ] ;
-     fhir:display [ fhir:v "RESERVADO" ]
-  ] [
-     fhir:code [ fhir:v "49" ] ;
-     fhir:display [ fhir:v "RESERVADO" ]
-  ] [
-     fhir:code [ fhir:v "50" ] ;
-     fhir:display [ fhir:v "RESERVADO" ]
-  ] [
-     fhir:code [ fhir:v "51" ] ;
-     fhir:display [ fhir:v "COSTA RICA" ]
-  ] [
-     fhir:code [ fhir:v "52" ] ;
-     fhir:display [ fhir:v "CUBA" ]
-  ] [
-     fhir:code [ fhir:v "53" ] ;
-     fhir:display [ fhir:v "CURACAO" ]
-  ] [
-     fhir:code [ fhir:v "54" ] ;
-     fhir:display [ fhir:v "COMUNIDADE DOMINICANA" ]
-  ] [
-     fhir:code [ fhir:v "55" ] ;
-     fhir:display [ fhir:v "REPUBLICA DOMINICANA" ]
-  ] [
-     fhir:code [ fhir:v "56" ] ;
-     fhir:display [ fhir:v "REPUBLICA DE EL SALVADOR" ]
-  ] [
-     fhir:code [ fhir:v "57" ] ;
-     fhir:display [ fhir:v "ESTADOS ASSOC. DAS ANTILHAS" ]
-  ] [
-     fhir:code [ fhir:v "58" ] ;
-     fhir:display [ fhir:v "ILHAS FALKLANDS" ]
-  ] [
-     fhir:code [ fhir:v "59" ] ;
-     fhir:display [ fhir:v "GRANADA" ]
-  ] [
-     fhir:code [ fhir:v "60" ] ;
-     fhir:display [ fhir:v "ILHAS GUADALUPE" ]
-  ] [
-     fhir:code [ fhir:v "61" ] ;
-     fhir:display [ fhir:v "GUATEMALA" ]
-  ] [
-     fhir:code [ fhir:v "62" ] ;
-     fhir:display [ fhir:v "REPUBLICA DO HAITI" ]
-  ] [
-     fhir:code [ fhir:v "63" ] ;
-     fhir:display [ fhir:v "HONDURAS BRITANICAS" ]
-  ] [
-     fhir:code [ fhir:v "64" ] ;
-     fhir:display [ fhir:v "HONDURAS" ]
-  ] [
-     fhir:code [ fhir:v "65" ] ;
-     fhir:display [ fhir:v "ILHAS SERRANAS" ]
-  ] [
-     fhir:code [ fhir:v "66" ] ;
-     fhir:display [ fhir:v "JAMAICA" ]
-  ] [
-     fhir:code [ fhir:v "67" ] ;
-     fhir:display [ fhir:v "ILHAS MALVINAS" ]
-  ] [
-     fhir:code [ fhir:v "68" ] ;
-     fhir:display [ fhir:v "MARTINICA" ]
-  ] [
-     fhir:code [ fhir:v "69" ] ;
-     fhir:display [ fhir:v "ILHA MILHOS" ]
-  ] [
-     fhir:code [ fhir:v "70" ] ;
-     fhir:display [ fhir:v "MONTE SERRAT" ]
-  ] [
-     fhir:code [ fhir:v "71" ] ;
-     fhir:display [ fhir:v "NICARAGUA" ]
-  ] [
-     fhir:code [ fhir:v "72" ] ;
-     fhir:display [ fhir:v "PANAMA" ]
-  ] [
-     fhir:code [ fhir:v "73" ] ;
-     fhir:display [ fhir:v "PANAMA(ZONA DO CANAL)" ]
-  ] [
-     fhir:code [ fhir:v "74" ] ;
-     fhir:display [ fhir:v "PORTO RICO" ]
-  ] [
-     fhir:code [ fhir:v "75" ] ;
-     fhir:display [ fhir:v "QUITASUENO" ]
-  ] [
-     fhir:code [ fhir:v "76" ] ;
-     fhir:display [ fhir:v "RONCADOR" ]
-  ] [
-     fhir:code [ fhir:v "77" ] ;
-     fhir:display [ fhir:v "SANTA LUCIA" ]
-  ] [
-     fhir:code [ fhir:v "78" ] ;
-     fhir:display [ fhir:v "SAO CRISTOVAO" ]
-  ] [
-     fhir:code [ fhir:v "79" ] ;
-     fhir:display [ fhir:v "SAO VICENTE" ]
-  ] [
-     fhir:code [ fhir:v "80" ] ;
-     fhir:display [ fhir:v "ILHAS TURCA" ]
-  ] [
-     fhir:code [ fhir:v "81" ] ;
-     fhir:display [ fhir:v "ILHAS VIRGENS BRITANICAS" ]
-  ] [
-     fhir:code [ fhir:v "82" ] ;
-     fhir:display [ fhir:v "ILHAS VIRGENS AMERICANAS" ]
-  ] [
-     fhir:code [ fhir:v "83" ] ;
-     fhir:display [ fhir:v "BERMUDAS" ]
-  ] [
-     fhir:code [ fhir:v "84" ] ;
-     fhir:display [ fhir:v "GROENLANDIA" ]
-  ] [
-     fhir:code [ fhir:v "85" ] ;
-     fhir:display [ fhir:v "MEXICO" ]
-  ] [
-     fhir:code [ fhir:v "86" ] ;
-     fhir:display [ fhir:v "ST. PIERRE ET MIQUELON" ]
-  ] [
-     fhir:code [ fhir:v "87" ] ;
-     fhir:display [ fhir:v "GUIANA FRANCESA" ]
-  ] [
-     fhir:code [ fhir:v "88" ] ;
-     fhir:display [ fhir:v "REPUBLICA GUIANA" ]
-  ] [
-     fhir:code [ fhir:v "89" ] ;
-     fhir:display [ fhir:v "PERU" ]
-  ] [
-     fhir:code [ fhir:v "90" ] ;
-     fhir:display [ fhir:v "SURINAME" ]
-  ] [
-     fhir:code [ fhir:v "91" ] ;
-     fhir:display [ fhir:v "TRINIDAD E TOBAGO" ]
-  ] [
-     fhir:code [ fhir:v "92" ] ;
-     fhir:display [ fhir:v "VENEZUELA" ]
-  ] [
-     fhir:code [ fhir:v "93" ] ;
-     fhir:display [ fhir:v "ALBANIA" ]
-  ] [
-     fhir:code [ fhir:v "94" ] ;
-     fhir:display [ fhir:v "ANDORRA" ]
-  ] [
-     fhir:code [ fhir:v "95" ] ;
-     fhir:display [ fhir:v "AUSTRIA" ]
-  ] [
-     fhir:code [ fhir:v "96" ] ;
-     fhir:display [ fhir:v "BULGARIA" ]
-  ] [
-     fhir:code [ fhir:v "97" ] ;
-     fhir:display [ fhir:v "CHIPRE" ]
-  ] [
-     fhir:code [ fhir:v "98" ] ;
-     fhir:display [ fhir:v "DINAMARCA" ]
-  ] [
-     fhir:code [ fhir:v "99" ] ;
-     fhir:display [ fhir:v "EIRE" ]
-  ] [
-     fhir:code [ fhir:v "100" ] ;
-     fhir:display [ fhir:v "ESCOCIA" ]
-  ] [
-     fhir:code [ fhir:v "101" ] ;
-     fhir:display [ fhir:v "ILHAS FAROES" ]
-  ] [
-     fhir:code [ fhir:v "102" ] ;
-     fhir:display [ fhir:v "FINLANDIA" ]
-  ] [
-     fhir:code [ fhir:v "103" ] ;
-     fhir:display [ fhir:v "GIBRALTAR" ]
-  ] [
-     fhir:code [ fhir:v "104" ] ;
-     fhir:display [ fhir:v "GRECIA" ]
-  ] [
-     fhir:code [ fhir:v "105" ] ;
-     fhir:display [ fhir:v "HOLANDA" ]
-  ] [
-     fhir:code [ fhir:v "106" ] ;
-     fhir:display [ fhir:v "HUNGRIA" ]
-  ] [
-     fhir:code [ fhir:v "107" ] ;
-     fhir:display [ fhir:v "ILHAS BALEARES" ]
-  ] [
-     fhir:code [ fhir:v "108" ] ;
-     fhir:display [ fhir:v "ILHAS COSMOLEDO (LOMORES)" ]
-  ] [
-     fhir:code [ fhir:v "109" ] ;
-     fhir:display [ fhir:v "ILHAS DO CANAL" ]
-  ] [
-     fhir:code [ fhir:v "110" ] ;
-     fhir:display [ fhir:v "INGLATERRA" ]
-  ] [
-     fhir:code [ fhir:v "111" ] ;
-     fhir:display [ fhir:v "IRLANDA DO NORTE" ]
-  ] [
-     fhir:code [ fhir:v "112" ] ;
-     fhir:display [ fhir:v "IRLANDA" ]
-  ] [
-     fhir:code [ fhir:v "113" ] ;
-     fhir:display [ fhir:v "ISLANDIA" ]
-  ] [
-     fhir:code [ fhir:v "114" ] ;
-     fhir:display [ fhir:v "IUGOSLAVIA" ]
-  ] [
-     fhir:code [ fhir:v "115" ] ;
-     fhir:display [ fhir:v "LIECHTENSTEIN" ]
-  ] [
-     fhir:code [ fhir:v "116" ] ;
-     fhir:display [ fhir:v "LUXEMBURGO" ]
-  ] [
-     fhir:code [ fhir:v "117" ] ;
-     fhir:display [ fhir:v "ILHAS DE MAN" ]
-  ] [
-     fhir:code [ fhir:v "118" ] ;
-     fhir:display [ fhir:v "MONACO" ]
-  ] [
-     fhir:code [ fhir:v "119" ] ;
-     fhir:display [ fhir:v "NORUEGA" ]
-  ] [
-     fhir:code [ fhir:v "120" ] ;
-     fhir:display [ fhir:v "REPUBLICA DE MALTA" ]
-  ] [
-     fhir:code [ fhir:v "121" ] ;
-     fhir:display [ fhir:v "PAIS DE GALES" ]
-  ] [
-     fhir:code [ fhir:v "122" ] ;
-     fhir:display [ fhir:v "PAISES BAIXOS" ]
-  ] [
-     fhir:code [ fhir:v "123" ] ;
-     fhir:display [ fhir:v "POLONIA" ]
-  ] [
-     fhir:code [ fhir:v "124" ] ;
-     fhir:display [ fhir:v "ROMENIA" ]
-  ] [
-     fhir:code [ fhir:v "125" ] ;
-     fhir:display [ fhir:v "SAN MARINO" ]
-  ] [
-     fhir:code [ fhir:v "126" ] ;
-     fhir:display [ fhir:v "SUECIA" ]
-  ] [
-     fhir:code [ fhir:v "127" ] ;
-     fhir:display [ fhir:v "SVALBARD E JAN MAYER,IS" ]
-  ] [
-     fhir:code [ fhir:v "128" ] ;
-     fhir:display [ fhir:v "TCHECOSLOVAQUIA" ]
-  ] [
-     fhir:code [ fhir:v "129" ] ;
-     fhir:display [ fhir:v "ESTADO DA CIDADE DO VATICANO" ]
-  ] [
-     fhir:code [ fhir:v "130" ] ;
-     fhir:display [ fhir:v "CROACIA" ]
-  ] [
-     fhir:code [ fhir:v "131" ] ;
-     fhir:display [ fhir:v "SERVIA" ]
-  ] [
-     fhir:code [ fhir:v "132" ] ;
-     fhir:display [ fhir:v "ESLOVENIA" ]
-  ] [
-     fhir:code [ fhir:v "133" ] ;
-     fhir:display [ fhir:v "REPUBLICA DA MACEDONIA" ]
-  ] [
-     fhir:code [ fhir:v "134" ] ;
-     fhir:display [ fhir:v "BOSNIA HERZEGOVINA" ]
-  ] [
-     fhir:code [ fhir:v "135" ] ;
-     fhir:display [ fhir:v "REPUBLICA TCHECA" ]
-  ] [
-     fhir:code [ fhir:v "136" ] ;
-     fhir:display [ fhir:v "ESLOVAQUIA" ]
-  ] [
-     fhir:code [ fhir:v "137" ] ;
-     fhir:display [ fhir:v "MONTENEGRO" ]
-  ] [
-     fhir:code [ fhir:v "138" ] ;
-     fhir:display [ fhir:v "AZERBAIJAO" ]
-  ] [
-     fhir:code [ fhir:v "139" ] ;
-     fhir:display [ fhir:v "BASHKISTA" ]
-  ] [
-     fhir:code [ fhir:v "140" ] ;
-     fhir:display [ fhir:v "REPUBLICA DA BIELORRUSSIA" ]
-  ] [
-     fhir:code [ fhir:v "141" ] ;
-     fhir:display [ fhir:v "BURYAT" ]
-  ] [
-     fhir:code [ fhir:v "142" ] ;
-     fhir:display [ fhir:v "CARELIA" ]
-  ] [
-     fhir:code [ fhir:v "143" ] ;
-     fhir:display [ fhir:v "CAZAQUISTAO" ]
-  ] [
-     fhir:code [ fhir:v "144" ] ;
-     fhir:display [ fhir:v "CHECHEN INGUSTH" ]
-  ] [
-     fhir:code [ fhir:v "145" ] ;
-     fhir:display [ fhir:v "CHUVASH" ]
-  ] [
-     fhir:code [ fhir:v "146" ] ;
-     fhir:display [ fhir:v "DAGESTA" ]
-  ] [
-     fhir:code [ fhir:v "147" ] ;
-     fhir:display [ fhir:v "ESTONIA" ]
-  ] [
-     fhir:code [ fhir:v "148" ] ;
-     fhir:display [ fhir:v "GEORGIA" ]
-  ] [
-     fhir:code [ fhir:v "149" ] ;
-     fhir:display [ fhir:v "GORNO ALTAI" ]
-  ] [
-     fhir:code [ fhir:v "150" ] ;
-     fhir:display [ fhir:v "KABARDINO BALKAR" ]
-  ] [
-     fhir:code [ fhir:v "151" ] ;
-     fhir:display [ fhir:v "KALMIR" ]
-  ] [
-     fhir:code [ fhir:v "152" ] ;
-     fhir:display [ fhir:v "KARACHAEVOCHERKESS" ]
-  ] [
-     fhir:code [ fhir:v "153" ] ;
-     fhir:display [ fhir:v "KHAKASS" ]
-  ] [
-     fhir:code [ fhir:v "154" ] ;
-     fhir:display [ fhir:v "KOMI" ]
-  ] [
-     fhir:code [ fhir:v "155" ] ;
-     fhir:display [ fhir:v "LETONIA" ]
-  ] [
-     fhir:code [ fhir:v "156" ] ;
-     fhir:display [ fhir:v "LITUANIA" ]
-  ] [
-     fhir:code [ fhir:v "157" ] ;
-     fhir:display [ fhir:v "MARI" ]
-  ] [
-     fhir:code [ fhir:v "158" ] ;
-     fhir:display [ fhir:v "MOLDAVIA" ]
-  ] [
-     fhir:code [ fhir:v "159" ] ;
-     fhir:display [ fhir:v "OSSETIA SETENTRIONAL" ]
-  ] [
-     fhir:code [ fhir:v "160" ] ;
-     fhir:display [ fhir:v "QUIRGUISTAO" ]
-  ] [
-     fhir:code [ fhir:v "161" ] ;
-     fhir:display [ fhir:v "TADJIQUISTAO" ]
-  ] [
-     fhir:code [ fhir:v "162" ] ;
-     fhir:display [ fhir:v "TARTARIA" ]
-  ] [
-     fhir:code [ fhir:v "163" ] ;
-     fhir:display [ fhir:v "TURCOMENISTAO" ]
-  ] [
-     fhir:code [ fhir:v "164" ] ;
-     fhir:display [ fhir:v "TUVIN" ]
-  ] [
-     fhir:code [ fhir:v "165" ] ;
-     fhir:display [ fhir:v "UCRANIA" ]
-  ] [
-     fhir:code [ fhir:v "166" ] ;
-     fhir:display [ fhir:v "UDMURT" ]
-  ] [
-     fhir:code [ fhir:v "167" ] ;
-     fhir:display [ fhir:v "UNIAO SOVIETICA" ]
-  ] [
-     fhir:code [ fhir:v "168" ] ;
-     fhir:display [ fhir:v "UZBEQUISTAO" ]
-  ] [
-     fhir:code [ fhir:v "169" ] ;
-     fhir:display [ fhir:v "YAKUT" ]
-  ] [
-     fhir:code [ fhir:v "170" ] ;
-     fhir:display [ fhir:v "ABISSINIA" ]
-  ] [
-     fhir:code [ fhir:v "171" ] ;
-     fhir:display [ fhir:v "ACORES" ]
-  ] [
-     fhir:code [ fhir:v "172" ] ;
-     fhir:display [ fhir:v "AFAR FRANCES" ]
-  ] [
-     fhir:code [ fhir:v "173" ] ;
-     fhir:display [ fhir:v "REPUBLICA DA AFRICA DO SUL" ]
-  ] [
-     fhir:code [ fhir:v "174" ] ;
-     fhir:display [ fhir:v "ALTA VOLTA" ]
-  ] [
-     fhir:code [ fhir:v "175" ] ;
-     fhir:display [ fhir:v "ANGOLA" ]
-  ] [
-     fhir:code [ fhir:v "176" ] ;
-     fhir:display [ fhir:v "ARGELIA" ]
-  ] [
-     fhir:code [ fhir:v "177" ] ;
-     fhir:display [ fhir:v "BECHUANALANDIA" ]
-  ] [
-     fhir:code [ fhir:v "178" ] ;
-     fhir:display [ fhir:v "BENIN" ]
-  ] [
-     fhir:code [ fhir:v "179" ] ;
-     fhir:display [ fhir:v "BOTSUANA" ]
-  ] [
-     fhir:code [ fhir:v "180" ] ;
-     fhir:display [ fhir:v "BURUNDI" ]
-  ] [
-     fhir:code [ fhir:v "181" ] ;
-     fhir:display [ fhir:v "CAMAROES" ]
-  ] [
-     fhir:code [ fhir:v "182" ] ;
-     fhir:display [ fhir:v "CEUTA E MELILLA" ]
-  ] [
-     fhir:code [ fhir:v "183" ] ;
-     fhir:display [ fhir:v "CHADE" ]
-  ] [
-     fhir:code [ fhir:v "184" ] ;
-     fhir:display [ fhir:v "ILHAS COMORES" ]
-  ] [
-     fhir:code [ fhir:v "185" ] ;
-     fhir:display [ fhir:v "CONGO" ]
-  ] [
-     fhir:code [ fhir:v "186" ] ;
-     fhir:display [ fhir:v "COSTA DO MARFIM" ]
-  ] [
-     fhir:code [ fhir:v "187" ] ;
-     fhir:display [ fhir:v "DAOME" ]
-  ] [
-     fhir:code [ fhir:v "188" ] ;
-     fhir:display [ fhir:v "DJIBUTI" ]
-  ] [
-     fhir:code [ fhir:v "189" ] ;
-     fhir:display [ fhir:v "REPUBLICA ARABE DO EGITO" ]
-  ] [
-     fhir:code [ fhir:v "190" ] ;
-     fhir:display [ fhir:v "ETIOPIA" ]
-  ] [
-     fhir:code [ fhir:v "191" ] ;
-     fhir:display [ fhir:v "REPUBLICA DO GABAO" ]
-  ] [
-     fhir:code [ fhir:v "192" ] ;
-     fhir:display [ fhir:v "GAMBIA" ]
-  ] [
-     fhir:code [ fhir:v "193" ] ;
-     fhir:display [ fhir:v "GANA" ]
-  ] [
-     fhir:code [ fhir:v "194" ] ;
-     fhir:display [ fhir:v "GAZA" ]
-  ] [
-     fhir:code [ fhir:v "195" ] ;
-     fhir:display [ fhir:v "GUINE" ]
-  ] [
-     fhir:code [ fhir:v "196" ] ;
-     fhir:display [ fhir:v "GUINE EQUATORIAL" ]
-  ] [
-     fhir:code [ fhir:v "197" ] ;
-     fhir:display [ fhir:v "IFNI" ]
-  ] [
-     fhir:code [ fhir:v "198" ] ;
-     fhir:display [ fhir:v "ASCENSAO E TRISTAO DA CUNHA,IS" ]
-  ] [
-     fhir:code [ fhir:v "199" ] ;
-     fhir:display [ fhir:v "ILHAS CANARIAS" ]
-  ] [
-     fhir:code [ fhir:v "200" ] ;
-     fhir:display [ fhir:v "LESOTO" ]
-  ] [
-     fhir:code [ fhir:v "201" ] ;
-     fhir:display [ fhir:v "LIBERIA" ]
-  ] [
-     fhir:code [ fhir:v "202" ] ;
-     fhir:display [ fhir:v "LIBIA" ]
-  ] [
-     fhir:code [ fhir:v "203" ] ;
-     fhir:display [ fhir:v "MADEIRA" ]
-  ] [
-     fhir:code [ fhir:v "204" ] ;
-     fhir:display [ fhir:v "MALAWI" ]
-  ] [
-     fhir:code [ fhir:v "205" ] ;
-     fhir:display [ fhir:v "MADAGASCAR" ]
-  ] [
-     fhir:code [ fhir:v "206" ] ;
-     fhir:display [ fhir:v "MALI" ]
-  ] [
-     fhir:code [ fhir:v "207" ] ;
-     fhir:display [ fhir:v "MARROCOS" ]
-  ] [
-     fhir:code [ fhir:v "208" ] ;
-     fhir:display [ fhir:v "MAURICIO" ]
-  ] [
-     fhir:code [ fhir:v "209" ] ;
-     fhir:display [ fhir:v "MAURITANIA" ]
-  ] [
-     fhir:code [ fhir:v "210" ] ;
-     fhir:display [ fhir:v "MOCAMBIQUE" ]
-  ] [
-     fhir:code [ fhir:v "211" ] ;
-     fhir:display [ fhir:v "NGUANE" ]
-  ] [
-     fhir:code [ fhir:v "212" ] ;
-     fhir:display [ fhir:v "REPUBLICA DO NIGER" ]
-  ] [
-     fhir:code [ fhir:v "213" ] ;
-     fhir:display [ fhir:v "NIGERIA" ]
-  ] [
-     fhir:code [ fhir:v "214" ] ;
-     fhir:display [ fhir:v "PAPUA NOVA GUINE" ]
-  ] [
-     fhir:code [ fhir:v "215" ] ;
-     fhir:display [ fhir:v "PRACAS NORTE AFRICANAS" ]
-  ] [
-     fhir:code [ fhir:v "216" ] ;
-     fhir:display [ fhir:v "PROTETOR DO SUDOESTE AFRICANO" ]
-  ] [
-     fhir:code [ fhir:v "217" ] ;
-     fhir:display [ fhir:v "QUENIA" ]
-  ] [
-     fhir:code [ fhir:v "218" ] ;
-     fhir:display [ fhir:v "REPUBLICA CENTRO AFRICANA" ]
-  ] [
-     fhir:code [ fhir:v "219" ] ;
-     fhir:display [ fhir:v "REUNIAO" ]
-  ] [
-     fhir:code [ fhir:v "220" ] ;
-     fhir:display [ fhir:v "RODESIA (ZIMBABWE)" ]
-  ] [
-     fhir:code [ fhir:v "221" ] ;
-     fhir:display [ fhir:v "RUANDA" ]
-  ] [
-     fhir:code [ fhir:v "222" ] ;
-     fhir:display [ fhir:v "SAARA ESPANHOL" ]
-  ] [
-     fhir:code [ fhir:v "223" ] ;
-     fhir:display [ fhir:v "SANTA HELENA" ]
-  ] [
-     fhir:code [ fhir:v "224" ] ;
-     fhir:display [ fhir:v "SAO TOME E PRINCIPE" ]
-  ] [
-     fhir:code [ fhir:v "225" ] ;
-     fhir:display [ fhir:v "SEYCHELLES" ]
-  ] [
-     fhir:code [ fhir:v "226" ] ;
-     fhir:display [ fhir:v "SERRA LEOA" ]
-  ] [
-     fhir:code [ fhir:v "227" ] ;
-     fhir:display [ fhir:v "SOMALIA, REPUBLICA" ]
-  ] [
-     fhir:code [ fhir:v "228" ] ;
-     fhir:display [ fhir:v "SUAZILANDIA" ]
-  ] [
-     fhir:code [ fhir:v "229" ] ;
-     fhir:display [ fhir:v "SUDAO" ]
-  ] [
-     fhir:code [ fhir:v "230" ] ;
-     fhir:display [ fhir:v "TANGANICA" ]
-  ] [
-     fhir:code [ fhir:v "231" ] ;
-     fhir:display [ fhir:v "TERRIT. BRITANICO DO OCEANO INDICO" ]
-  ] [
-     fhir:code [ fhir:v "232" ] ;
-     fhir:display [ fhir:v "TRANSKEI" ]
-  ] [
-     fhir:code [ fhir:v "233" ] ;
-     fhir:display [ fhir:v "TOGO" ]
-  ] [
-     fhir:code [ fhir:v "234" ] ;
-     fhir:display [ fhir:v "TUNISIA" ]
-  ] [
-     fhir:code [ fhir:v "235" ] ;
-     fhir:display [ fhir:v "UGANDA" ]
-  ] [
-     fhir:code [ fhir:v "236" ] ;
-     fhir:display [ fhir:v "ZAIRE" ]
-  ] [
-     fhir:code [ fhir:v "237" ] ;
-     fhir:display [ fhir:v "ZAMBIA" ]
-  ] [
-     fhir:code [ fhir:v "238" ] ;
-     fhir:display [ fhir:v "BURKINA FASSO" ]
-  ] [
-     fhir:code [ fhir:v "239" ] ;
-     fhir:display [ fhir:v "ZIMBABWE" ]
-  ] [
-     fhir:code [ fhir:v "240" ] ;
-     fhir:display [ fhir:v "NAMIBIA" ]
-  ] [
-     fhir:code [ fhir:v "241" ] ;
-     fhir:display [ fhir:v "AFEGANISTAO" ]
-  ] [
-     fhir:code [ fhir:v "242" ] ;
-     fhir:display [ fhir:v "ARABIA SAUDITA" ]
-  ] [
-     fhir:code [ fhir:v "243" ] ;
-     fhir:display [ fhir:v "BAHREIN" ]
-  ] [
-     fhir:code [ fhir:v "244" ] ;
-     fhir:display [ fhir:v "BIRMANIA" ]
-  ] [
-     fhir:code [ fhir:v "245" ] ;
-     fhir:display [ fhir:v "BRUNEI" ]
-  ] [
-     fhir:code [ fhir:v "246" ] ;
-     fhir:display [ fhir:v "BHUTAN" ]
-  ] [
-     fhir:code [ fhir:v "247" ] ;
-     fhir:display [ fhir:v "CATAR" ]
-  ] [
-     fhir:code [ fhir:v "248" ] ;
-     fhir:display [ fhir:v "CEILAO" ]
-  ] [
-     fhir:code [ fhir:v "249" ] ;
-     fhir:display [ fhir:v "CHINA (TAIWAN)" ]
-  ] [
-     fhir:code [ fhir:v "250" ] ;
-     fhir:display [ fhir:v "COVEITE" ]
-  ] [
-     fhir:code [ fhir:v "251" ] ;
-     fhir:display [ fhir:v "EMIRADOS ARABES UNIDOS" ]
-  ] [
-     fhir:code [ fhir:v "252" ] ;
-     fhir:display [ fhir:v "FILIPINAS" ]
-  ] [
-     fhir:code [ fhir:v "253" ] ;
-     fhir:display [ fhir:v "HONG-KONG" ]
-  ] [
-     fhir:code [ fhir:v "254" ] ;
-     fhir:display [ fhir:v "IEMEN" ]
-  ] [
-     fhir:code [ fhir:v "255" ] ;
-     fhir:display [ fhir:v "INDIA" ]
-  ] [
-     fhir:code [ fhir:v "256" ] ;
-     fhir:display [ fhir:v "INDONESIA" ]
-  ] [
-     fhir:code [ fhir:v "257" ] ;
-     fhir:display [ fhir:v "IRA" ]
-  ] [
-     fhir:code [ fhir:v "258" ] ;
-     fhir:display [ fhir:v "IRAQUE" ]
-  ] [
-     fhir:code [ fhir:v "259" ] ;
-     fhir:display [ fhir:v "ISRAEL" ]
-  ] [
-     fhir:code [ fhir:v "260" ] ;
-     fhir:display [ fhir:v "JORDANIA" ]
-  ] [
-     fhir:code [ fhir:v "261" ] ;
-     fhir:display [ fhir:v "KMER/CAMBOJA" ]
-  ] [
-     fhir:code [ fhir:v "262" ] ;
-     fhir:display [ fhir:v "KUWAIT" ]
-  ] [
-     fhir:code [ fhir:v "263" ] ;
-     fhir:display [ fhir:v "LAOS" ]
-  ] [
-     fhir:code [ fhir:v "264" ] ;
-     fhir:display [ fhir:v "LIBANO" ]
-  ] [
-     fhir:code [ fhir:v "265" ] ;
-     fhir:display [ fhir:v "MACAU" ]
-  ] [
-     fhir:code [ fhir:v "266" ] ;
-     fhir:display [ fhir:v "MALASIA" ]
-  ] [
-     fhir:code [ fhir:v "267" ] ;
-     fhir:display [ fhir:v "MALDIVAS,IS" ]
-  ] [
-     fhir:code [ fhir:v "268" ] ;
-     fhir:display [ fhir:v "MASCATE" ]
-  ] [
-     fhir:code [ fhir:v "269" ] ;
-     fhir:display [ fhir:v "MONGOLIA" ]
-  ] [
-     fhir:code [ fhir:v "270" ] ;
-     fhir:display [ fhir:v "NEPAL" ]
-  ] [
-     fhir:code [ fhir:v "271" ] ;
-     fhir:display [ fhir:v "OMAN" ]
-  ] [
-     fhir:code [ fhir:v "272" ] ;
-     fhir:display [ fhir:v "PALESTINA" ]
-  ] [
-     fhir:code [ fhir:v "273" ] ;
-     fhir:display [ fhir:v "PAQUISTAO" ]
-  ] [
-     fhir:code [ fhir:v "274" ] ;
-     fhir:display [ fhir:v "RUIQUIU,IS" ]
-  ] [
-     fhir:code [ fhir:v "275" ] ;
-     fhir:display [ fhir:v "CINGAPURA" ]
-  ] [
-     fhir:code [ fhir:v "276" ] ;
-     fhir:display [ fhir:v "SEQUIN" ]
-  ] [
-     fhir:code [ fhir:v "277" ] ;
-     fhir:display [ fhir:v "SIRIA" ]
-  ] [
-     fhir:code [ fhir:v "278" ] ;
-     fhir:display [ fhir:v "SRI-LANKA" ]
-  ] [
-     fhir:code [ fhir:v "279" ] ;
-     fhir:display [ fhir:v "TAILANDIA" ]
-  ] [
-     fhir:code [ fhir:v "280" ] ;
-     fhir:display [ fhir:v "TREGUA, ESTADO" ]
-  ] [
-     fhir:code [ fhir:v "281" ] ;
-     fhir:display [ fhir:v "TURQUIA" ]
-  ] [
-     fhir:code [ fhir:v "282" ] ;
-     fhir:display [ fhir:v "VIETNA DO NORTE" ]
-  ] [
-     fhir:code [ fhir:v "283" ] ;
-     fhir:display [ fhir:v "VIETNA DO SUL" ]
-  ] [
-     fhir:code [ fhir:v "284" ] ;
-     fhir:display [ fhir:v "MIANMA" ]
-  ] [
-     fhir:code [ fhir:v "285" ] ;
-     fhir:display [ fhir:v "ARQUIPELAGO MANAHIKI" ]
-  ] [
-     fhir:code [ fhir:v "286" ] ;
-     fhir:display [ fhir:v "ARQUIPELAGO MIDWAY" ]
-  ] [
-     fhir:code [ fhir:v "287" ] ;
-     fhir:display [ fhir:v "ASHMORE E CARTIER" ]
-  ] [
-     fhir:code [ fhir:v "288" ] ;
-     fhir:display [ fhir:v "AUSTRALIA" ]
-  ] [
-     fhir:code [ fhir:v "289" ] ;
-     fhir:display [ fhir:v "ARQUIPELAGO DE BISMARK" ]
-  ] [
-     fhir:code [ fhir:v "290" ] ;
-     fhir:display [ fhir:v "ILHAS COOK" ]
-  ] [
-     fhir:code [ fhir:v "291" ] ;
-     fhir:display [ fhir:v "REPUBLICA DE FIJI" ]
-  ] [
-     fhir:code [ fhir:v "292" ] ;
-     fhir:display [ fhir:v "GUAM" ]
-  ] [
-     fhir:code [ fhir:v "293" ] ;
-     fhir:display [ fhir:v "ILHAS BAKER" ]
-  ] [
-     fhir:code [ fhir:v "294" ] ;
-     fhir:display [ fhir:v "ILHAS CANTAO E ENDERBURG" ]
-  ] [
-     fhir:code [ fhir:v "295" ] ;
-     fhir:display [ fhir:v "ILHAS CAROLINAS" ]
-  ] [
-     fhir:code [ fhir:v "296" ] ;
-     fhir:display [ fhir:v "ILHAS DO PACIFICO" ]
-  ] [
-     fhir:code [ fhir:v "297" ] ;
-     fhir:display [ fhir:v "ILHAS CHRISTMAS" ]
-  ] [
-     fhir:code [ fhir:v "298" ] ;
-     fhir:display [ fhir:v "ILHAS GILBERT" ]
-  ] [
-     fhir:code [ fhir:v "299" ] ;
-     fhir:display [ fhir:v "ILHAS HOWLAND E JARVIS" ]
-  ] [
-     fhir:code [ fhir:v "300" ] ;
-     fhir:display [ fhir:v "ILHA JOHNSTON E SAND" ]
-  ] [
-     fhir:code [ fhir:v "301" ] ;
-     fhir:display [ fhir:v "ILHAS KINGMAN REEF" ]
-  ] [
-     fhir:code [ fhir:v "302" ] ;
-     fhir:display [ fhir:v "ILHAS MACQUAIRE" ]
-  ] [
-     fhir:code [ fhir:v "303" ] ;
-     fhir:display [ fhir:v "ILHAS MARIANAS" ]
-  ] [
-     fhir:code [ fhir:v "304" ] ;
-     fhir:display [ fhir:v "ILHAS MARSHALL" ]
-  ] [
-     fhir:code [ fhir:v "305" ] ;
-     fhir:display [ fhir:v "ILHAS MACDONAL E HEARD" ]
-  ] [
-     fhir:code [ fhir:v "306" ] ;
-     fhir:display [ fhir:v "ILHAS NIUE" ]
-  ] [
-     fhir:code [ fhir:v "307" ] ;
-     fhir:display [ fhir:v "ILHAS NORFOLK" ]
-  ] [
-     fhir:code [ fhir:v "308" ] ;
-     fhir:display [ fhir:v "ILHAS PALAU" ]
-  ] [
-     fhir:code [ fhir:v "309" ] ;
-     fhir:display [ fhir:v "ILHAS SALOMAO" ]
-  ] [
-     fhir:code [ fhir:v "310" ] ;
-     fhir:display [ fhir:v "ILHAS TOKELAU" ]
-  ] [
-     fhir:code [ fhir:v "311" ] ;
-     fhir:display [ fhir:v "ILHAS WAKE" ]
-  ] [
-     fhir:code [ fhir:v "312" ] ;
-     fhir:display [ fhir:v "KALIMATAN" ]
-  ] [
-     fhir:code [ fhir:v "313" ] ;
-     fhir:display [ fhir:v "ILHAS LINHA" ]
-  ] [
-     fhir:code [ fhir:v "314" ] ;
-     fhir:display [ fhir:v "NAURU" ]
-  ] [
-     fhir:code [ fhir:v "315" ] ;
-     fhir:display [ fhir:v "ILHAS NOVA CALEDONIA" ]
-  ] [
-     fhir:code [ fhir:v "316" ] ;
-     fhir:display [ fhir:v "NOVA GUINE" ]
-  ] [
-     fhir:code [ fhir:v "317" ] ;
-     fhir:display [ fhir:v "NOVA ZELANDIA" ]
-  ] [
-     fhir:code [ fhir:v "318" ] ;
-     fhir:display [ fhir:v "ILHAS NOVAS HEBRIDAS" ]
-  ] [
-     fhir:code [ fhir:v "319" ] ;
-     fhir:display [ fhir:v "TERRITORIO DE PAPUA" ]
-  ] [
-     fhir:code [ fhir:v "320" ] ;
-     fhir:display [ fhir:v "ILHAS PASCOA" ]
-  ] [
-     fhir:code [ fhir:v "321" ] ;
-     fhir:display [ fhir:v "ILHAS PITCAIRIN" ]
-  ] [
-     fhir:code [ fhir:v "322" ] ;
-     fhir:display [ fhir:v "POLINESIA FRANCESA" ]
-  ] [
-     fhir:code [ fhir:v "323" ] ;
-     fhir:display [ fhir:v "SABAH" ]
-  ] [
-     fhir:code [ fhir:v "324" ] ;
-     fhir:display [ fhir:v "SAMOA AMERICANA" ]
-  ] [
-     fhir:code [ fhir:v "325" ] ;
-     fhir:display [ fhir:v "SAMOA OCIDENTAL" ]
-  ] [
-     fhir:code [ fhir:v "326" ] ;
-     fhir:display [ fhir:v "ILHAS SANTA CRUZ" ]
-  ] [
-     fhir:code [ fhir:v "327" ] ;
-     fhir:display [ fhir:v "SARAWAK" ]
-  ] [
-     fhir:code [ fhir:v "328" ] ;
-     fhir:display [ fhir:v "TERRITORIO DE COCOS" ]
-  ] [
-     fhir:code [ fhir:v "329" ] ;
-     fhir:display [ fhir:v "TIMOR" ]
-  ] [
-     fhir:code [ fhir:v "330" ] ;
-     fhir:display [ fhir:v "TONGA" ]
-  ] [
-     fhir:code [ fhir:v "331" ] ;
-     fhir:display [ fhir:v "TUVALU" ]
-  ] [
-     fhir:code [ fhir:v "332" ] ;
-     fhir:display [ fhir:v "ILHAS WALLIS E FUTUNA" ]
-  ] [
-     fhir:code [ fhir:v "333" ] ;
-     fhir:display [ fhir:v "ANTARTICO BRITANICO, TERRITORIO" ]
-  ] [
-     fhir:code [ fhir:v "334" ] ;
-     fhir:display [ fhir:v "ANTARTICA FRANCESA" ]
-  ] [
-     fhir:code [ fhir:v "335" ] ;
-     fhir:display [ fhir:v "TERR. ANTARTICO DA AUSTRALIA" ]
-  ] [
-     fhir:code [ fhir:v "336" ] ;
-     fhir:display [ fhir:v "ANTARTICO CHILENO" ]
-  ] [
-     fhir:code [ fhir:v "337" ] ;
-     fhir:display [ fhir:v "ANTARTICO ARGENTINO" ]
-  ] [
-     fhir:code [ fhir:v "338" ] ;
-     fhir:display [ fhir:v "ANTARTICO NORUEGUES" ]
-  ] [
-     fhir:code [ fhir:v "339" ] ;
-     fhir:display [ fhir:v "APATRIDA" ]
-  ] [
-     fhir:code [ fhir:v "340" ] ;
-     fhir:display [ fhir:v "DEPENDENCIA DE ROSS" ]
-  ] [
-     fhir:code [ fhir:v "341" ] ;
-     fhir:display [ fhir:v "TERRAS AUSTRAIS" ]
-  ] [
-     fhir:code [ fhir:v "342" ] ;
-     fhir:display [ fhir:v "BANGLADESH" ]
-  ] [
-     fhir:code [ fhir:v "343" ] ;
-     fhir:display [ fhir:v "CABO VERDE" ]
-  ] [
-     fhir:code [ fhir:v "344" ] ;
-     fhir:display [ fhir:v "GUINE BISSAU" ]
-  ] [
-     fhir:code [ fhir:v "345" ] ;
-     fhir:display [ fhir:v "IEMEN DO SUL" ]
-  ] [
-     fhir:code [ fhir:v "346" ] ;
-     fhir:display [ fhir:v "KARA KALPAK" ]
-  ] [
-     fhir:code [ fhir:v "347" ] ;
-     fhir:display [ fhir:v "ARMENIA" ]
-  ] [
-     fhir:code [ fhir:v "348" ] ;
-     fhir:display [ fhir:v "RUSSIA" ]
-  ] [
-     fhir:code [ fhir:v "349" ] ;
-     fhir:display [ fhir:v "SENEGAL" ]
-  ] [
-     fhir:code [ fhir:v "350" ] ;
-     fhir:display [ fhir:v "TANZANIA" ]
-  ] [
-     fhir:code [ fhir:v "351" ] ;
-     fhir:display [ fhir:v "MALAUI" ]
-  ] [
-     fhir:code [ fhir:v "352" ] ;
-     fhir:display [ fhir:v "REPÚBLICA DO SUDÃO DO SUL" ]
-  ] [
-     fhir:code [ fhir:v "353" ] ;
-     fhir:display [ fhir:v "ERITREIA" ]
-  ] [
-     fhir:code [ fhir:v "354" ] ;
-     fhir:display [ fhir:v "DOMINICA" ]
-  ] [
-     fhir:code [ fhir:v "355" ] ;
-     fhir:display [ fhir:v "COREIA, REPUBLICA DA (COREIA DO SUL)" ]
-  ] [
-     fhir:code [ fhir:v "356" ] ;
-     fhir:display [ fhir:v "CONGO, REPUBLICA DO (BRAZZAVILLE)" ]
-  ] [
-     fhir:code [ fhir:v "357" ] ;
-     fhir:display [ fhir:v "ANGUILLA" ]
-  ] [
-     fhir:code [ fhir:v "358" ] ;
-     fhir:display [ fhir:v "ILHAS CAYMAN" ]
-  ] [
-     fhir:code [ fhir:v "359" ] ;
-     fhir:display [ fhir:v "ILHAS DE GUERNSEY" ]
-  ] [
-     fhir:code [ fhir:v "360" ] ;
-     fhir:display [ fhir:v "ILHAS DE JERSEY" ]
-  ] [
-     fhir:code [ fhir:v "361" ] ;
-     fhir:display [ fhir:v "ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL" ]
-  ] [
-     fhir:code [ fhir:v "362" ] ;
-     fhir:display [ fhir:v "MAYOTTE, ILHA" ]
-  ] [
-     fhir:code [ fhir:v "363" ] ;
-     fhir:display [ fhir:v "QUIRIBATI" ]
-  ] ) . # 
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Códigos para representação de países."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BRASIL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "20" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RESERVADO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARGENTINA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BOLIVIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHILE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PARAGUAI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "25" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "URUGUAI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "26" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COLOMBIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "27" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "EQUADOR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANTIGUA E. DEP. BARBUDA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANTILHAS HOLANDESAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "30" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ALEMANHA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BELGICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "32" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GRA-BRETANHA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "33" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARUBA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "34" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CANADA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "35" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESPANHA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "36" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESTADOS UNIDOS DA AMERICA (EUA)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FRANCA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "38" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SUICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "39" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ITALIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "40" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COMUNIDADE DAS BAHAMAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "41" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "JAPAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHINA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COREIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "44" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BARBADOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "45" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PORTUGAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "46" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BELIZE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "47" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS TURKS E CAICOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "48" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RESERVADO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "49" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RESERVADO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "50" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RESERVADO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "51" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COSTA RICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CUBA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "53" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CURACAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "54" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COMUNIDADE DOMINICANA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "55" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DOMINICANA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "56" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DE EL SALVADOR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "57" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESTADOS ASSOC. DAS ANTILHAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "58" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS FALKLANDS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "59" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GRANADA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "60" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS GUADALUPE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "61" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GUATEMALA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "62" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DO HAITI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "63" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HONDURAS BRITANICAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "64" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HONDURAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "65" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS SERRANAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "66" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "JAMAICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "67" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS MALVINAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "68" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MARTINICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "69" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHA MILHOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "70" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MONTE SERRAT" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "71" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NICARAGUA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "72" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PANAMA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "73" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PANAMA(ZONA DO CANAL)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "74" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PORTO RICO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "75" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "QUITASUENO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "76" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RONCADOR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "77" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SANTA LUCIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "78" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAO CRISTOVAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "79" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAO VICENTE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "80" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS TURCA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "81" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS VIRGENS BRITANICAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "82" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS VIRGENS AMERICANAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "83" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BERMUDAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "84" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GROENLANDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "85" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MEXICO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "86" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ST. PIERRE ET MIQUELON" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "87" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GUIANA FRANCESA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "88" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA GUIANA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "89" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PERU" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "90" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SURINAME" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "91" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TRINIDAD E TOBAGO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "92" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VENEZUELA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "93" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ALBANIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "94" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANDORRA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "95" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AUSTRIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "96" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BULGARIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "97" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHIPRE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "98" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DINAMARCA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "99" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "EIRE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "100" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESCOCIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS FAROES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FINLANDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "103" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GIBRALTAR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "104" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GRECIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "105" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HOLANDA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "106" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HUNGRIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "107" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS BALEARES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "108" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS COSMOLEDO (LOMORES)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "109" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS DO CANAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "110" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INGLATERRA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IRLANDA DO NORTE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IRLANDA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "113" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ISLANDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "114" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IUGOSLAVIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "115" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LIECHTENSTEIN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "116" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LUXEMBURGO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "117" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS DE MAN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "118" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MONACO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "119" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NORUEGA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "120" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DE MALTA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "121" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PAIS DE GALES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "122" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PAISES BAIXOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "123" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "POLONIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "124" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ROMENIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "125" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAN MARINO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "126" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SUECIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "127" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SVALBARD E JAN MAYER,IS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "128" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TCHECOSLOVAQUIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "129" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESTADO DA CIDADE DO VATICANO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "130" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CROACIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "131" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERVIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "132" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESLOVENIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "133" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DA MACEDONIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "134" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BOSNIA HERZEGOVINA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "135" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA TCHECA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "136" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESLOVAQUIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "137" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MONTENEGRO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "138" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AZERBAIJAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "139" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BASHKISTA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "140" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DA BIELORRUSSIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "141" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BURYAT" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "142" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CARELIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "143" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CAZAQUISTAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "144" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHECHEN INGUSTH" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "145" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHUVASH" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "146" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DAGESTA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "147" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ESTONIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "148" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GEORGIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "149" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GORNO ALTAI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "150" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KABARDINO BALKAR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "151" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KALMIR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "152" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KARACHAEVOCHERKESS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "153" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KHAKASS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "154" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KOMI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "155" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LETONIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "156" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LITUANIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "157" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MARI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "158" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MOLDAVIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "159" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "OSSETIA SETENTRIONAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "160" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "QUIRGUISTAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "161" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TADJIQUISTAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "162" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TARTARIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "163" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TURCOMENISTAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "164" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TUVIN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "165" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "UCRANIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "166" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "UDMURT" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "167" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "UNIAO SOVIETICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "168" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "UZBEQUISTAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "169" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "YAKUT" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "170" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ABISSINIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "171" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ACORES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "172" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AFAR FRANCES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "173" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DA AFRICA DO SUL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "174" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ALTA VOLTA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "175" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANGOLA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "176" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARGELIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "177" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BECHUANALANDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "178" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BENIN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "179" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BOTSUANA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "180" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BURUNDI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "181" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CAMAROES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "182" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CEUTA E MELILLA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "183" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHADE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "184" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS COMORES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "185" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CONGO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "186" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COSTA DO MARFIM" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "187" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DAOME" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "188" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DJIBUTI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "189" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA ARABE DO EGITO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "190" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ETIOPIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "191" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DO GABAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "192" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GAMBIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "193" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GANA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "194" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GAZA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "195" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GUINE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "196" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GUINE EQUATORIAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "197" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IFNI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "198" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ASCENSAO E TRISTAO DA CUNHA,IS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "199" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS CANARIAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "200" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LESOTO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "201" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LIBERIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "202" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LIBIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "203" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MADEIRA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "204" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MALAWI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "205" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MADAGASCAR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "206" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MALI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "207" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MARROCOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "208" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MAURICIO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "209" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MAURITANIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "210" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MOCAMBIQUE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "211" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NGUANE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "212" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DO NIGER" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "213" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NIGERIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "214" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PAPUA NOVA GUINE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "215" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PRACAS NORTE AFRICANAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "216" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PROTETOR DO SUDOESTE AFRICANO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "217" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "QUENIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "218" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA CENTRO AFRICANA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "219" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REUNIAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "220" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RODESIA (ZIMBABWE)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "221" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RUANDA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "222" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAARA ESPANHOL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "223" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SANTA HELENA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "224" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAO TOME E PRINCIPE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "225" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SEYCHELLES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "226" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SERRA LEOA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "227" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SOMALIA, REPUBLICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "228" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SUAZILANDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "229" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SUDAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "230" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TANGANICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "231" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TERRIT. BRITANICO DO OCEANO INDICO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "232" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TRANSKEI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "233" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TOGO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "234" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TUNISIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "235" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "UGANDA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "236" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ZAIRE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "237" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ZAMBIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "238" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BURKINA FASSO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "239" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ZIMBABWE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "240" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NAMIBIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "241" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AFEGANISTAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "242" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARABIA SAUDITA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "243" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BAHREIN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "244" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BIRMANIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "245" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BRUNEI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "246" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BHUTAN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "247" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CATAR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "248" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CEILAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "249" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHINA (TAIWAN)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "250" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVEITE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "251" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "EMIRADOS ARABES UNIDOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "252" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FILIPINAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "253" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HONG-KONG" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "254" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IEMEN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "255" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "256" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INDONESIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "257" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IRA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "258" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IRAQUE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "259" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ISRAEL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "260" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "JORDANIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "261" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KMER/CAMBOJA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "262" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KUWAIT" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "263" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LAOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "264" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "LIBANO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "265" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MACAU" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "266" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MALASIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "267" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MALDIVAS,IS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "268" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MASCATE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "269" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MONGOLIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "270" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NEPAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "271" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "OMAN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "272" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PALESTINA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "273" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "PAQUISTAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "274" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RUIQUIU,IS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "275" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CINGAPURA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "276" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SEQUIN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "277" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SIRIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "278" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SRI-LANKA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "279" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TAILANDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "280" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TREGUA, ESTADO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "281" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TURQUIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "282" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VIETNA DO NORTE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "283" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VIETNA DO SUL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "284" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MIANMA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "285" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARQUIPELAGO MANAHIKI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "286" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARQUIPELAGO MIDWAY" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "287" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ASHMORE E CARTIER" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "288" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "AUSTRALIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "289" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARQUIPELAGO DE BISMARK" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "290" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS COOK" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "291" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPUBLICA DE FIJI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "292" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GUAM" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "293" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS BAKER" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "294" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS CANTAO E ENDERBURG" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "295" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS CAROLINAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "296" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS DO PACIFICO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "297" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS CHRISTMAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "298" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS GILBERT" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "299" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS HOWLAND E JARVIS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "300" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHA JOHNSTON E SAND" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "301" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS KINGMAN REEF" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "302" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS MACQUAIRE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "303" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS MARIANAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "304" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS MARSHALL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "305" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS MACDONAL E HEARD" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "306" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS NIUE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "307" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS NORFOLK" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "308" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS PALAU" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "309" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS SALOMAO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "310" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS TOKELAU" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "311" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS WAKE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "312" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KALIMATAN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "313" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS LINHA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "314" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NAURU" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "315" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS NOVA CALEDONIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "316" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NOVA GUINE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "317" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NOVA ZELANDIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "318" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS NOVAS HEBRIDAS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "319" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TERRITORIO DE PAPUA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "320" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS PASCOA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "321" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS PITCAIRIN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "322" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "POLINESIA FRANCESA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "323" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SABAH" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "324" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAMOA AMERICANA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "325" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAMOA OCIDENTAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "326" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS SANTA CRUZ" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "327" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SARAWAK" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "328" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TERRITORIO DE COCOS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "329" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TIMOR" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "330" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TONGA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "331" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TUVALU" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "332" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS WALLIS E FUTUNA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "333" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANTARTICO BRITANICO, TERRITORIO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "334" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANTARTICA FRANCESA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "335" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TERR. ANTARTICO DA AUSTRALIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "336" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANTARTICO CHILENO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "337" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANTARTICO ARGENTINO" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "338" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANTARTICO NORUEGUES" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "339" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "APATRIDA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "340" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DEPENDENCIA DE ROSS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "341" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TERRAS AUSTRAIS" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "342" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BANGLADESH" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "343" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CABO VERDE" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "344" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "GUINE BISSAU" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "345" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IEMEN DO SUL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "346" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "KARA KALPAK" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "347" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ARMENIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "348" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RUSSIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "349" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SENEGAL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "350" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TANZANIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "351" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MALAUI" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "352" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "REPÚBLICA DO SUDÃO DO SUL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "353" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ERITREIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "354" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DOMINICA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "355" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COREIA, REPUBLICA DA (COREIA DO SUL)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "356" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CONGO, REPUBLICA DO (BRAZZAVILLE)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "357" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ANGUILLA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "358" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS CAYMAN" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "359" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS DE GUERNSEY" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "360" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS DE JERSEY" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "361" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ILHAS GEORGIA DO SUL E ILHAS SANDWICH DO SUL" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "362" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MAYOTTE, ILHA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "363" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "QUIRIBATI" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRPais.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

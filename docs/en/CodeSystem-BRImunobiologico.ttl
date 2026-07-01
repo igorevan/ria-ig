@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,2222 +7,1897 @@
 
 <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRImunobiologico> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "BRImunobiologico"] ; # 
-  fhir:language [ fhir:v "en"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "ehr"
-     ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:integer ;
-       fhir:v 1 ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:canonical ;
-           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+  fhir:Resource.id [ fhir:value "BRImunobiologico"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "ehr" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [
+       fhir:value "1"^^xsd:integer ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir" ;
            fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
-       ] )
+       ]
      ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "normative" ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:canonical ;
-           fhir:v "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"^^xsd:anyURI ;
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [
+       fhir:value "normative" ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir" ;
            fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir>
          ]
-       ] )
+       ]
      ]
-  ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ] ;
-     fhir:value [
-       a fhir:code ;
-       fhir:v "4.0.1"
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version" ] ;
+     fhir:Extension.valueCode [ fhir:value "4.0.1" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0-release"] ;
+  fhir:CodeSystem.name [ fhir:value "BRImunobiologico"] ;
+  fhir:CodeSystem.title [ fhir:value "Imunobiológico (CodeSystem)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2023-01-12T18:40:15.6103207+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério da Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://www.saude.gov.br" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "cgiis.datasus@saude.gov.br" ]
      ]
-  ] ) ; # 
-  fhir:url [ fhir:v "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0-release"] ; # 
-  fhir:name [ fhir:v "BRImunobiologico"] ; # 
-  fhir:title [ fhir:v "Imunobiológico (CodeSystem)"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2023-01-12T18:40:15.6103207+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Ministério da Saúde do Brasil"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Ministério da Saúde do Brasil" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.saude.gov.br" ]
-     ] [
-       fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "cgiis.datasus@saude.gov.br" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Classifica os tipos de imunobiológicos."] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "BR" ]
-     ] )
-  ] ) ; # 
-  fhir:caseSensitive [ fhir:v true] ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:property ( [
-     fhir:code [ fhir:v "Name" ] ;
-     fhir:description [ fhir:v "Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes." ] ;
-     fhir:type [ fhir:v "string" ]
-  ] [
-     fhir:code [ fhir:v "Category" ] ;
-     fhir:description [ fhir:v "Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina." ] ;
-     fhir:type [ fhir:v "string" ]
-  ] [
-     fhir:code [ fhir:v "inactive" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#inactive"^^xsd:anyURI ] ;
-     fhir:description [ fhir:v "Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta." ] ;
-     fhir:type [ fhir:v "boolean" ]
-  ] ) ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "1" ] ;
-     fhir:display [ fhir:v "IGHAT" ] ;
-     fhir:definition [ fhir:v "imunoglobulina humana antitétano" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Imunoglobulina humana antitétano"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Imunoglobulina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "2" ] ;
-     fhir:display [ fhir:v "SAT" ] ;
-     fhir:definition [ fhir:v "soro antitetânico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro antitetânico"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "3" ] ;
-     fhir:display [ fhir:v "SAAR" ] ;
-     fhir:definition [ fhir:v "soro antiaracnídico (Loxosceles, Phoneutria, Tityus)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "4" ] ;
-     fhir:display [ fhir:v "SAESC" ] ;
-     fhir:definition [ fhir:v "soro antiescorpiônico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro antiescorpiônico"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "5" ] ;
-     fhir:display [ fhir:v "DT" ] ;
-     fhir:definition [ fhir:v "vacina difteria e tétano infantil" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina adsorvida difteria e tétano infantil"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "6" ] ;
-     fhir:display [ fhir:v "SAELA" ] ;
-     fhir:definition [ fhir:v "soro antielapídico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antielapídico (bivalente)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "7" ] ;
-     fhir:display [ fhir:v "SAR" ] ;
-     fhir:definition [ fhir:v "soro antirrábico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antirrábico"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "8" ] ;
-     fhir:display [ fhir:v "SABR" ] ;
-     fhir:definition [ fhir:v "soro antibotrópico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antibotrópico (pentavalente)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "9" ] ;
-     fhir:display [ fhir:v "HB" ] ;
-     fhir:definition [ fhir:v "vacina hepatite B" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina hepatite B (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "10" ] ;
-     fhir:display [ fhir:v "SAD" ] ;
-     fhir:definition [ fhir:v "soro antidiftérico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antidiftérico"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "11" ] ;
-     fhir:display [ fhir:v "SABC" ] ;
-     fhir:definition [ fhir:v "soro antibotrópico e anticrotálico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antibotrópico (pentavalente) e anticrotálico"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "12" ] ;
-     fhir:display [ fhir:v "SABL" ] ;
-     fhir:definition [ fhir:v "soro antibotrópico e antilaquético" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antibotrópico (pentavalente) e antilaquético"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "13" ] ;
-     fhir:display [ fhir:v "MenAC" ] ;
-     fhir:definition [ fhir:v "vacina meningo AC" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina meningocócica AC (polissacarídica)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "14" ] ;
-     fhir:display [ fhir:v "VFA" ] ;
-     fhir:definition [ fhir:v "vacina febre amarela" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina febre amarela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "15" ] ;
-     fhir:display [ fhir:v "BCG" ] ;
-     fhir:definition [ fhir:v "vacina BCG" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina BCG"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "16" ] ;
-     fhir:display [ fhir:v "SAC" ] ;
-     fhir:definition [ fhir:v "soro anticrotálico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro anticrotálico"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "17" ] ;
-     fhir:display [ fhir:v "Hib" ] ;
-     fhir:definition [ fhir:v "vacina Hib" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina Haemophilus influenza B (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "18" ] ;
-     fhir:display [ fhir:v "VR embrião de galinha" ] ;
-     fhir:definition [ fhir:v "vacina raiva embrião de galinha" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "inactive" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina raiva (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "19" ] ;
-     fhir:display [ fhir:v "IGHAVZ" ] ;
-     fhir:definition [ fhir:v "imunoglobulina humana antivaricela" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "imunoglobulina humana antivaricela"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Imunoglobulina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "20" ] ;
-     fhir:display [ fhir:v "IGHAHB" ] ;
-     fhir:definition [ fhir:v "imunoglobulina humana anti-hepatite B" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "imunoglobulina humana anti-hepatite B"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Imunoglobulina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "21" ] ;
-     fhir:display [ fhir:v "VPP23" ] ;
-     fhir:definition [ fhir:v "vacina pneumo 23" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina pneumocócica 23-valente (polissacarídica)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "22" ] ;
-     fhir:display [ fhir:v "VIP" ] ;
-     fhir:definition [ fhir:v "vacina inativada poliomielite" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina poliomelite 1, 2 e 3 (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "23" ] ;
-     fhir:display [ fhir:v "IGHAR" ] ;
-     fhir:definition [ fhir:v "imunoglobulina humana antirrábica" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "imunoglobulina humana antirrábica"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Imunoglobulina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "24" ] ;
-     fhir:display [ fhir:v "SCR" ] ;
-     fhir:definition [ fhir:v "vacina tríplice viral" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina sarampo, caxumba, rubéola (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "25" ] ;
-     fhir:display [ fhir:v "dT" ] ;
-     fhir:definition [ fhir:v "vacina difteria e tétano adulto" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria e tétano adulto"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "26" ] ;
-     fhir:display [ fhir:v "VPC10" ] ;
-     fhir:definition [ fhir:v "vacina pneumo 10" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina pneumocócica 10-valente (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "27" ] ;
-     fhir:display [ fhir:v "SALATRO" ] ;
-     fhir:definition [ fhir:v "soro antilatrodéctico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antilatrodéctico (Latrodectus curacaviensis)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "28" ] ;
-     fhir:display [ fhir:v "VOPb" ] ;
-     fhir:definition [ fhir:v "vacina oral poliomielite bivalente" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina poliomielite 1 e 3 (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "29" ] ;
-     fhir:display [ fhir:v "Penta acelular" ] ;
-     fhir:definition [ fhir:v "vacina penta acelular (DTPa/VIP/Hib)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "30" ] ;
-     fhir:display [ fhir:v "FTp" ] ;
-     fhir:definition [ fhir:v "vacina febre tifóide" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina febre tifóide (polissacarídica)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "31" ] ;
-     fhir:display [ fhir:v "SALOX" ] ;
-     fhir:definition [ fhir:v "soro antiloxoscélico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antiloxoscélico (trivalente)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "32" ] ;
-     fhir:display [ fhir:v "SALON" ] ;
-     fhir:definition [ fhir:v "soro antilonômico" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antilonômico"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "33" ] ;
-     fhir:display [ fhir:v "INF3" ] ;
-     fhir:definition [ fhir:v "vacina influenza trivalente" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Influenza vaccine trivalent" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Vacuna influenza trivalente" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina influenza trivalente (fragmentada, inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "34" ] ;
-     fhir:display [ fhir:v "VZ" ] ;
-     fhir:definition [ fhir:v "vacina varicela" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina varicela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "35" ] ;
-     fhir:display [ fhir:v "HA virossomal" ] ;
-     fhir:definition [ fhir:v "vacina hepatite A (virossomal)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida hepatite A (virossomal)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "36" ] ;
-     fhir:display [ fhir:v "SR" ] ;
-     fhir:definition [ fhir:v "vacina dupla viral" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina sarampo, rubéola (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "37" ] ;
-     fhir:display [ fhir:v "VR" ] ;
-     fhir:definition [ fhir:v "vacina raiva (inativada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina raiva (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "38" ] ;
-     fhir:display [ fhir:v "SBOTULTRI" ] ;
-     fhir:definition [ fhir:v "soro antibotulínico (trivalente)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antibotulínico (trivalente)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "39" ] ;
-     fhir:display [ fhir:v "Tetra" ] ;
-     fhir:definition [ fhir:v "vacina DTP/Hib" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "40" ] ;
-     fhir:display [ fhir:v "VPC7" ] ;
-     fhir:definition [ fhir:v "vacina pneumo 7" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina pneumocócica 7-valente (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "41" ] ;
-     fhir:display [ fhir:v "MenC" ] ;
-     fhir:definition [ fhir:v "vacina meningo C" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina meningocócica C (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "42" ] ;
-     fhir:display [ fhir:v "Penta" ] ;
-     fhir:definition [ fhir:v "vacina penta (DTP/HB/Hib)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "43" ] ;
-     fhir:display [ fhir:v "Hexa acelular" ] ;
-     fhir:definition [ fhir:v "vacina hexa acelular (DTPa/HB/VIP/Hib)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "44" ] ;
-     fhir:display [ fhir:v "INFH1N1-2009" ] ;
-     fhir:definition [ fhir:v "vacina influenza A (H1N1) (inativada, fragmentada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "45" ] ;
-     fhir:display [ fhir:v "ROTA" ] ;
-     fhir:definition [ fhir:v "vacina rotavírus" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina rotavírus humano G1P[8] (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "46" ] ;
-     fhir:display [ fhir:v "DTP" ] ;
-     fhir:definition [ fhir:v "vacina DTP" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano e pertussis"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "47" ] ;
-     fhir:display [ fhir:v "DTPa" ] ;
-     fhir:definition [ fhir:v "vacina DTPa infantil" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano e pertussis (acelular)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "48" ] ;
-     fhir:display [ fhir:v "DILSCR" ] ;
-     fhir:definition [ fhir:v "diluente para vacina tríplice viral" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina sarampo, caxumba, rubéola (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "49" ] ;
-     fhir:display [ fhir:v "DILVFA" ] ;
-     fhir:definition [ fhir:v "diluente para vacina febre amarela" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina febre amarela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "50" ] ;
-     fhir:display [ fhir:v "DILHib" ] ;
-     fhir:definition [ fhir:v "diluente para vacina Hib" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina Haemophilus influenzae B (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "51" ] ;
-     fhir:display [ fhir:v "Fta" ] ;
-     fhir:definition [ fhir:v "vacina febre tifóide (atenuada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina febre tifóide (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "52" ] ;
-     fhir:display [ fhir:v "DILMenAC" ] ;
-     fhir:definition [ fhir:v "diluente para vacina meningo AC" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina meningocócica AC (polissacarídica)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "53" ] ;
-     fhir:display [ fhir:v "DILSR" ] ;
-     fhir:definition [ fhir:v "diluente para vacina dupla viral" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina sarampo, rubéola (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "54" ] ;
-     fhir:display [ fhir:v "DILVAR" ] ;
-     fhir:definition [ fhir:v "diluente para vacina varicela" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina varicela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "55" ] ;
-     fhir:display [ fhir:v "HAinf" ] ;
-     fhir:definition [ fhir:v "vacina hepatite A infantil" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida hepatite A (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "56" ] ;
-     fhir:display [ fhir:v "SCRV" ] ;
-     fhir:definition [ fhir:v "vacina tetraviral" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "57" ] ;
-     fhir:display [ fhir:v "dTpa" ] ;
-     fhir:definition [ fhir:v "vacina dTpa adulto" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano e pertussis (acelular)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "58" ] ;
-     fhir:display [ fhir:v "DTPa/VIP" ] ;
-     fhir:definition [ fhir:v "vacina tetra acelular DTPa/VIP" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "59" ] ;
-     fhir:display [ fhir:v "VPC13" ] ;
-     fhir:definition [ fhir:v "vacina pneumo 13" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina pneumocócica 13-valente (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "60" ] ;
-     fhir:display [ fhir:v "HPV2" ] ;
-     fhir:definition [ fhir:v "vacina HPV bivalente" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina papilomavírus humano 16 e 18 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "61" ] ;
-     fhir:display [ fhir:v "Tétano" ] ;
-     fhir:definition [ fhir:v "vacina tétano" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina tétano (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "62" ] ;
-     fhir:display [ fhir:v "HA-HBinf" ] ;
-     fhir:definition [ fhir:v "vacina hepatite A e B infantil" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida hepatite A e hepatite B (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "63" ] ;
-     fhir:display [ fhir:v "HA-HBad" ] ;
-     fhir:definition [ fhir:v "vacina hepatite A e B adulto" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida hepatite A e hepatite B (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "64" ] ;
-     fhir:display [ fhir:v "INF3-ID" ] ;
-     fhir:definition [ fhir:v "vacina influenza trivalente ID" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina influenza trivalente (fragmentada, inativada) intradérmica"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "65" ] ;
-     fhir:display [ fhir:v "ROTA5" ] ;
-     fhir:definition [ fhir:v "vacina rotavírus pentavalente" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "66" ] ;
-     fhir:display [ fhir:v "MenBC" ] ;
-     fhir:definition [ fhir:v "vacina meningo BC" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina meningocócica BC (polissacarídica)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "67" ] ;
-     fhir:display [ fhir:v "HPV4" ] ;
-     fhir:definition [ fhir:v "vacina HPV quadrivalente" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "68" ] ;
-     fhir:display [ fhir:v "HPV2" ] ;
-     fhir:definition [ fhir:v "vacina HPV bivalente" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina papilomavírus humano 16 e 18 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "69" ] ;
-     fhir:display [ fhir:v "SAB" ] ;
-     fhir:definition [ fhir:v "soro antibotulínico AB (bivalente)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "soro antibotulínico AB (bivalente)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Soro"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "70" ] ;
-     fhir:display [ fhir:v "Sarampo" ] ;
-     fhir:definition [ fhir:v "vacina sarampo" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina sarampo (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "71" ] ;
-     fhir:display [ fhir:v "Rubéola" ] ;
-     fhir:definition [ fhir:v "vacina rubéola" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina rubéola (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "72" ] ;
-     fhir:display [ fhir:v "INFH1N1-2009" ] ;
-     fhir:definition [ fhir:v "vacina influenza A (H1N1) (inativada, fragmentada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina influenza tipo A (H1N1) (inativada, fragmentada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "73" ] ;
-     fhir:display [ fhir:v "SCRV" ] ;
-     fhir:definition [ fhir:v "vacina sarampo, caxumba, rubéola e varicela" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina sarampo, caxumba, rubéola e varicela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "74" ] ;
-     fhir:display [ fhir:v "MenACWY" ] ;
-     fhir:definition [ fhir:v "vacina meningo ACWY" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina meningocócica ACWY (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "75" ] ;
-     fhir:display [ fhir:v "VCO" ] ;
-     fhir:definition [ fhir:v "vacina cólera oral" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina cólera (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "76" ] ;
-     fhir:display [ fhir:v "VHZ" ] ;
-     fhir:definition [ fhir:v "vacina herpes-zóster (atenuada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina herpes-zóster (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "77" ] ;
-     fhir:display [ fhir:v "INF4" ] ;
-     fhir:definition [ fhir:v "vacina influenza tetravalente" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "Influenza vaccine tetravalent" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "Vacuna influenza tetravalente" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina influenza tetravalente (fragmentada, inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "78" ] ;
-     fhir:display [ fhir:v "MenB" ] ;
-     fhir:definition [ fhir:v "vacina meningo B" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida meningocócica B (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "79" ] ;
-     fhir:display [ fhir:v "DILBCG" ] ;
-     fhir:definition [ fhir:v "diluente para vacina BCG" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina BCG"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "80" ] ;
-     fhir:display [ fhir:v "DILVR" ] ;
-     fhir:definition [ fhir:v "diluente para vacina raiva (inativada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina raiva (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "81" ] ;
-     fhir:display [ fhir:v "DILMenC" ] ;
-     fhir:definition [ fhir:v "diluente para vacina meningo C" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina meningocócica C (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "82" ] ;
-     fhir:display [ fhir:v "Dengue" ] ;
-     fhir:definition [ fhir:v "vacina dengue (recombinante e atenuada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "83" ] ;
-     fhir:display [ fhir:v "HAad" ] ;
-     fhir:definition [ fhir:v "vacina hepatite A adulto" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida hepatite A (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "84" ] ;
-     fhir:display [ fhir:v "VFA-F" ] ;
-     fhir:definition [ fhir:v "vacina febre amarela fracionada" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina febre amarela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "85" ] ;
-     fhir:display [ fhir:v "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "86" ] ;
-     fhir:display [ fhir:v "COVID-19 SINOVAC/BUTANTAN - CORONAVAC" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-inativada, Sinovac/Butantan (Coronavac)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida covid-19 (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "87" ] ;
-     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "88" ] ;
-     fhir:display [ fhir:v "COVID-19 JANSSEN - Ad26.COV2.S" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-recombinante, Janssen (Ad26.COV2.S)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "89" ] ;
-     fhir:display [ fhir:v "COVID-19 ASTRAZENECA - ChAdOx1-S" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "90" ] ;
-     fhir:display [ fhir:v "DILSCRV" ] ;
-     fhir:definition [ fhir:v "diluente para vacina tetraviral" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "91" ] ;
-     fhir:display [ fhir:v "DILVR embrião de galinha" ] ;
-     fhir:definition [ fhir:v "diluente para vacina raiva embrião de galinha" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina raiva (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "92" ] ;
-     fhir:display [ fhir:v "VR" ] ;
-     fhir:definition [ fhir:v "vacina raiva" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina raiva (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "93" ] ;
-     fhir:display [ fhir:v "HPV9" ] ;
-     fhir:definition [ fhir:v "vacina HPV nonavalente" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina papilomavírus humano 9-valente (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "94" ] ;
-     fhir:display [ fhir:v "NaCl 0,9%" ] ;
-     fhir:definition [ fhir:v "cloreto de sódio, solução injetável - 0,9%" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "cloreto de sódio, solução injetável - 0,9%"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "95" ] ;
-     fhir:display [ fhir:v "COVID-19 GAMALEYA - SPUTNIK V" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-recombinante, Gamaleya (Sputnik V)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "inactive" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "96" ] ;
-     fhir:display [ fhir:v "COVID-19 BHARAT - COVAXIN" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-inativada, Bharat (Covaxin)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "inactive" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida covid-19 (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "97" ] ;
-     fhir:display [ fhir:v "COVID-19 MODERNA - SPIKEVAX" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-RNAm, Moderna (Spikevax)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "98" ] ;
-     fhir:display [ fhir:v "COVID-19 SINOVAC - CORONAVAC" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-inativada, Sinovac (Coronavac)" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM1NL1 COVID-19 vaccine, inactivated virus" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM1NL1 Vacuna COVID-19, virus inactivado" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida covid-19 (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "99" ] ;
-     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "100" ] ;
-     fhir:display [ fhir:v "VVS" ] ;
-     fhir:definition [ fhir:v "vacina varíola símia (atenuada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina varíola símia (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "101" ] ;
-     fhir:display [ fhir:v "VHZR" ] ;
-     fhir:definition [ fhir:v "vacina herpes-zóster (recombinante)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina herpes-zóster (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "102" ] ;
-     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "103" ] ;
-     fhir:display [ fhir:v "COVID-19 PFIZER - COMIRNATY BIVALENTE" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente" ] ;
-     fhir:designation ( [
-       fhir:language [ fhir:v "en" ] ;
-       fhir:value [ fhir:v "XM0GQ8 COVID-19 vaccine, RNA based" ]
-     ] [
-       fhir:language [ fhir:v "es" ] ;
-       fhir:value [ fhir:v "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
-     ] ) ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19 bivalente"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "104" ] ;
-     fhir:display [ fhir:v "DNG" ] ;
-     fhir:definition [ fhir:v "vacina dengue (atenuada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina dengue 1, 2, 3 e 4 (atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "105" ] ;
-     fhir:display [ fhir:v "COVID-19-SPIKEVAX BI" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-RNAm, Moderna (Spikevax) bivalente" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "inactive" ] ;
-       fhir:value [
-         a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina covid-19 bivalente (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "106" ] ;
-     fhir:display [ fhir:v "VPC15" ] ;
-     fhir:definition [ fhir:v "vacina pneumo 15" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "107" ] ;
-     fhir:display [ fhir:v "VPC20" ] ;
-     fhir:definition [ fhir:v "vacina pneumo 20" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina pneumocócica 20-valente (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "108" ] ;
-     fhir:display [ fhir:v "VVSR-Rec" ] ;
-     fhir:definition [ fhir:v "vacina vírus sincicial respiratório A e B (recombinante)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina vírus sincicial respiratório A e B (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "109" ] ;
-     fhir:display [ fhir:v "VVSR-RecAdj" ] ;
-     fhir:definition [ fhir:v "vacina vírus sincicial respiratório (recombinante, adjuvada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina vírus sincicial respiratório (recombinante, adjuvada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "110" ] ;
-     fhir:display [ fhir:v "INF4-alta dosagem" ] ;
-     fhir:definition [ fhir:v "vacina influenza tetravalente - alta dosagem" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina influenza tetravalente (fragmentada, inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "111" ] ;
-     fhir:display [ fhir:v "dTpa/VIP" ] ;
-     fhir:definition [ fhir:v "vacina tetra acelular dTpa/VIP" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "112" ] ;
-     fhir:display [ fhir:v "COVID-19 SERUM/ZALIKA" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-recombinante, Serum/Zalika" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina covid-19 (recombinante)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "113" ] ;
-     fhir:display [ fhir:v "CHIKUNGUNYA" ] ;
-     fhir:definition [ fhir:v "vacina chikungunya (recombinante e atenuada)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina chikungunya (recombinante e atenuada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "114" ] ;
-     fhir:display [ fhir:v "COVID-19 SINOPHARM" ] ;
-     fhir:definition [ fhir:v "vacina covid-19-inativada, Sinopharm" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina covid-19 (inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "115" ] ;
-     fhir:display [ fhir:v "NIRSEVIMABE 0,5ml" ] ;
-     fhir:definition [ fhir:v "nirsevimabe 0,5ml" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "nirsevimabe 0,5ml"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Anticorpo Monoclonal"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "116" ] ;
-     fhir:display [ fhir:v "NIRSEVIMABE 1,0ml" ] ;
-     fhir:definition [ fhir:v "nirsevimabe 1,0ml" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "nirsevimabe 1,0ml"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Anticorpo Monoclonal"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "117" ] ;
-     fhir:display [ fhir:v "INF3-alta dosagem" ] ;
-     fhir:definition [ fhir:v "vacina influenza trivalente - alta dosagem" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "vacina influenza trivalente (fragmentada, inativada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Vacina"
-       ]
-     ] )
-  ] [
-     fhir:code [ fhir:v "118" ] ;
-     fhir:display [ fhir:v "DILMenACWY" ] ;
-     fhir:definition [ fhir:v "diluente para vacina meningo ACWY" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "Name" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "diluente para vacina meningocócica ACWY (conjugada)"
-       ]
-     ] [
-       fhir:code [ fhir:v "Category" ] ;
-       fhir:value [
-         a fhir:string ;
-         fhir:v "Diluente"
-       ]
-     ] )
-  ] ) . # 
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Classifica os tipos de imunobiológicos."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "Name" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Nome técnico completo e oficial do produto, conforme registro junto aos órgãos competentes." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "Category" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Classificação ampla do produto, limitada às categorias: Anticorpo Monoclonal, Diluente, Imunoglobulina, Soro e Vacina." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#inactive" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Status do imunobiológico em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IGHAT" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "imunoglobulina humana antitétano" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Imunoglobulina humana antitétano" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Imunoglobulina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAT" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antitetânico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro antitetânico" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAAR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antiaracnídico (Loxosceles, Phoneutria, Tityus)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro antiaracnídico (Loxosceles, Phoneutria, Tityus)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAESC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antiescorpiônico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro antiescorpiônico" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DT" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina difteria e tétano infantil" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina adsorvida difteria e tétano infantil" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAELA" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antielapídico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antielapídico (bivalente)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antirrábico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antirrábico" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SABR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antibotrópico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antibotrópico (pentavalente)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HB" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina hepatite B" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina hepatite B (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAD" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antidiftérico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antidiftérico" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SABC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antibotrópico e anticrotálico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antibotrópico (pentavalente) e anticrotálico" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SABL" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antibotrópico e antilaquético" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antibotrópico (pentavalente) e antilaquético" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MenAC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina meningo AC" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina meningocócica AC (polissacarídica)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VFA" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina febre amarela" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina febre amarela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "15" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "BCG" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina BCG" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina BCG" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "16" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro anticrotálico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro anticrotálico" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "17" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hib" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina Hib" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina Haemophilus influenza B (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "18" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VR embrião de galinha" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina raiva embrião de galinha" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina raiva (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "19" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IGHAVZ" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "imunoglobulina humana antivaricela" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "imunoglobulina humana antivaricela" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Imunoglobulina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "20" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IGHAHB" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "imunoglobulina humana anti-hepatite B" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "imunoglobulina humana anti-hepatite B" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Imunoglobulina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "21" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VPP23" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina pneumo 23" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina pneumocócica 23-valente (polissacarídica)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "22" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VIP" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina inativada poliomielite" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina poliomelite 1, 2 e 3 (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "23" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IGHAR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "imunoglobulina humana antirrábica" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "imunoglobulina humana antirrábica" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Imunoglobulina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "24" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SCR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina tríplice viral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina sarampo, caxumba, rubéola (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "25" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dT" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina difteria e tétano adulto" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria e tétano adulto" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "26" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VPC10" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina pneumo 10" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina pneumocócica 10-valente (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "27" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SALATRO" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antilatrodéctico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antilatrodéctico (Latrodectus curacaviensis)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "28" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VOPb" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina oral poliomielite bivalente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina poliomielite 1 e 3 (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Penta acelular" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina penta acelular (DTPa/VIP/Hib)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada) e Haemophilus influenzae B (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "30" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "FTp" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina febre tifóide" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina febre tifóide (polissacarídica)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "31" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SALOX" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antiloxoscélico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antiloxoscélico (trivalente)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "32" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SALON" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antilonômico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antilonômico" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "33" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INF3" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina influenza trivalente" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Influenza vaccine trivalent" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Vacuna influenza trivalente" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina influenza trivalente (fragmentada, inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "34" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VZ" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina varicela" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina varicela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "35" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HA virossomal" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina hepatite A (virossomal)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida hepatite A (virossomal)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "36" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina dupla viral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina sarampo, rubéola (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina raiva (inativada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina raiva (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "38" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SBOTULTRI" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antibotulínico (trivalente)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antibotulínico (trivalente)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "39" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tetra" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina DTP/Hib" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano, pertussis e Haemophilus influenzae B (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "40" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VPC7" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina pneumo 7" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina pneumocócica 7-valente (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "41" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MenC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina meningo C" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina meningocócica C (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "42" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Penta" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina penta (DTP/HB/Hib)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano, pertussis, hepatite B (recombinante) e Haemophilus influenzae B (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "43" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hexa acelular" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina hexa acelular (DTPa/HB/VIP/Hib)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano, pertussis (acelular), hepatite B (recombinante), poliomielite 1, 2 e 3 (inativada), Haemophilus influenzae B (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "44" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INFH1N1-2009" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina influenza A (H1N1) (inativada, fragmentada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina influenza tipo A (H1N1) (inativada, fragmentada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "45" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ROTA" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina rotavírus" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina rotavírus humano G1P[8] (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "46" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DTP" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina DTP" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano e pertussis" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "47" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DTPa" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina DTPa infantil" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano e pertussis (acelular)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "48" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILSCR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina tríplice viral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina sarampo, caxumba, rubéola (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "49" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILVFA" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina febre amarela" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina febre amarela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "50" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILHib" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina Hib" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina Haemophilus influenzae B (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "51" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fta" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina febre tifóide (atenuada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina febre tifóide (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILMenAC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina meningo AC" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina meningocócica AC (polissacarídica)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "53" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILSR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina dupla viral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina sarampo, rubéola (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "54" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILVAR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina varicela" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina varicela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "55" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HAinf" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina hepatite A infantil" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida hepatite A (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "56" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SCRV" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina tetraviral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina sarampo, caxumba, rubéola e varicela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "57" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dTpa" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina dTpa adulto" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano e pertussis (acelular)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "58" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DTPa/VIP" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina tetra acelular DTPa/VIP" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "59" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VPC13" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina pneumo 13" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina pneumocócica 13-valente (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "60" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HPV2" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina HPV bivalente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina papilomavírus humano 16 e 18 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "61" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tétano" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina tétano" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina tétano (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "62" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HA-HBinf" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina hepatite A e B infantil" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida hepatite A e hepatite B (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "63" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HA-HBad" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina hepatite A e B adulto" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida hepatite A e hepatite B (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "64" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INF3-ID" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina influenza trivalente ID" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina influenza trivalente (fragmentada, inativada) intradérmica" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "65" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ROTA5" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina rotavírus pentavalente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina rotavírus humano/bovino G1, G2, G3, G4 e P1A[8] (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "66" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MenBC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina meningo BC" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina meningocócica BC (polissacarídica)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "67" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HPV4" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina HPV quadrivalente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina papilomavírus humano 6, 11, 16 e 18 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "68" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HPV2" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina HPV bivalente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina papilomavírus humano 16 e 18 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "69" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SAB" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "soro antibotulínico AB (bivalente)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "soro antibotulínico AB (bivalente)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Soro" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "70" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sarampo" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina sarampo" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina sarampo (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "71" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rubéola" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina rubéola" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina rubéola (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "72" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INFH1N1-2009" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina influenza A (H1N1) (inativada, fragmentada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina influenza tipo A (H1N1) (inativada, fragmentada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "73" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SCRV" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina sarampo, caxumba, rubéola e varicela" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina sarampo, caxumba, rubéola e varicela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "74" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MenACWY" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina meningo ACWY" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina meningocócica ACWY (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "75" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VCO" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina cólera oral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina cólera (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "76" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VHZ" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina herpes-zóster (atenuada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina herpes-zóster (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "77" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INF4" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina influenza tetravalente" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Influenza vaccine tetravalent" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Vacuna influenza tetravalente" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina influenza tetravalente (fragmentada, inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "78" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "MenB" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina meningo B" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida meningocócica B (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "79" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILBCG" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina BCG" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina BCG" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "80" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILVR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina raiva (inativada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina raiva (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "81" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILMenC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina meningo C" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina meningocócica C (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "82" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dengue" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina dengue (recombinante e atenuada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina dengue 1, 2, 3 e 4 (recombinante e atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "83" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HAad" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina hepatite A adulto" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida hepatite A (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "84" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VFA-F" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina febre amarela fracionada" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina febre amarela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "85" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-recombinante, AstraZeneca/Fiocruz (Covishield)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "86" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 SINOVAC/BUTANTAN - CORONAVAC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-inativada, Sinovac/Butantan (Coronavac)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM1NL1 COVID-19 vaccine, inactivated virus" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM1NL1 Vacuna COVID-19, virus inactivado" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida covid-19 (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "87" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-RNAm, Pfizer (Comirnaty)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "88" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 JANSSEN - Ad26.COV2.S" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-recombinante, Janssen (Ad26.COV2.S)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "89" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 ASTRAZENECA - ChAdOx1-S" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-recombinante, AstraZeneca/Covax (ChAdOx1-S)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "90" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILSCRV" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina tetraviral" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina sarampo, caxumba, rubéola e varicela (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "91" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILVR embrião de galinha" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina raiva embrião de galinha" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina raiva (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "92" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina raiva" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina raiva (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "93" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HPV9" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina HPV nonavalente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina papilomavírus humano 9-valente (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "94" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NaCl 0,9%" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "cloreto de sódio, solução injetável - 0,9%" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "cloreto de sódio, solução injetável - 0,9%" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "95" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 GAMALEYA - SPUTNIK V" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-recombinante, Gamaleya (Sputnik V)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 COVID-19 vaccine, non-replicating viral vector" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM9QW8 Vacuna COVID-19, vector viral no replicante" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "96" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 BHARAT - COVAXIN" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-inativada, Bharat (Covaxin)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM1NL1 COVID-19 vaccine, inactivated virus" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM1NL1 Vacuna COVID-19, virus inactivado" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida covid-19 (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "97" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 MODERNA - SPIKEVAX" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-RNAm, Moderna (Spikevax)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "98" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 SINOVAC - CORONAVAC" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-inativada, Sinovac (Coronavac)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM1NL1 COVID-19 vaccine, inactivated virus" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM1NL1 Vacuna COVID-19, virus inactivado" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida covid-19 (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "99" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "100" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VVS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina varíola símia (atenuada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina varíola símia (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VHZR" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina herpes-zóster (recombinante)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina herpes-zóster (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-RNAm, Pfizer (Comirnaty) pediátrica menor de 5 anos" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "103" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 PFIZER - COMIRNATY BIVALENTE" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-RNAm, Pfizer (Comirnaty) bivalente" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "en" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 COVID-19 vaccine, RNA based" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "es" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "XM0GQ8 Vacuna COVID-19, basada en ARN" ]
+     ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19 bivalente" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "104" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DNG" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina dengue (atenuada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina dengue 1, 2, 3 e 4 (atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "105" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19-SPIKEVAX BI" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-RNAm, Moderna (Spikevax) bivalente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina covid-19 bivalente (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "106" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VPC15" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina pneumo 15" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida pneumocócica 15-valente (conjugada, polissacarídica)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "107" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VPC20" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina pneumo 20" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina pneumocócica 20-valente (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "108" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VVSR-Rec" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina vírus sincicial respiratório A e B (recombinante)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina vírus sincicial respiratório A e B (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "109" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "VVSR-RecAdj" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina vírus sincicial respiratório (recombinante, adjuvada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina vírus sincicial respiratório (recombinante, adjuvada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "110" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INF4-alta dosagem" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina influenza tetravalente - alta dosagem" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina influenza tetravalente (fragmentada, inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dTpa/VIP" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina tetra acelular dTpa/VIP" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina adsorvida difteria, tétano, pertussis (acelular), poliomielite 1, 2 e 3 (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 SERUM/ZALIKA" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-recombinante, Serum/Zalika" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina covid-19 (recombinante)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "113" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "CHIKUNGUNYA" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina chikungunya (recombinante e atenuada)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina chikungunya (recombinante e atenuada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "114" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "COVID-19 SINOPHARM" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina covid-19-inativada, Sinopharm" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina covid-19 (inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "115" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NIRSEVIMABE 0,5ml" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "nirsevimabe 0,5ml" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "nirsevimabe 0,5ml" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Anticorpo Monoclonal" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "116" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "NIRSEVIMABE 1,0ml" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "nirsevimabe 1,0ml" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "nirsevimabe 1,0ml" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Anticorpo Monoclonal" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "117" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "INF3-alta dosagem" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "vacina influenza trivalente - alta dosagem" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "vacina influenza trivalente (fragmentada, inativada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Vacina" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "118" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "DILMenACWY" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "diluente para vacina meningo ACWY" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Name" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "diluente para vacina meningocócica ACWY (conjugada)" ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Diluente" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRImunobiologico.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 
