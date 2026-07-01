@@ -1,12 +1,15 @@
 {
   "http://unstats.un.org/unsd/methods/m49/m49.htm" : null,
-  "urn:ietf:bcp:47" : null,
+  "urn:ietf:bcp:47" : {
+    "server" : "https://tx.hl7.org.au/fhir",
+    "filename" : "cs-6e7beda0-9fd2-4dd3-800c-cf181f9786f7.json"
+  },
   "urn:iso:std:iso:3166" : {
-    "server" : "http://tx.fhir.org/r4",
-    "filename" : "cs-ffed8a92-c364-4f3c-8074-eb2d85b9d240.json"
+    "server" : "https://tx.hl7.org.au/fhir",
+    "filename" : "cs-f82153fb-c931-444f-a53e-5f6fafc487d5.json"
   },
   "urn:iso:std:iso:3166:-2" : {
-    "server" : "http://tx.fhir.org/r4",
-    "filename" : "cs-2cc3197c-a174-45d5-9efe-ccfc474d887f.json"
+    "server" : "https://tx.hl7.org.au/fhir",
+    "filename" : "cs-1d39384e-be3d-487b-9629-4f41e8c71298.json"
   }
 }
