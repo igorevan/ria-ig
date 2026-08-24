@@ -31,7 +31,7 @@
   "title" : "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-30T08:53:58-03:00",
+  "date" : "2026-08-24T09:55:38-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -62,7 +62,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -551,7 +551,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-liquid"
+        "valueString" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -562,7 +562,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-liquid"
+        "valueString" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -1281,7 +1281,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-liquid"
+        "valueCode" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -1292,7 +1292,7 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-liquid"
+        "valueCode" : "path-liquid-template"
       },
       {
         "url" : "value",
@@ -1535,6 +1535,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-example-RIA-R.html"
       }],
       "reference" : {
         "reference" : "Bundle/example-RIA-R"
@@ -1547,6 +1551,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRCBO.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRCBO"
@@ -1558,6 +1566,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRCID10.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRCID10"
@@ -1569,6 +1581,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRCategoriaDiagnostico.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRCategoriaDiagnostico"
@@ -1580,6 +1596,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRCondicaoMaternal.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRCondicaoMaternal"
@@ -1591,6 +1611,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRDose.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRDose"
@@ -1602,6 +1626,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BREstrategiaVacinacao.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BREstrategiaVacinacao"
@@ -1613,6 +1641,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRFabricantePNI.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRFabricantePNI"
@@ -1624,6 +1656,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRGrupoAtendimento.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRGrupoAtendimento"
@@ -1635,6 +1671,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRImunobiologico.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRImunobiologico"
@@ -1646,6 +1686,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRLocalAplicacao.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRLocalAplicacao"
@@ -1657,6 +1701,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRPais.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRPais"
@@ -1668,6 +1716,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRRegistroOrigem.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRRegistroOrigem"
@@ -1679,6 +1731,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRTipoDocumento.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRTipoDocumento"
@@ -1690,6 +1746,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRViaAdministracao.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRViaAdministracao"
@@ -1701,6 +1761,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRCID10Avaliado-1.0.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BRCID10Avaliado-1.0"
@@ -1712,6 +1776,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRCondicaoMaternal.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BRCondicaoMaternal"
@@ -1723,6 +1791,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRContatoHanseniase.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BRContatoHanseniase"
@@ -1734,6 +1806,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BREstrategiaVacinacao-1.0.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BREstrategiaVacinacao-1.0"
@@ -1745,6 +1821,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"
@@ -1756,6 +1836,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRGrupoAtendimento.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BRGrupoAtendimento"
@@ -1767,6 +1851,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRImunobiologicoAdministrado-3.0.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BRImunobiologicoAdministrado-3.0"
@@ -1778,6 +1866,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"
@@ -1789,6 +1881,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRCID10-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRCID10-1.0"
@@ -1800,6 +1896,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRCategoriaDiagnostico.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRCategoriaDiagnostico"
@@ -1811,6 +1911,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRCondicaoMaternal-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRCondicaoMaternal-1.0"
@@ -1822,6 +1926,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRDose-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRDose-1.0"
@@ -1833,6 +1941,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BREstadoEvento-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BREstadoEvento-1.0"
@@ -1844,6 +1956,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"
@@ -1855,6 +1971,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BREstrategiaVacinacao-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BREstrategiaVacinacao-1.0"
@@ -1866,6 +1986,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRFabricanteImunobiologico-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRFabricanteImunobiologico-1.0"
@@ -1877,6 +2001,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRGrupoAtendimento-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRGrupoAtendimento-1.0"
@@ -1888,6 +2016,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRImunobiologico-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRImunobiologico-1.0"
@@ -1899,6 +2031,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRLocalAplicacao-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRLocalAplicacao-1.0"
@@ -1910,6 +2046,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BROcupacao-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BROcupacao-1.0"
@@ -1921,6 +2061,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRPais-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRPais-1.0"
@@ -1932,6 +2076,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRRegistroOrigem.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRRegistroOrigem"
@@ -1943,6 +2091,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRTipoDocumento-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRTipoDocumento-1.0"
@@ -1954,6 +2106,10 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRViaAdministracao-1.0.html"
       }],
       "reference" : {
         "reference" : "ValueSet/BRViaAdministracao-1.0"
@@ -1984,19 +2140,6 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Principal",
-        "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-          "valueCode" : "informative"
-        },
-        {
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "lives.html"
-        }],
-        "nameUrl" : "lives.html",
-        "title" : "Lives",
         "generation" : "html"
       },
       {

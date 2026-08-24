@@ -7,7 +7,7 @@ Indicação da condição maternal da pessoa vacinada.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRCondicaoMaternal](ValueSet-BRCondicaoMaternal-1.0.md)
+* [Condição Maternal (ValueSet)](ValueSet-BRCondicaoMaternal-1.0.md)
 
 -------
 

@@ -2,9 +2,9 @@
   <li>
     <a href="index.html">Principal</a>
   </li>
-  <li>
+  <!-- <li>
     <a href="lives.html">Lives</a>
-  </li>
+  </li> -->
   <li>
     <a href="credenciamento.html">Credenciamento</a>
   </li>
@@ -26,7 +26,8 @@
   </li>
 
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle"> Especificação <b class="caret"></b>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle"> Especificação <b
+        class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
@@ -46,7 +47,8 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="{{site.data.fhir.path}}index.html"> Especificações do FHIR R4 <img src="external.png"
+        <a target="_blank" href="{{site.data.fhir.path}}index.html"> Especificações do FHIR R4 <img
+            src="external.png"
             style="text-align: baseline" />
         </a>
       </li>

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "8b85070d-aa5b-483b-8da2-305e69568190",
+  "id" : "8d4648bd-0517-44bb-bc1e-c54a3265e890",
   "meta" : {
-    "lastUpdated" : "2026-06-30T08:53:58.209-03:00"
+    "lastUpdated" : "2026-08-24T09:55:38.558-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -29,8 +29,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d94649fa-5fc2-4c75-a993-4e468964f73f",
-        "timestamp" : "2026-06-30T08:55:44-03:00",
+        "identifier" : "urn:uuid:f2e9b483-ab88-4dfb-ab4e-b64030774ad3",
+        "timestamp" : "2026-08-24T09:56:58-03:00",
         "total" : 14230,
         "offset" : 0,
         "parameter" : [{
@@ -5080,8 +5080,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d94649fa-5fc2-4c75-a993-4e468964f73f",
-        "timestamp" : "2026-06-30T08:55:44-03:00",
+        "identifier" : "urn:uuid:f2e9b483-ab88-4dfb-ab4e-b64030774ad3",
+        "timestamp" : "2026-08-24T09:56:58-03:00",
         "total" : 14230,
         "offset" : 0,
         "parameter" : [{
@@ -10131,8 +10131,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6c2c4a4f-6c90-421a-acfc-11010dff70dd",
-        "timestamp" : "2026-06-30T08:55:44-03:00",
+        "identifier" : "urn:uuid:020f21e9-b397-4ecd-8211-17e8f55194c5",
+        "timestamp" : "2026-08-24T09:56:58-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -10192,8 +10192,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6c2c4a4f-6c90-421a-acfc-11010dff70dd",
-        "timestamp" : "2026-06-30T08:55:44-03:00",
+        "identifier" : "urn:uuid:020f21e9-b397-4ecd-8211-17e8f55194c5",
+        "timestamp" : "2026-08-24T09:56:58-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -10253,8 +10253,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4cfd2794-3c1e-487a-a9f4-4588882c5349",
-        "timestamp" : "2026-06-30T08:55:46-03:00",
+        "identifier" : "urn:uuid:b8ece113-6561-4529-8097-cb4dd749d488",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -10319,8 +10319,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4cfd2794-3c1e-487a-a9f4-4588882c5349",
-        "timestamp" : "2026-06-30T08:55:46-03:00",
+        "identifier" : "urn:uuid:b8ece113-6561-4529-8097-cb4dd749d488",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -10385,8 +10385,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:8fb7967c-b326-47c3-8a17-c2586ca23072",
-        "timestamp" : "2026-06-30T08:55:46-03:00",
+        "identifier" : "urn:uuid:461ec17c-c614-4990-a233-d0d6c15b9aa9",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 82,
         "offset" : 0,
         "parameter" : [{
@@ -10846,8 +10846,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:8fb7967c-b326-47c3-8a17-c2586ca23072",
-        "timestamp" : "2026-06-30T08:55:46-03:00",
+        "identifier" : "urn:uuid:461ec17c-c614-4990-a233-d0d6c15b9aa9",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 82,
         "offset" : 0,
         "parameter" : [{
@@ -11307,8 +11307,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6222bc22-f63a-4f2e-87b6-bfcef9675163",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:89165ac3-0080-4ad6-a247-4d32d8824f4b",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -11402,8 +11402,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6222bc22-f63a-4f2e-87b6-bfcef9675163",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:89165ac3-0080-4ad6-a247-4d32d8824f4b",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -11480,7 +11480,7 @@
       "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html\">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 6 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-active\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-active\">active</a></td><td>Active</td><td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;active&quot;, &quot;display&quot;: &quot;Active&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;active&quot;&gt;&lt;display value=&quot;Active&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-recurrence\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence\">recurrence</a></td><td>Recurrence</td><td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;recurrence&quot;, &quot;display&quot;: &quot;Recurrence&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;recurrence&quot;&gt;&lt;display value=&quot;Recurrence&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-relapse\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-relapse\">relapse</a></td><td>Relapse</td><td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;relapse&quot;, &quot;display&quot;: &quot;Relapse&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;relapse&quot;&gt;&lt;display value=&quot;Relapse&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-inactive\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-inactive\">inactive</a></td><td>Inactive</td><td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;, &quot;display&quot;: &quot;Inactive&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;inactive&quot;&gt;&lt;display value=&quot;Inactive&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-remission\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-remission\">remission</a></td><td>Remission</td><td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;remission&quot;, &quot;display&quot;: &quot;Remission&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;remission&quot;&gt;&lt;display value=&quot;Remission&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-resolved\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-resolved\">resolved</a></td><td>Resolved</td><td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;resolved&quot;, &quot;display&quot;: &quot;Resolved&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;resolved&quot;&gt;&lt;display value=&quot;Resolved&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html\">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 6 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-active\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-active\">active</a></td><td>Active</td><td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;active&quot;, &quot;display&quot;: &quot;Active&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;active&quot;&gt;&lt;display value=&quot;Active&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-recurrence\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence\">recurrence</a></td><td>Recurrence</td><td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;recurrence&quot;, &quot;display&quot;: &quot;Recurrence&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;recurrence&quot;&gt;&lt;display value=&quot;Recurrence&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-relapse\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-relapse\">relapse</a></td><td>Relapse</td><td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;relapse&quot;, &quot;display&quot;: &quot;Relapse&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;relapse&quot;&gt;&lt;display value=&quot;Relapse&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-inactive\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-inactive\">inactive</a></td><td>Inactive</td><td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;, &quot;display&quot;: &quot;Inactive&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;inactive&quot;&gt;&lt;display value=&quot;Inactive&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-remission\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-remission\">remission</a></td><td>Remission</td><td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;remission&quot;, &quot;display&quot;: &quot;Remission&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;remission&quot;&gt;&lt;display value=&quot;Remission&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-resolved\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-resolved\">resolved</a></td><td>Resolved</td><td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;resolved&quot;, &quot;display&quot;: &quot;Resolved&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;resolved&quot;&gt;&lt;display value=&quot;Resolved&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
       "version" : "1.0.0-release",
@@ -11497,8 +11497,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:3189054a-c202-406e-bc44-c001d986f56d",
-        "timestamp" : "2026-06-30T08:55:44-03:00",
+        "identifier" : "urn:uuid:7a4a8981-7134-4298-893c-8c5404625ba9",
+        "timestamp" : "2026-08-24T09:56:58-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -11561,7 +11561,7 @@
       "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html\">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 6 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-active\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-active\">active</a></td><td>Active</td><td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;active&quot;, &quot;display&quot;: &quot;Active&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;active&quot;&gt;&lt;display value=&quot;Active&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-recurrence\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence\">recurrence</a></td><td>Recurrence</td><td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;recurrence&quot;, &quot;display&quot;: &quot;Recurrence&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;recurrence&quot;&gt;&lt;display value=&quot;Recurrence&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-relapse\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-relapse\">relapse</a></td><td>Relapse</td><td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;relapse&quot;, &quot;display&quot;: &quot;Relapse&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;relapse&quot;&gt;&lt;display value=&quot;Relapse&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-inactive\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-inactive\">inactive</a></td><td>Inactive</td><td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;, &quot;display&quot;: &quot;Inactive&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;inactive&quot;&gt;&lt;display value=&quot;Inactive&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-remission\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-remission\">remission</a></td><td>Remission</td><td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;remission&quot;, &quot;display&quot;: &quot;Remission&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;remission&quot;&gt;&lt;display value=&quot;Remission&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-resolved\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-condition-clinical.html#condition-clinical-resolved\">resolved</a></td><td>Resolved</td><td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;resolved&quot;, &quot;display&quot;: &quot;Resolved&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;resolved&quot;&gt;&lt;display value=&quot;Resolved&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansão efectuada internamente com base em <a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html\">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0\" title=\"Clique para copiar o URL\" class=\"btn-copy\"> </button></span></p><p>Este conjunto de valores contém 6 conceitos</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Sistema</b></td><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã (en)</b></td><td><b>Definição</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-active\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-active\">active</a></td><td>Active</td><td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;active&quot;, &quot;display&quot;: &quot;Active&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;active&quot;&gt;&lt;display value=&quot;Active&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-recurrence\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence\">recurrence</a></td><td>Recurrence</td><td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;recurrence&quot;, &quot;display&quot;: &quot;Recurrence&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;recurrence&quot;&gt;&lt;display value=&quot;Recurrence&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-relapse\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-relapse\">relapse</a></td><td>Relapse</td><td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;relapse&quot;, &quot;display&quot;: &quot;Relapse&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;relapse&quot;&gt;&lt;display value=&quot;Relapse&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-inactive\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-inactive\">inactive</a></td><td>Inactive</td><td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;, &quot;display&quot;: &quot;Inactive&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;inactive&quot;&gt;&lt;display value=&quot;Inactive&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-remission\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-remission\">remission</a></td><td>Remission</td><td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;remission&quot;, &quot;display&quot;: &quot;Remission&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;remission&quot;&gt;&lt;display value=&quot;Remission&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://terminology.hl7.org/CodeSystem/condition-clinical-resolved\"> </a><code>http://terminology.hl7.org/CodeSystem/condition-clinical</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-resolved\">resolved</a></td><td>Resolved</td><td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;resolved&quot;, &quot;display&quot;: &quot;Resolved&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/condition-clinical&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;resolved&quot;&gt;&lt;display value=&quot;Resolved&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
       "version" : "1.0.0-release",
@@ -11578,8 +11578,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:3189054a-c202-406e-bc44-c001d986f56d",
-        "timestamp" : "2026-06-30T08:55:44-03:00",
+        "identifier" : "urn:uuid:7a4a8981-7134-4298-893c-8c5404625ba9",
+        "timestamp" : "2026-08-24T09:56:58-03:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -11659,8 +11659,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b0140f2f-6e1a-4e3c-a6fc-ee3d2da1271c",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:1ea228ff-85b8-4a68-8ed1-e3a745d6354d",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -11791,8 +11791,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b0140f2f-6e1a-4e3c-a6fc-ee3d2da1271c",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:1ea228ff-85b8-4a68-8ed1-e3a745d6354d",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -11923,8 +11923,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c0fbf8f3-9c4e-4ac9-b08d-e7083dae5521",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:a4e2b0a0-347e-444a-90b2-f02472963c35",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 97,
         "offset" : 0,
         "parameter" : [{
@@ -12459,8 +12459,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c0fbf8f3-9c4e-4ac9-b08d-e7083dae5521",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:a4e2b0a0-347e-444a-90b2-f02472963c35",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 97,
         "offset" : 0,
         "parameter" : [{
@@ -12995,8 +12995,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b16424bf-2243-4270-9da0-fef1304000a9",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:976ade1c-55b1-4120-b974-24a05e9051c4",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 109,
         "offset" : 0,
         "parameter" : [{
@@ -13612,8 +13612,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b16424bf-2243-4270-9da0-fef1304000a9",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:976ade1c-55b1-4120-b974-24a05e9051c4",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 109,
         "offset" : 0,
         "parameter" : [{
@@ -14229,8 +14229,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:bd39cee9-e529-4bdb-86ea-1abb6d81a97f",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:64151ddc-4d1c-48ad-95af-44a7c643b138",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 118,
         "offset" : 0,
         "parameter" : [{
@@ -14874,8 +14874,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:bd39cee9-e529-4bdb-86ea-1abb6d81a97f",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:64151ddc-4d1c-48ad-95af-44a7c643b138",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 118,
         "offset" : 0,
         "parameter" : [{
@@ -15519,8 +15519,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:418be89a-8a26-4f53-8fcb-664578d7138f",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:292b857e-48d5-4a2d-86ad-2150bc1a9698",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 24,
         "offset" : 0,
         "parameter" : [{
@@ -15690,8 +15690,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:418be89a-8a26-4f53-8fcb-664578d7138f",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:292b857e-48d5-4a2d-86ad-2150bc1a9698",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 24,
         "offset" : 0,
         "parameter" : [{
@@ -15861,8 +15861,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:62c819bb-3168-4fe4-8be8-500c37ef8606",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:fedb82b6-8039-47e7-96c7-3a5020efe9cb",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 2714,
         "offset" : 0,
         "parameter" : [{
@@ -20912,8 +20912,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:62c819bb-3168-4fe4-8be8-500c37ef8606",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:fedb82b6-8039-47e7-96c7-3a5020efe9cb",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 2714,
         "offset" : 0,
         "parameter" : [{
@@ -25963,8 +25963,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c99b2d95-a641-492b-831d-db9db68ddf30",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:f9f573d2-6bfd-4236-9b0a-bd8d4e65040d",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 345,
         "offset" : 0,
         "parameter" : [{
@@ -27739,8 +27739,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c99b2d95-a641-492b-831d-db9db68ddf30",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:f9f573d2-6bfd-4236-9b0a-bd8d4e65040d",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 345,
         "offset" : 0,
         "parameter" : [{
@@ -29515,8 +29515,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b3866cc9-43bd-4240-a903-8940420efda7",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:5e0f22f7-5c67-462d-8b49-377c42cfa4a9",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -29576,8 +29576,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:b3866cc9-43bd-4240-a903-8940420efda7",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:5e0f22f7-5c67-462d-8b49-377c42cfa4a9",
+        "timestamp" : "2026-08-24T09:57:01-03:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -29637,8 +29637,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:91998ba1-6d49-476c-918f-3d1d9a1897e2",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:55540686-e451-4d5d-8f2e-9b9acc0a1a2f",
+        "timestamp" : "2026-08-24T09:57:02-03:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -29743,8 +29743,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:91998ba1-6d49-476c-918f-3d1d9a1897e2",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:55540686-e451-4d5d-8f2e-9b9acc0a1a2f",
+        "timestamp" : "2026-08-24T09:57:02-03:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -29849,8 +29849,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d1cebf96-dea8-4bb8-a48e-b16d61253945",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:651a4751-dd0d-4b7e-b09d-0fe71dd850ca",
+        "timestamp" : "2026-08-24T09:57:02-03:00",
         "total" : 70,
         "offset" : 0,
         "parameter" : [{
@@ -30250,8 +30250,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:d1cebf96-dea8-4bb8-a48e-b16d61253945",
-        "timestamp" : "2026-06-30T08:55:47-03:00",
+        "identifier" : "urn:uuid:651a4751-dd0d-4b7e-b09d-0fe71dd850ca",
+        "timestamp" : "2026-08-24T09:57:02-03:00",
         "total" : 70,
         "offset" : 0,
         "parameter" : [{
