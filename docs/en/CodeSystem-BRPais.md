@@ -7,7 +7,7 @@ Códigos para representação de países.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRPais](ValueSet-BRPais-1.0.md)
+* [País (ValueSet)](ValueSet-BRPais-1.0.md)
 
 -------
 

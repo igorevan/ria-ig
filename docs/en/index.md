@@ -22,12 +22,11 @@
 
 Abaixo você encontra um material com o fluxo oficial para integração com a RNDS.
 
-<iframe src="https://mobileapps.saude.gov.br/portal-servicos/files/f3bd659c8c8ae3ee966e575fde27eb58/0e3affbe4f1b86b50ae78ab652b2ebaa_pgst0fpqe.pdf" width="100%" height="600px"> Seu navegador não suporta visualização de PDF. <a href="https://mobileapps.saude.gov.br/portal-servicos/files/f3bd659c8c8ae3ee966e575fde27eb58/0e3affbe4f1b86b50ae78ab652b2ebaa_pgst0fpqe.pdf">Clique
+<iframe src="https://mobileapps-prd.saude.gov.br/portal-servicos/files/f3bd659c8c8ae3ee966e575fde27eb58/0e3affbe4f1b86b50ae78ab652b2ebaa_pgst0fpqe.pdf" width="100%" height="600px"> Seu navegador não suporta visualização de PDF. <a href="https://mobileapps-prd.saude.gov.br/portal-servicos/files/f3bd659c8c8ae3ee966e575fde27eb58/0e3affbe4f1b86b50ae78ab652b2ebaa_pgst0fpqe.pdf">Clique
       aqui para abrir</a>. </iframe>
  
 ### Roteiro
 
-*  [Lives](lives.md): Lives com orientações técnicas e negociais sobre o RIA. 
 *  [Credenciamento](credenciamento.md): Saiba qual é o processo e requisitos a serem seguidos por um estabelecimento de saúde para a integração com a RNDS. 
 *  [Integração](integracao.md): Define as operações a serem atendidas para integração com a RNDS. 
 *  [Modelo de Informação (RIA-R)](miRiar.md): Define o Modelo de Informação (MI) do RIA-R. 

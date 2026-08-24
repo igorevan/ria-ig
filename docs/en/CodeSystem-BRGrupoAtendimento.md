@@ -7,7 +7,7 @@ Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresent
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRGrupoAtendimento](ValueSet-BRGrupoAtendimento-1.0.md)
+* [Tipo de grupo de atendimento (ValueSet)](ValueSet-BRGrupoAtendimento-1.0.md)
 
 -------
 

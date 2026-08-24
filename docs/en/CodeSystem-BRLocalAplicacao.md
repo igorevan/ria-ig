@@ -7,7 +7,7 @@ Define a localização anatômica de aplicação de uma substância
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRLocalAplicacao](ValueSet-BRLocalAplicacao-1.0.md)
+* [Local de Aplicação (ValueSet)](ValueSet-BRLocalAplicacao-1.0.md)
 
 -------
 

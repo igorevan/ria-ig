@@ -7,7 +7,7 @@ Classifica a estratégia de vacinação adotada.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BREstrategiaVacinacao](ValueSet-BREstrategiaVacinacao-1.0.md)
+* [Estratégia de Vacinação (ValueSet)](ValueSet-BREstrategiaVacinacao-1.0.md)
 
 -------
 

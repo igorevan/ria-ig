@@ -7,7 +7,7 @@ Apresenta o fabricante do imunobiológico.
 
 This Code system is referenced in the definition of the following value sets:
 
-* [BRFabricanteImunobiologico](ValueSet-BRFabricanteImunobiologico-1.0.md)
+* [Fabricante do Imunobiológico (ValueSet)](ValueSet-BRFabricanteImunobiologico-1.0.md)
 
 -------
 

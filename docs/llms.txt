@@ -8,7 +8,6 @@
 * [Suporte da RNDS](en/suporte.md)
 * [Modelo Computacional](en/mcRiar.md)
 * [Feedback](en/forms.md)
-* [Lives](en/lives.md)
 * [Modelo de Informação](en/miRiar.md)
 * [Integração](en/integracao.md)
 * [Artifacts Summary](en/artifacts.md)
