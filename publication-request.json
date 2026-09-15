@@ -1,7 +1,7 @@
 {
   "package-id": "br.gov.saude.ria.fhir",
   "version": "1.0.0-release",
-  "path": "https://fhir.saude.gov.br/ria",
+  "path": "https://fhir.saude.gov.br/ria/",
   "mode": "working",
   "status": "release",
   "sequence": "Releases",
@@ -9,7 +9,7 @@
   "changes": "changes.html",
   "first": true,
   "title": "RIA IG",
-  "ci-build": "https://fhir.saude.gov.br/ria",
+  "ci-build": "https://igorevan.github.io/ria-ig/",
   "registry-description": "Primeira versão do Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
   "registry-country": "BR",
   "registry-authority": "Ministério da Saúde do Brasil",
