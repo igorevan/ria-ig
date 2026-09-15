@@ -25,14 +25,14 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"/>
+        <valueCanonical value="https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="normative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"/>
+        <valueCanonical value="https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"/>
       </extension>
     </valueCode>
   </extension>

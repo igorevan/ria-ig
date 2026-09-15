@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir> a fhir:ImplementationGuide ;
+<https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "br.gov.saude.ria.fhir"] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.ria.fhir</b></p><a name=\"br.gov.saude.ria.fhir\"> </a><a name=\"hcbr.gov.saude.ria.fhir\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: en</p></div><h2>RIARNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narrativa gerada: ImplementationGuide br.gov.saude.ria.fhir</b></p><a name=\"br.gov.saude.ria.fhir\"> </a><a name=\"hcbr.gov.saude.ria.fhir\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: en</p></div><h2>RIARNDSIG</h2><p>O URL oficial para este guia de implementação é: </p><pre>https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir</pre><div><p>Guia de Implementação da Rede Nacional de Dados em Saúde (RNDS)</p>\n</div></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index 0 ;
@@ -30,13 +30,13 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version" ] ;
      fhir:Extension.valueCode [ fhir:value "4.0.1" ]
   ] ;
-  fhir:ImplementationGuide.url [ fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"] ;
+  fhir:ImplementationGuide.url [ fhir:value "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"] ;
   fhir:ImplementationGuide.version [ fhir:value "1.0.0-release"] ;
   fhir:ImplementationGuide.name [ fhir:value "RIARNDSIG"] ;
   fhir:ImplementationGuide.title [ fhir:value "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-01T16:44:19-03:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-15T11:27:26-03:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -693,7 +693,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/ria/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -1489,7 +1489,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://fhir.saude.gov.br/ria/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -1693,7 +1693,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/Bundle/example-RIA-R> ;
+         fhir:link <https://fhir.saude.gov.br/ria/Bundle/example-RIA-R> ;
          fhir:Reference.reference [ fhir:value "Bundle/example-RIA-R" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bundle de exemplo do RIA-R" ] ;
@@ -1710,7 +1710,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRCBO> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRCBO> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCBO" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Brasileira de Ocupações - CBO (CodeSystem)" ] ;
@@ -1723,7 +1723,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRCID10> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRCID10> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCID10" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)" ] ;
@@ -1736,7 +1736,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRCategoriaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRCategoriaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCategoriaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Categoria do Diagnóstico (CodeSystem)" ] ;
@@ -1749,7 +1749,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRCondicaoMaternal> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRCondicaoMaternal> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRCondicaoMaternal" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Condição Maternal (CodeSystem)" ] ;
@@ -1762,7 +1762,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRDose> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRDose> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRDose" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dose de Vacina" ] ;
@@ -1775,7 +1775,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BREstrategiaVacinacao> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BREstrategiaVacinacao> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BREstrategiaVacinacao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estratégia de Vacinação (CodeSystem)" ] ;
@@ -1788,7 +1788,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRFabricantePNI> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRFabricantePNI> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRFabricantePNI" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Fabricante do Imunobiológico (CodeSystem)" ] ;
@@ -1801,7 +1801,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRGrupoAtendimento> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRGrupoAtendimento> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRGrupoAtendimento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Grupo de Atendimento (CodeSystem)" ] ;
@@ -1814,7 +1814,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRImunobiologico> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRImunobiologico> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRImunobiologico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Imunobiológico (CodeSystem)" ] ;
@@ -1827,7 +1827,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRLocalAplicacao> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRLocalAplicacao> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRLocalAplicacao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Local de Aplicação (CodeSystem)" ] ;
@@ -1840,7 +1840,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRPais> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRPais> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRPais" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "País (CodeSystem)" ] ;
@@ -1853,7 +1853,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRRegistroOrigem> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRRegistroOrigem> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRRegistroOrigem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Registro de Origem (CodeSystem)" ] ;
@@ -1866,7 +1866,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRTipoDocumento> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRTipoDocumento> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRTipoDocumento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Documento (CodeSystem)" ] ;
@@ -1879,7 +1879,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/CodeSystem/BRViaAdministracao> ;
+         fhir:link <https://fhir.saude.gov.br/ria/CodeSystem/BRViaAdministracao> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/BRViaAdministracao" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Via de Administração" ] ;
@@ -1892,7 +1892,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BRCID10Avaliado-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BRCID10Avaliado-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRCID10Avaliado-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CID10 Avaliado" ] ;
@@ -1905,7 +1905,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BRCondicaoMaternal> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BRCondicaoMaternal> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRCondicaoMaternal" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Condição Maternal" ] ;
@@ -1918,7 +1918,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BRContatoHanseniase> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BRContatoHanseniase> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRContatoHanseniase" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Contato Hanseníase" ] ;
@@ -1931,7 +1931,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BREstrategiaVacinacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BREstrategiaVacinacao-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BREstrategiaVacinacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estratégia de Vacinação" ] ;
@@ -1944,7 +1944,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estratégia de Vacinação Pesquisa" ] ;
@@ -1957,7 +1957,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BRGrupoAtendimento> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BRGrupoAtendimento> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRGrupoAtendimento" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Grupo de Atendimento" ] ;
@@ -1970,7 +1970,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BRImunobiologicoAdministrado-3.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BRImunobiologicoAdministrado-3.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRImunobiologicoAdministrado-3.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Imunobiológico Administrado em Rotina" ] ;
@@ -1983,7 +1983,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0> ;
          fhir:Reference.reference [ fhir:value "StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Registro de Imunobiológico Administrado na Rotina" ] ;
@@ -1996,7 +1996,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRCID10-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRCID10-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCID10-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)" ] ;
@@ -2009,7 +2009,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRCategoriaDiagnostico> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRCategoriaDiagnostico> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCategoriaDiagnostico" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Categoria do Diagnóstico (ValueSet)" ] ;
@@ -2022,7 +2022,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRCondicaoMaternal-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRCondicaoMaternal-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRCondicaoMaternal-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Condição Maternal (ValueSet)" ] ;
@@ -2035,7 +2035,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRDose-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRDose-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRDose-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dose do Imunobiológico" ] ;
@@ -2048,7 +2048,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BREstadoEvento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BREstadoEvento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoEvento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado do Evento" ] ;
@@ -2061,7 +2061,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estado da Resolução de Diagnóstico ou Problema" ] ;
@@ -2074,7 +2074,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BREstrategiaVacinacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BREstrategiaVacinacao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BREstrategiaVacinacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Estratégia de Vacinação (ValueSet)" ] ;
@@ -2087,7 +2087,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRFabricanteImunobiologico-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRFabricanteImunobiologico-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRFabricanteImunobiologico-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Fabricante do Imunobiológico (ValueSet)" ] ;
@@ -2100,7 +2100,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRGrupoAtendimento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRGrupoAtendimento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRGrupoAtendimento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de grupo de atendimento (ValueSet)" ] ;
@@ -2113,7 +2113,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRImunobiologico-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRImunobiologico-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRImunobiologico-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Imunobiológico (ValueSet)" ] ;
@@ -2126,7 +2126,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRLocalAplicacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRLocalAplicacao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRLocalAplicacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Local de Aplicação (ValueSet)" ] ;
@@ -2139,7 +2139,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BROcupacao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BROcupacao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BROcupacao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Classificação Brasileira de Ocupações - CBO (ValueSet)" ] ;
@@ -2152,7 +2152,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRPais-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRPais-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRPais-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "País (ValueSet)" ] ;
@@ -2165,7 +2165,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRRegistroOrigem> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRRegistroOrigem> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRRegistroOrigem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Registro de Origem (ValueSet)" ] ;
@@ -2178,7 +2178,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRTipoDocumento-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRTipoDocumento-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRTipoDocumento-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tipo de Documento (ValueSet)" ] ;
@@ -2191,7 +2191,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ValueSet/BRViaAdministracao-1.0> ;
+         fhir:link <https://fhir.saude.gov.br/ria/ValueSet/BRViaAdministracao-1.0> ;
          fhir:Reference.reference [ fhir:value "ValueSet/BRViaAdministracao-1.0" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Via de Administração do Imunobiológico" ] ;
@@ -2425,7 +2425,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

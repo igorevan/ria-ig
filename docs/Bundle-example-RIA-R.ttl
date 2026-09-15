@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/Bundle/example-RIA-R> a fhir:Bundle ;
+<https://fhir.saude.gov.br/ria/Bundle/example-RIA-R> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "example-RIA-R"] ;
   fhir:Resource.meta [
@@ -174,7 +174,7 @@
        ]
      ] ;
      fhir:Immunization.performer.actor [
-       fhir:link <https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/Practitioner/012345678912345> ;
+       fhir:link <https://fhir.saude.gov.br/ria/Practitioner/012345678912345> ;
        fhir:Reference.reference [ fhir:value "Practitioner/012345678912345" ]
      ]
   ] ;
@@ -261,7 +261,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/Bundle/example-RIA-R.ttl> a owl:Ontology ;
+<https://fhir.saude.gov.br/ria/Bundle/example-RIA-R.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

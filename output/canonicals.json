@@ -267,7 +267,7 @@
 {
   "id" : "br.gov.saude.ria.fhir",
   "type" : "ImplementationGuide",
-  "url" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir",
+  "url" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir",
   "version" : "1.0.0-release",
   "name" : "RIARNDSIG"
 }]

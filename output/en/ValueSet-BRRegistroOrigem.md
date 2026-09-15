@@ -38,7 +38,7 @@ Códigos para representação da Origem do Registro de Imunobiológico.
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
       }]
     }
   },
@@ -48,7 +48,7 @@ Códigos para representação da Origem do Registro de Imunobiológico.
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir"
+        "valueCanonical" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
       }]
     }
   },

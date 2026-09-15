@@ -25,13 +25,13 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
     "valueCode" : "4.0.1"
   }],
-  "url" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/ImplementationGuide/br.gov.saude.ria.fhir",
+  "url" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir",
   "version" : "1.0.0-release",
   "name" : "RIARNDSIG",
   "title" : "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-01T16:44:19-03:00",
+  "date" : "2026-09-15T11:27:26-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -621,7 +621,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/history.html"
+        "valueString" : "https://fhir.saude.gov.br/ria/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1351,7 +1351,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://fhir.saude.gov.br/fhir/r4/ria/1.0.0/history.html"
+        "valueString" : "https://fhir.saude.gov.br/ria/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
