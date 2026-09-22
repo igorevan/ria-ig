@@ -152,8 +152,8 @@
     <!-- <parameter>
       <code value="i18n-default-lang" />
       <value value="pt-BR" />
-    </parameter>
-    <parameter>
+    </parameter> -->
+    <!-- <parameter>
       <code value="i18n-lang" />
       <value value="pt-BR" />
     </parameter> -->

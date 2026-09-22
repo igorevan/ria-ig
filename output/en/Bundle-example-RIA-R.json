@@ -200,8 +200,7 @@
       "category" : [{
         "coding" : [{
           "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
-          "code" : "01",
-          "display" : "Principal"
+          "code" : "01"
         }]
       }],
       "code" : {

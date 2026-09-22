@@ -193,7 +193,6 @@
           <coding>
             <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"/>
             <code value="01"/>
-            <display value="Principal"/>
           </coding>
         </category>
         <code>
