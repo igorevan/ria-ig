@@ -2,8 +2,6 @@
 
 ## Extension: Contato Hanseníase 
 
-Extensão utilizada para identificar indivíduos com contato próximo de pacientes que vivem com Hanseníase.
-
 **Context of Use**
 
 **Usage info**

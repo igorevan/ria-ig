@@ -2,9 +2,6 @@
 
 ## CodeSystem: Local de Aplicação (CodeSystem) 
 
- 
-Define a localização anatômica de aplicação de uma substância 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Local de Aplicação (ValueSet)](ValueSet-BRLocalAplicacao-1.0.md)

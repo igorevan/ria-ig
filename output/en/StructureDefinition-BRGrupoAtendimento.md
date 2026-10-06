@@ -2,8 +2,6 @@
 
 ## Extension: Grupo de Atendimento 
 
-Identificação do grupo de atendimento para vacinação.
-
 **Context of Use**
 
 **Usage info**

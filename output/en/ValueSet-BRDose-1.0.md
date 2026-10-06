@@ -2,9 +2,6 @@
 
 ## ValueSet: Dose do Imunobiológico 
 
- 
-ValueSet utilizado para definir o tipo da dose administrada no indivíduo. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

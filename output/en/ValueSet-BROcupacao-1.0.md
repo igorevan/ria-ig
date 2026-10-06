@@ -2,9 +2,6 @@
 
 ## ValueSet: Classificação Brasileira de Ocupações - CBO (ValueSet) 
 
- 
-Classifica as profissões do mercado de trabalho brasileiro. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

@@ -2,9 +2,6 @@
 
 ## CodeSystem: País (CodeSystem) 
 
- 
-Códigos para representação de países. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [País (ValueSet)](ValueSet-BRPais-1.0.md)

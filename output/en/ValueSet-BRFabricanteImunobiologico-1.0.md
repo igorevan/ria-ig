@@ -2,9 +2,6 @@
 
 ## ValueSet: Fabricante do Imunobiológico (ValueSet) 
 
- 
-Fabricante do imunobiológico administrado 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

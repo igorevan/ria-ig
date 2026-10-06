@@ -2,9 +2,6 @@
 
 ## ValueSet: Imunobiológico (ValueSet) 
 
- 
-Tipos de imunobiológicos disponíveis no Brasil. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

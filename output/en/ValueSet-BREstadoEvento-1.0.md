@@ -2,9 +2,6 @@
 
 ## ValueSet: Estado do Evento 
 
- 
-Identificação do estado de um evento. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

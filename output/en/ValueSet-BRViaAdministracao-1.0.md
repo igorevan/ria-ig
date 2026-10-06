@@ -2,9 +2,6 @@
 
 ## ValueSet: Via de Administração do Imunobiológico 
 
- 
-Via de administração de um imunobiológico. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

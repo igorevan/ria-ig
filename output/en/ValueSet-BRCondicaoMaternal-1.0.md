@@ -2,9 +2,6 @@
 
 ## ValueSet: Condição Maternal (ValueSet) 
 
- 
-ValueSet utilizado para Indicar a condição maternal da pessoa vacinada. 
-
  **References** 
 
 * [Condição Maternal](StructureDefinition-BRCondicaoMaternal.md)

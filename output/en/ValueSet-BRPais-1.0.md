@@ -2,9 +2,6 @@
 
 ## ValueSet: País (ValueSet) 
 
- 
-Códigos para representação de países. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

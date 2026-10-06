@@ -2,9 +2,6 @@
 
 ## Resource Profile: Imunobiológico Administrado em Rotina 
 
- 
-Representa um imunobiológico administrado em Rotina (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023). 
-
 **Usos:**
 
 * Refere a este Perfil: [Registro de Imunobiológico Administrado na Rotina](StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.md)

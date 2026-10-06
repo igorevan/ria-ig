@@ -247,11 +247,56 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <p>
     <b>Figura 1 - Diagrama do <i>Bundle</i> do RIA-R</b>
   </p>
+
   <div>
-
-    <img height="400" src="riarMC.png" alt="Diagrama do Bundle do RIA-R"/>
-
+    <svg width="700" height="661" viewBox="0 0 700 661" role="img" aria-labelledby="riar-title riar-desc" style="max-width:100%; height:auto;">
+      <title id="riar-title">Estrutura do Bundle — Registro de Imunobiológico Administrado de Rotina</title>
+      <desc id="riar-desc">Bundle inclui Composition por entry[0].resource. Composition referencia Immunization por
+        section[0].entry. Immunization referencia Condition por reasonReference. Os blocos Composition, Immunization e
+        Condition levam às páginas dos respectivos perfis.</desc>
+      <defs>
+        <marker id="riar-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+          <path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#334155" stroke-width="1.5"/>
+        </marker>
+      </defs>
+      <g fill="none" stroke="#334155" stroke-width="2.2" marker-end="url(#riar-arrow)">
+        <path d="M 350 110 V 185" stroke-dasharray="7 5"/>
+        <path d="M 350 280 V 355"/>
+        <path d="M 350 450 V 525"/>
+      </g>
+      <g font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#334155" text-anchor="middle">
+        <rect x="250" y="132" width="200" height="32" rx="7" fill="#ffffff"/>
+        <text x="350" y="154">entry[0].resource</text>
+        <rect x="255" y="302" width="190" height="32" rx="7" fill="#ffffff"/>
+        <text x="350" y="324">section[0].entry</text>
+        <rect x="262" y="472" width="176" height="32" rx="7" fill="#ffffff"/>
+        <text x="350" y="494">reasonReference</text>
+      </g>
+      <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+        <rect x="250" y="30" width="200" height="80" rx="16" fill="#e8edf5" stroke="#526781" stroke-width="2"/>
+        <text x="350" y="80" font-size="26" font-weight="700">Bundle</text>
+        <a href="StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" aria-label="Abrir perfil BRRegistroImunobiologicoAdministradoRotina-2.0">
+          <title>Abrir perfil BRRegistroImunobiologicoAdministradoRotina-2.0</title>
+          <rect x="50" y="185" width="600" height="95" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+          <text x="350" y="224" font-size="26" font-weight="700">Composition</text>
+          <text x="350" y="256" font-size="18">BRRegistroImunobiologicoAdministradoRotina-2.0</text>
+        </a>
+        <a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html" aria-label="Abrir perfil BRImunobiologicoAdministrado-3.0">
+          <title>Abrir perfil BRImunobiologicoAdministrado-3.0</title>
+          <rect x="95" y="355" width="510" height="95" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+          <text x="350" y="394" font-size="26" font-weight="700">Immunization</text>
+          <text x="350" y="426" font-size="19">BRImunobiologicoAdministrado-3.0</text>
+        </a>
+        <a href="StructureDefinition-BRCID10Avaliado-1.0.html" aria-label="Abrir perfil BRCID10Avaliado-1.0">
+          <title>Abrir perfil BRCID10Avaliado-1.0</title>
+          <rect x="150" y="525" width="400" height="95" rx="16" fill="#ffedd5" stroke="#d97706" stroke-width="2"/>
+          <text x="350" y="564" font-size="26" font-weight="700">Condition</text>
+          <text x="350" y="596" font-size="19">BRCID10Avaliado-1.0</text>
+        </a>
+      </g>
+    </svg>
   </div>
+
 
   <a name="recursos">  </a>
   <h3>Recursos FHIR</h3>
@@ -547,8 +592,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
           Package br.gov.saude.ria.fhir#1.0.0-release based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-09-30 17:48:00 -0300">
-    2026-09-30
+  <span title="2026-10-06 11:51:00 -0300">
+    2026-10-06
   </span>
 
           <br/>

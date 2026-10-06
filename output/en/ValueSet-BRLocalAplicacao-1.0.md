@@ -2,9 +2,6 @@
 
 ## ValueSet: Local de Aplicação (ValueSet) 
 
- 
-Localização anatômica para aplicação de um injetável. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

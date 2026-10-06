@@ -2,8 +2,6 @@
 
 ## Extension: Condição Maternal 
 
-Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo.
-
 **Context of Use**
 
 **Usage info**

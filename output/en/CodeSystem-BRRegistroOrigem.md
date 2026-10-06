@@ -2,9 +2,6 @@
 
 ## CodeSystem: Registro de Origem (CodeSystem) 
 
- 
-Códigos para representação da Origem do Registro de Imunobiológico. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Registro de Origem (ValueSet)](ValueSet-BRRegistroOrigem.md)

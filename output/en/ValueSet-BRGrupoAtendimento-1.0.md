@@ -2,9 +2,6 @@
 
 ## ValueSet: Tipo de grupo de atendimento (ValueSet) 
 
- 
-Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha. 
-
  **References** 
 
 * [Grupo de Atendimento](StructureDefinition-BRGrupoAtendimento.md)

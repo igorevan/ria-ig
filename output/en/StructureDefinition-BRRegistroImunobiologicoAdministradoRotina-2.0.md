@@ -2,9 +2,6 @@
 
 ## Resource Profile: Registro de Imunobiológico Administrado na Rotina 
 
- 
-Documento que aprepresenta o registro da administração de imunobiológicos na rotina de imunização (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023). 
-
 **Usos:**
 
 * Este Perfil não é utilizado por nenhum perfil neste guia de implementação

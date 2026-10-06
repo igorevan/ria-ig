@@ -2,9 +2,6 @@
 
 ## Resource Profile: CID10 Avaliado 
 
- 
-Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial. 
-
 **Usos:**
 
 * Refere a este Perfil: [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)

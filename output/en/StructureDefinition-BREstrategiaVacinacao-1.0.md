@@ -2,8 +2,6 @@
 
 ## Extension: Estratégia de Vacinação 
 
-Identifica a estratégia de vacinação adotada.
-
 **Context of Use**
 
 **Usage info**

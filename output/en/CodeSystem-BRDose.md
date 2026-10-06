@@ -2,9 +2,6 @@
 
 ## CodeSystem: Dose de Vacina 
 
- 
-Define a dose da administração de uma substância. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Dose do Imunobiológico](ValueSet-BRDose-1.0.md)

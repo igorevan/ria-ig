@@ -2,8 +2,6 @@
 
 ## Extension: Estratégia de Vacinação Pesquisa 
 
-Extensão para as informações relacionadas aos dados da pesquisa clínica registrada na ANVISA.
-
 **Context of Use**
 
 **Usage info**

@@ -2,9 +2,6 @@
 
 ## CodeSystem: Estratégia de Vacinação (CodeSystem) 
 
- 
-Classifica a estratégia de vacinação adotada. 
-
 This Code system is referenced in the definition of the following value sets:
 
 * [Estratégia de Vacinação (ValueSet)](ValueSet-BREstrategiaVacinacao-1.0.md)

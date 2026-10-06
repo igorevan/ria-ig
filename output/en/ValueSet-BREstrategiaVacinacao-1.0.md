@@ -2,9 +2,6 @@
 
 ## ValueSet: Estratégia de Vacinação (ValueSet) 
 
- 
-Identifica a estratégia de vacinação adotada. 
-
  **References** 
 
 * [Estratégia de Vacinação](StructureDefinition-BREstrategiaVacinacao-1.0.md)

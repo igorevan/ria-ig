@@ -2,9 +2,6 @@
 
 ## ValueSet: Tipo de Documento (ValueSet) 
 
- 
-Classifica o tipo de documento que está sendo trafegado. 
-
  **References** 
 
 * [Registro de Imunobiológico Administrado na Rotina](StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.md)

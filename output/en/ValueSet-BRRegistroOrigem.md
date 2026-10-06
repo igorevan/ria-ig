@@ -2,9 +2,6 @@
 
 ## ValueSet: Registro de Origem (ValueSet) 
 
- 
-Códigos para representação da Origem do Registro de Imunobiológico. 
-
  **References** 
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)
