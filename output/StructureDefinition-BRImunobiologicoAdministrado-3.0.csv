@@ -397,7 +397,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","C*E.9. But note many systems use C*E.2 for this","./originalText[mediaType/code=""text/plain""]/data"
 "Immunization.doseQuantity","Immunization.doseQuantity","","","",0,0,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","Amount of vaccine administered","The quantity of vaccine product that was administered.","","","","","","","","","",,,,,"",,,,"Immunization.doseQuantity",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","RXA-6 / RXA-7",".doseQuantity"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}","RXA-6 / RXA-7",".doseQuantity"
 "Immunization.performer","Immunization.performer","","","",1,1,"Y","","Y","BackboneElement {[]} {[]}
 ","Profissional Executante","Informações sobre o profissional que administrou o imunobiológico.","","","","","","","","","",,,,,"",,,,"Immunization.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.performer","ORC-12 / RXA-10",".participation[typeCode=PRF].role[scoper.determinerCode=INSTANCE]"

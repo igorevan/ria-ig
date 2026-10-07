@@ -6,7 +6,7 @@
 
 * [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

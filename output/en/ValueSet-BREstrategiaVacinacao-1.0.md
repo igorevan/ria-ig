@@ -6,7 +6,7 @@
 
 * [Estratégia de Vacinação](StructureDefinition-BREstrategiaVacinacao-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

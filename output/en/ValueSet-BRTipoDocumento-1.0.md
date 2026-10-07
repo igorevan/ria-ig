@@ -6,7 +6,7 @@
 
 * [Registro de Imunobiológico Administrado na Rotina](StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

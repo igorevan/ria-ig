@@ -6,7 +6,7 @@
 
 * [Grupo de Atendimento](StructureDefinition-BRGrupoAtendimento.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

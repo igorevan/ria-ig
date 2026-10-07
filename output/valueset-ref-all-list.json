@@ -152,8 +152,8 @@
     "uses" : {
     },
     "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
-    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
-    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -168,8 +168,8 @@
     "uses" : {
     },
     "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
-    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
-    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/immunization-funding-source",
@@ -269,8 +269,8 @@
     "uses" : {
     },
     "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
-    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
-    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -341,8 +341,8 @@
     "uses" : {
     },
     "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina",
-    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
-    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",

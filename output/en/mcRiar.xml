@@ -115,7 +115,7 @@
 
   <table class="grid">
     <thead>
-      <tr>
+      <tr style="background-color: #538ce9">
         <th>Resource</th>
         <th>Profile</th>
       </tr>
@@ -152,7 +152,7 @@
 
   <table class="grid">
     <thead>
-      <tr>
+      <tr style="background-color: #538ce9">
         <th>Resource</th>
         <th>Profile</th>
       </tr>
@@ -219,7 +219,7 @@
 
   <table class="grid">
     <thead>
-      <tr>
+      <tr style="background-color: #538ce9">
         <th>ValueSet</th>
         <th>CodeSystem</th>
       </tr>

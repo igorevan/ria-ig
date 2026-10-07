@@ -902,7 +902,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "BRImunobiologicoAdministrado-3.0","Immunization.doseQuantity","Immunization.doseQuantity","","","",0,0,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
 ","Amount of vaccine administered","The quantity of vaccine product that was administered.","","","","","","","","","",,,,,"",,,,"Immunization.doseQuantity",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-"
+sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "BRImunobiologicoAdministrado-3.0","Immunization.performer","Immunization.performer","","","",1,1,"Y","","Y","BackboneElement {[]} {[]}
 ","Profissional Executante","Informações sobre o profissional que administrou o imunobiológico.","","","","","","","","","",,,,,"",,,,"Immunization.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

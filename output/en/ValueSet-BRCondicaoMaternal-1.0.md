@@ -6,7 +6,7 @@
 
 * [Condição Maternal](StructureDefinition-BRCondicaoMaternal.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 
