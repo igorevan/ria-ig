@@ -9,7 +9,7 @@
   "changes": "changes.html",
   "first": true,
   "title": "RIA IG",
-  "ci-build": "https://igorevan.github.io/ria-ig/",
+  "ci-build": "https://github.com/igorevan/ria-ig",
   "registry-description": "Primeira versão do Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
   "registry-country": "BR",
   "registry-authority": "Ministério da Saúde do Brasil",
