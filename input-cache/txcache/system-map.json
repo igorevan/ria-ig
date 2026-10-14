@@ -32,7 +32,6 @@
     "https://178.104.103.200.sslip.io/tx/r4",
     "http://tx.hl7europe.eu/r4",
     "https://tx.fhir.ch/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4"]
@@ -49,7 +48,6 @@
     "https://178.104.103.200.sslip.io/tx/r4",
     "http://tx.hl7europe.eu/r4",
     "https://tx.fhir.ch/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4"]
@@ -63,7 +61,6 @@
     "https://178.104.103.200.sslip.io/tx/r4",
     "http://tx.hl7europe.eu/r4",
     "https://tx.fhir.ch/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4",
@@ -79,7 +76,6 @@
     "https://178.104.103.200.sslip.io/tx/r4",
     "http://tx.hl7europe.eu/r4",
     "https://tx.fhir.ch/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4",
@@ -95,7 +91,6 @@
     "https://178.104.103.200.sslip.io/tx/r4",
     "http://tx.hl7europe.eu/r4",
     "https://tx.fhir.ch/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4",
@@ -111,7 +106,6 @@
     "https://178.104.103.200.sslip.io/tx/r4",
     "http://tx.hl7europe.eu/r4",
     "https://tx.fhir.ch/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4",
@@ -124,7 +118,6 @@
     "candidates" : ["http://tx.fhir.org/r4",
     "https://tx.hl7.org.au/fhir",
     "http://tx.hl7europe.eu/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4"]
@@ -137,7 +130,6 @@
     "candidates" : ["http://tx.fhir.org/r4",
     "https://tx.hl7.org.au/fhir",
     "http://tx.hl7europe.eu/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4"]
@@ -150,7 +142,6 @@
     "candidates" : ["http://tx.fhir.org/r4",
     "https://tx.hl7.org.au/fhir",
     "http://tx.hl7europe.eu/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4"]
@@ -163,7 +154,6 @@
     "candidates" : ["http://tx.fhir.org/r4",
     "https://tx.hl7.org.au/fhir",
     "http://tx.hl7europe.eu/r4",
-    "https://tx-nordics.fhir.org/fhir/r4",
     "https://tx.fhir.de/fhir",
     "https://tx.hl7.cz/r4",
     "https://tx.healthall.co.kr/fhir/r4"]
