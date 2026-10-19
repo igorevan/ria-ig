@@ -31,7 +31,7 @@
   "title" : "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-14T15:53:31-03:00",
+  "date" : "2026-10-19T16:27:54-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -923,7 +923,7 @@
       "reference" : {
         "reference" : "CodeSystem/BRFabricantePNI"
       },
-      "name" : "Fabricante do Imunobiológico (CodeSystem)",
+      "name" : "Fabricante do Imunobiológico",
       "description" : "Apresenta o fabricante do imunobiológico."
     },
     {

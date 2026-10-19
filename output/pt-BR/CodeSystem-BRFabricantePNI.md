@@ -1,6 +1,6 @@
-# Fabricante do Imunobiológico (CodeSystem) - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
+# Fabricante do Imunobiológico - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
 
-## CodeSystem: Fabricante do Imunobiológico (CodeSystem) 
+## CodeSystem: Fabricante do Imunobiológico 
 
 Este sistema de códigos é referenciado na definição dos seguintes conjuntos de valores:
 
@@ -50,7 +50,7 @@ Este sistema de códigos é referenciado na definição dos seguintes conjuntos 
   "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
   "version" : "1.0.0-release",
   "name" : "BRFabricantePNI",
-  "title" : "Fabricante do Imunobiológico (CodeSystem)",
+  "title" : "Fabricante do Imunobiológico",
   "status" : "active",
   "experimental" : false,
   "date" : "2023-01-02T18:15:54.9540124+00:00",
@@ -1079,6 +1079,21 @@ Este sistema de códigos é referenciado na definição dos seguintes conjuntos 
     "code" : "47619",
     "display" : "LIBBS",
     "definition" : "LIBBS FARMACEUTICA LTDA."
+  },
+  {
+    "code" : "47574",
+    "display" : "SANOFI-WIN",
+    "definition" : "SANOFI WINTHROP INDUSTRIE"
+  },
+  {
+    "code" : "30426",
+    "display" : "FARMARIN",
+    "definition" : "FARMARIN INDUSTRIA E COMERCIO LTDA."
+  },
+  {
+    "code" : "30425",
+    "display" : "SAMTEC",
+    "definition" : "SAMTEC BIOTECNOLOGIA LTDA"
   }]
 }
 

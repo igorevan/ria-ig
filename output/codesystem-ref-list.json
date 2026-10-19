@@ -106,7 +106,7 @@
     "version" : "1.0.0-release",
     "status" : "active",
     "name" : "BRFabricantePNI",
-    "title" : "Fabricante do Imunobiológico (CodeSystem)",
+    "title" : "Fabricante do Imunobiológico",
     "description" : "Apresenta o fabricante do imunobiológico.",
     "uses" : {
     },

@@ -24,7 +24,7 @@
 * [Condição Maternal (CodeSystem)](CodeSystem-BRCondicaoMaternal.md)
 * [Dose de Vacina](CodeSystem-BRDose.md)
 * [Estratégia de Vacinação (CodeSystem)](CodeSystem-BREstrategiaVacinacao.md)
-* [Fabricante do Imunobiológico (CodeSystem)](CodeSystem-BRFabricantePNI.md)
+* [Fabricante do Imunobiológico](CodeSystem-BRFabricantePNI.md)
 * [Grupo de Atendimento (CodeSystem)](CodeSystem-BRGrupoAtendimento.md)
 * [Imunobiológico (CodeSystem)](CodeSystem-BRImunobiologico.md)
 * [Local de Aplicação (CodeSystem)](CodeSystem-BRLocalAplicacao.md)

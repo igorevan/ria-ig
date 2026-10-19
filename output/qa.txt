@@ -2,8 +2,8 @@ RIARNDSIG : Validation Results
 =========================================
 
 err = 2, warn = 0, info = 0, broken links = 0
-IG Publisher Version: 3.0.0
-Generated Wed Oct 14 15:56:04 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/ria)
+IG Publisher Version: 3.0.1
+Generated Mon Oct 19 16:29:28 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/ria)
  Build Errors : 0 / 0 / 0
  /home/igor/ria-ig/input/examples/example-RIA-R : 1 / 2 / 2
  /home/igor/ria-ig/input/myig : 0 / 0 / 2
@@ -46,46 +46,129 @@ Generated Wed Oct 14 15:56:04 BRT 2026. FHIR version 4.0.1 for br.gov.saude.ria.
  /home/igor/ria-ig/input/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 1 / 1
  /home/igor/ria-ig/input/resources/ValueSet-BRViaAdministracao-1.0 : 0 / 1 / 1
 </table>
+
 == n/a ==
+
+
 == input/examples/example-RIA-R.json ==
 ERROR: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0
+
+
 == input/myig.xml ==
+
+
 == input/resources/CodeSystem-BRCBO.xml ==
+
+
 == input/resources/CodeSystem-BRCID10.xml ==
+
+
 == input/resources/CodeSystem-BRCategoriaDiagnostico.xml ==
+
+
 == input/resources/CodeSystem-BRCondicaoMaternal.xml ==
+
+
 == input/resources/CodeSystem-BRDose.xml ==
+
+
 == input/resources/CodeSystem-BREstrategiaVacinacao.xml ==
+
+
 == input/resources/CodeSystem-BRFabricantePNI.xml ==
+
+
 == input/resources/CodeSystem-BRGrupoAtendimento.xml ==
+
+
 == input/resources/CodeSystem-BRImunobiologico.xml ==
+
+
 == input/resources/CodeSystem-BRLocalAplicacao.xml ==
+
+
 == input/resources/CodeSystem-BRPais.xml ==
+
+
 == input/resources/CodeSystem-BRRegistroOrigem.xml ==
+
+
 == input/resources/CodeSystem-BRTipoDocumento.xml ==
+
+
 == input/resources/CodeSystem-BRViaAdministracao.xml ==
+
+
 == input/resources/StructureDefinition-BRCID10Avaliado-1.0.xml ==
+
+
 == input/resources/StructureDefinition-BRCondicaoMaternal.xml ==
+
+
 == input/resources/StructureDefinition-BRContatoHanseniase.xml ==
+
+
 == input/resources/StructureDefinition-BREstrategiaVacinacao-1.0.xml ==
+
+
 == input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.xml ==
+
+
 == input/resources/StructureDefinition-BRGrupoAtendimento.xml ==
+
+
 == input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml ==
 ERROR: Imunobiológico Administrado em Rotina.Immunization.status: Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset
+
+
 == input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.json ==
+
+
 == input/resources/ValueSet-BRCID10-1.0.xml ==
+
+
 == input/resources/ValueSet-BRCategoriaDiagnostico.xml ==
+
+
 == input/resources/ValueSet-BRCondicaoMaternal-1.0.xml ==
+
+
 == input/resources/ValueSet-BRDose-1.0.xml ==
+
+
 == input/resources/ValueSet-BREstadoEvento-1.0.xml ==
+
+
 == input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.xml ==
+
+
 == input/resources/ValueSet-BREstrategiaVacinacao-1.0.xml ==
+
+
 == input/resources/ValueSet-BRFabricanteImunobiologico-1.0.xml ==
+
+
 == input/resources/ValueSet-BRGrupoAtendimento-1.0.xml ==
+
+
 == input/resources/ValueSet-BRImunobiologico-1.0.xml ==
+
+
 == input/resources/ValueSet-BRLocalAplicacao-1.0.xml ==
+
+
 == input/resources/ValueSet-BROcupacao-1.0.xml ==
+
+
 == input/resources/ValueSet-BRPais-1.0.xml ==
+
+
 == input/resources/ValueSet-BRRegistroOrigem.xml ==
+
+
 == input/resources/ValueSet-BRTipoDocumento-1.0.xml ==
+
+
 == input/resources/ValueSet-BRViaAdministracao-1.0.xml ==
+
+

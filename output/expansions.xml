@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="12d0a3d7-86ac-4b63-8363-3c37ba3aa129"/>
+  <id value="2e389f50-15fa-4e87-a180-328fa46d275b"/>
   <meta>
-    <lastUpdated value="2026-10-14T15:53:31.690-03:00"/>
+    <lastUpdated value="2026-10-19T16:27:54.211-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -20058,8 +20058,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d1099e59-b0f4-4f7a-80b2-cbd820502a4b"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:51d1abe2-4c29-4bd9-93ae-58df7b647cfa"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="14230"/>
           <offset value="0"/>
           <parameter>
@@ -45138,8 +45138,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:724e3af3-effb-498a-8318-ca8d54a99bd1"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:0a7929c9-5a41-4744-af21-f13dcd0d0fce"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="14230"/>
           <offset value="0"/>
           <parameter>
@@ -50258,8 +50258,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d797add1-2090-4cd0-8d8c-e75c0cd578bd"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:54f2dbe3-ebd4-4a62-a399-86b38e3e30b4"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -50388,8 +50388,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9ff4a5d2-5854-478a-a89a-523ae67e7fd6"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:2ddfd955-1768-44f5-a0cc-036b01087545"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -50538,8 +50538,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e5d2498c-8c2c-4ff0-a005-14216a0c9a75"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:3ae1f3f4-d8e3-47e9-8d71-9f65d19793e3"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -50693,8 +50693,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:011f310f-07d0-4a99-950a-0f3a0e2c0212"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:57753ca1-3558-4324-922b-4e7d8194d4bc"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -52513,8 +52513,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e461b81d-9979-4539-92bf-7183b3d61329"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:810b0bb6-440c-4fca-a3ba-ba7bcbf86a5f"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="82"/>
           <offset value="0"/>
           <parameter>
@@ -54728,8 +54728,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:be2dac31-21fc-435a-a7ad-699df1342ded"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:d787f3a0-353b-47dd-84bb-b0a4f33c3098"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="82"/>
           <offset value="0"/>
           <parameter>
@@ -55389,8 +55389,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:69c177da-0588-454d-acb1-b108bc4ad45d"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:f5b5bfbe-8842-47ba-8cd5-4537908242eb"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -55684,8 +55684,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:fe44b893-624b-4e20-91ca-015dc057237f"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:156b55cc-ae34-49d1-9563-4c0d512c44d6"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -55937,8 +55937,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:df3998cb-a143-4d9e-954f-35d6353d1c3f"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:a5a88bc3-b932-4f9e-834b-b3e167dc3d30"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -56176,8 +56176,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:306c2efa-b05e-449e-944c-942811bcce44"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:6703016d-5e1a-46d0-95bb-630e3103ea21"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -56646,8 +56646,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2f3b17ca-7d18-43de-996d-b1bef6b3e623"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:55332247-5f02-4505-9e12-86cb94d0cfe0"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -57175,8 +57175,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:692589a4-226b-4be5-b281-5d7e23b806c3"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:7a9fab0c-60c4-48fb-8a17-a31b5ef16054"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -57302,12 +57302,12 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="CodeSystem-BRFabricantePNI.html">codesystem Fabricante do Imunobiológico (CodeSystem) v1.0.0-release (CodeSystem)</a>
+              <a href="CodeSystem-BRFabricantePNI.html">codesystem Fabricante do Imunobiológico v1.0.0-release (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|1.0.0-release" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
             </p>
-            <p>Este conjunto de valores contém 97 conceitos</p>
+            <p>Este conjunto de valores contém 100 conceitos</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -59366,6 +59366,69 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI-47574"> </a>
+                  <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-BRFabricantePNI.html#BRFabricantePNI-47574">47574</a>
+                </td>
+                <td>SANOFI-WIN</td>
+                <td>SANOFI WINTHROP INDUSTRIE</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;, &quot;version&quot;: &quot;1.0.0-release&quot;, &quot;code&quot;: &quot;47574&quot;, &quot;display&quot;: &quot;SANOFI-WIN&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;/&gt;&lt;version value=&quot;1.0.0-release&quot;/&gt;&lt;code value=&quot;47574&quot;/&gt;&lt;display value=&quot;SANOFI-WIN&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI-30426"> </a>
+                  <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30426">30426</a>
+                </td>
+                <td>FARMARIN</td>
+                <td>FARMARIN INDUSTRIA E COMERCIO LTDA.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;, &quot;version&quot;: &quot;1.0.0-release&quot;, &quot;code&quot;: &quot;30426&quot;, &quot;display&quot;: &quot;FARMARIN&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;/&gt;&lt;version value=&quot;1.0.0-release&quot;/&gt;&lt;code value=&quot;30426&quot;/&gt;&lt;display value=&quot;FARMARIN&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI-30425"> </a>
+                  <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30425">30425</a>
+                </td>
+                <td>SAMTEC</td>
+                <td>SAMTEC BIOTECNOLOGIA LTDA</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;, &quot;version&quot;: &quot;1.0.0-release&quot;, &quot;code&quot;: &quot;30425&quot;, &quot;display&quot;: &quot;SAMTEC&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;/&gt;&lt;version value=&quot;1.0.0-release&quot;/&gt;&lt;code value=&quot;30425&quot;/&gt;&lt;display value=&quot;SAMTEC&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -59384,9 +59447,9 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9345d39d-f036-4ac3-9b77-658b5c04fc62"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
-          <total value="97"/>
+          <identifier value="urn:uuid:371f359a-3c59-49f0-8b91-86b6703d300a"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
+          <total value="100"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -59892,6 +59955,21 @@
             <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
             <code value="47619"/>
             <display value="LIBBS"/>
+          </contains>
+          <contains>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
+            <code value="47574"/>
+            <display value="SANOFI-WIN"/>
+          </contains>
+          <contains>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
+            <code value="30426"/>
+            <display value="FARMARIN"/>
+          </contains>
+          <contains>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
+            <code value="30425"/>
+            <display value="SAMTEC"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -59907,12 +59985,12 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="CodeSystem-BRFabricantePNI.html">codesystem Fabricante do Imunobiológico (CodeSystem) v1.0.0-release (CodeSystem)</a>
+              <a href="CodeSystem-BRFabricantePNI.html">codesystem Fabricante do Imunobiológico v1.0.0-release (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|1.0.0-release" title="Clique para copiar o URL" class="btn-copy" aria-label="copy"> </button>
               </span>
             </p>
-            <p>Este conjunto de valores contém 97 conceitos</p>
+            <p>Este conjunto de valores contém 100 conceitos</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
@@ -61971,6 +62049,69 @@
                   </span>
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a name="x-http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI-47574"> </a>
+                  <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-BRFabricantePNI.html#BRFabricantePNI-47574">47574</a>
+                </td>
+                <td>SANOFI-WIN</td>
+                <td>SANOFI WINTHROP INDUSTRIE</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;, &quot;version&quot;: &quot;1.0.0-release&quot;, &quot;code&quot;: &quot;47574&quot;, &quot;display&quot;: &quot;SANOFI-WIN&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;/&gt;&lt;version value=&quot;1.0.0-release&quot;/&gt;&lt;code value=&quot;47574&quot;/&gt;&lt;display value=&quot;SANOFI-WIN&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI-30426"> </a>
+                  <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30426">30426</a>
+                </td>
+                <td>FARMARIN</td>
+                <td>FARMARIN INDUSTRIA E COMERCIO LTDA.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;, &quot;version&quot;: &quot;1.0.0-release&quot;, &quot;code&quot;: &quot;30426&quot;, &quot;display&quot;: &quot;FARMARIN&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;/&gt;&lt;version value=&quot;1.0.0-release&quot;/&gt;&lt;code value=&quot;30426&quot;/&gt;&lt;display value=&quot;FARMARIN&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI-30425"> </a>
+                  <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-BRFabricantePNI.html#BRFabricantePNI-30425">30425</a>
+                </td>
+                <td>SAMTEC</td>
+                <td>SAMTEC BIOTECNOLOGIA LTDA</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;, &quot;version&quot;: &quot;1.0.0-release&quot;, &quot;code&quot;: &quot;30425&quot;, &quot;display&quot;: &quot;SAMTEC&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI&quot;/&gt;&lt;version value=&quot;1.0.0-release&quot;/&gt;&lt;code value=&quot;30425&quot;/&gt;&lt;display value=&quot;SAMTEC&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
             </table>
           </div>
         </text>
@@ -61989,9 +62130,9 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:bab5c8da-ea5c-4a89-b484-04fa49a02e5f"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
-          <total value="97"/>
+          <identifier value="urn:uuid:84847b5f-7203-4d25-8c14-cea0dc63712e"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
+          <total value="100"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -62497,6 +62638,21 @@
             <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
             <code value="47619"/>
             <display value="LIBBS"/>
+          </contains>
+          <contains>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
+            <code value="47574"/>
+            <display value="SANOFI-WIN"/>
+          </contains>
+          <contains>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
+            <code value="30426"/>
+            <display value="FARMARIN"/>
+          </contains>
+          <contains>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
+            <code value="30425"/>
+            <display value="SAMTEC"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -64960,8 +65116,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7707147e-b08b-4c97-a662-15b0657b983e"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:5a802875-fa7f-4d47-9532-c75e7119044a"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="109"/>
           <offset value="0"/>
           <parameter>
@@ -68100,8 +68256,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3f57d04e-dde7-4cec-92e1-a741068f051f"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:26277df5-446b-4b8d-8fcd-3b58ce7a7b2f"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="109"/>
           <offset value="0"/>
           <parameter>
@@ -71559,8 +71715,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:95f40198-c656-410d-8c79-6f9c200a6193"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:3c81ceb9-237b-4262-a33e-b9c69c992b18"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="118"/>
           <offset value="0"/>
           <parameter>
@@ -74978,8 +75134,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2380827e-e7d2-462b-ab9a-30320aea1058"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:3011b5df-d872-4f7b-be36-23d92d583a50"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="118"/>
           <offset value="0"/>
           <parameter>
@@ -76152,8 +76308,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0be37ea0-81f4-4285-8312-6c2c727f3e21"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:81c2842d-6d3f-4296-bcab-3203c3057325"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="24"/>
           <offset value="0"/>
           <parameter>
@@ -76832,8 +76988,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:24d33354-6b4f-43b4-91ec-8bae6714a634"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:605c54d0-b504-4322-8b32-4799434d2dd7"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="24"/>
           <offset value="0"/>
           <parameter>
@@ -97032,8 +97188,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2bad049d-88e5-45c2-81ed-f967f7af6611"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:4b9f3615-fe58-4a1b-a3a5-2b93185829ac"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="2714"/>
           <offset value="0"/>
           <parameter>
@@ -122112,8 +122268,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5cf80368-697b-4486-b564-59493a117f3a"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:71a907b3-59f2-4ca2-8ae4-be86034f97b1"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="2714"/>
           <offset value="0"/>
           <parameter>
@@ -134092,8 +134248,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1aaa3068-08ff-4fc8-bef8-751c2e576526"/>
-          <timestamp value="2026-10-14T15:55:16-03:00"/>
+          <identifier value="urn:uuid:396d3d95-ac60-42b4-8abd-91b902758035"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="345"/>
           <offset value="0"/>
           <parameter>
@@ -142797,8 +142953,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:31f307cf-2020-465c-8750-56ae74b4dadf"/>
-          <timestamp value="2026-10-14T15:55:17-03:00"/>
+          <identifier value="urn:uuid:bd3b5111-9ef0-4e13-8649-85c6265384b8"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="345"/>
           <offset value="0"/>
           <parameter>
@@ -144642,8 +144798,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a0c40c82-7d2b-426c-a9c1-73613929c837"/>
-          <timestamp value="2026-10-14T15:55:17-03:00"/>
+          <identifier value="urn:uuid:e97e5f71-fd72-4eb3-ae72-65605337f08f"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -144772,8 +144928,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f8fb16cf-2790-4793-8e3b-af16c761c321"/>
-          <timestamp value="2026-10-14T15:55:17-03:00"/>
+          <identifier value="urn:uuid:c70b2987-f419-4846-ab71-77ac5a6e7188"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -145096,8 +145252,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:34464dfd-541d-4cf7-b867-bd4810413085"/>
-          <timestamp value="2026-10-14T15:55:17-03:00"/>
+          <identifier value="urn:uuid:e775df94-05f1-40c7-931f-5b6238780697"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -145465,8 +145621,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6083a319-de4b-451b-b7ab-83a7728649fd"/>
-          <timestamp value="2026-10-14T15:55:17-03:00"/>
+          <identifier value="urn:uuid:f216df3e-fa02-45e4-b577-ec6ad9aed1f5"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -147000,8 +147156,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:90a6b688-7a20-4e35-863d-fe773b0b6a4d"/>
-          <timestamp value="2026-10-14T15:55:17-03:00"/>
+          <identifier value="urn:uuid:596f6445-2b3b-42c9-a100-6339ca6b199b"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="70"/>
           <offset value="0"/>
           <parameter>
@@ -148830,8 +148986,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:881f8fec-76bf-4999-9537-fa9fc021d990"/>
-          <timestamp value="2026-10-14T15:55:17-03:00"/>
+          <identifier value="urn:uuid:7fdacb92-e3ac-4f42-a99e-2a5118699a99"/>
+          <timestamp value="2026-10-19T16:29:04-03:00"/>
           <total value="70"/>
           <offset value="0"/>
           <parameter>
