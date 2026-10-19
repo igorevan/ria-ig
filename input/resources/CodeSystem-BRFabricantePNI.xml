@@ -2,9 +2,9 @@
   <id value="BRFabricantePNI" />
   <language value="pt-BR" />
   <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI" />
-  <version value="1.1.2" />
+  <version value="1.21" />
   <name value="BRFabricantePNI" />
-  <title value="Fabricante do Imunobiológico (CodeSystem)" />
+  <title value="Fabricante do Imunobiológico" />
   <status value="active" />
   <experimental value="false" />
   <date value="2023-01-02T18:15:54.9540124+00:00" />
@@ -1016,5 +1016,20 @@
     <code value="47619" />
     <display value="LIBBS" />
     <definition value="LIBBS FARMACEUTICA LTDA." />
+  </concept>
+  <concept>
+    <code value="47574" />
+    <display value="SANOFI-WIN" />
+    <definition value="SANOFI WINTHROP INDUSTRIE" />
+  </concept>
+  <concept>
+    <code value="30426" />
+    <display value="FARMARIN" />
+    <definition value="FARMARIN INDUSTRIA E COMERCIO LTDA." />
+  </concept>
+  <concept>
+    <code value="30425" />
+    <display value="SAMTEC" />
+    <definition value="SAMTEC BIOTECNOLOGIA LTDA" />
   </concept>
 </CodeSystem>
