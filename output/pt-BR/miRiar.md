@@ -18,39 +18,27 @@ O documento clínico **RIA-R** (Registro de Imunobiológico Administrado em Roti
 
  O modelo de informação é uma representação conceitual e canônica, onde os elementos referentes a um documento específico são modelados em seções e blocos de dados, com seus respectivos tipos de dados a serem informados. Também são apresentadas as referências para o uso de recursos terminológicos, da seguinte maneira: 
 
-*  **Coluna 1** - Nível: apresenta o nível do elemento no modelo de informação; 
-* **Coluna 2** - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento deve/pode aparecer:
-*  **Coluna 3** - Seção/Item: nome do bloco ou da informação a ser enviada; 
-*  **Coluna 4** - Tipo de dado: descreve o tipo de dado a ser preenchido; 
-*  **Coluna 5** - Conceito: apresenta as definições do elemento; 
-*  **Coluna 6** - Definição de uso do elemento: Observações e regras de negócio relacionadas ao elemento; 
-*  **Coluna 7** - Conteúdo: apresenta, quando necessário, o grupo de códigos (*ValueSet*) a ser utilizado para preenchimento do elemento; 
-*  **Coluna 8** - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do Modelo Computacional em FHIR. 
+*  **Nível**: apresenta o nível do elemento no modelo de informação; 
+* **Ocorrência**: descreve o número de vezes (cardinalidade) que o elemento deve/pode aparecer:
+*  **Seção/Item**: nome do bloco ou da informação a ser enviada; 
+*  **Tipo de dado**: descreve o tipo de dado a ser preenchido; 
+*  **Conceito**: apresenta as definições do elemento; 
+*  **Definição de uso do elemento**: Observações e regras de negócio relacionadas ao elemento; 
+*  **Conteúdo**: apresenta, quando necessário, o grupo de códigos (*ValueSet*) a ser utilizado para preenchimento do elemento; 
+*  **Recurso FHIR**: relaciona o atributo do Modelo Informacional com o perfil do Modelo Computacional em FHIR. 
 
-### Blocos do Modelo de Informação
+### Modelo de Informação
 
  Segue abaixo o modelo de informação para o Registro de Imunobiológico Administrado em Rotina (RIA-R): 
-
-#### Identificação do Indivíduo
 
 | | | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 1..1 | Identificação do paciente | Seção | Bloco de informações do indivíduo imunizado |  |  |  |
 | 2 | 1..1 | Identificador Nacional do Indivíduo | Caracteres numéricos | Identificação unívoca dos usuários das ações e serviços de saúde, mediante número único válido em todo o território nacional. | Poderão ser utilizados para essa identificação o Cartão Nacional de Saúde (CNS) válido ou Cadastro de Pessoa Física (CPF). |  | [Registro de Imunobiológico Administrado em Rotina](StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.md)*(Composition)*,[Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)*(Immunization)*e[CID10 Avaliado](StructureDefinition-BRCID10Avaliado-1.0.md)*(Condition)* |
 | 2 | 1..1 | Condição Maternal | Texto codificado | Identifica a condição maternal do indivíduo no ato da imunização. | Para registro da condição maternal, deverão ser utilizados os códigos disponibilizados no CodeSystem “BRCondicaoMaternal” da RNDS. | [Condição Maternal](ValueSet-BRCondicaoMaternal-1.0.md) | [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)*(Immunization)* |
-
-#### Informações do Contato Assistencial
-
-| | | | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 1..1 | Informações do Contato Assistencial | Seção | Bloco de informações do contato assistencial |  |  |  |
 | 2 | 1..1 | Estabelecimento de Saúde | Caracteres numéricos | Identificação única do estabelecimento de saúde, por meio do Cadastro Nacional de Estabelecimentos de Saúde (CNES). | Código CNES do Estabelecimento de Saúde. |  | [Registro de Imunobiológico Administrado em Rotina](StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.md)*(Composition)* |
 | 2 | 1..1 | Identificador do profissional | Caracteres numéricos | Identifica o número do Cadastro Nacional de Saúde (CNS) do profissional de saúde que realizou o atendimento ou transcrição. | Deverá ser utilizado para a identificação, o Cartão Nacional de Saúde (CNS) do profissional. |  | [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)*(Immunization)* |
-
-#### Registro de imunização
-
-| | | | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 1..N | Registro de imunização | Seção |  |  |  |  |
 | 3 | 1..1 | Grupo de Atendimento | Texto codificado | Identifica a classificação do grupo de atendimento dos indivíduos para a vacinação. | Para registro do grupo de atendimento, deverão ser utilizados os códigos disponibilizados no CodeSystem “BRGrupoAtendimento” da RNDS. | [Tipo de Grupo de Atendimento](ValueSet-BRGrupoAtendimento-1.0.md) | [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)*(Immunization)* |
 | 2 | 1..1 | Estratégia de vacinação | Texto codificado | Identifica a estratégia de vacinação adotada, conforme estabelecidos pelo Programa Nacional de Imunização (PNI) e disponibilizado em CodeSystem da Rede Nacional de Dados em Saúde (RNDS). | Para registro da estratégia, deverão ser utilizado os códigos disponibilizados no CodeSystem "BREstrategiaVacinacao" da RNDS. | [Estratégia de Vacinação](ValueSet-BREstrategiaVacinacao-1.0.md) | [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)*(Immunization)* |

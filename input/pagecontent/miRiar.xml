@@ -39,10 +39,10 @@
   </p>
   <ul>
     <li>
-      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+      <b>Nível</b>: apresenta o nível do elemento no modelo de informação;
     </li>
     <li>
-      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento
+      <p><b>Ocorrência</b>: descreve o número de vezes (cardinalidade) que o elemento
         deve/pode aparecer:</p>
 
       <pre><code>
@@ -54,38 +54,35 @@
 
     </li>
     <li>
-      <b>Coluna 3</b> - Seção/Item: nome do bloco ou da informação a ser enviada;
+      <b>Seção/Item</b>: nome do bloco ou da informação a ser enviada;
     </li>
     <li>
-      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+      <b>Tipo de dado</b>: descreve o tipo de dado a ser preenchido;
     </li>
     <li>
-      <b>Coluna 5</b> - Conceito: apresenta as definições do elemento;
+      <b>Conceito</b>: apresenta as definições do elemento;
     </li>
     <li>
-      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas
+      <b>Definição de uso do elemento</b>: Observações e regras de negócio relacionadas
       ao elemento;
     </li>
     <li>
-      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
+      <b>Conteúdo</b>: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
       a ser utilizado para preenchimento do elemento;
     </li>
     <li>
-      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do
+      <b>Recurso FHIR</b>: relaciona o atributo do Modelo Informacional com o perfil do
       Modelo Computacional em FHIR.
     </li>
   </ul>
 
   <a name="blocos"> </a>
-  <h3>Blocos do Modelo de Informação</h3>
+  <h3>Modelo de Informação</h3>
 
   <p>
     Segue abaixo o modelo de informação para o Registro de Imunobiológico Administrado em Rotina
     (RIA-R):
   </p>
-
-  <a name="identificacao"> </a>
-  <h4>Identificação do Indivíduo</h4>
 
   <table class="grid">
     <thead>
@@ -142,26 +139,6 @@
         <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
             Rotina</a> <i>(Immunization)</i></td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="encontro"> </a>
-  <h4>Informações do Contato Assistencial</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de dado</th>
-        <th>Conceito</th>
-        <th>Definição de uso do elemento</th>
-        <th>Conteúdo (ValueSet/CodeSystem)</th>
-        <th>Recurso FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>1..1</td>
@@ -172,8 +149,6 @@
         <td></td>
         <td></td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>1..1</td>
@@ -198,26 +173,6 @@
         <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
             Rotina</a> <i>(Immunization)</i></td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="imunizacao"> </a>
-  <h4>Registro de imunização</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de dado</th>
-        <th>Conceito</th>
-        <th>Definição de uso do elemento</th>
-        <th>Conteúdo (ValueSet/CodeSystem)</th>
-        <th>Recurso FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>1..N</td>
@@ -228,8 +183,6 @@
         <td></td>
         <td></td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>3</td>
         <td>1..1</td>

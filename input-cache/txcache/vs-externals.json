@@ -1,5 +1,9 @@
 {
   "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" : null,
+  "http://hl7.org/fhir/ValueSet/concept-property-type|4.0.1" : {
+    "server" : "http://tx.fhir.org/r4",
+    "filename" : "vs-fef06cf3-e585-49f1-9d8e-c48193e35fc9.json"
+  },
   "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0" : null
 }

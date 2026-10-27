@@ -224,7 +224,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </table>
 
   
-  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc" data-fhir="generated"><p>Conteúdo:</p><ul><li><a href="#objetivo">Objetivo</a></li><li><a href="#marcos">Marcos Legais</a></li><li><a href="#ria">Modelo de Informação</a></li><li><a href="#blocos">Blocos do Modelo de Informação</a></li></ul></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><div class="markdown-toc" data-fhir="generated"><p>Conteúdo:</p><ul><li><a href="#objetivo">Objetivo</a></li><li><a href="#marcos">Marcos Legais</a></li><li><a href="#ria">Modelo de Informação</a></li><li><a href="#blocos">Modelo de Informação</a></li></ul></div>
   <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
 
   <a name="objetivo">  </a>
@@ -262,10 +262,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </p>
   <ul>
     <li>
-      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+      <b>Nível</b>: apresenta o nível do elemento no modelo de informação;
     </li>
     <li>
-      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento
+      <p><b>Ocorrência</b>: descreve o número de vezes (cardinalidade) que o elemento
         deve/pode aparecer:</p>
 
       <pre><code>
@@ -277,38 +277,35 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
     </li>
     <li>
-      <b>Coluna 3</b> - Seção/Item: nome do bloco ou da informação a ser enviada;
+      <b>Seção/Item</b>: nome do bloco ou da informação a ser enviada;
     </li>
     <li>
-      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+      <b>Tipo de dado</b>: descreve o tipo de dado a ser preenchido;
     </li>
     <li>
-      <b>Coluna 5</b> - Conceito: apresenta as definições do elemento;
+      <b>Conceito</b>: apresenta as definições do elemento;
     </li>
     <li>
-      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas
+      <b>Definição de uso do elemento</b>: Observações e regras de negócio relacionadas
       ao elemento;
     </li>
     <li>
-      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
+      <b>Conteúdo</b>: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
       a ser utilizado para preenchimento do elemento;
     </li>
     <li>
-      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do
+      <b>Recurso FHIR</b>: relaciona o atributo do Modelo Informacional com o perfil do
       Modelo Computacional em FHIR.
     </li>
   </ul>
 
   <a name="blocos">  </a>
-  <h3>Blocos do Modelo de Informação</h3>
+  <h3>Modelo de Informação</h3>
 
   <p>
     Segue abaixo o modelo de informação para o Registro de Imunobiológico Administrado em Rotina
     (RIA-R):
   </p>
-
-  <a name="identificacao">  </a>
-  <h4>Identificação do Indivíduo</h4>
 
   <table class="grid">
     <thead>
@@ -364,26 +361,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
             Rotina</a> <i>(Immunization)</i></td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="encontro">  </a>
-  <h4>Informações do Contato Assistencial</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de dado</th>
-        <th>Conceito</th>
-        <th>Definição de uso do elemento</th>
-        <th>Conteúdo (ValueSet/CodeSystem)</th>
-        <th>Recurso FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>1..1</td>
@@ -394,8 +371,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td/>
         <td/>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>2</td>
         <td>1..1</td>
@@ -420,26 +395,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
             Rotina</a> <i>(Immunization)</i></td>
       </tr>
-    </tbody>
-  </table>
-
-  <a name="imunizacao">  </a>
-  <h4>Registro de imunização</h4>
-
-  <table class="grid">
-    <thead>
-      <tr style="background-color: #538ce9">
-        <th>Nível</th>
-        <th>Ocorrência</th>
-        <th>Seção/Item</th>
-        <th>Tipo de dado</th>
-        <th>Conceito</th>
-        <th>Definição de uso do elemento</th>
-        <th>Conteúdo (ValueSet/CodeSystem)</th>
-        <th>Recurso FHIR</th>
-      </tr>
-    </thead>
-    <thead>
       <tr style="background-color: #4dbf4d">
         <td>1</td>
         <td>1..N</td>
@@ -450,8 +405,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td/>
         <td/>
       </tr>
-    </thead>
-    <tbody>
       <tr>
         <td>3</td>
         <td>1..1</td>
@@ -778,8 +731,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
           Pacote br.gov.saude.ria.fhir#1.0.0-release baseado em <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Gerado em 
-  <span title="2026-10-19 16:27:00 -0300">
-    2026-10-19
+  <span title="2026-10-27 09:04:00 -0300">
+    2026-10-27
   </span>
 
           <br/>
