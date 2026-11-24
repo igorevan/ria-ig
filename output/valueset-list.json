@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCID10",
     "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)",
@@ -10,7 +10,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCategoriaDiagnostico",
     "title" : "Categoria do Diagnóstico (ValueSet)",
@@ -19,7 +19,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRCondicaoMaternal",
     "title" : "Condição Maternal (ValueSet)",
@@ -28,7 +28,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRDose",
     "title" : "Dose do Imunobiológico",
@@ -37,7 +37,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoEvento",
     "title" : "Estado do Evento",
@@ -46,7 +46,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstadoResolucaoDiagnosticoProblema",
     "title" : "Estado da Resolução de Diagnóstico ou Problema",
@@ -55,7 +55,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BREstrategiaVacinacao",
     "title" : "Estratégia de Vacinação (ValueSet)",
@@ -64,7 +64,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRFabricanteImunobiologico",
     "title" : "Fabricante do Imunobiológico (ValueSet)",
@@ -73,7 +73,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRGrupoAtendimento",
     "title" : "Tipo de grupo de atendimento (ValueSet)",
@@ -82,7 +82,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRImunobiologico",
     "title" : "Imunobiológico (ValueSet)",
@@ -91,7 +91,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRLocalAplicacao",
     "title" : "Local de Aplicação (ValueSet)",
@@ -100,7 +100,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BROcupacao",
     "title" : "Classificação Brasileira de Ocupações - CBO (ValueSet)",
@@ -109,7 +109,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRPais",
     "title" : "País (ValueSet)",
@@ -118,7 +118,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRRegistroOrigem",
     "title" : "Registro de Origem (ValueSet)",
@@ -127,7 +127,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRTipoDocumento",
     "title" : "Tipo de Documento (ValueSet)",
@@ -136,7 +136,7 @@
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
-    "version" : "1.0.0-release",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "BRViaAdministracao",
     "title" : "Via de Administração do Imunobiológico",

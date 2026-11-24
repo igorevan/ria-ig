@@ -1,4 +1,4 @@
-# br.gov.saude.ria.fhir#1.0.0-release: Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS(pt-BR)
+# br.gov.saude.ria.fhir#1.0.0: Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS(pt-BR)
 
 ## Pages
 
@@ -10,7 +10,7 @@
 * [Feedback](pt-BR/forms.md)
 * [Modelo de Informação](pt-BR/miRiar.md)
 * [Integração](pt-BR/integracao.md)
-* [Artefatos](pt-BR/artifacts.md)
+* [Resumo de Artefatos](pt-BR/artifacts.md)
 * [Histórico de mudanças](pt-BR/changes.md)
 * [Exemplos](pt-BR/exemplos.md)
 

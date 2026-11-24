@@ -1,4 +1,4 @@
-# Modelo Computacional - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
+# Modelo Computacional - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0
 
 ## Modelo Computacional
 

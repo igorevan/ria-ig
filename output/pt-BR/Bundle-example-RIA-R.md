@@ -1,4 +1,4 @@
-# Bundle de exemplo do RIA-R - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
+# Bundle de exemplo do RIA-R - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0
 
 ## Exemplo Bundle: Bundle de exemplo do RIA-R
 

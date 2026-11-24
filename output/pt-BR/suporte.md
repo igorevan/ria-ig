@@ -1,4 +1,4 @@
-# Suporte da RNDS - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
+# Suporte da RNDS - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0
 
 ## Suporte da RNDS
 

@@ -1,4 +1,4 @@
-# Grupo de Atendimento - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
+# Grupo de Atendimento - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0
 
 ## Extensão: Grupo de Atendimento 
 
@@ -38,7 +38,7 @@ Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#E
 
 #### Terminologia Ligações (Diferencial)
 
- **Visão Total** 
+ **Visão Completa** 
 
 #### Terminologia Ligações
 
@@ -59,36 +59,8 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRGrupoAtendimen
   "resourceType" : "StructureDefinition",
   "id" : "BRGrupoAtendimento",
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BRGrupoAtendimento",
   "title" : "Grupo de Atendimento",
   "status" : "active",

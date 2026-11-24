@@ -1,4 +1,4 @@
-# CID10 Avaliado - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
+# CID10 Avaliado - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0
 
 ## Perfil de recurso: CID10 Avaliado 
 
@@ -44,7 +44,7 @@ Esta estrutura deriva de [Condition](http://hl7.org/fhir/R4/condition.html)
 
 #### Terminologia Ligações (Diferencial)
 
- **Visão TotalView** 
+ **Visão CompletaView** 
 
 #### Terminologia Ligações
 
@@ -65,36 +65,8 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRCID10Avaliado-
   "resourceType" : "StructureDefinition",
   "id" : "BRCID10Avaliado-1.0",
   "language" : "pt-BR",
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "ehr"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "normative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-    "valueCode" : "4.0.1"
-  }],
   "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0",
-  "version" : "1.0.0-release",
+  "version" : "1.0.0",
   "name" : "BRCID10Avaliado",
   "title" : "CID10 Avaliado",
   "status" : "active",

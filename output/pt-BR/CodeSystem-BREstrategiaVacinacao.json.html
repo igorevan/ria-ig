@@ -10,7 +10,7 @@
 <html xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Estratégia de Vacinação (CodeSystem) - JSON Representation - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release</title>
+    <title>Estratégia de Vacinação (CodeSystem) - JSON Representation - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -49,7 +49,6 @@
 	  <script type="text/javascript" src="assets/js/prism.js"></script>
 	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"11.30"}
     h3,h4,h5,h6{--heading-prefix:"11.30"}</style>
@@ -62,7 +61,7 @@
         <div id="ig-status" data-fhir="generated">
           <p><span style="font-size:12pt;font-weight:bold">Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS</span>
             <br/>
-            <span style="display:inline-block;">1.0.0-release - STU1
+            <span style="display:inline-block;">1.0.0 - Release 1.0.0
 
 
 
@@ -174,7 +173,7 @@
     <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Índice</b></a></li><li><a href='artifacts.html'><b>Artefatos</b></a></li><li><b>Estratégia de Vacinação (CodeSystem)</b></li>
+          <li><a href='toc.html'><b>Índice</b></a></li><li><a href='artifacts.html'><b>Resumo de Artefatos</b></a></li><li><b>Estratégia de Vacinação (CodeSystem)</b></li>
 
           <span style="float: var(--ig-right);">
 
@@ -198,7 +197,7 @@
 
 <!-- layouts\layout-instance-format -->
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS - Compilação de desenvolvimento local (v1.0.0-release) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='https://fhir.saude.gov.br/ria/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS - Compilação de desenvolvimento local (v1.0.0) construída pelas ferramentas de compilação FHIR (HL7&reg; FHIR&reg; Standard). Veja o <a href='https://fhir.saude.gov.br/ria/history.html'>Diretório de versões publicadas</a></p><!--EndReleaseHeader-->
 
 
 
@@ -249,18 +248,18 @@
 
 <h2 id="root">: Estratégia de Vacinação (CodeSystem)</h2>
 
-  <table class="colsn" data-fhir="generated">
+  <table class="colsi" data-fhir="generated">
     <tr>
 
-      <td colspan="1">
+      <td colspan="2">
         
-          <i>Status dos padrões da página:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Status dos padrões">Normative</a>
+          Active
           
-        
-      </td>
 
-      <td>
-        <a href="http://hl7.org/fhir/versions.html#maturity">Nível de maturidade</a>: 1
+            a partir de 
+2020-03-11
+
+          
         
       </td>
 
@@ -268,7 +267,7 @@
   </table>
 
 
-<p><a href="CodeSystem-BREstrategiaVacinacao.json" no-download="true">Bruto json</a> | <a href="CodeSystem-BREstrategiaVacinacao.json" download>Transferir</a></p>
+<p><a href="CodeSystem-BREstrategiaVacinacao.json" no-download="true">Bruto json</a> | <a href="CodeSystem-BREstrategiaVacinacao.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -283,42 +282,8 @@
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xml:lang=\&quot;pt-BR\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;pt-BR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narrativa gerada: CodeSystem BREstrategiaVacinacao&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;BREstrategiaVacinacao\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcBREstrategiaVacinacao\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Língua: pt-BR&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriedades&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Este sistema de códigos define as seguintes propriedades para os seus conceitos&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nome&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Código&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Tipo&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Inactive&lt;/td&gt;&lt;td&gt;inactive&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#inactive&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Conceitos&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Este case-sensitive sistema de código &lt;code&gt;http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao&lt;/code&gt; define o seguinte códigos:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Código&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Ecrã&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Inactive&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;background-color: #ffeeee\&quot;&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;0&lt;a name=\&quot;BREstrategiaVacinacao-0\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sem registro no sistema de informação de origem&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;1&lt;a name=\&quot;BREstrategiaVacinacao-1\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Rotina&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;2&lt;a name=\&quot;BREstrategiaVacinacao-2\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Especial&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;3&lt;a name=\&quot;BREstrategiaVacinacao-3\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bloqueio&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;4&lt;a name=\&quot;BREstrategiaVacinacao-4\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Intensificação&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;5&lt;a name=\&quot;BREstrategiaVacinacao-5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Campanha indiscriminada&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;6&lt;a name=\&quot;BREstrategiaVacinacao-6\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Campanha seletiva&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;7&lt;a name=\&quot;BREstrategiaVacinacao-7\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Soroterapia&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;8&lt;a name=\&quot;BREstrategiaVacinacao-8\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serviço Privado&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;9&lt;a name=\&quot;BREstrategiaVacinacao-9\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Monitoramento das Estratégias de Vacinação&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;10&lt;a name=\&quot;BREstrategiaVacinacao-10\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pesquisa&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;11&lt;a name=\&quot;BREstrategiaVacinacao-11\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pré-exposição&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;12&lt;a name=\&quot;BREstrategiaVacinacao-12\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pós-exposição&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;13&lt;a name=\&quot;BREstrategiaVacinacao-13\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Reexposição&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;14&lt;a name=\&quot;BREstrategiaVacinacao-14\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vacinação Escolar&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;15&lt;a name=\&quot;BREstrategiaVacinacao-15\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Operação Gota&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Ecrãs de idiomas adicionais&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Código&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;English (English, en)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Spanish (es)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Routine immunization&lt;/td&gt;&lt;td&gt;Rutina&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Special&lt;/td&gt;&lt;td&gt;Especial&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Blocking vaccination&lt;/td&gt;&lt;td&gt;Vacunación de bloqueo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;Intensification&lt;/td&gt;&lt;td&gt;Intensificación&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;Indiscriminate campaign&lt;/td&gt;&lt;td&gt;Campaña indiscriminada&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Selective campaign&lt;/td&gt;&lt;td&gt;Campaña selectiva&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;Serum therapy&lt;/td&gt;&lt;td&gt;Sueroterapia&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;Private Sector&lt;/td&gt;&lt;td&gt;Servicio privado&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;Trials&lt;/td&gt;&lt;td&gt;Ensayos clínicos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;Pre-exposure&lt;/td&gt;&lt;td&gt;Preexposición&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;Post-exposure&lt;/td&gt;&lt;td&gt;Post-exposición&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;Re-exposure&lt;/td&gt;&lt;td&gt;Reexposición&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;/td&gt;&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   },
-  "<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "ehr"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 1,
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueInteger</a>" : {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
-          }
-        ]
-      }
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "normative",
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueCode</a>" : {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "https://fhir.saude.gov.br/ria/ImplementationGuide/br.gov.saude.ria.fhir"
-          }
-        ]
-      }
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "4.0.1"
-    }
-  ],
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "1.0.0-release",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "1.0.0",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "BREstrategiaVacinacao",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "Estratégia de Vacinação (CodeSystem)",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "active",
@@ -591,7 +556,7 @@
               </td>
               <td style="text-align:var(--ig-right);">&#xA0;
 
-                <a href="CodeSystem-BREstrategiaVacinacao.ttl.html">seguinte ></a>
+                <a href="CodeSystem-BREstrategiaVacinacao.ttl.html">seguinte &gt;</a>
 
               </td>
             </tr>
@@ -605,10 +570,10 @@
 
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
-          Pacote br.gov.saude.ria.fhir#1.0.0-release baseado em <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Gerado em 
-  <span title="2026-11-23 11:16:00 -0300">
-    2026-11-23
+          Pacote br.gov.saude.ria.fhir#1.0.0 baseado em <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Gerado 
+  <span title="2026-11-24 15:20:00 -0300">
+    2026-11-24
   </span>
 
           <br/>

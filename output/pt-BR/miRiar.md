@@ -1,4 +1,4 @@
-# Modelo de Informação - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0-release
+# Modelo de Informação - Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS v1.0.0
 
 ## Modelo de Informação
 

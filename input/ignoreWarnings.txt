@@ -13,7 +13,7 @@ Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a sub
 %http://hl7.org/fhir/event-status%
 
 # Erros de validação de exemplos
-Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|1.0.0-release
+Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|1.0.0
 %Não foi possível encontrar uma correspondência de perfil%
 
 # Erros relacionados as especificações da RNDS

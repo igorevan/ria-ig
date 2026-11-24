@@ -1,7 +1,7 @@
 {
   "resourceType" : "TerminologyCapabilities",
   "id" : "FhirServer",
-  "url" : "http://tx.fhir.org/r4/TerminologyCapabilities/tx",
+  "url" : "https://tx.fhir.org/r4/TerminologyCapabilities/tx",
   "name" : "FHIRTerminologyServer",
   "title" : "FHIR Terminology Server",
   "status" : "active",
