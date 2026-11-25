@@ -15,7 +15,7 @@
   "title" : "Guia de Implementação do Registro de Imunobiológico Administrado (RIA) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-24T15:20:28-03:00",
+  "date" : "2026-11-25T09:48:28-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
